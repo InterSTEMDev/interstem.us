@@ -142,19 +142,13 @@
 		            <p>{{ page.description }} </p>
 		            <a href="blog-single.html" class="btn btn-main">Read More</a>
 		          </div>
- 			{% endfor %}
-
 				</div>
         	</div>
 
 
+	{% endfor % }
 
 	</div>
-		<div class="text-center">
-			<ul class="pagination post-pagination">
-				<li><a href="#">Prev</a>
-				</li>
-				<li class="active"><a href="#">1</a>
 				</li>
 				<li><a href="#">2</a>
 				</li>
@@ -190,7 +184,6 @@
 						<li><a href="#">Terms</a></li>
 					</ul>
 				</div>
-				<p class="copyright">Copyright 2018 &copy; Design & Developed by <a href="http://www.themefisher.com">themefisher.com</a>. All rights reserved.
 					<br>
 					Get More <a href="https://themefisher.com/free-bootstrap-templates/" target="_blank">Free Bootstrap Templates</a>
 				</p>
