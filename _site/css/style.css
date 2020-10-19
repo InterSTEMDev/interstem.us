@@ -88,6 +88,19 @@ input[type="email"]:focus, input[type="password"]:focus, input[type="text"]:focu
   border: 1px solid #655E7A;
 }
 
+@media only screen and (max-width: 600px) {
+  .img-bio {
+    height: 350px;
+    text-align: center;
+  }
+}
+
+.img-bio {
+  max-height: 200px;
+  max-width: 175px;
+
+}
+
 .form-control {
   box-shadow: none;
   border-radius: 0;
