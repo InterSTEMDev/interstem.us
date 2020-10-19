@@ -915,6 +915,7 @@ font header .navbar-default .navbar-nav li a:hover {
 }
 
 .dark-service .service-item p {
+  color: #aaa;
   padding-top: 10px;
   margin: 0;
 }
