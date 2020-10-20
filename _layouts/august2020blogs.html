@@ -10,12 +10,12 @@
 
   <meta name="author" content="Themefisher.com">
 
-  <title>Airspace | Creative Agency Bootstrap template</title>
+  <title>InterSTEM</title>
 
   <!-- Mobile Specific Meta-->
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- Favicon -->
-  <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png" />
+  <link rel="shortcut icon" type="image/x-icon" href="{{ site.baseurl }}/img/favicon.png" />
   <!-- bootstrap.min css -->
   <link rel="stylesheet" href="{{ site.baseurl }}/plugins/bootstrap/bootstrap.min.css">
   <!-- Ionic Icon Css -->
@@ -29,8 +29,8 @@
 
   <!-- Main Stylesheet -->
   <link rel="stylesheet" href="{{ site.baseurl }}/css/style.css">
-  <link rel="stylesheet" href="{{ site.baseurl }}/css/post.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/css/blogs.css">
 </head>
 
 <body id="body">
@@ -97,18 +97,87 @@
 			</div>
 			</header><!-- header close -->
 
+<!--
+<section class="page-title bg-2">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="block">
+          <h1>Blog</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi, quibusdam.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section> -->
 
 
 
 
 
-<br>
 <section>
-	<div class="container">
-		{{ content }}
-	</div>
+  <br><br><br>
+  <div class="container">
+    <div class="blogsContainer">
+      <section class="blogCards">
+         {% for post in site.categories.august2020blogs %}
+
+              <div class="blog-grid" id="centeredBlog">
+                  <div class="card" style="cursor: pointer;" onclick=window.location.href='{{ post.url | absolute_url }}';>
+                      <div class="image-data"  src="{{ site.baseurl }}/images/blogs/2020/august/{{ post.image }}">
+                        <img class="background-image" src="{{ site.baseurl }}/images/blogs/2020/august/{{ post.image }}">
+                          <div class="publication-details">
+
+                             <b><a href="#" class="author">&nbsp <i class="fas fa-user"></i> {{post.author}}</a>
+                             <span class="date">&nbsp <i class="fas fa-calendar-alt"></i> {{post.date | date_to_string}}</span>
+                             <span class="time">&nbsp <i class="fas fa-clock"></i>{{post.time}}</span></b>
+                          </div>
+                      </div>
+                      <div class="post-data">
+                        <div class="title">{{post.title}}</div>
+
+                        <p class="description">
+                         &nbsp&nbsp {{post.description}}
+                        </p>
+
+                      </div>
+                    </div>
+                      <br>
+                  </div>
+                    {% endfor %}
+            </section>
+
+
+
+      </div>
+    </div>
 </section>
-<br>
+
+	</div>
+		<div class="text-center">
+			<ul class="pagination post-pagination">
+				<li><a href="#">Prev</a>
+				</li>
+				<li class="active"><a href="#">1</a>
+				</li>
+				<li><a href="#">2</a>
+				</li>
+				<li><a href="#">3</a>
+				</li>
+				<li><a href="#">4</a>
+				</li>
+				<li><a href="#">5</a>
+				</li>
+				<li><a href="#">Next</a>
+				</li>
+			</ul>
+		</div>
+  </div>
+
+</div>
+
+
+
 
 
 

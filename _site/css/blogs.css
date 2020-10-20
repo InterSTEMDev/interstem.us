@@ -1,0 +1,257 @@
+
+:root {
+  --gradient-color: linear-gradient(to right bottom, rgba(255, 119, 48, .8), rgba(255, 185, 0, .8));
+}
+
+html {
+  font-size: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  /*
+  font-size: 1.6rem;
+  color: #333;
+  background-color: #eee;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 1.5rem;
+  */
+}
+
+
+.card {
+  font-family: 'Open Sans', sans-serif;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  box-shadow: 2px .8rem 1rem rgba(0,0,0,0.5);
+
+}
+
+.image-data  {
+  height: 15rem;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.background-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  top: 0;
+  left: 0;
+  background-size: cover;
+  z-index: -1;
+  transition: transform 5s;
+}
+
+.card:hover .background-image {
+  transform: scale(1.5);
+}
+
+.publication-details {
+  width: 100%;
+  height: 100%;
+  background: var(--gradient-color);
+  font-size: 1.4rem;
+  color: #fff;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 1rem;
+}
+
+.publication-details i {
+  margin-right: 1rem;
+}
+
+.author {
+  display: inline-block;
+  margin-bottom: 1.5rem;
+  transition: all .5s .3s;
+  font-size: 16px;
+  font-weight: lighter;
+  font-family: 'Giga Sans Light';
+  margin-top: 20px;
+}
+
+.author:hover {
+  color: rgba(255, 255, 255, .75);
+}
+
+.date {
+  display: block;
+  font-size: 16px;
+  font-weight: lighter;
+  font-family: 'Giga Sans Light';
+  margin-bottom: 1.5rem;
+}
+.time {
+  display: block;
+  font-size: 16px;
+  font-weight: lighter;
+  font-family: 'Giga Sans Light';
+}
+
+.post-data {
+  background-color: #fff;
+  padding: 2rem 3rem;
+  position: relative;
+}
+
+.title {
+  font-family: 'Giga Sans Light';
+  font-weight: 100;
+  font-size: 20px;
+}
+
+.subtitle {
+  font-size: 1.2rem;
+  text-transform: uppercasel
+  color: #a2a2a2;
+  margin: 1rem 0 1.5rem 0;
+}
+
+.description {
+  font-size: 15px;
+  position: relative;
+  font-family:  'Giga Sans Light';
+}
+
+.description::first-letter {
+  margin-left: 1rem;
+}
+
+.description::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: .5rem;
+  height: 1.5rem;
+  background: var(--gradient-color);
+  border-radius: 2rem;
+}
+
+.cta {
+  text-align: right;
+
+  margin-top: 1rem;
+}
+
+.cta a {
+  background: var(--gradient-color);
+  -webkit-background-clip: text;
+  color: transparent;
+  position: relative;
+}
+
+.cta a::before {
+  content: '';
+  position: absolute;;
+  left: 0;
+  bottom: -.5rem;
+  width: 100%;
+  height: 3px;
+  background: var(--gradient-color);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform .5s;
+}
+
+
+
+
+@media screen and (min-width: 800px) {
+
+
+  .title {
+    font-family: 'Giga Sans Light';
+    font-weight: 100;
+    font-size: 1.5vw;
+  }
+  .description {
+    font-size: 15.5px;
+    position: relative;
+    font-family:  'Giga Sans Light';
+  }
+  .description::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: .5vw;
+    height: 1vw;
+    background: var(--gradient-color);
+    border-radius: 2rem;
+  }
+  .card {
+    flex-direction: row;
+    max-height: 28rem;
+  }
+
+  .image-data {
+    flex-basis: 40%;
+    height: 28rem;
+  }
+
+
+  .publication-details {
+    transform: translateX(-100%);
+    transition: transform .5s;
+  }
+
+
+  .card:hover .publication-details {
+    transform: translateX(0);
+  }
+
+  .author {
+    transform: translateY(-3rem);
+    opacity: 0;
+
+  }
+  .date {
+
+  }
+  .time {
+    transform: translateY(3rem);
+    opacity: 0;
+    transition: all .5s .3s;
+  }
+
+  .card:hover .author,
+  .card:hover .date,
+  .card:hover .time {
+    transform: translateY(0);
+    opacity: 1;
+  }
+
+  .post-data {
+    flex-basis: 60%;
+  }
+
+  .post-data::before {
+    content: '';
+    width: 3.5rem;
+    height: 100%;
+    background-color: #fff;
+    position: absolute;
+    top: 0;
+    left: -1.5rem;
+    z-index: 10;
+    transform: skewX(-5deg);
+  }
+
+}
