@@ -8,7 +8,7 @@ description: With the human population confined indoors, wildlife has become inc
 time: 2 min
 
 ---
-<h1 style="font-family: Ergonomique Bold">COVID-19 on wildlife</h1>
+<h2 style="font-family: Ergonomique Bold">COVID-19 on wildlife</h2>
 Ramizah Tayiba. 7/24/2020.
 <hr>
 
