@@ -1,5 +1,6 @@
 ---
 layout: none
+permalink: /blog
 ---
 <!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
@@ -37,69 +38,7 @@ layout: none
 </head>
 
 <body id="body">
-
-<!-- Header Start -->
-<header class="navigation" style="background-color: black; padding-bottom: 20px;">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-12">
-				<!-- header Nav Start -->
-				<nav class="navbar">
-					<div class="container-fluid">
-						<!-- Brand and toggle get grouped for better mobile display -->
-						<div class="navbar-header">
-							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-							<span class="sr-only">Toggle navigation</span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-							</button>
-							<a class="navbar-brand" href="{{ site.baseurl }}/index.html">
-								<img src="{{ site.baseurl }}/images/logo.png" alt="Logo" width="50">
-							</a>
-						</div>
-						<!-- Collect the nav links, forms, and other content for toggling -->
-						<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-							<ul class="nav navbar-nav navbar-right">
-								<li><a href="{{ site.baseurl }}/index.html">Home</a></li>
-								<li class="dropdown">
-									<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About <span class="ion-ios-arrow-down"></span></a>
-									<ul class="dropdown-menu">
-										<li><a href="{{ site.baseurl }}/executive.html">Executive Board</a></li>
-										<li><a href="{{ site.baseurl }}/chapters.html">Chapters</a></li>
-									</ul>
-								</li>
-								<li><a href="service.html">Service</a></li>
-								<li class="dropdown">
-									<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Blog <span class="ion-ios-arrow-down"></span></a>
-									<ul class="dropdown-menu">
-										<li><a href="{{ site.baseurl }}/blog-grid.html">Blog Grid</a></li>
-										<li><a href="{{ site.baseurl }}/blog-single.html">Blog Single</a></li>
-										<li><a href="{{ site.baseurl }}/blog-right-sidebar.html">Blog Right Sidebar</a></li>
-										<li><a href="{{ site.baseurl }}/blog-left-sidebar.html">Blog Left Sidebar</a></li>
-										<li><a href="{{ site.baseurl }}/blog-full-width.html">Blog Full Width</a></li>
-									</ul>
-								</li>
-								<li class="dropdown">
-									<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Pages <span class="ion-ios-arrow-down"></span></a>
-									<ul class="dropdown-menu">
-										<li><a href="{{ site.baseurl }}/about.html">About Us</a></li>
-										<li><a href="{{ site.baseurl }}/coming-soon.html">Coming Soon</a></li>
-										<li><a href="{{ site.baseurl }}/404.html">404 Page</a></li>
-										<li><a href="{{ site.baseurl }}/faq.html">FAQ</a></li>
-										<li><a href="{{ site.baseurl }}/pricing.html">Pricing Table</a></li>
-									</ul>
-								</li>
-								<li><a href="{{ site.baseurl }}/contact.html">Contact</a></li>
-							</ul>
-							</div><!-- /.navbar-collapse -->
-							</div><!-- /.container-fluid -->
-						</nav>
-					</div>
-				</div>
-			</div>
-			</header><!-- header close -->
-
+{% include header.html %}
 <!--
 <section class="page-title bg-2">
   <div class="container">
@@ -125,7 +64,7 @@ layout: none
       <section class="blogCards">
         {% for post in paginator.posts %}
               <div class="blog-grid" id="centeredBlog">
-                  <div class="card" style="cursor: pointer;" onclick=window.location.href='{{ post.url | absolute_url }}';>
+                  <div class="card" style="cursor: pointer;" onclick=window.location.href="{{ post.url | absolute_url | split:'.html' | first }}";>
                       <div class="image-data"  src="{{ site.baseurl }}/images/blogs/2020/august/{{ post.image }}">
                         <img class="background-image" src="{{ site.baseurl }}/images/blogs/2020/august/{{ post.image }}">
                           <div class="publication-details">
