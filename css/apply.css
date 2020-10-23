@@ -81,7 +81,7 @@
 		height: 110vw;
 	}
 	#phone {
-		display: inline;
+		display: flex;
 		visibility: visible;
 	}
 	#computer {

@@ -55,43 +55,46 @@
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>
 							</button>
-							<a class="navbar-brand" href="{{ site.baseurl }}/index.html">
-								<img src="images/logo.png" alt="Logo" width="50">
+							<a class="navbar-brand" href="index.html">
+								<img src="/images/logo.png" alt="Logo" width="50">
 							</a>
 						</div>
 						<!-- Collect the nav links, forms, and other content for toggling -->
 						<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 							<ul class="nav navbar-nav navbar-right">
-								<li><a href="{{ site.baseurl }}/index.html">Home</a></li>
+								<li><a href="index.html">Home</a></li>
 								<li class="dropdown">
 									<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About <span class="ion-ios-arrow-down"></span></a>
 									<ul class="dropdown-menu">
-										<li><a href="{{ site.baseurl }}/executive.html">Executive Board</a></li>
-										<li><a href="{{ site.baseurl }}/chapters.html">Chapters</a></li>
+										<li><a href="executive.html">Executive Board</a></li>
+										<li><a href="chapters.html">Chapters</a></li>
 									</ul>
 								</li>
-								<li><a href="service.html">Service</a></li>
+                  <li><a href="docs/blogs/2020/june">Blogs</a></li>
+								<!--<li><a href="service.html">Service</a></li>-->
+                <!--
 								<li class="dropdown">
 									<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Blog <span class="ion-ios-arrow-down"></span></a>
 									<ul class="dropdown-menu">
-										<li><a href="{{ site.baseurl }}/blog-grid.html">Blog Grid</a></li>
-										<li><a href="{{ site.baseurl }}/blog-single.html">Blog Single</a></li>
-										<li><a href="{{ site.baseurl }}/blog-right-sidebar.html">Blog Right Sidebar</a></li>
-										<li><a href="{{ site.baseurl }}/blog-left-sidebar.html">Blog Left Sidebar</a></li>
-										<li><a href="{{ site.baseurl }}/blog-full-width.html">Blog Full Width</a></li>
+										<li><a href="blog-grid.html">Blog Grid</a></li>
+										<li><a href="blog-single.html">Blog Single</a></li>
+										<li><a href="blog-right-sidebar.html">Blog Right Sidebar</a></li>
+										<li><a href="blog-left-sidebar.html">Blog Left Sidebar</a></li>
+										<li><a href="blog-full-width.html">Blog Full Width</a></li>
 									</ul>
-								</li>
-								<li class="dropdown">
+								</li> -->
+                <li><a href="tutoring.html">Tutoring</a></li>
+								<!--<li class="dropdown">
 									<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Pages <span class="ion-ios-arrow-down"></span></a>
 									<ul class="dropdown-menu">
-										<li><a href="{{ site.baseurl }}/about.html">About Us</a></li>
-										<li><a href="{{ site.baseurl }}/coming-soon.html">Coming Soon</a></li>
-										<li><a href="{{ site.baseurl }}/404.html">404 Page</a></li>
-										<li><a href="{{ site.baseurl }}/faq.html">FAQ</a></li>
-										<li><a href="{{ site.baseurl }}/pricing.html">Pricing Table</a></li>
+										<li><a href="about.html">About Us</a></li>
+										<li><a href="coming-soon.html">Coming Soon</a></li>
+										<li><a href="404.html">404 Page</a></li>
+										<li><a href="faq.html">FAQ</a></li>
+										<li><a href="pricing.html">Pricing Table</a></li>
 									</ul>
-								</li>
-								<li><a href="{{ site.baseurl }}/contact.html">Contact</a></li>
+								</li>-->
+								<li><a href="contact.html">Contact</a></li>
 							</ul>
 							</div><!-- /.navbar-collapse -->
 							</div><!-- /.container-fluid -->
@@ -118,7 +121,7 @@
 <br><br>
 <section class="page-wrapper" id="computer">
       <div class="container">
-        <div class="tab">
+        <div class="tab" id="computer">
             <button class="tablinks" onclick="openForm(event, 'tutor')" id="defaultOpen">Tutor</button>
             <button class="tablinks" onclick="openForm(event, 'writer')">Write</button>
             <button class="tablinks" onclick="openForm(event, 'tech')">Tech</button>
@@ -146,11 +149,20 @@
           </div>
       </div>
 </section>
-<script src="js/apply.js"></script>
+ <script src="js/apply.js"></script>
 
 
 <section class="page-wrapper" id="phone">
-      <div class="container">
+  <div class="tab" id="computer">
+      <button class="tablinks" onclick="openForm(event, 'tutor')" id="defaultOpen">Tutor</button>
+      <button class="tablinks" onclick="openForm(event, 'writer')">Write</button>
+      <button class="tablinks" onclick="openForm(event, 'tech')">Tech</button>
+      <button class="tablinks" onclick="openForm(event, 'designMarketing')">Design/Marketing</button>
+      <button class="tablinks" onclick="openForm(event, 'editor')">Editor</button>
+      <button class="tablinks" onclick="openForm(event, 'class')">Sign up for a Class</button>
+    </div>
+
+<div class="container">
 <div id="tutor" class="tabcontent" id="first">
   <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeeYAUSua78-8OpkW2wl84eOjLT0yRu4vBQ9-oJHIdztVX29w/viewform" style="width: 100%; height: 100%; border: 0;"></iframe>
 </div>
