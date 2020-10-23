@@ -1,4 +1,4 @@
-name: My Jekyll Website
+name: interSTEM
 gems: [jekyll-paginate]
-paginate: 10
+paginate: 7
 paginate_path: "/blog/page:num/"

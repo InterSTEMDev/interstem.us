@@ -1,6 +1,5 @@
 ---
 layout: none
-permalink: /blog
 ---
 <!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
@@ -82,7 +81,7 @@ permalink: /blog
 	<div class="widget widget-latest-post">
     <h4 class="widget-title">Latest Posts</h4>
     {% assign sorted = site.posts | sort: 'date' | reverse %}
-    {% for post in sorted limit: 5%}
+    {% for post in sorted limit: 5 %}
 		<div class="media">
 			<a class="pull-left" href="{{post.url | absolute_url | split:'.html' | first}}">
 				<img class="media-object" src="{{ site.baseurl }}/images/blogs/{{ post.date | date: '%Y' }}/{{ post.date | date: '%B' }}/{{ post.image }}" alt="Image">
