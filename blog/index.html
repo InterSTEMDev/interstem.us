@@ -40,9 +40,9 @@ permalink: /blog
 <body id="body">
 {% include header.html %}
 <div class="page-wrapper">
-	<div class="container">
+	<div class="container responsiveContainer">
 		<div class="row">
-			<div class="col-md-8">
+			<div class="col-md-9">
 <section>
 	<br><br><br>
 	  <div class="blogsContainer">
@@ -50,10 +50,10 @@ permalink: /blog
 		  {% for post in paginator.posts %}
 				<div class="blog-grid" id="centeredBlog">
 					<div class="card" style="cursor: pointer;" onclick=window.location.href="{{ post.url | absolute_url | split:'.html' | first }}";>
-						<div class="image-data"  src="{{ site.baseurl }}/images/blogs/{{ post.date | date: '%Y' }}/{{ post.date | date: '%B' }}/{{ post.image }}">
-						  <img class="background-image" src="{{ site.baseurl }}/images/blogs/{{ post.date | date: '%Y' }}/{{ post.date | date: '%B' }}/{{ post.image }}">
+						<div class="image-data"  src="{{ site.baseurl }}/images/blogs/{{ post.date | date: '%Y' }}/{{ post.date | date: '%B' | downcase }}/{{ post.image }}">
+						  <img class="background-image" src="{{ site.baseurl }}/images/blogs/{{ post.date | date: '%Y' }}/{{ post.date | date: '%B' | downcase}}/{{ post.image }}">
 							<div class="publication-details">
-  
+
 							   <b><a href="#" class="author">&nbsp <i class="fas fa-user"></i> {{post.author}}</a>
 							   <span class="date">&nbsp <i class="fas fa-calendar-alt"></i> {{post.date | date_to_string}}</span>
 							   <span class="time">&nbsp <i class="fas fa-clock"></i>{{post.time}}</span></b>
@@ -61,32 +61,30 @@ permalink: /blog
 						</div>
 						<div class="post-data">
 						  <div class="title">{{post.title}}</div>
-  
+
 						  <p class="description">
 						   &nbsp&nbsp {{post.description}}
 						  </p>
-  
+
 						</div>
 					  </div>
 						<br>
 					  {% endfor %}
 			  </section>
-  
-  
+
+
       </div>
   </section>
 </div>
-      		<div class="col-md-4">
+      		<div class="col-md-3">
 				<aside class="sidebar">
 	<!-- Widget Latest Posts -->
 	<div class="widget widget-latest-post">
     <h4 class="widget-title">Latest Posts</h4>
     {% assign sorted = site.posts | sort: 'date' | reverse %}
     {% for post in sorted limit: 5%}
-		<div class="media">
-			<a class="pull-left" href="{{post.url | absolute_url | split:'.html' | first}}">
-				<img class="media-object" src="{{ site.baseurl }}/images/blogs/{{ post.date | date: '%Y' }}/{{ post.date | date: '%B' }}/{{ post.image }}" alt="Image">
-			</a>
+		<div class="media" style="background-color: #f7f2f9; padding: 10px; padding-bottom: 0px;">
+
 			<div class="media-body">
 				<h4 class="media-heading"><a href="{{post.url | absolute_url | split:'.html' | first}}">{{post.title}}</a></h4>
 				<p>{{post.description | truncate: 105}}</p>
@@ -109,7 +107,7 @@ permalink: /blog
   <ul class="pagination post-pagination">
   {% if paginator.previous_page %}
     <li><a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a></li>
-  
+
   {% endif %}
 
   {% for page in (1..paginator.total_pages) %}
@@ -186,4 +184,3 @@ permalink: /blog
     </body>
 
     </html>
-

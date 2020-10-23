@@ -171,18 +171,25 @@ body {
 }
 
 
+.responsiveContainer {
+    width: 100%;
+}
 
 
-@media screen and (min-width: 800px) {
 
+@media screen and (min-width: 900px) {
+
+  .responsiveContainer {
+      width: 80%;
+  }
 
   .title {
     font-family: 'Giga Sans Light';
     font-weight: 100;
-    font-size: 1.5vw;
+    font-size: 1.4vw;
   }
   .description {
-    font-size: 15.5px;
+    font-size: 15px;
     position: relative;
     font-family:  'Giga Sans Light';
   }
@@ -198,12 +205,12 @@ body {
   }
   .card {
     flex-direction: row;
-    max-height: 28rem;
+    max-height: 29rem;
   }
 
   .image-data {
     flex-basis: 40%;
-    height: 28rem;
+    height: 29rem;
   }
 
 
