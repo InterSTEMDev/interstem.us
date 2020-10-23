@@ -39,103 +39,103 @@ permalink: /blog
 
 <body id="body">
 {% include header.html %}
-<!--
-<section class="page-title bg-2">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <div class="block">
-          <h1>Blog</h1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi, quibusdam.</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section> -->
-
-
-
-
-
+<div class="page-wrapper">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-8">
 <section>
-  <br><br><br>
-  <div class="container">
-    <div class="blogsContainer">
-      <section class="blogCards">
-        {% for post in paginator.posts %}
-              <div class="blog-grid" id="centeredBlog">
-                  <div class="card" style="cursor: pointer;" onclick=window.location.href="{{ post.url | absolute_url | split:'.html' | first }}";>
-                      <div class="image-data"  src="{{ site.baseurl }}/images/blogs/2020/august/{{ post.image }}">
-                        <img class="background-image" src="{{ site.baseurl }}/images/blogs/2020/august/{{ post.image }}">
-                          <div class="publication-details">
-
-                             <b><a href="#" class="author">&nbsp <i class="fas fa-user"></i> {{post.author}}</a>
-                             <span class="date">&nbsp <i class="fas fa-calendar-alt"></i> {{post.date | date_to_string}}</span>
-                             <span class="time">&nbsp <i class="fas fa-clock"></i>{{post.time}}</span></b>
-                          </div>
-                      </div>
-                      <div class="post-data">
-                        <div class="title">{{post.title}}</div>
-
-                        <p class="description">
-                         &nbsp&nbsp {{post.description}}
-                        </p>
-
-                      </div>
-                    </div>
-                      <br>
-                  </div>
-                    {% endfor %}
-            </section>
-
-
-
-      </div>
-    </div>
-</section>
-
-<!--
-<div class="pagination">
-  {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path }}" class="previous">
-      Previous
-    </a>
-  {% else %}
-    <span class="previous">Previous</span>
-  {% endif %}
-  <span class="page_number ">
-    Page: {{ paginator.page }} of {{ paginator.total_pages }}
-  </span>
-  {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path }}" class="next">Next</a>
-  {% else %}
-    <span class="next ">Next</span>
-  {% endif %}
-  </div>
-
+	<br><br><br>
+	  <div class="blogsContainer">
+		<section class="blogCards">
+		  {% for post in paginator.posts %}
+				<div class="blog-grid" id="centeredBlog">
+					<div class="card" style="cursor: pointer;" onclick=window.location.href="{{ post.url | absolute_url | split:'.html' | first }}";>
+						<div class="image-data"  src="{{ site.baseurl }}/images/blogs/2020/august/{{ post.image }}">
+						  <img class="background-image" src="{{ site.baseurl }}/images/blogs/2020/august/{{ post.image }}">
+							<div class="publication-details">
   
-	</div>
-		<div class="text-center">
-			<ul class="pagination post-pagination">
-				<li><a href="#">Prev</a>
-				</li>
-				<li><a href="{{ site.baseurl }}/docs/blogs/2020/october">1</a>
-				</li>
-				<li><a href="{{ site.baseurl }}/docs/blogs/2020/september">2</a>
-				</li>
-				<li  class="active"><a href="{{ site.baseurl }}/docs/blogs/2020/august">3</a>
-				</li>
-				<li><a href="{{ site.baseurl }}/docs/blogs/2020/july">4</a>
-				</li>
-				<li><a href="{{ site.baseurl }}/docs/blogs/2020/june">5</a>
-				</li>
-				<li><a href="#">Next</a>
-				</li>
-			</ul>
+							   <b><a href="#" class="author">&nbsp <i class="fas fa-user"></i> {{post.author}}</a>
+							   <span class="date">&nbsp <i class="fas fa-calendar-alt"></i> {{post.date | date_to_string}}</span>
+							   <span class="time">&nbsp <i class="fas fa-clock"></i>{{post.time}}</span></b>
+							</div>
+						</div>
+						<div class="post-data">
+						  <div class="title">{{post.title}}</div>
+  
+						  <p class="description">
+						   &nbsp&nbsp {{post.description}}
+						  </p>
+  
+						</div>
+					  </div>
+						<br>
+					  {% endfor %}
+			  </section>
+  
+  
+      </div>
+  </section>
+</div>
+      		<div class="col-md-4">
+				<aside class="sidebar">
+	<!-- Widget Latest Posts -->
+	<div class="widget widget-latest-post">
+    <h4 class="widget-title">Latest Posts</h4>
+    {% assign sorted = site.posts | sort: 'date' | reverse %}
+    {% for post in sorted limit: 5%}
+		<div class="media">
+			<a class="pull-left" href="{{post.url | absolute_url | split:'.html' | first}}">
+				<img class="media-object" src="images/blog/post-thumb.jpg" alt="Image">
+			</a>
+			<div class="media-body">
+				<h4 class="media-heading"><a href="{{post.url | absolute_url | split:'.html' | first}}">{{post.title}}</a></h4>
+				<p>{{post.description | truncate: 105}}</p>
+			</div>
 		</div>
-  </div>
+	{% endfor %}
+	</div>
+	<!-- End Latest Posts -->
 
--->
+	<!-- Widget Category -->
+	<div class="widget widget-category">
+		<h4 class="widget-title">Categories</h4>
+		<ul class="widget-category-list">
+	        <li><a href="#">Animals</a>
+	        </li>
+	        <li><a href="#">Landscape</a>
+	        </li>
+	        <li><a href="#">Portrait</a>
+	        </li>
+	        <li><a href="#">Wild Life</a>
+	        </li>
+	        <li><a href="#">Video</a>
+	        </li>
+	    </ul>
+	</div> <!-- End category  -->
+
+	<!-- Widget tag -->
+	<div class="widget widget-tag">
+		<h4 class="widget-title">Tag Cloud</h4>
+		<ul class="widget-tag-list">
+	        <li><a href="#">Animals</a>
+	        </li>
+	        <li><a href="#">Landscape</a>
+	        </li>
+	        <li><a href="#">Portrait</a>
+	        </li>
+	        <li><a href="#">Wild Life</a>
+	        </li>
+	        <li><a href="#">Video</a>
+	        </li>
+	    </ul>
+	</div> <!-- End tag  -->
+
+</aside>
+      		</div>
+		</div>
+	</div>
+</div>
+
 
 <!-- pagination -->
 {% if paginator.total_pages > 1 %}
