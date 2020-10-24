@@ -1,0 +1,98 @@
+#tutor {
+	background-color: rgb(189, 212, 251);
+}
+
+#writer{
+	background-color: rgb(253, 240, 219);
+}
+
+#tech{
+	background-color: rgb(240, 235, 248);
+}
+
+#designMarketing{
+	background-color: rgb(243, 250, 247);
+}
+
+
+* {box-sizing: border-box}
+
+/* Style the tab */
+.tab {
+  float: left;
+  width: 20%;
+  height: 390px;
+  padding-right: 1.2rem;
+  display: visible;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+  display: block;
+  background-color: inherit;
+  color: black;
+  padding: 22px;
+  width: 100%;
+  border: none;
+  outline: none;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.3s;
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  font-family: 'Giga Sans Light';
+  font-weight: 900;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  color: var(--primary-color)
+}
+
+/* Create an active/current "tab button" class */
+.tab button.active {
+  color: var(--primary-color);
+  border-bottom: 2px solid;
+}
+
+
+/* Style the tab content */
+
+.tabcontent {
+  float: left;
+  padding: 0px 12px;
+  border: 1px solid #ccc;
+  width: 80%;
+  border-left: none;
+  height: 70vw;
+	margin-bottom: 70px;
+}
+
+.tablinks.font-title {
+  font-family: "Giga Sans Light"
+}
+#computer {
+	display: inline;
+}
+
+#phone {
+	display: none;
+}
+
+@media screen and (max-width: 1000px) {
+	.tab {
+		display: none;
+	}
+	.tabcontent {
+		width: 100%;
+		height: 110vw;
+	}
+	#phone {
+		display: flex;
+		visibility: visible;
+	}
+	#computer {
+		display: none;
+	}
+
+}
