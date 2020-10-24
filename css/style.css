@@ -2768,7 +2768,8 @@ header .navbar-default .navbar-nav li a {
 /*# sourceMappingURL=maps/style.css.map */
 
 /* gradient buttons */
-.gradient-btn, .gradient-underlay {
+
+.gradient-btn {
   text-align: center;
   color: white !important;
   border-radius: 50px;
@@ -2779,8 +2780,22 @@ header .navbar-default .navbar-nav li a {
   text-transform:uppercase;
   font-weight:600;
   font-family: 'Ergonomique Bold';
-  box-shadow: var(--box-shadow);
-  
+  box-shadow: var(--box-shadow)
+}
+
+.gradient-btn__outlined {
+  border: 1px solid var(--primary-color);
+  text-align: center;
+  display: inline-flex;
+  padding: 2rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-family: 'Ergonomique Bold';
+  border-radius: 200px;
+}
+
+.gradient-btn, .gradient-btn__outlined {
+  margin-right: 2rem !important;
 }
 
 .font-title {
@@ -2863,4 +2878,26 @@ header .navbar-default .navbar-nav li a {
 .courses {
   margin-top: -40px;
   background: var(--gradient-color)
+}
+
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: rgba(88, 159, 124, 0.08); 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgba(88, 159, 124, 0.26); 
+
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(88, 159, 124, 0.5);
 }
