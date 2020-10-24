@@ -30,6 +30,7 @@ layout: none
   <!-- Owl Carousel CSS -->
   <link rel="stylesheet" href="{{ site.baseurl }}/plugins/slick/slick.css">
 
+  <link rel="stylesheet" href="{{ site.baseurl }}/css/navigate.css">
   <!-- Main Stylesheet -->
   <link rel="stylesheet" href="{{ site.baseurl }}/css/style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
@@ -38,7 +39,6 @@ layout: none
 
 <body id="body">
 {% include header.html %}
-<div class="page-wrapper">
 	<div class="container responsiveContainer">
 		<div class="row">
 			<div class="col-md-9">
@@ -77,12 +77,13 @@ layout: none
 </div>
       		<div class="col-md-3">
 				<aside class="sidebar">
-	<!-- Widget Latest Posts -->
+  <!-- Widget Latest Posts -->
+  <br/><br/><br/>
 	<div class="widget widget-latest-post">
     <h4 class="widget-title">Latest Posts</h4>
     {% assign sorted = site.posts | sort: 'date' | reverse %}
     {% for post in sorted limit: 5%}
-		<div class="media" style="background-color: #f7f2f9; padding: 10px; padding-bottom: 0px;">
+		<div class="media">
 
 			<div class="media-body">
 				<h4 class="media-heading"><a href="{{post.url | absolute_url | split:'.html' | first}}">{{post.title}}</a></h4>
@@ -97,29 +98,28 @@ layout: none
       		</div>
 		</div>
 	</div>
-</div>
 
 
 {% if paginator.total_pages > 1 %}
 <div class="text-center">
-  <ul class="pagination post-pagination">
+  <ul class="post-pagination">
   {% if paginator.previous_page %}
-    <li><a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a></li>
+    <li class="next"><a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">Prev</a></li>
 
   {% endif %}
 
   {% for page in (1..paginator.total_pages) %}
     {% if page == paginator.page %}
-      <li><span class="active">{{ page }}</span></li>
+      <li class="active"><a>{{ page }}</a></li>
     {% elsif page == 1 %}
-      <li><a href="/">{{ page }}</a></li>
+      <li><a href="/blog">{{ page }}</a></li>
     {% else %}
       <li><a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a></li>
     {% endif %}
   {% endfor %}
 
   {% if paginator.next_page %}
-    <li><a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a></li>
+    <li class="next"><a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next</a></li>
   {% else %}
     <span>Next &raquo;</span>
   {% endif %}

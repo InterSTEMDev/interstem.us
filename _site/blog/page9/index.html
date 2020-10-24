@@ -27,6 +27,7 @@
   <!-- Owl Carousel CSS -->
   <link rel="stylesheet" href="/plugins/slick/slick.css">
 
+  <link rel="stylesheet" href="/css/navigate.css">
   <!-- Main Stylesheet -->
   <link rel="stylesheet" href="/css/style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
@@ -35,7 +36,7 @@
 
 <body id="body">
 <!-- Header Start -->
-<header class="navigation" style="background-color: black;">
+<header class="navigation">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
@@ -67,7 +68,7 @@
 								</li>
 								<li><a href="/blog">Blog</a></li>								
 								<li><a href="/tutoring">Tutoring</a></li>
-								<li><a href="/apply">Apply</a></li>
+								<li><a href="/apply" class="gradient-btn">Apply</a></li>
 							</ul>
 							</div><!-- /.navbar-collapse -->
 							</div><!-- /.container-fluid -->
@@ -77,7 +78,6 @@
 			</div>
 			</header><!-- header close -->
 
-<div class="page-wrapper">
 	<div class="container responsiveContainer">
 		<div class="row">
 			<div class="col-md-9">
@@ -182,12 +182,13 @@
 </div>
       		<div class="col-md-3">
 				<aside class="sidebar">
-	<!-- Widget Latest Posts -->
+  <!-- Widget Latest Posts -->
+  <br/><br/><br/>
 	<div class="widget widget-latest-post">
     <h4 class="widget-title">Latest Posts</h4>
     
     
-		<div class="media" style="background-color: #f7f2f9; padding: 10px; padding-bottom: 0px;">
+		<div class="media">
 
 			<div class="media-body">
 				<h4 class="media-heading"><a href="http://localhost:4040/2020/09/18/transmission-rates">New Australian study shows low COVID-19 transmission rates in schools</a></h4>
@@ -195,7 +196,7 @@
 			</div>
 		</div>
 	
-		<div class="media" style="background-color: #f7f2f9; padding: 10px; padding-bottom: 0px;">
+		<div class="media">
 
 			<div class="media-body">
 				<h4 class="media-heading"><a href="http://localhost:4040/2020/09/12/halos-hubble">Halos seen by Hubble</a></h4>
@@ -203,7 +204,7 @@
 			</div>
 		</div>
 	
-		<div class="media" style="background-color: #f7f2f9; padding: 10px; padding-bottom: 0px;">
+		<div class="media">
 
 			<div class="media-body">
 				<h4 class="media-heading"><a href="http://localhost:4040/2020/09/11/african-americans-covid19">How African Americans have been affected by COVID-19</a></h4>
@@ -211,7 +212,7 @@
 			</div>
 		</div>
 	
-		<div class="media" style="background-color: #f7f2f9; padding: 10px; padding-bottom: 0px;">
+		<div class="media">
 
 			<div class="media-body">
 				<h4 class="media-heading"><a href="http://localhost:4040/2020/09/11/asteroid-mining">Asteroid mining</a></h4>
@@ -219,7 +220,7 @@
 			</div>
 		</div>
 	
-		<div class="media" style="background-color: #f7f2f9; padding: 10px; padding-bottom: 0px;">
+		<div class="media">
 
 			<div class="media-body">
 				<h4 class="media-heading"><a href="http://localhost:4040/2020/09/07/virtual-augmented-surgery">Virtual and augmented reality in surgery</a></h4>
@@ -234,20 +235,19 @@
       		</div>
 		</div>
 	</div>
-</div>
 
 
 
 <div class="text-center">
-  <ul class="pagination post-pagination">
+  <ul class="post-pagination">
   
-    <li><a href="/blog/page8/">&laquo; Prev</a></li>
+    <li class="next"><a href="/blog/page8/">Prev</a></li>
 
   
 
   
     
-      <li><a href="/">1</a></li>
+      <li><a href="/blog">1</a></li>
     
   
     
@@ -279,7 +279,7 @@
     
   
     
-      <li><span class="active">9</span></li>
+      <li class="active"><a>9</a></li>
     
   
     
@@ -288,7 +288,7 @@
   
 
   
-    <li><a href="/blog/page10/">Next &raquo;</a></li>
+    <li class="next"><a href="/blog/page10/">Next</a></li>
   
   </ul>
 </div>
