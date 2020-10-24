@@ -20,11 +20,18 @@
 /* Style the tab */
 .tab {
   float: left;
+<<<<<<< HEAD
   border: 1px solid #ccc;
   background-color: #f1f1f1;
   width: 20%;
   height: 390px;
 	display: visible;
+=======
+  width: 20%;
+  height: 390px;
+  padding-right: 1.2rem;
+  display: visible;
+>>>>>>> f3735919148bfb7daa300b250a918904ac915e37
 }
 
 /* Style the buttons that are used to open the tab content */
@@ -32,6 +39,7 @@
   display: block;
   background-color: inherit;
   color: black;
+<<<<<<< HEAD
   padding: 22px 16px;
   width: 100%;
   border: none;
@@ -39,16 +47,38 @@
   text-align: left;
   cursor: pointer;
   transition: 0.3s;
+=======
+  padding: 22px;
+  width: 100%;
+  border: none;
+  outline: none;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.3s;
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  font-family: 'Giga Sans Light';
+  font-weight: 900;
+>>>>>>> f3735919148bfb7daa300b250a918904ac915e37
 }
 
 /* Change background color of buttons on hover */
 .tab button:hover {
+<<<<<<< HEAD
   background-color: #ddd;
+=======
+  color: var(--primary-color)
+>>>>>>> f3735919148bfb7daa300b250a918904ac915e37
 }
 
 /* Create an active/current "tab button" class */
 .tab button.active {
+<<<<<<< HEAD
   background-color: #ccc;
+=======
+  color: var(--primary-color);
+  border-bottom: 2px solid;
+>>>>>>> f3735919148bfb7daa300b250a918904ac915e37
 }
 
 
@@ -64,6 +94,12 @@
 	margin-bottom: 70px;
 }
 
+<<<<<<< HEAD
+=======
+.tablinks.font-title {
+  font-family: "Giga Sans Light"
+}
+>>>>>>> f3735919148bfb7daa300b250a918904ac915e37
 #computer {
 	display: inline;
 }

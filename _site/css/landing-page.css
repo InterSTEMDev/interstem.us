@@ -1,14 +1,24 @@
+<<<<<<< HEAD
 @import url(http://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700);
 @import url(https://fonts.googleapis.com/css?family=Oswald:300,400,500,600);
 @import url(http://fonts.googleapis.com/css?family=Volkhov:400italic);
 
 body {
   font-family: 'Oswald', serif;
+=======
+
+body {
+  font-family: "Playfair Display", serif;
+>>>>>>> f3735919148bfb7daa300b250a918904ac915e37
   -webkit-font-smoothing: antialiased;
 }
 
 h1, h2, h3, h4, h5, h6 {
+<<<<<<< HEAD
   font-family: 'Roboto', serif;
+=======
+  font-family: "Playfair Display", serif;
+>>>>>>> f3735919148bfb7daa300b250a918904ac915e37
 }
 
 h2 {
@@ -16,14 +26,22 @@ h2 {
 }
 
 p, .btn {
+<<<<<<< HEAD
   font-family: "Roboto", serif;
+=======
+  font-family: "Poppin", serif;
+>>>>>>> f3735919148bfb7daa300b250a918904ac915e37
   color: #777;
   font-size: 16px;
 }
 
 a:hover {
   text-decoration: none;
+<<<<<<< HEAD
 
+=======
+}
+>>>>>>> f3735919148bfb7daa300b250a918904ac915e37
 
 .section {
   padding: 100px 0;

@@ -21,13 +21,21 @@
 @import url(http://fonts.googleapis.com/css?family=Volkhov:400italic);
 body {
   line-height: 1.5;
+<<<<<<< HEAD
   font-family: 'Open Sans', sans-serif;
+=======
+  font-family: 'Giga Sans Light', sans-serif;
+>>>>>>> f3735919148bfb7daa300b250a918904ac915e37
   -webkit-font-smoothing: antialiased;
   background: var(--color-bg)
 }
 
 h1, h2, h3, h4, h5, h6 {
+<<<<<<< HEAD
   font-family: 'Open Sans', sans-serif;
+=======
+  font-family: 'Giga Sans Light', sans-serif;
+>>>>>>> f3735919148bfb7daa300b250a918904ac915e37
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -2768,7 +2776,12 @@ header .navbar-default .navbar-nav li a {
 /*# sourceMappingURL=maps/style.css.map */
 
 /* gradient buttons */
+<<<<<<< HEAD
 .gradient-btn, .gradient-underlay {
+=======
+
+.gradient-btn {
+>>>>>>> f3735919148bfb7daa300b250a918904ac915e37
   text-align: center;
   color: white !important;
   border-radius: 50px;
@@ -2779,6 +2792,7 @@ header .navbar-default .navbar-nav li a {
   text-transform:uppercase;
   font-weight:600;
   font-family: 'Ergonomique Bold';
+<<<<<<< HEAD
   box-shadow: var(--box-shadow);
 
 }
@@ -2786,6 +2800,29 @@ header .navbar-default .navbar-nav li a {
 .font-title {
   font-size: 50px;
   font-family: 'Ergonomique Bold';
+=======
+  box-shadow: var(--box-shadow)
+}
+
+.gradient-btn__outlined {
+  border: 1px solid var(--primary-color);
+  text-align: center;
+  display: inline-flex;
+  padding: 2rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-family: 'Ergonomique Bold';
+  border-radius: 200px;
+}
+
+.gradient-btn, .gradient-btn__outlined {
+  margin-right: 2rem !important;
+}
+
+.font-title {
+  font-size: 50px; 
+  font-family: 'Ergonomique Bold'; 
+>>>>>>> f3735919148bfb7daa300b250a918904ac915e37
 }
 
 /* faq */
@@ -2864,3 +2901,28 @@ header .navbar-default .navbar-nav li a {
   margin-top: -40px;
   background: var(--gradient-color)
 }
+<<<<<<< HEAD
+=======
+
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: rgba(88, 159, 124, 0.08); 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgba(88, 159, 124, 0.26); 
+
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(88, 159, 124, 0.5);
+}
+>>>>>>> f3735919148bfb7daa300b250a918904ac915e37
