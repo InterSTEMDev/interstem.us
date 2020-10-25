@@ -703,8 +703,11 @@ header .navbar-default .navbar-nav li a {
  li a.apply {
    color: var(--primary-color) !important
  }
+
+/* black background */
 .navigation {
-  padding: 10px
+  padding: 10px;
+  background-color: black;
 }
 
 .navigation .navbar {
@@ -716,22 +719,17 @@ header .navbar-default .navbar-nav li a {
   padding-top: 5px;
 }
 
-.navigation .navbar {
-  background: none;
-  border: 0px;
-}
-
 .navigation .navbar .navbar-nav {
   padding-top: 10px;
 }
 
 .navigation .navbar .navbar-nav > li > a {
-  padding: 10px 15px;
+  padding: 10px 20px;
   font-weight: 800;
   font-size: 14px;
   text-transform: uppercase;
     font-family: 'Giga Sans Light';
-    color: black;
+      color: white;
 }
 
 /* HOme About Service Blog ... */
@@ -857,8 +855,8 @@ header .navbar-default .navbar-nav li a {
 @media (max-width: 680px) {
   .front-map {
     display: none !important;
-  }  
-} 
+  }
+}
 
 .call-to-action {
   padding: 70px 0px;
@@ -2783,18 +2781,25 @@ header .navbar-default .navbar-nav li a {
 
 /* gradient buttons */
 
+
 .gradient-btn {
   text-align: center;
   color: white !important;
-  border-radius: 50px;
+  border-radius: 15px;
   background: var(--primary-color);
-  background-size: 600%;
+
+}
+.gradient-btn-filled {
+  color: white;
+  background: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  text-align: center;
   display: inline-flex;
   padding: 2rem;
-  text-transform:uppercase;
-  font-weight:600;
+  text-transform: uppercase;
+  font-weight: 600;
   font-family: 'Ergonomique Bold';
-  box-shadow: var(--box-shadow)
+  border-radius: 200px;
 }
 
 .gradient-btn__outlined {
@@ -2808,13 +2813,13 @@ header .navbar-default .navbar-nav li a {
   border-radius: 200px;
 }
 
-.gradient-btn, .gradient-btn__outlined {
+.gradient-btn-filled, .gradient-btn__outlined {
   margin-right: 2rem !important;
 }
 
 .font-title {
-  font-size: 50px; 
-  font-family: 'Ergonomique Bold'; 
+  font-size: 50px;
+  font-family: 'Ergonomique Bold';
 }
 
 /* faq */
@@ -2902,12 +2907,12 @@ header .navbar-default .navbar-nav li a {
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: rgba(88, 159, 124, 0.08); 
+  background: rgba(88, 159, 124, 0.08);
 }
- 
+
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: rgba(88, 159, 124, 0.26); 
+  background: rgba(88, 159, 124, 0.26);
 
 }
 
