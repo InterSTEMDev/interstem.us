@@ -846,6 +846,20 @@ header .navbar-default .navbar-nav li a {
   font-weight: 300;
 }
 
+
+@media (max-width: 400px) {
+  .slider .block h1 {
+    font-size: 4rem !important;
+    max-width: 100vw;
+  }
+}
+
+@media (max-width: 680px) {
+  .front-map {
+    display: none !important;
+  }  
+} 
+
 .call-to-action {
   padding: 70px 0px;
   text-align: center;
