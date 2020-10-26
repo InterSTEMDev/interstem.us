@@ -20,7 +20,7 @@ Thanks to scientists Richard Axel and Linda Buck, we know how every one of us ca
 <img src="{{ site.baseurl }}/images/blogs/2020/july/receptors.jpg" width="35%" style="display: block; margin: 0 auto"/>  
 <center><i>(Evolving Science)</i></center>
 <br>
-While all of that information was previously known, unknown information has been recently discovered in a study conducted by neurobiologists at Harvard Medical School (HMS), which provided new insight on how smells are classified within the brain. As stated by Science Daily, the scientists delivered odors to awake mice, identifying chemical similarities between the fragrance in the olfactory cortex (a region of the brain to process smells) and the specific odors. Essentially, the cortex enabled scents to be distinguished when the odor was present.
+While all of that information was previously known, unknown information has been recently discovered in a study conducted by neurobiologists at Harvard Medical School (HMS), which provided new insight on how smells are classified within the brain. As stated by <a href="https://www.sciencedaily.com/releases/2020/07/200702144119.htm" target="_blank">Science Daily</a>, the scientists delivered odors to awake mice, identifying chemical similarities between the fragrance in the olfactory cortex (a region of the brain to process smells) and the specific odors. Essentially, the cortex enabled scents to be distinguished when the odor was present.
 
 “This is the first demonstration of how the olfactory cortex encodes information about the very thing that it’s responsible for, which is odor chemistry, the fundamental sensory cues of olfaction,” associate professor of neurobiology in the Blavatnik Institute at HMS Sandeep Robert Datta said.
 

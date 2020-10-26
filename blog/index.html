@@ -79,14 +79,30 @@ layout: none
 				<aside class="sidebar">
   <!-- Widget Latest Posts -->
   <br/><br/><br/>
+  <div class="widget widget-latest-post">
+    <h4 class="widget-title">Featured Posts</h4>
+    <div class="media">
+      <div class="media-body" style="padding-bottom: 20px;">
+        <h4 class="media-heading"><a href="/2020/09/04/accent-syndrome">Mysteries surrounding foreign accent syndrome</a></h4>
+        <p>With less than 100 medically reported cases of foreign accent syndrome, researchers are still trying to tackle...</p>
+      </div>
+    </div>
+    <div class="media">
+      <div class="media-body" style="padding-bottom: 20px;">
+        <h4 class="media-heading"><a href="/2020/10/06/dangers-of-sitting">The dangers of sitting and how to counter them</a></h4>
+        <p>Sitting at home all day is an inadvertent side effect of COVID-19 that many have endured for months on end already...</p>
+      </div>
+    </div>
+
+  </div>
 	<div class="widget widget-latest-post">
     <h4 class="widget-title">Latest Posts</h4>
     {% assign sorted = site.posts | sort: 'date' | reverse %}
     {% for post in sorted limit: 5%}
 		<div class="media">
 
-			<div class="media-body">
-				<h4 class="media-heading"><a href="{{post.url | absolute_url | split:'.html' | first}}">{{post.title}}</a></h4>
+			<div class="media-body" style="padding-bottom: 20px;">
+				<h4 class="media-heading" style="padding-top: -20px"><a href="{{post.url | absolute_url | split:'.html' | first}}">{{post.title}}</a></h4>
 				<p>{{post.description | truncate: 105}}</p>
 			</div>
 		</div>
@@ -140,7 +156,8 @@ layout: none
             <li><a href="https://www.instagram.com/inter.stem/" target="_blank" class="sm-link" style="font-size: 25px;"><i class="fab fa-instagram"></i></a>
             <li><a href="https://www.linkedin.com/company/interstem-nonprofit/" target="_blank" class="sm-link" style="font-size: 25px;"><i class="fab fa-linkedin"></i></a>
             <li><a href="https://github.com/InterSTEMDev" target="_blank" class="sm-link" style="font-size: 25px;"><i class="fab fa-github"></i></a>
-					</ul>
+                          <li><a href="https://open.spotify.com/show/2gIXhZA2OjXT3HVchKFudm" target="_blank" class="sm-link" style="font-size: 25px;"><i class="fab fa-spotify"></i></a>
+          </ul>
 				</div>
 				<p class="copyright"> Developed by InterSTEM Tech Team</a>.
 					<br>

@@ -96,6 +96,16 @@ input[type="email"]:focus, input[type="password"]:focus, input[type="text"]:focu
   border: 1px solid #655E7A;
 }
 
+
+#programCard {
+    padding-top: 10px;
+}
+#programCard:hover {
+  background-color: #e9e9f5;
+}
+
+
+
 @media only screen and (max-width: 600px) {
   .img-bio {
     height: 350px;
@@ -2156,6 +2166,7 @@ header .navbar-default .navbar-nav li a {
 .comment-wrap .media .media-heading {
   font-size: 14px;
   margin-bottom: 8px;
+  margin-top: 8px;
 }
 
 .comment-wrap .media .media-heading a {
@@ -2169,7 +2180,7 @@ header .navbar-default .navbar-nav li a {
 }
 
 .comment-wrap .media p {
-  margin-top: 15px;
+  margin-top: 10px;
 }
 
 .comment-reply-form {
@@ -2219,6 +2230,7 @@ header .navbar-default .navbar-nav li a {
 }
 
 .widget.widget-latest-post .media .media-object {
+  margin-top: -10px;
   width: 100px;
   height: auto;
 }

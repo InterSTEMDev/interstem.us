@@ -14,13 +14,13 @@ Ramizah Tayiba. 9/11/2020
 
 <br>
 <img src="{{ site.baseurl }}/images/blogs/2020/september/asteroidOne.png" width="50%" style="display: block; margin: 0 auto"/>  
-<center><i>This is an artist’s interpretation of asteroid mining. (NASA)</i></center>
+<center><i>This is an artist’s interpretation of asteroid mining. <a href="https://www.thespacereview.com/archive/90a.jpg" target="_blank">(NASA)</a></i></center>
 <br>
-Goldman Sachs claims the first trillionaire will be the one who extracts raw materials from outer space. This sentiment is also shared by the astrophysicist Neil deGrasse Tyson.
+Goldman Sachs <a href="https://www.rt.com/business/424800-first-trillionaire-space-miner/" target="_blank">claims</a> the first trillionaire will be the one who extracts raw materials from outer space. This sentiment is also shared by the astrophysicist Neil deGrasse Tyson.
 
 Asteroid mining. The idea of capturing orbiting asteroids in space and exploiting them of rare earth metals that if made possible, would completely revolutionize the mining industry and even the world.
 
-Current mining exploits are quite destructive. They can disrupt biodiversity, people and the planet itself. In the United States alone, a country with sufficient safety equipment and regulations, 50 to 60 miners die annually. Falling rocks and being caved in aren’t the only dangers; unseen threats like carbon monoxide and methane gas poisoning can be just as detrimental to one’s health. Throughout history, there have been numerous horrific instances where miners have been killed or trapped in mines. In 2010, one hundred Chinese miners were trapped for eight days. They survived miraculously by eating sawdust. This is one of many stories that show the dangers faced by miners.
+Current mining exploits are quite destructive. They can disrupt biodiversity, people and the planet itself. In the United States alone, a country with sufficient safety equipment and regulations, <a href="https://abcnews.go.com/WN/mining-dangerous-job/story?id=10301377" target="_blank">50 to 60</a> miners die annually. Falling rocks and being caved in aren’t the only dangers; unseen threats like carbon monoxide and methane gas poisoning can be just as detrimental to one’s health. Throughout history, there have been numerous horrific instances where miners have been killed or trapped in mines. <a href="https://abcnews.go.com/WN/115-miners-rescued-china-mine-trapped-days/story?id=10288256" target="_blank">In 2010</a>, one hundred Chinese miners were trapped for eight days. They survived miraculously by eating sawdust. This is one of many stories that show the dangers faced by miners.
 
 Earthly mining operations also threaten biodiversity. Tailings (waste rock from mining operations) often make their way into lakes and streams, toxifying the water. Other threats include erosions, contamination and destruction of ecosystems and the creation of sinkholes.
 
@@ -28,13 +28,13 @@ This brings us back to asteroid mining. If this is made possible, it would eradi
 
 So how close are we to extracting materials from outer space?
 
-The answer is admittedly underwhelming, for now. At this time, the process only includes a small sample collection. This is done by space probes such as Hayabusa 2. But the actual mining of an asteroid is still in the works. Nets and harpoons have been considered, but aren’t the best solution as mining in space is more complicated than once thought.
+The answer is admittedly underwhelming, for now. At this time, the process <a href="https://www.youtube.com/watch?v=d44TQRewClc" target="_blank">only includes a small sample collection</a>. This is done by space probes such as Hayabusa 2. But the actual mining of an asteroid is still in the works. Nets and harpoons have been considered, but aren’t the best solution as mining in space is more complicated than once thought.
 
-The low gravity, which holds asteroids together, complicates things. But a team at TransAstra has developed a piece of machinery that utilizes the sun’s rays to vaporize asteroids without even touching them. TransAstra has developed a clever way to then retrieve the vaporized rock. The water that is harvested from the asteroids can then be used as a propellant to come back to Earth. And if this technique is perfected, it will significantly reduce the cost of space exploration, as it will decrease dependence on fuel.
+The low gravity, which holds asteroids together, complicates things. But a team at <a href="https://www.youtube.com/watch?v=d44TQRewClc" target="_blank">TransAstra</a> has developed a piece of machinery that utilizes the sun’s rays to vaporize asteroids without even touching them. TransAstra has developed a clever way to then retrieve the vaporized rock. The water that is harvested from the asteroids can then be used as a propellant to come back to Earth. And if this technique is perfected, it will significantly reduce the cost of space exploration, as it will decrease dependence on fuel.
 
-This equipment is still being tested. Dr. Sercel at TransAstra hopes to send the first mining vehicles into space in 10 years. This means that although its technological development is still in its infancy, within the next few decades, we might see a whole new era in mining.
+This equipment is still being tested. <a href="https://www.youtube.com/watch?v=d44TQRewClc" target="_blank">Dr. Sercel at TransAstra</a> hopes to send the first mining vehicles into space in 10 years. This means that although its technological development is still in its infancy, within the next few decades, we might see a whole new era in mining.
 
-Cover Photo: (Factor-Tech Magazine)
+Cover Photo: <a href=https://mmta.co.uk/2016/09/23/space-mining-the-challenge-of-governing-future-mining-frontiers/" target="_blank">(Factor-Tech Magazine)</a>
 
 <hr>
 <img src="{{ site.baseurl }}/images/writingTeam/noProfile.jpg" width="170" style="float: left; margin-right: 30px; margin-bottom: 20px;"/>

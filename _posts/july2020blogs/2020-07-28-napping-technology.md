@@ -16,19 +16,19 @@ Everyone needs sleep. But most people don’t get enough of it at night. So what
 
 Sleep is absolutely necessary for the wellbeing of great minds. Too often, hardworking students and employees will dismiss sleep as something trivial— a mere pit stop on the route to success. Modern-day workaholic culture perpetuates the idea that resting is for the weak, when in reality, it serves to boost your performance rather than hinder it.
 
-Sleep is proven to reduce heart problems, stress, inflammation, as well as depression. A sleep-deprived body will enter a state of stress, which increases blood pressure levels along with risk for heart attacks and strokes. The higher output of stress hormones will also lead to more inflammation in the body, which will cause deterioration in bodily functions as you age. Getting an adequate amount of sleep boosts your body’s serotonin levels and helps prevent depression, which is linked to a lack of serotonin. Even if you don’t get your recommended hours of sleep at night, taking a nap during the day can still improve your performance.
+Sleep is proven to <a href="https://www.verywellhealth.com/top-health-benefits-of-a-good-nights-sleep-2223766" target="_blank">reduce heart problems, stress, inflammation, as well as depression</a>. A sleep-deprived body will enter a state of stress, which increases blood pressure levels along with risk for heart attacks and strokes. The higher output of stress hormones will also lead to more inflammation in the body, which will cause deterioration in bodily functions as you age. Getting an adequate amount of sleep boosts your body’s serotonin levels and helps prevent depression, which is linked to a lack of serotonin. Even if you don’t get your <a href="https://www.sleepfoundation.org/articles/how-much-sleep-do-we-really-need" target="_blank">recommended hours</a> of sleep at night, taking a nap during the day can still improve your performance.
 
 But as long as workplace culture has existed, napping on the job has been a big no-no. How can you be a dedicated employee if you’re dozing off in the middle of your work? If the answer seems obvious, you might want to think again. Companies have recently been reassessing the stigma surrounding snoozing in the workplace. High-profile corporations like Google and Facebook are encouraging their employees to get some shut-eye during the workday by installing nap pods in their offices such as the one shown below.
 
 <br>
 <img src="{{ site.baseurl }}/images/blogs/2020/july/nappingTwo.png" width="50%" style="display: block; margin: 0 auto"/>  
-<center><i>(Stan Honda / AFP / Getty Images)</i></center>
+<center><i><a href="https://www.theverge.com/2016/7/1/12069974/pzizz-metro-naps-psychoacoustics-sleep-energypod" target="_blank">(Stan Honda / AFP / Getty Images)</a></i></center>
 <br>
-Studies show that taking a short nap each day has profound benefits— not only toward reinforcing long-term health but also for boosting alertness, concentration, and productivity. Taking a snooze allows for your brain to take a moment to process and store new information, which strengthens your memory. It also gives you an opportunity to sort through your emotions and emerge with a refreshed mood. Just like that, 20 minutes in one of these bad boys can relieve tension, restore energy, and renew motivation to work diligently again! Pods like these are most notably produced by the company MetroNaps, which equips each one with its very own privacy visor, speaker system for soothing background music and ambient lighting to lull you to sleep.
+<a href="https://www.cnn.com/2012/10/17/health/health-naps-brain/index.html" target="_blank">Studies show</a> that taking a short nap each day has profound benefits— not only toward reinforcing long-term health but also for boosting alertness, concentration, and productivity. Taking a snooze allows for your brain to take a moment to process and store new information, which strengthens your memory. It also gives you an opportunity to sort through your emotions and emerge with a refreshed mood. Just like that, 20 minutes in one of these bad boys can relieve tension, restore energy, and renew motivation to work diligently again! Pods like these are most notably produced by the company <a href="http://www.metronaps.com/" target="_blank">MetroNaps</a>, which equips each one with its very own privacy visor, speaker system for soothing background music and ambient lighting to lull you to sleep.
 
 <br>
 <img src="{{ site.baseurl }}/images/blogs/2020/july/nappingThree.png" width="50%" style="display: block; margin: 0 auto"/>  
-<center><i>(Metronaps)</i></center>
+<center><i><a href="http://www.metronaps.com/" target="_blank">(Metronaps)</a></i></center>
 <br>
 Unfortunately, not every company or aspiring napper can afford one of these pods, which cost between $8,000 to $12,000 each. So here are some less expensive options that will still elevate your napping experience wherever you choose to nap.
 
@@ -40,7 +40,7 @@ The Ostrich Pillow, for one, is a popular product of nap technology that puts th
 <br>
 The pillow cocoons your head in soft fabric padded with microbeads that prevent outside noise and light from disturbing your slumber. The design of the Ostrich Pillow is effective at deepening the darkness of your sleeping environment, which is a crucial contributor toward quality sleep. Melatonin, the sleep hormone, signals to the brain that it’s time to rest, which triggers muscle relaxation, a drop in body temperature, and heightened drowsiness. Your body’s melatonin levels naturally rise as daylight diminishes and darkness increases during the night. Since the Ostrich Pillow immerses you in a micro-environment that guards against intrusive light, it coaxes your body into making its physiological progression toward slumber.
 
-MonPère’s Moldable-Hands Travel Pillow is another innovation that defies the standards for a conventional pillow.
+<a href="https://www.kickstarter.com/projects/1929271252/monpere-sleep-tool-a-new-breed-of-travel-pillow" target="_blank">MonPère’s</a> Moldable-Hands Travel Pillow is another innovation that defies the standards for a conventional pillow.
 
 <br>
 <img src="{{ site.baseurl }}/images/blogs/2020/july/nappingFive.png" width="50%" style="display: block; margin: 0 auto"/>  

@@ -14,19 +14,19 @@ Valeria Rivadeneyra. 9/7/2020
 
 <br>
 <img src="{{ site.baseurl }}/images/blogs/2020/september/musicOne.jpg" width="80%" style="display: block; margin: 0 auto"/>  
-<center><i>Dancers from the Mariinsky Theater Russian Ballet Company perform on stage at the Erkel Theater in Budapest, during a rehearsal of the title 'Cinderella', composed by Russian Sergei Prokofiev. (Healix)</i></center>
+<center><i>Dancers from the Mariinsky Theater Russian Ballet Company perform on stage at the Erkel Theater in Budapest, during a rehearsal of the title 'Cinderella', composed by Russian Sergei Prokofiev. <a href="https://www.nbcnews.com/slideshow/photos-wildfires-rage-northern-california-n1237462" target="_blank">(Healix)</a></i></center>
 <br>
 The human brain is designed to seek absolute harmony, and each of its neurons has a rhythm. This is evident in activities such as dance and music.
 
 Dancers have wider connections between the sensory and motor regions of the brain and more connection between the two hemispheres of the brain. Musicians, on the other hand, concrete connections were strengthened in musicians.
 
-According to the results of a study conducted with professionals in music and dance in Canada, musical and dance training strengthen the connections in the brain, but in different ways. Dancing is responsible for strengthening the connections in a general way between different areas of the brain. On the other hand, music strengthens certain areas in particular.
+According to the <a href="https://www.sciencedirect.com/science/article/abs/pii/S105381191630088X" target="_blank">results</a> of a study conducted with professionals in music and dance in Canada, musical and dance training strengthen the connections in the brain, but in different ways. Dancing is responsible for strengthening the connections in a general way between different areas of the brain. On the other hand, music strengthens certain areas in particular.
 
 Long afternoons practicing scales on the piano or even aching muscles after spending extensive hours at the ballet bar. All that time spent may seem exhausting, but research confirms what many people and parents, in particular, already believed: this type of activity is good for the mind and body.
 
-This is according to a recent study published in NeuroImage that was conducted by a group of researchers from the International Laboratory for Sound, Music and Brain Research. It shows that practicing music or dance generates bigger results in the brain than we thought.
+This is according to a <a href="https://www.sciencedirect.com/science/article/abs/pii/S105381191630088X" target="_blank">recent study</a> published in NeuroImage that was conducted by a group of researchers from the International Laboratory for Sound, Music and Brain Research. It shows that practicing music or dance generates bigger results in the brain than we thought.
 
-During the experiment, high-tech imaging techniques were used to compare what effects music and dance training produced on the white matter structure of experts in both activities. White matter is one of the two components of the central nervous system (CNS). It consists mostly of glial cells and myelinated axons and forms the bulk of the deep parts of the cerebrum and the superficial parts of the spinal cord.
+During the experiment, high-tech imaging techniques were used to compare what effects music and dance training produced on the <a href="https://med.libretexts.org/Bookshelves/Anatomy_and_Physiology/Book%3A_Anatomy_and_Physiology_(Boundless)/11%3A_Central_Nervous_System/11.7%3A_The_Cerebrum/11.7C%3A_White_Matter_of_the_Cerebrum" target="_blank">white matter</a> structure of experts in both activities. White matter is one of the two components of the central nervous system (CNS). It consists mostly of glial cells and myelinated axons and forms the bulk of the deep parts of the cerebrum and the superficial parts of the spinal cord.
 
 "We found that dancers and musicians differed in many regions of white matter, including sensory and motor pathways, at both the primary and higher levels of cognitive processing," said Chiara Giacosa, a doctoral candidate at Concordia University in Montreal and first author of the study.
 
@@ -36,7 +36,7 @@ Essentially, it was found that dancers possessed more connections between the se
 
 Some research has already shown that musical training can improve cognitive skills, but dance has not yet been used in a similar way.
 
-There’s also an explanation to understand how musicians and dancers synchronize during a performance. A new study concludes that human beings filter out information that will alter the harmony with the group.
+There’s also an explanation to understand how musicians and dancers synchronize during a performance. A <a href="https://www.nature.com/articles/s41467-020-17540-7" target="_blank">new study</a> concludes that human beings filter out information that will alter the harmony with the group.
 
 Synchrony transmits many sensations to your brain. “It generates positive feelings," said Jesus Porta, vice-president of the Spanish Society of Neurology and member of the Spanish Council of the Brain. According to Porta, the human being reaches synchronicity by putting himself in the other person's place.
 
