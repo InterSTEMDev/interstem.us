@@ -104,20 +104,112 @@ input[type="email"]:focus, input[type="password"]:focus, input[type="text"]:focu
   background-color: #e9e9f5;
 }
 
+@keyframes cssAnimation {
+  to   { visibility: visible; }
+}
 
+.popup {
+  visibility: hidden;
+  animation: cssAnimation 0s 0.8s forwards;
+  z-index: 999;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, .5)
+}
+.toolbarLB {
+  text-align: right;
+  padding: 3px;
+}
+.closeLB {
+  color: white;
+  cursor: pointer;
+  font-size: 20px;
+}
+.popup .iframeContainer {
+  vertical-align: middle;
+  background: #edf2f7;
+  padding: 2px;
+  width:  50%;
+  height: 32%;
+  background: #005756;
+  background: -webkit-linear-gradient(top left, #005756, #6cbdac);
+  background: -moz-linear-gradient(top left, #005756, #6cbdac);
+  background: linear-gradient(to bottom right, #005756, #6cbdac);
+color: white;
+  padding-top: 10px;
+  padding-right: 10px;
+  border-radius: 20px;
+}
+.popup.closed {
+  display: none;
+}
+#popupTitle {
+  font-size: 3vw;
+  font-family: 'Ergonomique Bold'
+}
+
+@media only screen and (max-width: 1000px) {
+  .popup .iframeContainer {
+    vertical-align: middle;
+    background: #edf2f7;
+    padding: 2px;
+    width:  80%;
+    height: 32%;
+    background: #005756;
+  background: -webkit-linear-gradient(top left, #005756, #6cbdac);
+  background: -moz-linear-gradient(top left, #005756, #6cbdac);
+  background: linear-gradient(to bottom right, #005756, #6cbdac);
+  color: white;
+    padding-top: 10px;
+    padding-right: 10px;
+  }
+  #popupTitle {
+    font-size: 40px;
+    font-family: 'Ergonomique Bold'
+  }
+}
+
+
+.submitButton {
+  background-color: #bd9f00;
+  cursor: pointer;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  text-align: center;
+  font-size: 20px;
+  border-radius: 8px;
+  font-family: 'Ergonomique Bold';
+}
+
+.submitButton:hover {
+    background-color:#8c7707 ;
+    cursor: pointer;
+    color: white;
+}
 
 @media only screen and (max-width: 600px) {
   .img-bio {
     height: 350px;
     text-align: center;
   }
+  .img-bio-two {
+    height: 350px;
+    text-align: center;
+  }
 }
 
 .img-bio {
-  max-height: 200px;
+  height: auto;
   max-width: 175px;
-
 }
+
 
 .form-control {
   box-shadow: none;
