@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "How space fosters an interest in science"
+title:  "The mother of physics: Marie Curie"
 date:   2020-10-07 13:00:02
 author: "Ramizah Tayiba"
 image: marieCurieCover.png
