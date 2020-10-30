@@ -410,9 +410,11 @@ color: white;
 .page-title .block h1 {
   color: #fff;
   font-weight: 200;
-  letter-spacing: 6px;
+  font-size: 50px;
   margin-top: 0;
   text-transform: capitalize;
+  font-family: 'Ergonomique Bold';
+  max-height: 40px !important;
 }
 
 .page-title .block p {
@@ -947,6 +949,13 @@ header .navbar-default .navbar-nav li a {
 @media (max-width: 680px) {
   .front-map {
     display: none !important;
+  }
+}
+
+@media (max-width: 400px) {
+  .page-title .block h1 {
+    font-size: 4rem !important;
+    max-width: 100vw;
   }
 }
 
@@ -2914,6 +2923,7 @@ header .navbar-default .navbar-nav li a {
 .font-title {
   font-size: 50px;
   font-family: 'Ergonomique Bold';
+  text-align: center;
 }
 
 /* faq */
@@ -2987,7 +2997,7 @@ header .navbar-default .navbar-nav li a {
 }
 
 .faq summary {
-  font-size: 16px;
+  font-size: 17px;
 }
 
 
