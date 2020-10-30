@@ -2986,6 +2986,11 @@ header .navbar-default .navbar-nav li a {
   }
 }
 
+.faq summary {
+  font-size: 16px;
+}
+
+
 /* available subjects */
 
 .courses {

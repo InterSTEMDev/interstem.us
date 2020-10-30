@@ -59,11 +59,9 @@
 /* Style the tab content */
 
 .tabcontent {
-  float: left;
-  padding: 0px 12px;
+  float: left;  
   border: 1px solid #ccc;
-  width: 80%;
-  border-left: none;
+  width: 80%; 
   height: 70vw;
 	margin-bottom: 70px;
 }
