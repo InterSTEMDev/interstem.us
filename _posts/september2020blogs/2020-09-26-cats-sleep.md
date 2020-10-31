@@ -20,7 +20,7 @@ For anyone who has owned or taken care of a household cat, it is well known that
 
 According to <a href="https://www.petmd.com/cat/behavior/evr_ct_why_do_cats_sleep_so_much" target="_blank">PetMD</a>, cats are natural born predators. They are engineered to chase their prey and hunt for their next meal. Lions, for example, sleep primarily in the day and use their restored energy to hunt at night. Similarly, house cats have the hunting and sleep habits of their ancestors and larger relatives. Have you ever played with a cat with a string or laser pointer? Even in what one may call simple games, cats exhibit their natural hunting instincts through their gentle stalking, readying of the paws and their pouncing on a moving object. When a cat “hunts”, whether it is a mouse in a field or a catnip toy in the house, they use an immense amount of energy. The amount of sleep they get during the day is to recharge the battery for their moments of being in an excited state of running, stalking, pouncing and climbing.
 
-Additionally, cats are known to sleep anywhere from fifteen to twenty hours in one day, but their quality of sleep changes in cycles. Similar to a human’s cycle of on-and-off REM sleep, cats shift from moments of deep sleep to periods of normal or light sleep. Deep sleep tends to only last for about five minutes at a time, while light sleep, or dozing, lasts anywhere from fifteen to thirty minutes. In the periods of light sleep, a cat is resting, but in a position ready to launch into action at any moment.
+Additionally, cats are known to sleep anywhere from fifteen to twenty hours in one day, but their quality of sleep changes in cycles. Similar to a human’s cycle of on-and-off REM sleep, cats shift from moments of deep sleep to periods of normal or light sleep. Deep sleep tends to only last for about five minutes at a timef, while light sleep, or dozing, lasts anywhere from fifteen to thirty minutes. In the periods of light sleep, a cat is resting, but in a position ready to launch into action at any moment.
 
 The age of a cat also affects the amount of sleep they need. According to the <a href="https://www.aecmemphis.com/site/vet-blog-memphis/2020/02/13/my-cat-sleeps-constantly-when-should-i-worry" target="_blank">Animal Emergency Center at Memphis</a>, cats are very similar to humans in that the amount of sleep they need is dependent on their age. For example, kittens, like babies, need large amounts of sleep; therefore, they will sleep for most of the day, except for short moments of energy between eating. Adolescents, like teenagers, have inconsistent sleep patterns and tend to be more active than when they were kittens. At the adult stage, cats by this point have somewhat of a regular sleep schedule that consists of anywhere from twelve to twenty hours of sleep per day. Finally, senior cats have limited energy and activity levels, and they tend to sleep for long periods of time, most likely more than they did as a kitten.  
 
@@ -30,10 +30,10 @@ While cats may be animals of unconventional sleeping habits, they demonstrate ma
 
 
 <hr>
-<img src="{{ site.baseurl }}/images/writingTeam/Reagan_Smith.jpeg" width="170" style="float: left; margin-right: 30px; margin-bottom: 20px;"/>
+<img src="{{ site.baseurl }}/images/writingTeam/Ari_Rednour.jpg" width="170" style="float: left; margin-right: 30px; margin-bottom: 20px;"/>
 <div style="margin-bottom: 5%;">
-<span style="font-size: 30px; font-weight: 900;">Reagan Smith</span>
-<br>Reagan is a junior from Sage Hill School. She is passionate about all things related to science, especially biology and medicine. She also loves being able to use her talents and knowledge to help others and make a difference in the world.
+<span style="font-size: 30px; font-weight: 900;">Ari Rednour</span>
+<br>Ari is a rising junior at Sage Hill School who has a passion for STEM and a curiosity for learning how the world works. As a chapter member, editor, and writer, she hopes to inspire young students to find their passions and interests in STEM and beyond. Outside of InterSTEM, Ari runs cross country and track and field, and enjoys soccer, listening to music, and drawing in her free time.
 
 
 </div>

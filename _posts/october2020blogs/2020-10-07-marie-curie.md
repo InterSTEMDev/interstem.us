@@ -10,7 +10,7 @@ time: 2 min
 
 ---
 <h2 style="font-family: Ergonomique Bold">The mother of physics: Marie Curie</h2>
-Angela Zhang. 10/07/2020
+Ramizah Tayiba. 10/07/2020
 <hr>
 <br>
 <img src="{{ site.baseurl }}/images/blogs/2020/october/marieCurieOne.png" width="60%" style="display: block; margin: 0 auto"/>  

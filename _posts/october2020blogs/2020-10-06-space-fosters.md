@@ -3,7 +3,7 @@ layout: post
 title:  "How space fosters an interest in science"
 date:   2020-10-06 13:00:02
 author: "Reagan Smith"
-image: spaceFosterCover.png
+image: spaceFosterCover.jpg
 description: Ad Astra Academy is a non-profit working with students in underserved areas to spark an interest in STEM through short, interventional workshops.
 
 time: 2 min
