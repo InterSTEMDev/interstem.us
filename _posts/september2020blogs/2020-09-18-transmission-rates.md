@@ -5,7 +5,7 @@ date:   2020-09-18 13:00:01
 author: "Reagan Smith"
 image: transmissionCover.jpg
 description: Study reveals the rates of COVID-19 transmission from student to student and student to teacher are lower than other respiratory infections.
-time: 2 min
+time: 3 min
 
 ---
 <h2 style="font-family: Ergonomique Bold">New Australian study shows low COVID-19 transmission rates in schools</h2>

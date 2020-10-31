@@ -5,7 +5,7 @@ date:   2020-08-19 13:00:01
 author: "Reagan Smith"
 image: salmonellaCover.png
 description: A recent salmonella outbreak, linked to onions, has come from Thompson International, Inc. Let’s analyze the outbreak and dive deeper into the details of salmonella.
-time: 2 min
+time: 3 min
 
 ---
 <h2 style="font-family: Ergonomique Bold">Recent Salmonella outbreak linked to onions</h2>

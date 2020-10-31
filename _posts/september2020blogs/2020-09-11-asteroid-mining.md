@@ -34,7 +34,7 @@ The low gravity, which holds asteroids together, complicates things. But a team 
 
 This equipment is still being tested. <a href="https://www.youtube.com/watch?v=d44TQRewClc" target="_blank">Dr. Sercel at TransAstra</a> hopes to send the first mining vehicles into space in 10 years. This means that although its technological development is still in its infancy, within the next few decades, we might see a whole new era in mining.
 
-Cover Photo: <a href=https://mmta.co.uk/2016/09/23/space-mining-the-challenge-of-governing-future-mining-frontiers/" target="_blank">(Factor-Tech Magazine)</a>
+Cover Photo: <a href="https://mmta.co.uk/2016/09/23/space-mining-the-challenge-of-governing-future-mining-frontiers/" target="_blank">(Factor-Tech Magazine)</a>
 
 <hr>
 <img src="{{ site.baseurl }}/images/writingTeam/noProfile.jpg" width="170" style="float: left; margin-right: 30px; margin-bottom: 20px;"/>

@@ -5,7 +5,7 @@ date:   2020-08-16 13:00:02
 author: "Ari Rednour"
 image:  blueLightCover.jpg
 description: In a time where we have been forced to rely on our electronic devices, the blue light our eyes intake has only skyrocketed with the increased use of electronics. What is really happening to our eyes on a chemical and biological level as they absorb this new level of blue light?
-time: 2 min
+time: 7 min
 
 ---
 <h2 style="font-family: Ergonomique Bold">The effects of blue light on eyes</h2>

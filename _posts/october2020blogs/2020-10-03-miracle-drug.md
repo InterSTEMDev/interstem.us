@@ -5,7 +5,7 @@ date:   2020-10-03 13:00:02
 author: "Patrick Nguyen"
 image: miracleDrugCover.png
 description: Many teens and young adults face one of the most common conditions; acne. Let’s take a look at the miracle-like yet controversial drug, Accutane, that has been curing acne since 1982.
-time: 2 min
+time: 4 min
 
 ---
 <h2 style="font-family: Ergonomique Bold">The miracle drug: A look into Accutane and its mechanism</h2>

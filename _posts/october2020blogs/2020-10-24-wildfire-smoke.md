@@ -6,7 +6,7 @@ author: "Emily Richter"
 image: wildfireSmokeCover.png
 description: Poor air quality due to fires has recently been common. What happens when wildfire smoke and COVID-19 clash?
 
-time: 2 min
+time: 1 min
 
 ---
 <h2 style="font-family: Ergonomique Bold">Wildfire smoke and COVID-19</h2>

@@ -5,7 +5,7 @@ date:   2020-08-30 13:00:01
 author: "Sam Hronek"
 image: communicationCover.jpg
 description: People need to communicate, especially during this pandemic, and many modern applications have helped people communicate worldwide.
-time: 2 min
+time: 3 min
 
 ---
 <h2 style="font-family: Ergonomique Bold">Communication innovation: How COVID-19 has influenced communication</h2>

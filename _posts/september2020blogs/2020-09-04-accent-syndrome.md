@@ -5,7 +5,7 @@ date:   2020-09-04 13:00:03
 author: "Eric Bebenov"
 image: mysteriesCover.png
 description: With less than 100 medically reported cases of foreign accent syndrome, researchers are still trying to tackle the underlying details of this mysterious condition.
-time: 2 min
+time: 3 min
 
 ---
 <h2 style="font-family: Ergonomique Bold">Mysteries surrounding foreign accent syndrome</h2>

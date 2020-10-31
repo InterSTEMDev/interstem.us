@@ -5,7 +5,7 @@ date:   2020-09-11 13:00:02
 author: "Khushi Shah"
 image: AfricanAmericanCover.png
 description: African Americans are getting hit harder by COVID-19 in comparison to other ethnic groups financially, economically, and socially.
-time: 2 min
+time: 3 min
 
 ---
 <h2 style="font-family: Ergonomique Bold">How African Americans have been affected by COVID-19</h2>
@@ -16,7 +16,7 @@ Khushi Shah. 9/11/2020
 <img src="{{ site.baseurl }}/images/blogs/2020/september/africanAmericanOne.png" width="100%" style="display: block; margin: 0 auto"/>  
 <center><i>African American citizens of Harlem, New York, are waiting in line to receive food and masks in order to protect themselves and their families against COVID-19. <a href="https://www.pewtrusts.org/en/research-and-analysis/blogs/stateline/2020/05/27/covid-19-is-crushing-black-communities-some-states-are-paying-attention" target="_blank">(Bebeto Matthews / The Associated Press)</a></i></center>
 <br>
-If COVID-19 is a disease that can affect anyone, then why are people of color more prone to suffering from its repercussions? According to the <a href="https://www.cdc.gov/coronavirus/2019-ncov/community/health-equity/race-ethnicity.html target="_blank">Centers for Disease Control and Prevention (CDC)</a>, there are five principal causes as to why African Americans are at high risk for exposure: discrimination, healthcare access and utilization, occupation, housing and educational/income/wealth gaps.
+If COVID-19 is a disease that can affect anyone, then why are people of color more prone to suffering from its repercussions? According to the <a href="https://www.cdc.gov/coronavirus/2019-ncov/community/health-equity/race-ethnicity.html" target="_blank">Centers for Disease Control and Prevention (CDC)</a>, there are five principal causes as to why African Americans are at high risk for exposure: discrimination, healthcare access and utilization, occupation, housing and educational/income/wealth gaps.
 
 The Robert Wood Johnson Foundation says it best: “Your health care depends on who you are.” The foundation estimated that minority groups such as Latinos and African Americans experience <a href="https://www.cdc.gov/coronavirus/2019-ncov/community/health-equity/race-ethnicity.html" target="_blank">30 to 40 percent poorer health outcomes</a> than white Americans. African Americans are liable to racial profiling, thus causing their physical or mental pain to be viewed as their own doing or an excuse. Because of these preconceived notions, African Americans can feel discouraged to seek care and ultimately end up harming their well being even more.
 

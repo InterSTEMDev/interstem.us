@@ -5,7 +5,7 @@ date:   2020-10-05 13:00:02
 author: "Eric Bebenov"
 image: twoPlanetsCover.png
 description: Unlike other planets in the Solar System, Venus and Uranus experience retrograde rotation. Let’s explore and find out why.
-time: 2 min
+time: 3 min
 
 ---
 <h2 style="font-family: Ergonomique Bold">Venus and Uranus: Two Planets with Distinct Orbital Characteristics</h2>

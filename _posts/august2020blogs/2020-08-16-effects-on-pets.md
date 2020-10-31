@@ -5,7 +5,7 @@ date:   2020-08-16 13:00:03
 author: "Angela Zhang"
 image: petsCover.png
 description: Due to quarantine orders, pet owners across the world have been cooped up at home with their pets for months on end. As a result, many owners have been noticing that their animals are acting strangely and are wondering why that is.
-time: 2 min
+time: 5 min
 
 ---
 <h2 style="font-family: Ergonomique Bold">Quarantine's effect on pets: Quirky behaviors explained</h2>

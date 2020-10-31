@@ -5,7 +5,7 @@ date:   2020-08-09 13:00:02
 author: "Ramizah Tayiba"
 image: spacexCover.png
 description:  While we are living during a major global pandemic, there has been a huge development in space aviation as SpaceX became the first privately owned company to send astronauts to the ISS.
-time: 2 min
+time: 1 min
 
 ---
 <h2 style="font-family: Ergonomique Bold">Why the SpaceX Launch was significant</h2>

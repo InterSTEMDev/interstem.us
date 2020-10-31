@@ -5,7 +5,7 @@ date:   2020-08-19 13:00:02
 author: "Emily Richter"
 image: chemistryCookingCover.png
 description: Have you wondered if the process of cooking your food destroys or increases the nutrition value of its ingredients? Let’s look at a vegetable hand-pie recipe and talk about how it reflects the nutritional changes your food undergoes as a result of cooking.
-time: 2 min
+time: 3 min
 
 ---
 <h2 style="font-family: Ergonomique Bold">Chemistry in cooking: The nutritional changes caused by cooking</h2>

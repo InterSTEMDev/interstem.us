@@ -5,7 +5,7 @@ date:   2020-09-26 13:00:01
 author: "Ari Rednour"
 image: catCover.jpg
 description: Cats, whether in the great outdoors or a house cat in the city, are known for their ability to sleep for hours on end. Let’s explore the science behind why cats sleep for so long. Could it be genetics? Natural instincts? Or are cats just true creatures of laziness?
-time: 2 min
+time: 3 min
 
 ---
 <h2 style="font-family: Ergonomique Bold">Why do cats sleep so much?</h2>

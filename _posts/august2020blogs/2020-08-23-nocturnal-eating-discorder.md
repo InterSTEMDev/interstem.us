@@ -5,7 +5,7 @@ date:   2020-08-23 13:00:01
 author: "Nellie Nguyen"
 image: nocturnalCover.png
 description: With over 80 known sleep disorders and a variety of different eating disorders, it can be difficult to understand each one. However, there is a lesser-known disorder that is an unsettling combination of both.
-time: 2 min
+time: 3 min
 
 ---
 <h2 style="font-family: Ergonomique Bold">Nocturnal sleep-related eating disorder</h2>

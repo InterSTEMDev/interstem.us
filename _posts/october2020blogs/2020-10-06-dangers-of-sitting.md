@@ -5,7 +5,7 @@ date:   2020-10-06 13:00:02
 author: "Angela Zhang"
 image: dangersOfSittingCover.png
 description: Sitting at home all day is an inadvertent side effect of COVID-19 that many have endured for months on end already. But what we may not realize is that the action— or rather, inaction— of sitting all day comes with its own set of side effects.
-time: 2 min
+time: 3 min
 
 ---
 <h2 style="font-family: Ergonomique Bold">The dangers of sitting and how to counter them</h2>

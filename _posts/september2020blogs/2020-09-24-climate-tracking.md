@@ -5,7 +5,7 @@ date:   2020-09-25 13:00:01
 author: "Simone Rothaupt"
 image: climateTrackingCover.jpg
 description: Climate TRACE, a novel artificial intelligence technology, is the key to not only track but solve climate change down to the individual power plants.
-time: 2 min
+time: 4 min
 
 ---
 <h2 style="font-family: Ergonomique Bold">Climate TRACE: A revolution in climate tracking</h2>

@@ -5,7 +5,7 @@ date:   2020-09-04 13:00:05
 author: "Carly Schinhofen"
 image: pseudoCover.png
 description: The spread of pseudoscience and false information in our current pandemic needs to be taken seriously. The scale of the crisis calls for immediate action in ensuring people follow health guidelines and take the advice of medical professionals.
-time: 2 min
+time: 3 min
 
 ---
 <h2 style="font-family: Ergonomique Bold">Pseudoscience and COVID-19</h2>

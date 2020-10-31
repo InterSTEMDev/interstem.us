@@ -5,7 +5,7 @@ date:   2020-09-26 13:00:02
 author: "Reagan Smith"
 image: swedenCover.jpg
 description: Sweden has had a unique response to COVID-19, as the leading epidemiologist Anders Tegnell has refused to compromise freedom for the sake of lowering cases. In his home country, he is a hero; in other places, he is an example of what not to do.
-time: 2 min
+time: 3 min
 
 ---
 <h2 style="font-family: Ergonomique Bold">Sweden’s Controversial Approach to COVID-19</h2>

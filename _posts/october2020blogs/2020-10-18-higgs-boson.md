@@ -6,7 +6,7 @@ author: "Teddy Rosenthal"
 image: higgsBosonCover.png
 description: In 2012, the Higgs boson was observed in a collision experiment in the Large Hadron Collider at CERN. How does the Higgs boson relate to our everyday experiences in life?
 
-time: 2 min
+time: 4 min
 
 ---
 <h2 style="font-family: Ergonomique Bold">Higgs boson giving mass</h2>
@@ -17,11 +17,11 @@ Ramizah Tayiba. 10/07/2020
 <center><i> The Large Hadron Collider at the European Organization for Nuclear Research.
 <a href="https://science.sciencemag.org/content/361/6407/1054" target="_blank">(Science Magazine)</a></i></center>
 <br>
-<b>What is the Higgs Boson?</b>
+<b>What is the Higgs Boson?</b><br>
 Simply put, the Higgs boson is the most recent edition to the Standard Model of particle physics, and the field that produces it plays a big role in the properties of all matter in the universe. Its discovery played a big role in modern physics, as it helped people understand concepts ranging from misconceptions in the masses of certain particles to what the universe was like at its earliest stages.
 
 <b>History</b>
-In 2012, it was announced that the European Organization for Nuclear Research (CERN) had discovered a particle that was first theorized 48 years prior. This was a particularly elusive particle that was predicted to generate mass, which was significant because it could allude to a plethora of theoretical possibilities.
+<br>In 2012, it was announced that the European Organization for Nuclear Research (CERN) had discovered a particle that was first theorized 48 years prior. This was a particularly elusive particle that was predicted to generate mass, which was significant because it could allude to a plethora of theoretical possibilities.
 
 In 1964, physicist Peter Higgs suggested the concept of a particle that caused mass. Later that same year, physicists Robert Brout and François Englert also theorized a mechanism that could produce mass and went on to win the Nobel prize for this discovery. This mechanism was named the Higgs Mechanism for Peter Higgs’ contribution to the discovery. Dick Hagen, Gerald Guralnik and Tom Kibble, who are all renowned physicists and professors, also received credit for independently publishing a similar theory not long after Higgs published his.
 

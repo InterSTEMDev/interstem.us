@@ -5,7 +5,7 @@ date:   2020-09-07 13:00:01
 author: "Famesh Patel"
 image: clockCover.png
 description: The Doomsday clock was created in 1947 as a way to indicate our effect on the world. Scientists wanted to show how far we were to ultimate human extinction at the dawn of nuclear warfare and it has been updated ever since.
-time: 2 min
+time: 5 min
 
 ---
 <h2 style="font-family: Ergonomique Bold">The clock ticks</h2>

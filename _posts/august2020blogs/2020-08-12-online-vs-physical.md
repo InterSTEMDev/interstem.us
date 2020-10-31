@@ -5,7 +5,7 @@ date:   2020-08-12 13:00:01
 author: "Patrick Nguyen"
 image:  schools.jpg
 description: With the school year nearing, there is a divide between the choice of classroom learning vs. online learning. Let’s analyze the risks of each style and bring light to the ongoing debate.
-time: 2 min
+time: 3 min
 
 ---
 <h2 style="font-family: Ergonomique Bold">Online learning vs. Physical learning</h2>

@@ -5,7 +5,7 @@ date:   2020-09-07 13:00:01
 author: "Valeria Rivadeneyra"
 image: musicCover.jpg
 description: The human brain is designed to seek absolute harmony, and each of its neurons has a rhythm. This is evident in activities such as dance and music.
-time: 2 min
+time: 3 min
 
 ---
 <h2 style="font-family: Ergonomique Bold">The science of musicians and dancers</h2>
