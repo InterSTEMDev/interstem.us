@@ -10,7 +10,7 @@ time: 4 min
 
 ---
 <h2 style="font-family: Ergonomique Bold">Higgs boson giving mass</h2>
-Ramizah Tayiba. 10/07/2020
+Teddy Rosenthal. 10/18/2020
 <hr>
 <br>
 <img src="{{ site.baseurl }}/images/blogs/2020/october/higgsBosonOne.png" width="100%" style="display: block; margin: 0 auto"/>  
@@ -63,8 +63,8 @@ After almost 50 years of digging and experiments, a powerful factor in modern ph
 <hr>
 <img src="{{ site.baseurl }}/images/writingTeam/noProfile.jpg" width="170" style="float: left; margin-right: 30px; margin-bottom: 20px;"/>
 <div style="margin-bottom: 5%;">
-<span style="font-size: 30px; font-weight: 900;">Ramizah Tayiba</span>
-<br>
+<span style="font-size: 30px; font-weight: 900;">Teddy Rosenthal</span>
+<br>Teddy is a rising sophomore at Westlake High School who enjoys learning about math and science related topics. Through InterSTEM, Teddy's goal is to spread knowledge of the most interesting STEM topics in hopes to popularize science. He also enjoys music, wrestling, and hiking. 
 
 
 </div>
