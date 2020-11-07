@@ -36,7 +36,7 @@ Cover Photo: <a href="https://www.bbc.com/news/stories-52731624" target="_blank"
 <img src="{{ site.baseurl }}/images/writingTeam/noProfile.jpg" width="170" style="float: left; margin-right: 30px; margin-bottom: 20px;"/>
 <div style="margin-bottom: 5%;">
 <span style="font-size: 30px; font-weight: 900;">Carly Schinhofen
-</span>
+</span>Carly is a junior at Woodbridge High School. She is intrigued by biology and geology, and aspires to hold a career in science. Through her platform, she hopes to help others pursue their love for STEM. In her free time, she enjoys playing volleyball and trips to the beach.
 <br>
 
 </div>
