@@ -6,7 +6,7 @@
         document.getElementById("popupID").style.visibility = "visible";
         localStorage.setItem('visited', true);
         console.log('it worked');
-      }, 1000);
+      }, 5000);
     }
     if (visited) {
         document.getElementById("popupID").style.visibility = "hidden";

@@ -118,7 +118,7 @@ input[type="email"]:focus, input[type="password"]:focus, input[type="text"]:focu
   display: flex;
   align-items: center;
   justify-content: center;
-  background: rgba(0, 0, 0, .5)
+  background: rgba(0, 0, 0, .5);
 }
 .toolbarLB {
   text-align: right;
@@ -134,8 +134,8 @@ input[type="email"]:focus, input[type="password"]:focus, input[type="text"]:focu
   padding: 2px;
   width:  50%;
   height: 32%;
-  background: #2d627a;
-color: white;
+  background: var(--primary-color);
+  color: white;
   padding-top: 10px;
   padding-right: 10px;
   border-radius: 20px;
@@ -166,9 +166,9 @@ color: white;
   text-align: center;
   font-size: 20px;
 
-  color: white;
-  background: var(--primary-color);
-  border: 1px solid var(--primary-color);
+  color: var(--primary-color);
+  background: #ffffff;
+  border: 1px solid #ffffff;
   text-align: center;
   display: inline-flex;
   text-transform: uppercase;
