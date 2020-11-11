@@ -1,3 +1,6 @@
+---
+layout: none
+---
 <!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
@@ -5,25 +8,17 @@
 <!--[if gt IE 8]><!-->
 <html class="no-js"> <!--<![endif]-->
 <head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-C4NP4XRMJF"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-C4NP4XRMJF');
-</script>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  <meta name="description" content="InterSTEM">
+  <meta name="description" content="InterSTEM Media">
 
-  <meta name="author" content="Bian Lee">
-  <title>{{ page.title | default: site.title }}</title>
+  <meta name="author" content="Themefisher.com">
+
+  <title>InterSTEM</title>
 
   <!-- Mobile Specific Meta-->
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- Favicon -->
-  <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png" />
+  <link rel="shortcut icon" type="image/x-icon" href="{{ site.baseurl }}/img/favicon.png" />
   <!-- bootstrap.min css -->
   <link rel="stylesheet" href="{{ site.baseurl }}/plugins/bootstrap/bootstrap.min.css">
   <!-- Ionic Icon Css -->
@@ -35,95 +30,84 @@
   <!-- Owl Carousel CSS -->
   <link rel="stylesheet" href="{{ site.baseurl }}/plugins/slick/slick.css">
 
+  <link rel="stylesheet" href="{{ site.baseurl }}/css/navigate.css">
   <!-- Main Stylesheet -->
   <link rel="stylesheet" href="{{ site.baseurl }}/css/style.css">
-  <link rel="stylesheet" href="{{ site.baseurl }}/css/post.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/css/blogs.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
 </head>
 
-<body id="body" style="background-color: white;">
+<body id="body">
+{% include header.html %}
 
-<!-- Header Start -->
-<header class="navigation">
-	<div class="container">
+	<div class="container responsiveContainer">
 		<div class="row">
-			<div class="col-md-12">
-				<!-- header Nav Start -->
-				<nav class="navbar" style="margin-bottom: 6px;">
-					<div class="container-fluid">
-						<!-- Brand and toggle get grouped for better mobile display -->
-						<div class="navbar-header">
-							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-							<span class="sr-only">Toggle navigation</span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-							</button>
-							<a class="navbar-brand" href="/">
-								<img src="/images/logoTwo.png" alt="Logo" width="180">
-							</a>
-						</div>
-						<!-- Collect the nav links, forms, and other content for toggling -->
-						<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-							<ul class="nav navbar-nav navbar-right">
-								<li class="dropdown">
-									<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About <span class="ion-ios-arrow-down"></span></a>
-									<ul class="dropdown-menu">
-										<li><a href="/executive">Executive Board</a></li>
-										<li><a href="/chapters">Chapters</a></li>
-									</ul>
-								</li>
-								<li><a href="/blog">Blog</a></li>
-                <li><a href="/media">Media</a></li>
-								<li><a href="/tutoring">Tutoring</a></li>
-								<li><a href="/apply" class="gradient-btn">Apply</a></li>
-							</ul>
-							</div><!-- /.navbar-collapse -->
-							</div><!-- /.container-fluid -->
-						</nav>
-					</div>
-				</div>
-			</div>
-			</header><!-- header close -->
-
-
-
-
-
-
-<br>
+			<div class="col-md-8">
 <section>
-	<div class="container">
-		{{ content }}
+<br><br>
+
+  <div>
+  </div>
+
+	<br><br>
+  <center><iframe width="100%" height="494" src="https://www.youtube.com/embed/o6wG99eIzMU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </center>
+
+
+  </section>
+</div>
+      		<div class="col-md-4">
+            <aside class="sidebar">
+      <!-- Widget Latest Posts -->
+      <br/><br/><br/>
+      <div class="widget widget-latest-post">
+        <br>
+        <iframe src="https://open.spotify.com/embed-podcast/episode/705gRzWhkQ4hrox1OK8Awf" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+        <br><br>
+        <iframe src="https://open.spotify.com/embed-podcast/episode/0NchE46IvPWNQWk8jGjcgy" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+
+
+      </div>
+
+    	<!-- End Latest Posts -->
+
+    </aside>
+      		</div>
+		</div>
 	</div>
-</section>
 
-<section>
-  <div class="container">
-    <hr>
-<div id="disqus_thread"></div>
-<script>
 
-/**
-*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
-/*
-var disqus_config = function () {
-this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
-this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-};
-*/
-(function() { // DON'T EDIT BELOW THIS LINE
-var d = document, s = d.createElement('script');
-s.src = 'https://interstem.disqus.com/embed.js';
-s.setAttribute('data-timestamp', +new Date());
-(d.head || d.body).appendChild(s);
-})();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-</container>
-</section>
-<br>
+{% if paginator.total_pages > 1 %}
+<div class="text-center">
+  <ul class="post-pagination">
+  {% if paginator.previous_page %}
+    <li class="next"><a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">Prev</a></li>
+
+  {% endif %}
+
+  {% for page in (1..paginator.total_pages) %}
+    {% if page == paginator.page %}
+      <li class="active"><a>{{ page }}</a></li>
+    {% elsif page == 1 %}
+      <li><a href="/blog">{{ page }}</a></li>
+    {% else %}
+      <li><a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a></li>
+    {% endif %}
+  {% endfor %}
+
+  {% if paginator.next_page %}
+    <li class="next"><a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next</a></li>
+  {% else %}
+    <span>Next &raquo;</span>
+  {% endif %}
+  </ul>
+</div>
+{% endif %}
+
+
+
+<!-- footer Start -->
 <footer class="footer" style="background-color: black;">
 	<div class="container">
 		<div class="row">
@@ -148,9 +132,6 @@ s.setAttribute('data-timestamp', +new Date());
 		</div>
 	</div>
 </footer>
-
-
-
 
     <!--
     Essential Scripts
