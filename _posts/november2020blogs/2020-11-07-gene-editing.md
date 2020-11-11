@@ -7,7 +7,7 @@ image: geneEditingCover.png
 description: Gene editing through CRISPR and other methods will enable humans to control their own evolution. How does this novel technology work?
 time: 7 min
 ---
-<h2 style="font-family: Ergonomique Bold">Creation of a New Arctic</h2>
+<h2 style="font-family: Ergonomique Bold">Gene editing and the future of human evolution</h2>
 Simone Rothaupt. 11/07/2020
 <hr>
 
