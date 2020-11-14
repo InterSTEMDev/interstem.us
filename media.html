@@ -39,99 +39,139 @@ layout: none
 </head>
 
 <body id="body">
-{% include header.html %}
-
-	<div class="container responsiveContainer">
-		<div class="row">
-			<div class="col-md-8">
-<section>
-<br><br>
-
-  <div>
-  </div>
-
-	<br><br>
-  <center><iframe width="100%" height="494" src="https://www.youtube.com/embed/o6wG99eIzMU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </center>
-
-
-  </section>
-</div>
-      		<div class="col-md-4">
-            <aside class="sidebar">
-      <!-- Widget Latest Posts -->
-      <br/><br/><br/>
-      <div class="widget widget-latest-post">
-        <br>
-        <iframe src="https://open.spotify.com/embed-podcast/episode/705gRzWhkQ4hrox1OK8Awf" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-        <br><br>
-        <iframe src="https://open.spotify.com/embed-podcast/episode/0NchE46IvPWNQWk8jGjcgy" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-
-
+   {% include header.html %}
+   <section class="about section" style="margin-bottom: -50px;">
+      <div class="container">
+         <div class="row">
+            <div class="col-md-7">
+               <h1 class="font-title" style="text-align: left;">InterSTEM Lectures</h1>
+               <div class="block">
+                  <p>Watch our guest speaker series on YouTube, featuring professionals working in STEM fields! Dr. Heiko Hoffman discussed the elements of robotics in our first lecture.</p>
+                  <p>Stay tuned for  Dr. Francis Bonahon's upcoming talk on curvature and its applications to mountain passes, soap films, and the Internet.</p>
+                  <br>
+                  <a href="https://www.youtube.com/watch?v=o6wG99eIzMU&list=PLbtOHWDEJM5qM5uOjxB_rs2CMtKPJkr3A" target="_blank" class="btn gradient-btn-filled" style="margin-bottom: 20px;">Lectures Playlist</a>
+                  <a href="https://www.youtube.com/channel/UCEe2XiVONWjo0W3exJQz0bg" target="_blank" class="btn gradient-btn__outlined" style="margin-bottom: 20px;  color: #589F7C;"><i class="fab fa-youtube" style="font-size: 18px;"></i>&nbspYouTube</a>
+               </div>
+               <br/>
+            </div>
+            <div class="col-md-5">
+               <div class="block">
+                  <img src="images/guestTalk.png" alt="Img" >
+               </div>
+            </div>
+         </div>
       </div>
-
-    	<!-- End Latest Posts -->
-
-    </aside>
-      		</div>
-		</div>
-	</div>
+   </section>
 
 
-{% if paginator.total_pages > 1 %}
-<div class="text-center">
-  <ul class="post-pagination">
-  {% if paginator.previous_page %}
-    <li class="next"><a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">Prev</a></li>
+   <section class="about section" style="margin-bottom: -50px; padding: 0;">
+      <div class="container">
+         <div class="row">
+           <div class="col-md-7">
+              <h1 class="font-title" style="text-align: left;">InterSTEM Talks</h1>
+              <div class="block">
+                 <p>Listen to our podcast, where InterSTEM Chapter Board members discuss passions, finding extracurricular opportunities, and student research. Now streaming on most major platforms.</p>
+                 <br>
+                 <a href="https://open.spotify.com/show/2gIXhZA2OjXT3HVchKFudm" target="_blank" class="btn gradient-btn-filled" style="margin-bottom: 20px;"><i class="fab fa-spotify" style="font-size: 18px;"></i>&nbsp&nbspSpotify</a>
+                 <a href="https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy8zOGM1NjE1MC9wb2RjYXN0L3Jzcw==" target="_blank" class="btn gradient-btn__outlined" style="margin-bottom: 20px;  color: #589F7C;"><i class="fab fa-google" style="font-size: 18px;"></i>&nbsp&nbsp&nbspGoogle</a>
+                 <a href="https://anchor.fm/interstem/episodes/InterSTEM-Talks-Episode-1-Exploring-Your-Passions-in-High-School-el7k05" target="_blank" class="btn gradient-btn__outlined" style="margin-bottom: 20px;  color: #589F7C;">Anchor.fm</a>
+              </div>
+              <br/>
+           </div>
+            <div class="col-md-12">
+               <div class="block">
+                 <aside class="sidebar">
+                    <!-- Widget Latest Posts -->
+                    <div class="widget widget-latest-post">
+                       <br>
+                       <div class="row podcast-card">
+                         <div class="col-md-8">
+                           <iframe src="https://open.spotify.com/embed-podcast/episode/705gRzWhkQ4hrox1OK8Awf" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                         </div>
+                         <div class="col-md-4 col-sm-12">
+                            <div class="blurb-card">
+                               <div class="card-body">
+                                  <div class="row">
+                                     <p>InterSTEM discusses getting an internship/research position, preparing for the position, including resume and interview prep, making the most of research opportunities, and more.<br><br></p>
+                                  </div>
+                               </div>
+                            </div>
+                         </div>
+                       </div>
+                       <div class="row podcast-card">
+                         <div class="col-md-8">
+                           <iframe src="https://open.spotify.com/embed-podcast/episode/0NchE46IvPWNQWk8jGjcgy" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                         </div>
+                         <div class="col-md-4 col-sm-12">
+                            <div class="blurb-card">
+                               <div class="card-body">
+                                  <div class="row">
+                                     <p>Listen to our team define a passion, talk about experiences in high school, and give tips for finding extracurricular activities.<br><br></p>
+                                  </div>
+                               </div>
+                            </div>
+                         </div>
+                       </div>
+                       <br><br>
+                    </div>
+                    <!-- End Latest Posts -->
+                 </aside>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
 
-  {% endif %}
-
-  {% for page in (1..paginator.total_pages) %}
-    {% if page == paginator.page %}
-      <li class="active"><a>{{ page }}</a></li>
-    {% elsif page == 1 %}
-      <li><a href="/blog">{{ page }}</a></li>
-    {% else %}
-      <li><a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a></li>
-    {% endif %}
-  {% endfor %}
-
-  {% if paginator.next_page %}
-    <li class="next"><a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next</a></li>
-  {% else %}
-    <span>Next &raquo;</span>
-  {% endif %}
-  </ul>
-</div>
-{% endif %}
-
-
-
-<!-- footer Start -->
-<footer class="footer" style="background-color: black;">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-12">
-				<div class="footer-manu" >
-					<ul>
-            <li><a href="https://discord.com/invite/Y9KSFVZ" target="_blank" class="sm-link" style="font-size: 25px;"><i class="fab fa-discord"></i></a>
-            <li><a href="https://www.instagram.com/inter.stem/" target="_blank" class="sm-link" style="font-size: 25px;"><i class="fab fa-instagram"></i></a>
-            <li><a href="https://www.linkedin.com/company/interstem-nonprofit/" target="_blank" class="sm-link" style="font-size: 25px;"><i class="fab fa-linkedin"></i></a>
-            <li><a href="https://github.com/InterSTEMDev" target="_blank" class="sm-link" style="font-size: 25px;"><i class="fab fa-github"></i></a>
-            <li><a href="https://open.spotify.com/show/2gIXhZA2OjXT3HVchKFudm" target="_blank" class="sm-link" style="font-size: 25px;"><i class="fab fa-spotify"></i></a>
-					</ul>
-				</div>
-        <p class="copyright"><b>interstemplatform@gmail.com</b><a>
-        <br><p class="copyright"><b>interstemtutoring@gmail.com</b><a>
-        <br><p class="copyright"><b>interstemwriting@gmail.com</b><a>
-				<br><br><p class="copyright"> Developed by InterSTEM Tech Team</a>.
-					<br>
-
-				</p>
-			</div>
-		</div>
-	</div>
-</footer>
+   {% if paginator.total_pages > 1 %}
+   <div class="text-center">
+      <ul class="post-pagination">
+         {% if paginator.previous_page %}
+         <li class="next"><a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">Prev</a></li>
+         {% endif %}
+         {% for page in (1..paginator.total_pages) %}
+         {% if page == paginator.page %}
+         <li class="active"><a>{{ page }}</a></li>
+         {% elsif page == 1 %}
+         <li><a href="/blog">{{ page }}</a></li>
+         {% else %}
+         <li><a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a></li>
+         {% endif %}
+         {% endfor %}
+         {% if paginator.next_page %}
+         <li class="next"><a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next</a></li>
+         {% else %}
+         <span>Next &raquo;</span>
+         {% endif %}
+      </ul>
+   </div>
+   {% endif %}
+   <!-- footer Start -->
+   <footer class="footer" style="background-color: black;">
+      <div class="container">
+         <div class="row">
+            <div class="col-md-12">
+               <div class="footer-manu" >
+                  <ul>
+                     <li><a href="https://discord.com/invite/Y9KSFVZ" target="_blank" class="sm-link" style="font-size: 25px;"><i class="fab fa-discord"></i></a>
+                     <li><a href="https://www.instagram.com/inter.stem/" target="_blank" class="sm-link" style="font-size: 25px;"><i class="fab fa-instagram"></i></a>
+                     <li><a href="https://www.linkedin.com/company/interstem-nonprofit/" target="_blank" class="sm-link" style="font-size: 25px;"><i class="fab fa-linkedin"></i></a>
+                     <li><a href="https://github.com/InterSTEMDev" target="_blank" class="sm-link" style="font-size: 25px;"><i class="fab fa-github"></i></a>
+                     <li><a href="https://open.spotify.com/show/2gIXhZA2OjXT3HVchKFudm" target="_blank" class="sm-link" style="font-size: 25px;"><i class="fab fa-spotify"></i></a>
+                  </ul>
+               </div>
+               <p class="copyright">
+                  <b>interstemplatform@gmail.com</b>
+                  <a>
+                     <br>
+               <p class="copyright"><b>interstemtutoring@gmail.com</b><a>
+               <br><p class="copyright"><b>interstemwriting@gmail.com</b><a>
+               <br><br><p class="copyright"> Developed by InterSTEM Tech Team</a>.
+               <br>
+               </p>
+            </div>
+         </div>
+      </div>
+   </footer>
 
     <!--
     Essential Scripts
