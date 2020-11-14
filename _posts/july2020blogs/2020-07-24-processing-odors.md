@@ -37,4 +37,4 @@ Cover Photo: (Discover Magazine)
 <img src="{{ site.baseurl }}/images/writingTeam/noProfile.jpg" width="170" style="float: left; margin-right: 30px; margin-bottom: 20px;"/>
 <div style="margin-bottom: 5%;">
 <span style="font-size: 30px; font-weight: 900;">André Lombardi</span>
-<br>Andre is a rising sophomore at Beckman High School, Irvine, California. He dedicates the vast majority of his time towards music, the sciences, and helping the community with his strengths. Working with InterSTEM, Andre aspires to introduce and foster STEM learning for anyone who desires to pursue their passions. Separate from InterSTEM, Andre enjoys playing the organ and piano and developing his non-profit organization, Kreative Kiddos.
+<br>Andre is a sophomore at Beckman High School, Irvine, California. He dedicates the vast majority of his time towards music, the sciences, and helping the community with his strengths. Working with InterSTEM, Andre aspires to introduce and foster STEM learning for anyone who desires to pursue their passions. Separate from InterSTEM, Andre enjoys playing the organ and piano and developing his non-profit organization, Kreative Kiddos.

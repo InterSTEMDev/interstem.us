@@ -3,7 +3,7 @@ layout: post
 title:  "Why do cats sleep so much?"
 date:   2020-09-26 13:00:01
 author: "Ari Rednour"
-image: catCover.jpg
+image: catOne.jpg
 description: Cats, whether in the great outdoors or a house cat in the city, are known for their ability to sleep for hours on end. Let’s explore the science behind why cats sleep for so long. Could it be genetics? Natural instincts? Or are cats just true creatures of laziness?
 time: 3 min
 
@@ -28,12 +28,14 @@ In addition to their own set sleep patterns, cats also have the natural ability 
 
 While cats may be animals of unconventional sleeping habits, they demonstrate many similarities to humans, but simply in larger quantities. Their natural instincts of hunting remain a part of a house cat’s chemistry, even with their evolution through time. Their larger relatives, such as lions and tigers, share these traits of sleeping as well. But of course, they are in their natural habitats on defense and survival mode. Domestic cats may not need to worry about what may be outside of their house life, but their natural instincts remain ingrained in their blood to continue on for generations to come.
 
+Cover Photo: <a href="https://fineartamerica.com/featured/sleeping-leopard-gordon-donovan.html" target="_blank">(Gordon Donovan)</a>
+
 
 <hr>
 <img src="{{ site.baseurl }}/images/writingTeam/Ari_Rednour.jpg" width="170" style="float: left; margin-right: 30px; margin-bottom: 20px;"/>
 <div style="margin-bottom: 5%;">
 <span style="font-size: 30px; font-weight: 900;">Ari Rednour</span>
-<br>Ari is a rising junior at Sage Hill School who has a passion for STEM and a curiosity for learning how the world works. As a chapter member, editor, and writer, she hopes to inspire young students to find their passions and interests in STEM and beyond. Outside of InterSTEM, Ari runs cross country and track and field, and enjoys soccer, listening to music, and drawing in her free time.
+<br>Ari is a junior at Sage Hill School who has a passion for STEM and a curiosity for learning how the world works. As a chapter member, editor, and writer, she hopes to inspire young students to find their passions and interests in STEM and beyond. Outside of InterSTEM, Ari runs cross country and track and field, and enjoys soccer, listening to music, and drawing in her free time.
 
 
 </div>

@@ -40,7 +40,7 @@ If you or someone you know has synesthesia, be glad that you are part of the luc
 <img src="{{ site.baseurl }}/images/writingTeam/noProfile.jpg" width="170" style="float: left; margin-right: 30px; margin-bottom: 20px;"/>
 <div style="margin-bottom: 5%;">
 <span style="font-size: 30px; font-weight: 900;">Famseh Patel</span>
-<br>Famesh is a rising senior at BASIS Peoria High School who enjoys all parts of science. Explaining the world around us with science has always seemed interesting to him from metamorphosis to the Higgs Boson. He hopes to help bring more youth to STEM fields so they can understand the natural world around us and appreciate the world for its uniqueness.
+<br>Famesh is a senior at BASIS Peoria High School who enjoys all parts of science. Explaining the world around us with science has always seemed interesting to him from metamorphosis to the Higgs Boson. He hopes to help bring more youth to STEM fields so they can understand the natural world around us and appreciate the world for its uniqueness.
 
 
 </div>

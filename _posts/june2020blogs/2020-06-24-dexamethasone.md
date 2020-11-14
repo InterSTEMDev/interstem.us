@@ -40,7 +40,7 @@ Currently, there is no vaccine against coronavirus and remdesivir is the only an
 <img src="{{ site.baseurl }}/images/executive/annabeltiong.jpg" width="170" style="float: left; margin-right: 30px; margin-bottom: 20px;"/>
 <div style="margin-bottom: 5%;">
 <span style="font-size: 30px; font-weight: 900;">Annabel Tiong</span>
-<br>Annabel is a rising sophomore at Northwood High School eager to find opportunities to immerse herself in the community and further explore fields of interest such as biology or environmental science. By serving on the board of InterSTEM, she hopes to spread her passion for writing and politics by inspiring other students with similar passions. In her free time, she likes to admire correct usage of Oxford commas, Studio Ghibli films, and birds.
+<br>Annabel is a sophomore at Northwood High School eager to find opportunities to immerse herself in the community and further explore fields of interest such as biology or environmental science. By serving on the board of InterSTEM, she hopes to spread her passion for writing and politics by inspiring other students with similar passions. In her free time, she likes to admire correct usage of Oxford commas, Studio Ghibli films, and birds.
 
 
 </div>

@@ -5,7 +5,7 @@ date:   2020-11-07 00:00:03
 author: "Ana Monsalud"
 image: fermiParadoxCover.png
 description: In 1950, during a lunch conversation with three other physicists, American physicist Enrico Fermi exclaimed, “Where is everybody?” Seventy years later, scientists are still trying to explain the lack of any evidence for extraterrestrial life despite all theories pointing towards the existence of aliens.
-time: 7 min
+time: 3 min
 ---
 <h2 style="font-family: Ergonomique Bold">The Fermi paradox: Possibilities of extraterrestrial life</h2>
 Ana Monsalud. 11/07/2020
@@ -35,5 +35,5 @@ Each new decade brings more and more uncertainty about the possibility of life o
 <img src="{{ site.baseurl }}/images/writingTeam/noProfile.jpg" width="170" style="float: left; margin-right: 30px; margin-bottom: 20px;"/>
 <div style="margin-bottom: 5%;">
 <span style="font-size: 30px; font-weight: 900;">Ana Monsalud</span>
-<br>
+<br>Ana is a junior from Cambridge Virtual Academy who is a huge nerd for pretty much everything related to math and science. Through InterSTEM, she hopes to inspire others with her same love for learning and curiosity about the world. In the future, she hopes to pursue a career in healthcare and contribute to change in her community.
 </div>

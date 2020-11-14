@@ -43,7 +43,7 @@ Cover Photo: (Hospital & Healthcare Management)
 <img src="{{ site.baseurl }}/images/writingTeam/noProfile.jpg" width="170" style="float: left; margin-right: 30px; margin-bottom: 20px;"/>
 <div style="margin-bottom: 5%;">
 <span style="font-size: 30px; font-weight: 900;">Patrick Nguyen</span>
-<br>Patrick is a rising junior at Sage Hill School who enjoys studying cosmetic science and playing tennis. Through InterSTEM, Patrick aspires to help underrepresented communities have access to STEM education and stimulate their curiosity for science.
+<br>Patrick is a junior at Sage Hill School who enjoys studying cosmetic science and playing tennis. Through InterSTEM, Patrick aspires to help underrepresented communities have access to STEM education and stimulate their curiosity for science.
 
 
 </div>

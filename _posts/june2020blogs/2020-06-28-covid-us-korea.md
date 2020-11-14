@@ -65,7 +65,7 @@ Perhaps it is time for the United States to look outwards, and learn from the su
 <img src="{{ site.baseurl }}/images/executive/ryanliu.JPG" width="170" style="float: left; margin-right: 30px; margin-bottom: 20px;"/>
 <div style="margin-bottom: 5%;">
 <span style="font-size: 30px; font-weight: 900;">Ryan Liu</span>
-<br>Ryan is a rising junior at Northwood High School. Through InterSTEM, he hopes to spread his passion for STEM to less fortunate communities and create a platform where similarly-minded students can interact across the world. Ryan is most interested in mathematics and physics, and serves on the board of many school science clubs. Outside of STEM, he enjoys playing the piano, debating politics, and reading philosophy.
+<br>Ryan is a junior at Northwood High School. Through InterSTEM, he hopes to spread his passion for STEM to less fortunate communities and create a platform where similarly-minded students can interact across the world. Ryan is most interested in mathematics and physics, and serves on the board of many school science clubs. Outside of STEM, he enjoys playing the piano, debating politics, and reading philosophy.
 </div>
 
 <hr>

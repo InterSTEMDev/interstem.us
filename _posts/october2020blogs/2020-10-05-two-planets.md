@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Venus and Uranus: Two Planets with Distinct Orbital Characteristics"
+title:  " Venus and Uranus: Two planets with distinct orbital characteristics"
 date:   2020-10-05 13:00:02
 author: "Eric Bebenov"
 image: twoPlanetsCover.png
@@ -8,13 +8,13 @@ description: Unlike other planets in the Solar System, Venus and Uranus experien
 time: 3 min
 
 ---
-<h2 style="font-family: Ergonomique Bold">Venus and Uranus: Two Planets with Distinct Orbital Characteristics</h2>
+<h2 style="font-family: Ergonomique Bold"> Venus and Uranus: Two planets with distinct orbital characteristics</h2>
 Eric Bebenov. 10/05/2020
 <hr>
 
 <br>
 <img src="{{ site.baseurl }}/images/blogs/2020/october/twoPlanetsOne.png" width="50%" style="display: block; margin: 0 auto"/>  
-<center><i>Planets Venus and Uranus spin distinctly compared to other planets in the Solar System. <a href="https://elements.envato.com/the-planet-venus-is-spinning-in-space-DQXBGAU" target="_blank">(elements.envato)</a></i></center>
+<center><i>Planets Venus and Uranus spin distinctly compared to other planets in the Solar System. <a href="https://elements.envato.com/the-planet-venus-is-spinning-in-space-DQXBGAU" target="_blank">(Envato Elements)</a></i></center>
 <br>
 Our Solar System has many interesting phenomena that require a wide range of scientific research. An interesting discovery features our neighbouring planet Venus and how it spins in the opposite direction compared to other planets. This unusual rotation that causes Venus to spin westward and clockwise has prompted much debate about the scientific reasoning behind it.
 
@@ -32,7 +32,7 @@ Cover Photo: (Awarenergy)
 <img src="{{ site.baseurl }}/images/writingTeam/noProfile.jpg" width="170" style="float: left; margin-right: 30px; margin-bottom: 20px;"/>
 <div style="margin-bottom: 5%;">
 <span style="font-size: 30px; font-weight: 900;">Eric Bebenov</span>
-<br>
+<br>Eric Bebenov is a senior at Bolingbrook High School and immensely enjoys the areas of natural science. He especially finds it fulfilling making STEM equitable to underrepresented areas and exploring what the STEM world has to offer.
 
 
 </div>

@@ -35,7 +35,7 @@ Cover Photo: <a href="https://www.popsci.com/improve-posture/" target="_blank">(
 <img src="{{ site.baseurl }}/images/writingTeam/Angela_Zhang.jpeg" width="170" style="float: left; margin-right: 30px; margin-bottom: 20px;"/>
 <div style="margin-bottom: 5%;">
 <span style="font-size: 30px; font-weight: 900;">Angela Zhang </span>
-<br>Angela Zhang is a rising junior at Beckman High School. She is an aspiring storyteller who hopes to make a profound impression on her audience with her writing. She is also a passionate cactus enthusiast and has a soft spot for cheesy puns.
+<br>Angela Zhang is a junior at Beckman High School. She is an aspiring storyteller who hopes to make a profound impression on her audience with her writing. She is also a passionate cactus enthusiast and has a soft spot for cheesy puns.
 
 
 

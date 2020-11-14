@@ -31,6 +31,6 @@ Cover Photo: (NASA, ESA, and E. Wheatley)
 <div style="margin-bottom: 5%;">
 <span style="font-size: 30px; font-weight: 900;">Mehri Sadri
 </span>
-<br>Mehri is a rising senior at Scripps Ranch High School in San Diego, California. Although she has always been more inclined in humanities subjects, Mehri has found a love for combining science and art and their practicalities, and hopes to spread this same love to others with her articles.
+<br>Mehri is a senior at Scripps Ranch High School in San Diego, California. Although she has always been more inclined in humanities subjects, Mehri has found a love for combining science and art and their practicalities, and hopes to spread this same love to others with her articles.
 
 </div>

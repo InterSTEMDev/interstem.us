@@ -41,7 +41,7 @@ The weak nuclear force is very important to our understanding of the universe. T
 <img src="{{ site.baseurl }}/images/writingTeam/noProfile.jpg" width="170" style="float: left; margin-right: 30px; margin-bottom: 20px;"/>
 <div style="margin-bottom: 5%;">
 <span style="font-size: 30px; font-weight: 900;">Benjamin Tang </span>
-<br>Ben is a rising sophomore at Westlake High School in California. Through WiCode, he aims to cultivate an interest in STEM among youth. He works to share his love of computer science and programming to the community. He also enjoys participating in different academic competitions in math and computer science. Outside of STEM, he is an avid oboist and swimmer.
+<br>Ben is a sophomore at Westlake High School in California. Through WiCode, he aims to cultivate an interest in STEM among youth. He works to share his love of computer science and programming to the community. He also enjoys participating in different academic competitions in math and computer science. Outside of STEM, he is an avid oboist and swimmer.
 <br><br><br>
 <hr>
 <img src="{{ site.baseurl }}/images/writingTeam/noProfile.jpg" width="170" style="float: left; margin-right: 30px; margin-bottom: 20px;"/>

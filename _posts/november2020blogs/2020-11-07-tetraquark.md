@@ -5,7 +5,7 @@ date:   2020-11-07 00:00:01
 author: "Ayush Kumar"
 image: tetraquarkCover.png
 description: Are you interested in particle physics? Do you want to uncover the underlying mysteries of matter and would you like to learn about a great discovery on quarks? Scientists have observed something unusual in the association of quarks to form matter, and here’s a chance to learn something fascinating!
-time: 7 min
+time: 3 min
 ---
 <h2 style="font-family: Ergonomique Bold">The discovery of a new Tetraquark in a nutshell</h2>
 Ayush Kumar. 11/07/2020

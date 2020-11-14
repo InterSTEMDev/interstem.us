@@ -45,7 +45,7 @@ Cover Photo: (Silver Wolf / Emaze)
 <img src="{{ site.baseurl }}/images/writingTeam/Vrutti_Patel.jpg" width="170" style="float: left; margin-right: 30px; margin-bottom: 20px;"/>
 <div style="margin-bottom: 5%;">
 <span style="font-size: 30px; font-weight: 900;">Vrutti Patel</span>
-<br>Vrutti is a rising senior at South Plantation High School who is a medical enthusiast and aspires to a career in medicine. She is also an avid writer and through InterSTEM, Vrutti aims to enhance her knowledge and aid others in finding their STEM-related passion.
+<br>Vrutti is a senior at South Plantation High School who is a medical enthusiast and aspires to a career in medicine. She is also an avid writer and through InterSTEM, Vrutti aims to enhance her knowledge and aid others in finding their STEM-related passion.
 
 
 </div>
