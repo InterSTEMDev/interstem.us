@@ -13,6 +13,18 @@ p {
   font-size: 17px;
   margin-top: 1em;
   margin-bottom: 1em;
+  font-family: 'Giga Sans Light' !important
+}
+i {
+  font-family: 'Giga Sans Light' 
+}
+
+div {
+  font-family: 'Giga Sans Light' !important
+}
+
+footer {
+  font-family: 'Giga Sans Light' !important
 }
 
 #disqus_thread {
