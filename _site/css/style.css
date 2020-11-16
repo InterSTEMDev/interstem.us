@@ -21,13 +21,13 @@
 @import url(http://fonts.googleapis.com/css?family=Volkhov:400italic);
 body {
   line-height: 1.5;
-  font-family: arial, sans-serif;
+  font-family: 'Giga Sans Light', sans-serif;
   -webkit-font-smoothing: antialiased;
   background: var(--color-bg)
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: arial, sans-serif;
+  font-family: 'Giga Sans Light', sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -53,7 +53,7 @@ h4 {
 p {
   color: #7B7B7B;
   font-size: 15px;
-    font-family: arial;
+  font-family: 'Giga Sans Light';
 }
 
 ol, ul {
@@ -436,7 +436,7 @@ input[type="email"]:focus, input[type="password"]:focus, input[type="text"]:focu
 .section-title p {
   font-style: italic;
   color: #666;
-  font-family: arial;
+  font-family: 'Giga Sans Light';
 }
 
 .section-subtitle {
@@ -2892,7 +2892,7 @@ header .navbar-default .navbar-nav li a {
   text-align: center;
   padding-top: 48px;
   padding-bottom: 55px;
-    font-family:arial;
+  font-family: 'Giga Sans Light';
 }
 
 .footer p {
