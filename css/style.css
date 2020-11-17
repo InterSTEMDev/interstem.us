@@ -15,19 +15,24 @@
   src: url("../../fonts/two.woff") format("truetype");
 }
 
+@font-face {
+  font-family:"Muli Light";
+  src: url("../../fonts/Muli-Light.ttf") format("truetype");
+}
+
 /*=== MEDIA QUERY ===*/
 @import url(http://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700);
 @import url(https://fonts.googleapis.com/css?family=Oswald:300,400,500,600);
 @import url(http://fonts.googleapis.com/css?family=Volkhov:400italic);
 body {
   line-height: 1.5;
-  font-family: 'Giga Sans Light', sans-serif;
+font-family: 'Muli Light', sans-serif;
   -webkit-font-smoothing: antialiased;
   background: var(--color-bg)
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Giga Sans Light', sans-serif;
+  font-family: 'Muli Light', sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -53,7 +58,7 @@ h4 {
 p {
   color: #7B7B7B;
   font-size: 15px;
-  font-family: 'Giga Sans Light';
+font-family: 'Muli Light', sans-serif;
 }
 
 ol, ul {
@@ -436,7 +441,7 @@ input[type="email"]:focus, input[type="password"]:focus, input[type="text"]:focu
 .section-title p {
   font-style: italic;
   color: #666;
-  font-family: 'Giga Sans Light';
+font-family: 'Muli Light', sans-serif;
 }
 
 .section-subtitle {
@@ -583,7 +588,7 @@ input[type="email"]:focus, input[type="password"]:focus, input[type="text"]:focu
 
 .commonSelect:before {
   content: '\f3d0';
-  font-family: 'Giga Sans Light';
+  font-family: 'Muli Light', sans-serif;
   position: absolute;
   right: -4px;
   top: 4px;
@@ -662,7 +667,7 @@ input[type="email"]:focus, input[type="password"]:focus, input[type="text"]:focu
   content: "\f209";
   position: absolute;
   right: 25px;
-    font-family: 'Giga Sans Light';
+  font-family: 'Muli Light', sans-serif;
 }
 
 .commonAccordion .panel .panel-title a.collapsed:before, .commonAccordion-2 .panel .panel-title a.collapsed:before {
@@ -868,7 +873,7 @@ header .navbar-default .navbar-nav li a {
   font-weight: 800;
   font-size: 14px;
   text-transform: uppercase;
-    font-family: 'Giga Sans Light';
+  font-family: 'Giga Sans Light', sans-serif;
       color: white;
 }
 
@@ -884,7 +889,7 @@ header .navbar-default .navbar-nav li a {
   border: none;
   left: -5px;
   box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.08);
-  font-family:"Giga Sans Light";
+  font-family: 'Muli Light', sans-serif;
 }
 
 .navigation .navbar .dropdown-menu a {
@@ -1268,7 +1273,7 @@ header .navbar-default .navbar-nav li a {
 }
 
 .testimonial .testimonial-carousel p {
-  font-family: 'Giga Sans Light';
+  font-family: 'Muli Light', sans-serif;
   line-height: 28px;
   padding-bottom: 20px;
 }
