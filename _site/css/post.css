@@ -16,7 +16,7 @@ p {
   font-family: 'Giga Sans Light' !important
 }
 i {
-  font-family: 'Giga Sans Light' 
+  font-family: 'Giga Sans Light'
 }
 
 div {
@@ -33,7 +33,7 @@ footer {
 #disqus_thread:after {
      content: "";
      display: block;
-     height: 55px;
+     height: 45px;
      width: 100%;
      position: absolute;
      bottom: 0;

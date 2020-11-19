@@ -241,6 +241,10 @@ input[type="email"]:focus, input[type="password"]:focus, input[type="text"]:focu
   margin: 2rem;
 }
 
+.podcast-card iframe{
+  background-color: var(--primary-color) !important;
+}
+
 .blurb-card {
   padding: 2.5rem 5rem;
   margin: 0 auto;
@@ -2899,7 +2903,7 @@ header .navbar-default .navbar-nav li a {
 }
 
 .footer p {
-  font-size: 20px;
+  font-size: 12px;
   line-height: 25px;
   color: white;
   font-family: 'Giga Sans Light'
