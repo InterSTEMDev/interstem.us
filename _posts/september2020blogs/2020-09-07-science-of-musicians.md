@@ -20,7 +20,7 @@ The human brain is designed to seek absolute harmony, and each of its neurons ha
 
 Dancers have wider connections between the sensory and motor regions of the brain and more connection between the two hemispheres of the brain. Musicians, on the other hand, concrete connections were strengthened in musicians.
 
-According to the <a href="https://www.sciencedirect.com/science/article/abs/pii/S105381191630088X" target="_blank">results</a> of a study conducted with professionals in music and dance in Canada, musical and dance training strengthen the connections in the brain, but in different ways. Dancing is responsible for strengthening the connections in a general way between different areas of the brain. On the other hand, music strengthens certain areas in particular.
+According to the <a href="https://www.sciencedirect.com/science/article/abs/pii/S105381191630088X" target="_blank">results of a study</a> conducted with professionals in music and dance in Canada, musical and dance training strengthen the connections in the brain, but in different ways. Dancing is responsible for strengthening the connections in a general way between different areas of the brain. On the other hand, music strengthens certain areas in particular.
 
 Long afternoons practicing scales on the piano or even aching muscles after spending extensive hours at the ballet bar. All that time spent may seem exhausting, but research confirms what many people and parents, in particular, already believed: this type of activity is good for the mind and body.
 

@@ -13,13 +13,13 @@ Famesh Patel. 7/24/2020
 <hr>
 
 <img src="{{ site.baseurl }}/images/blogs/2020/july/synesthesiaTwo.png" width="60%" style="display: block; margin: 0 auto"/>  
-<center><i>(Evolving Science)</i></center>
+<center><i><a href="https://www.evolving-science.com/information-communication/synesthesia-smell-musical-notes-00688" target="_blank">(Evolving Science)</a></i></center>
 <br>
 Close your eyes, and imagine a world where you can smell colors, see music, or taste words. Where musical notes create a swirl of colors or reading one’s name causes different tastes. Now open them again. You have just entered the world of synesthesia.
 
 As defined by <a href="https://www.psychologytoday.com/us/basics/synesthesia" target="_blank">Psychology Today</a>, synesthesia is a neurological condition in which stimulation of one sensory or cognitive pathway (for example, hearing) leads to automatic, involuntary experiences in a second sensory or cognitive pathway, such as vision. In other words, the triggering of one sense can trigger another unrelated sense as well. Synesthesia is the Greek word for “joined perception,” and it can involve mixing any of our senses, creating sixty to eighty subtypes of synesthesia. A synesthete is a person who is affected by this disorder. However, it is more common for the condition to help rather than hurt the “victim.”
 
-According to <a href="https://www.sciencedaily.com/releases/2020/07/200702144119.htm" target="_blank'>SciShow</a>, researchers at Baylor University have discovered a region on chromosome 16 that causes the most common form of synesthesia, known as “colored sequence synesthesia.” This particular synesthesia occurs when non-visual senses trigger a person to see colors. For example, hearing the world jail can cause a person to see the color gray, or the name Derek can be seen as purple. This helps the patients associate color with certain names or scents and helps increase memory for certain objects.
+According to <a href="https://www.sciencedaily.com/releases/2020/07/200702144119.htm" target="_blank">SciShow</a>, researchers at Baylor University have discovered a region on chromosome 16 that causes the most common form of synesthesia, known as “colored sequence synesthesia.” This particular synesthesia occurs when non-visual senses trigger a person to see colors. For example, hearing the world jail can cause a person to see the color gray, or the name Derek can be seen as purple. This helps the patients associate color with certain names or scents and helps increase memory for certain objects.
 
 So what is going on inside the brain of those who have synesthesia? Why do synesthetes experience what they do? There are a couple of theories. The first theory is that there is something wrong with their neural structures. Scientists believe that our senses are all jumbled up when we are initially born; however, as we grow older and our brain matures, the senses start to become more distinct. In synesthetes, the distinction between senses is not made, and therefore one sense ends up easily triggering another sense.
 

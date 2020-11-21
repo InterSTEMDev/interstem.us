@@ -4,7 +4,7 @@ title:  "Understanding California’s devastating wildfires"
 date:   2020-09-04 13:00:04
 author: "Emily Richter"
 image: wildFireCover.png
-description: With less than 100 medically reported cases of foreign accent syndrome, researchers are still trying to tackle the underlying details of this mysterious condition.
+description: Why are California’s wildfires often so destructive? Here are three reasons.
 time: 3 min
 
 ---

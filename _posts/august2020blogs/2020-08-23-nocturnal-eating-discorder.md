@@ -14,7 +14,7 @@ time: 3 min
 
 <br>
 <img src="{{ site.baseurl }}/images/blogs/2020/august/nocturnalOne.png" width="50%" style="display: block; margin: 0 auto"/>  
-<center><i>A person with nocturnal sleep-related eating disorder is rummaging through the fridge while sleeping. (HealthyPlace)</i></center>
+<center><i>A person with nocturnal sleep-related eating disorder is rummaging through the fridge while sleeping. <a href="https://www.healthyplace.com/eating-disorders/other-eating-disorders/nocturnal-sleep-related-eating-disorder" target="_blank">(HealthyPlace)</a></i></center>
 <br>
 Imagine waking up in the morning with your mouth covered in chocolate, surrounded by empty candy wrappers, but having no memory about how they got there. You become even more confused when a person you’re living with asks you why you were up at night eating chocolate. For people suffering from nocturnal sleep-related eating disorder (NSRED), this is a common experience.
 

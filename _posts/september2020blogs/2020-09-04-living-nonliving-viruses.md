@@ -25,6 +25,8 @@ By these qualifications, viruses appear to be non-living. However, in the same d
 
 If we define life strictly by the seven aforementioned requirements, viruses are clearly non-living. They depend heavily on a host cell to survive and reproduce, and until they “activate”, they are merely a package of proteins. However, we are beginning to question and expand our view of what life is. Does a subject have to be entirely independent? What defines the level of interaction two organisms can have before either are classified as non-living? The answer to this decades-long debate is not imperative to the study of viruses, though, and there is still much to learn from studying them. The scientific community continues to question and explore this idea all while gaining valuable insight into evolution, cell development and microscopic processes through the study of viruses.
 
+Cover Photo: <a href="https://www.nationalgeographic.org/encyclopedia/viruses/" target="_blank">(National Geographic)</a>
+
 <hr>
 <img src="{{ site.baseurl }}/images/writingTeam/Reagan_Smith.jpeg" width="170" style="float: left; margin-right: 30px; margin-bottom: 20px;"/>
 <div style="margin-bottom: 5%;">

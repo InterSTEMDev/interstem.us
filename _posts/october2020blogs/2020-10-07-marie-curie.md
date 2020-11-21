@@ -46,7 +46,7 @@ Cover Photo: <a href="https://www.nobelprize.org/womenwhochangedscience/stories/
 <img src="{{ site.baseurl }}/images/writingTeam/noProfile.jpg" width="170" style="float: left; margin-right: 30px; margin-bottom: 20px;"/>
 <div style="margin-bottom: 5%;">
 <span style="font-size: 30px; font-weight: 900;">Ramizah Tayiba</span>
-<br>
+<br>Ramizah Tayiba is a junior at Francis Lewis High School. She is passionate about STEM and enjoys writing articles about the advances in the fields. She writes articles ranging from the smallest atoms to the ever-expanding universe. She hopes her articles will allow others to gain insights into the world of STEM. In her spare time, Ramizah enjoys painting, reading, and playing hockey. 
 
 
 </div>

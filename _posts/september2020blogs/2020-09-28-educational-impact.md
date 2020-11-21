@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "COVID-19’s educational impacts back to school"
+title:  "COVID-19’s educational impacts: back to school"
 date:   2020-09-28 13:00:01
 author: "Mehri Sadri"
 image: educationalImpactCover.png
@@ -8,7 +8,7 @@ description: With COVID-19 proving persistent in the United States, school distr
 time: 2 min
 
 ---
-<h2 style="font-family: Ergonomique Bold">COVID-19’s educational impacts back to school</h2>
+<h2 style="font-family: Ergonomique Bold">COVID-19’s educational impacts: back to school</h2>
 Ari Rednour. 10/25/2020
 <hr>
 
@@ -26,7 +26,7 @@ Those who believe that schools should not reopen in the fall are faced with anot
 
 Whether separate school districts choose to go completely online, completely in person, or both is a decision which will not be fully agreed on among the guardians’ of the attendees; however, as Olsen depicts, “the quality of education will be the most crucial factor for however the schools choose to operate.”
 
-
+(Pixabay)
 
 
 <hr>
