@@ -26,7 +26,7 @@ Those who believe that schools should not reopen in the fall are faced with anot
 
 Whether separate school districts choose to go completely online, completely in person, or both is a decision which will not be fully agreed on among the guardians’ of the attendees; however, as Olsen depicts, “the quality of education will be the most crucial factor for however the schools choose to operate.”
 
-(Pixabay)
+Cover Photo: (Pixabay)
 
 
 <hr>

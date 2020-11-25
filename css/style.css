@@ -2347,14 +2347,15 @@ header .navbar-default .navbar-nav li a {
 }
 
 .bg-1 {
-  background-image: url("{{ base.url }}/images/background.jpeg");
+  background-image: url("../images/background.jpeg");
+  /* background-image: url("{{ base.url }}/images/background.jpeg"); */
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
 
 .bg-2 {
-  background: url("../images/featue-bg.jpg");
+  background: url("../images/bg2.jpg");
   background-size: cover;
   background-attachment: fixed;
 }

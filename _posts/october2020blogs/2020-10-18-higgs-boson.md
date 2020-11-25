@@ -59,6 +59,7 @@ The electroweak force produces 4 massless bosons which are completely different 
 <b>Conclusion</b>
 <br>After almost 50 years of digging and experiments, a powerful factor in modern physics was discovered, helping to pave the way for discoveries in modern theoretical physics. The Higgs field and the Higgs boson seemed to have wrapped a neat little bow around our current understanding of particle physics, strengthening humanity’s knowledge of the physical world.
 
+Cover Photo: (CERN)
 
 <hr>
 <img src="{{ site.baseurl }}/images/writingTeam/noProfile.jpg" width="170" style="float: left; margin-right: 30px; margin-bottom: 20px;"/>

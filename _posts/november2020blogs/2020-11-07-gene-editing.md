@@ -32,7 +32,7 @@ Even though it appears that the potential for gene editing is limitless, debates
 
 Though CRISPR-Cas9 can cure countless diseases, the threat of unethical misuse has prevented the rapid adoption of this novel technology. For the first time, an organism will be able to dictate its own evolution, and gene editing will hopefully be able to change the world for the better.
 
-
+Cover Photo: (iStockphoto / Vitaliy Smolygin) 
 
 
 <hr>

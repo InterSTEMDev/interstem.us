@@ -28,6 +28,7 @@ Dozens of other theories exist, each with its own fair amount of counterargument
 
 Each new decade brings more and more uncertainty about the possibility of life outside of Earth. Even with new technologies capable of taking pictures of stars as far as <a href="https://www.nasa.gov/feature/new-horizons-captures-record-breaking-images-in-the-kuiper-belt/" target="_blank">3.79 billion miles away from Earth</a>, humans are unable to find any evidence supporting the possibility of extraterrestrial life. Despite this discouraging amount of progress, many scientists stand by their belief that aliens do indeed exist. But whether or not scientists can find conclusive evidence of extraterrestrial civilizations, humanity will surely continue to explore deeper into space and uncover the mystery of our own existence.
 
+Cover Photo: (Tech Explorist)
 
 
 
