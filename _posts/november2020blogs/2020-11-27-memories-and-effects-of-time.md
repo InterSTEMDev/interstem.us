@@ -8,7 +8,7 @@ description: Memories have been a subject of interest to scientists from an earl
 time: 4 min
 ---
 <h2 style="font-family: Ergonomique Bold">Memories and the effects of time</h2>
-Satyam Mehta. 11/27/2020.
+Tania Firouzabady. 11/27/2020.
 
 <hr>
 
