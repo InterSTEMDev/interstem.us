@@ -5,7 +5,7 @@ date:    2020-11-28 00:00:01
 author: "Valeria Rivadeneyra"
 image: artificialNeuronsCover.jpg
 description: Neurons are an essential part of our nervous systems and bodies. Imitating one of them is a difficult task; however, thanks to science, it has become a reality.
-time: 4 min
+time: 3 min
 ---
 <h2 style="font-family: Ergonomique Bold">Artificial neurons to cure chronic disease</h2>
 <a href="{{ base.url }}/blog/translations/artificial-neurons-in-spanish"><i>Oprima aquí para leerlo en inglés.</i></a>

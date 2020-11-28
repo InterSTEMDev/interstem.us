@@ -5,10 +5,10 @@ date:   2020-11-20 00:00:02
 author: "Valeria Rivadeneyra"
 image: artificialNeuronsCover.jpg
 description: Las neuronas son una parte esencial de nuestro sistema nervioso y del cuerpo en general. Imitar alguna de ellas es una tarea difícil, sin embargo, gracias a la ciencia, se ha convertido en una realidad.
-time: 4 min
+time: 3 min
 ---
 <h2 style="font-family: Ergonomique Bold">Neuronas artificiales para curar enfermedades crónicas</h2>
-<a href="{{ base.url }}/2020/11/27/artificial-neurons"><i>Original article in English.</i></a>
+<a href="{{ base.url }}/2020/11/28/artificial-neurons"><i>Original article in English.</i></a>
 <br>Valeria Rivadeneyra. 11/27/2020.
 
 <hr>

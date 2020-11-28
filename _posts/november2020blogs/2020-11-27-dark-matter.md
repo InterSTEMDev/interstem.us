@@ -5,7 +5,7 @@ date:   2020-11-28 00:00:02
 author: "Satyam Mehta"
 image: darkMatterCover.jpeg
 description: Only about 5% of the universe is visible by humans. So, what about the remaining 95%? It turns out that this large portion of dark matter actually consists of dark matter and dark energy, and that's what we are going to talk about in this article; with a special focus on dark matter.
-time: 4 min
+time: 3 min
 ---
 <h2 style="font-family: Ergonomique Bold">Dark matter: The most influential mystery in the universe</h2>
 Satyam Mehta. 11/27/2020.
