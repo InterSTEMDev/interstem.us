@@ -31,7 +31,7 @@ Una neurona o una célula nerviosa, es una célula eléctricamente excitable que
 
 Este estudio es entonces un desarrollo emocionante que abre muchas oportunidades de mejora en el campo biomédico. Esto incluye oportunidades para dispositivos médicos más inteligentes que permitan conducir a experiencias de medicina personalizada sobre una gama de diferentes enfermedades y discapacidades., buscan lograr una era biónica en la medicina
 
-Ejemplo: Un caso de insuficiencia cardíaca
+<h3><b>Ejemplo: Un caso de insuficiencia cardíaca</b></h3>
 
 En la insuficiencia cardíaca, la pérdida de acoplamiento en el cerebro y el sistema nervioso, resulta en una señalización incorrecta al corazón, y el mal funcionamiento del corazón. "Estamos desarrollando marcapasos inteligentes que no sólo estimularán al corazón a bombear a un ritmo constante, sino que usarán estas neuronas para responder en tiempo real a las demandas del corazón, que es lo que ocurre naturalmente en un corazón sano", dice Nogaret.
 
