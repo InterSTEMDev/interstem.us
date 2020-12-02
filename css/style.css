@@ -2962,13 +2962,62 @@ header .navbar-default .navbar-nav li a {
 
 /* gradient buttons */
 
+.videoWrapper {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 ratio */
+    padding-top: 25px;
+    height: 0;
+}
+.videoWrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 90%;
+}
+.speaker-description {
+
+}
+.speakerPadding {
+  padding-right: 50px;
+}
+.speakerSection {
+  height: 600px;
+}
+@media (max-width: 990px) {
+  .speaker-description {
+    margin-top: -60px;
+    padding-bottom: 20px;
+  }
+  .speaker-description-right {
+    margin-top: 50px;
+  }
+  .speakerSection {
+    height: 750px;
+  }
+  .speakerPadding {
+    padding-right: 10px;
+  }
+}
+
 
 .gradient-btn {
   text-align: center;
   color: white !important;
   border-radius: 15px;
   background: var(--primary-color);
-
+}
+.talks-btn {
+  color: white;
+  background: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  text-align: center;
+  display: inline-flex;
+  padding: 2rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-family: 'Ergonomique Bold';
+  border-radius: 10px;
 }
 .gradient-btn-filled {
   color: white;
