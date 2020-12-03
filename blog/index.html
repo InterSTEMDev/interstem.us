@@ -40,19 +40,27 @@ layout: none
 
 <body id="body">
 {% include header.html %}
-
-	<div class="container responsiveContainer">
-		<div class="row">
-			<div class="col-md-9">
-<section>
-<br><br>
-  <div>
-    <h2 class="font-title" style="font-family: Ergonomique Bold;">InterSTEM Blog</h2>
-    <br>
-    <p style="font-family: 'Giga Sans Light'">The views expressed in the article belong solely to the author and do not reflect the political stance or ideology of InterSTEM as an organization.</p>
+<section class="page-title">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="block">
+          <h2 style="color: white; font-family: Ergonomique Bold; font-size: 50px">InterSTEM Blog</h2>
+          <br>
+          <p>Informative articles on various STEM topics and research are published weekly.</p>
+          <p>Disclaimer: The views expressed in the article belong solely to the author and do not reflect the political stance or ideology of InterSTEM as an organization.</p>
+          <a class="btn btn-main btn-solid-border" href="/apply.html" style="margin-top: 30px;">Join our writing team</a>
+        </div>
+      </div>
+    </div>
   </div>
-
-	<br><br>
+</section>
+  
+<section>
+  <br><br><br>
+  <div class="container responsiveContainer">
+  <div class="row">
+    <div class="col-md-9">
 	  <div class="blogsContainer">
 		<section class="blogCards">
 		  {% for post in paginator.posts %}
@@ -79,51 +87,44 @@ layout: none
 						<br>
 					  {% endfor %}
 			  </section>
-
-
-      </div>
-  </section>
-</div>
-      		<div class="col-md-3">
-				<aside class="sidebar">
-  <!-- Widget Latest Posts -->
-  <br/><br/><br/>
-  <div class="widget widget-latest-post">
-    <h4 class="widget-title">Featured Posts</h4>
-    <div class="media" style="background-color: #f0e5dd;">
-      <div class="media-body" style="padding-bottom: 20px;">
-        <h4 style="font-family: 'Giga Sans Light'" class="media-heading"><a href="/2020/11/20/nobel-prize-in-physics">2020 Nobel Prize in Physics: Black holes</a></h4>
-        <p style="font-family: 'Giga Sans Light'">The Royal Swedish Academy of Sciences awarded the 2020 Nobel Prize in Physics to three astrophysicists based on their discoveries relating to black holes...</p>
-      </div>
-    </div>
-    <div class="media" style="background-color: #f0e5dd;">
-      <div class="media-body" style="padding-bottom: 20px;">
-        <h4 style="font-family: 'Giga Sans Light'" class="media-heading"><a href="/2020/11/28/gum-disease">Could gum disease be the cause of Alzheimer’s disease?</a></h4>
-        <p style="font-family: 'Giga Sans Light'">A risk factor for Alzheimer's disease is poor oral health. What is not clear is whether gum disease in...</p>
       </div>
     </div>
 
-  </div>
-	<div class="widget widget-latest-post">
-    <h4 class="widget-title">Latest Posts</h4>
-    {% assign sorted = site.posts | sort: 'date' | reverse %}
-    {% for post in sorted limit: 5%}
-		<div class="media">
-
-			<div class="media-body" style="padding-bottom: 20px;">
-				<h4 style="font-family: 'Giga Sans Light'" class="media-heading" style="padding-top: -20px"><a href="{{post.url | absolute_url | split:'.html' | first}}">{{post.title}}</a></h4>
-				<p style="font-family: 'Giga Sans Light'">{{post.description | truncate: 105}}</p>
-			</div>
-		</div>
-	{% endfor %}
-	</div>
-	<!-- End Latest Posts -->
-
-</aside>
-      		</div>
-		</div>
-	</div>
-
+    <div class="col-md-3">
+      <aside class="sidebar">
+        <!-- Widget Latest Posts -->
+        <div class="widget widget-latest-post">
+          <h4 class="widget-title">Featured Posts</h4>
+          <div class="media" style="background-color: #f0e5dd;">
+            <div class="media-body" style="padding-bottom: 20px;">
+              <h4 style="font-family: 'Giga Sans Light'" class="media-heading"><a href="/2020/11/20/nobel-prize-in-physics">2020 Nobel Prize in Physics: Black holes</a></h4>
+              <p style="font-family: 'Giga Sans Light'">The Royal Swedish Academy of Sciences awarded the 2020 Nobel Prize in Physics to three astrophysicists based on their discoveries relating to black holes...</p>
+            </div>
+          </div>
+          <div class="media" style="background-color: #f0e5dd;">
+            <div class="media-body" style="padding-bottom: 20px;">
+              <h4 style="font-family: 'Giga Sans Light'" class="media-heading"><a href="/2020/11/28/gum-disease">Could gum disease be the cause of Alzheimer’s disease?</a></h4>
+              <p style="font-family: 'Giga Sans Light'">A risk factor for Alzheimer's disease is poor oral health. What is not clear is whether gum disease in...</p>
+            </div>
+          </div>
+        </div>
+        <div class="widget widget-latest-post">
+          <h4 class="widget-title">Latest Posts</h4>
+          {% assign sorted = site.posts | sort: 'date' | reverse %}
+          {% for post in sorted limit: 5%}
+          <div class="media">
+            <div class="media-body" style="padding-bottom: 20px;">
+              <h4 style="font-family: 'Giga Sans Light'" class="media-heading" style="padding-top: -20px"><a href="{{post.url | absolute_url | split:'.html' | first}}">{{post.title}}</a></h4>
+              <p style="font-family: 'Giga Sans Light'">{{post.description | truncate: 105}}</p>
+            </div>
+          </div>
+        {% endfor %}
+        </div>
+      <!-- End Latest Posts -->
+      </aside>
+    </div>
+  </div> 
+</section>
 
 {% if paginator.total_pages > 1 %}
 <div class="text-center">

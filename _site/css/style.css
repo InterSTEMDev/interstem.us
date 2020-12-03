@@ -472,7 +472,7 @@ font-family: 'Muli Light', sans-serif;
 }
 
 .page-title {
-  padding: 100px 0;
+  padding: 50px 0;
 }
 
 .page-title .block {
@@ -758,6 +758,14 @@ font-family: 'Muli Light', sans-serif;
   height: 100%;
   background: #1d192c;
   opacity: 0.8;
+}
+
+#talks-title:before {
+  background: var(--color-bg);
+}
+
+#lectures-title:before {
+  background: white;
 }
 
 .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
@@ -3045,6 +3053,10 @@ header .navbar-default .navbar-nav li a {
 
 .gradient-btn-filled, .gradient-btn__outlined {
   margin-right: 2rem !important;
+}
+
+.page-title .gradient-btn-filled, .page-title .gradient-btn__outlined {
+  margin-top: 30px;
 }
 
 .font-title {

@@ -4,7 +4,7 @@ title:  "Could gum disease be the cause of Alzheimer’s disease?"
 date:   2020-11-28 00:00:05
 author: "Joan Joe"
 image: alzheimerCover.png
-description: A risk factor for Alzheimer's disease is poor oral health. What is not clear is whether gum disease induces the condition or is merely a consequence. A privately funded research has now verified that the bacteria that cause gum disease are not only in the mouths but also in the brains of people with Alzheimer's.
+description: A risk factor for Alzheimer's disease is poor oral health. What is not clear is whether gum disease induces the condition or is merely a consequence. Privately funded research has now verified that gum disease bacteria are in the brains of people with Alzheimer's.
 time: 5 min
 ---
 <h2 style="font-family: Ergonomique Bold">Could gum disease be the cause of Alzheimer’s disease? </h2>
