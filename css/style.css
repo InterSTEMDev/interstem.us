@@ -3047,13 +3047,19 @@ header .navbar-default .navbar-nav li a {
 .speakerSection {
   height: 600px;
 }
+
+.speaker-description-right {
+      margin-left: 50px;
+}
+
 @media (max-width: 990px) {
   .speaker-description {
     margin-top: -60px;
     padding-bottom: 20px;
   }
   .speaker-description-right {
-    margin-top: 50px;
+    margin-top: 10px;
+    margin-left: 0px;
   }
   .speakerSection {
     height: 750px;
@@ -3062,6 +3068,14 @@ header .navbar-default .navbar-nav li a {
     padding-right: 10px;
   }
 }
+.airtable-embed {
+  overflow: hidden !important;
+
+}
+.webkit-touch-scroll {
+  overflow: hidden; 
+}
+
 
 
 .gradient-btn {

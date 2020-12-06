@@ -1,6 +1,8 @@
+
+
+
 $(document).ready(function () {
 	'use strict';
-
 
 	// Shuffle js filter and masonry
 	var containerEl = document.querySelector('.shuffle-wrapper');

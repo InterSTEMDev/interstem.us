@@ -4,7 +4,7 @@ title:  "Aliens almost definitely exist. Here are the facts to prove it"
 date:   2020-12-04 00:00:02
 author: "Ramizah Tayiba"
 image: aliensExistCover.png
-description: Humans like to put themselves on a pedestal of uniqueness by rejecting all claims that life might exist elsewhere. But math and statistics say otherwise. 
+description: Humans like to put themselves on a pedestal of uniqueness by rejecting all claims that life might exist elsewhere. But math and statistics say otherwise.
 time: 2 min
 ---
 <h2 style="font-family: Ergonomique Bold">Aliens almost definitely exist. Here are the facts to prove it</h2>
@@ -13,7 +13,7 @@ Ramizah Tayiba. 12/04/2020
 
 
 <img src="{{ site.baseurl }}/images/blogs/2020/december/aliensExistOne.png" width="60%" style="display: block; margin: 0 auto"/>  
-<center><i>The image above is an illustration of alien life imagined by humans.
+<center><i>The image above is an illustration of alien life imagined by humans. <a href="https://www.nbcnews.com/mach/science/discovery-alien-life-might-not-bring-response-you-d-expect-ncna849046" target="_blank">(Apostoli Rossella / Getty Images)</a>
 </i></center>
 <br>
 The human species is intelligent, brave and ambitious but not unique. The building blocks of our existence are the same as those of a beetle, a tree or a star. Carbon, hydrogen, nitrogen, oxygen and sulfur are the foundation of the entire universe. If these unoriginal elements happen to arrange themselves to form life here on Earth, it is more than likely they have done so somewhere else. The foundations of our being can be traced to stars billions of miles away. With new technologies, like the powerful telescopes such as  Hubble and the study of spectroscopy, “we are now able to map the abundance of all of the major elements found in the human body across hundreds of thousands of stars in our Milky Way," <a href="https://www.sdss.org/press-releases/the-elements-of-life-mapped-across-the-milky-way-by-sdssapogee/" target="_blank">professor at The Ohio State University Jennifer Johnson said.</a>
@@ -24,7 +24,7 @@ The existence of aliens is sometimes discredited because most planets are too ho
 
 For many people, the idea of other living beings thriving somewhere beyond Earth seems far-fetched. This notion puts us all on a pedestal of uniqueness. But science, math, and logic ground us. They make us believe that we are not alone. That we are just one small piece of the giant galactic puzzle.
 
-Cover Photo: <a href="https://www.nbcnews.com/mach/science/discovery-alien-life-might-not-bring-response-you-d-expect-ncna849046" target="_blank">(Apostoli Rossella / Getty Images)</a>
+Cover Photo: <a href="https://theconversation.com/alien-life-is-out-there-but-our-theories-are-probably-steering-us-away-from-it-124042" target="_blank">Shutterstock</a>
 
 
 
