@@ -1,0 +1,59 @@
+---
+layout: post
+title:  "Dual function: Converting trash to electricity"
+date:   2020-12-11 00:00:02
+author: "Reagan Smith"
+image: dualFunctionCover.png
+description: Copenhill, a waste-to-energy plant designed by Bjarke Ingels, utilizes technology and creativity to create a building that is environmentally conscious, provides recreational fun to the public, and shows the world what is possible when we break the stereotypical mold of architecture.  
+time: 2 min
+---
+<h2 style="font-family: Ergonomique Bold">Dual function: Converting trash to electricitys</h2>
+Reagan Smith. 12/11/2020
+<hr>
+
+
+<img src="{{ site.baseurl }}/images/blogs/2020/december/dualFunctionOne.jpg" width="60%" style="display: block; margin: 0 auto"/>  
+<center><i>A look inside Copenhill shows the same sleek design, created to burn huge amounts of waste and convert it to clean energy for citizens of Denmark. <a href="https://www.archpaper.com/2020/11/copenhill-bigs-skiable-waste-to-energy-power-plant-gets-sweeping-new-photos-from-hufton-crow/" target="_blank">(The Architect’s Newspaper)</a>
+</i></center>
+<br>
+In a quickly-shrinking world where space and resources are limited, we find ourselves being forced to choose. Convenient or reusable? Cheap or clean? Beautiful or eco-friendly? However, a new group of thinkers are emerging: ones who question why we have to pick one or the other. They are combining environmentally-conscious thinking with state-of-the-art technology and engineering to create products and buildings that are multifunctional and can integrate into day-to-day life. Copenhill, the creation of Danish architect Bjarke Ingels, fits this mindset perfectly.
+
+This building is the cleanest waste-to-energy plant in the world, Copenhagen’s tallest and largest structure, and also the home of Denmark’s first ski slope, as stated by an article about the project in <a href="https://www.archdaily.com/925966/copenhill-the-story-of-bigs-iconic-waste-to-energy-plant" target="_blank">ArchDaily</a>. Copenhill combines functionality with fun, efficiency with elegance and sustainability with sustenance.
+
+Created by Bjarke Ingels Group (BIG), the idea for Copenhill first arose in 2002, when the company, then called PLOT, imagined a public space in one of Denmark’s most dense urban areas that utilized space by placing a ski slope on top of a department store. While PLOT never saw the project through, it did inspire the concept for a waste-to-energy plant that won an international design competition in 2011.
+
+Today, 170,000 square feet of ski slopes and parks that comprise Copenhill’s roof neatly cover the plant. According to <a href="https://www.power-technology.com/projects/amager-bakke-waste-energy-plant/" target="_blank">Power Technology</a>, the roof itself was designed by Stig L. Andersson Landscape Architects, a Danish architectural lab. In addition to the slopes and parks, the public has access to a running path, a café and a forest, all atop the building. The outside covering shows off aluminum bricks (1.2 meters by 3.3 meters) all overlapping each other to create a sleek and elegant facade that doubles as a recreational rock climbing wall.
+
+While the exterior itself is unique and interesting, it is what is on the inside that showcases Ingel’s mind and the abilities of technology and engineering. As explained in an article by <a href="https://www.power-technology.com/projects/amager-bakke-waste-energy-plant/" target="_blank">Power Technology</a>, the waste-to-energy process begins by dumping trash into a containment area, where a large crane transfers it to a hopper (a large pyramidal shaped container designed to hold loose material, which then brings it to a combustor grate). For this plant specifically, Ingel utilized DynagGrate, an advanced, water-cooled combustor grate made by the company <a href="https://www.babcock.com/products/combustion-grates-stokers" target="_blank">Babcock and Wilcox</a>. The grate is designed to agitate the fuel bed the waste sits in when it burns to increase the rate of combustion and limit wear on the mechanical parts by preventing contact between the individual grate bars.
+
+<img src="{{ site.baseurl }}/images/blogs/2020/december/dualFunctionTwo.jpg" width="30%" style="display: block; margin: 0 auto"/>  
+<center><i>The image above depicts a combustion grate. <a href="https://www.babcock.com/en/products/combustion-grates-stokers" target="_blank">(Babcock and Wilcox)</a>
+</i></center>
+<br>
+After the waste is heated, the energy it produces is used to heat up water in a boiler, which travels through a steam drum to a turbine. The steam turbine powered by water vapor produces electricity, while the hot gas itself heats homes, depicted in a diagram from <a href="https://deltawayenergy.com/2018/08/waste-to-energy-how-it-works/" target="_blanK">Deltaway Energy</a> down below.
+
+<img src="{{ site.baseurl }}/images/blogs/2020/december/dualFunctionThree.jpg" width="30%" style="display: block; margin: 0 auto"/>  
+<center><i><a href="https://deltawayenergy.com/2018/08/waste-to-energy-how-it-works/" target="_blank">(Deltaway Energy)</a>
+</i></center>
+<br>
+Copenhill uses flue gas condensation technology to recover 100 million liters of water that would otherwise exit the plant as water vapor, cool it down and filter out 100,000 liters of bottom ash (made from the combustion of the waste) to be used as road materials every year.
+
+Collecting waste from 500,000 to 700,000 people and 46,000 companies in and near Copenhagen, the plant has a 107% energy efficiency, overstepping its designed goal to utilize 100% of energy content. It is also twice as efficient in producing energy than Europe’s older waste-to-energy plants, generating steam at 440°C and at a pressure of 70 bars (unit of pressure).
+
+The plant exemplifies the architectural concept of hedonistic design, which is the idea that sustainability can come without compromise. Best summed up in an article on <a href="https://bigthink.com/endless-innovation/designing-a-hedonistic-and-sustainable-future" target="_blank">Big Think</a> by Dominic Basulto, hedonistic design asks the question, “What if you can do something that is good for the environment while doing something good for yourself and for the economy?”
+
+Copenhill is a building that finally manages to satisfy everyone and everything, from the economy to the environmentalists and people young and old. Ingels, the mastermind behind the project and founder of BIG, says it is “a crystal clear example of hedonistic sustainability – that a sustainable city is not only better for the environment – it is also more enjoyable for the lives of its citizens.” Ingles is well-known as an innovator and outside-the-box thinker, as exemplified in a <a href="https://www.ted.com/talks/bjarke_ingels_hedonistic_sustainability#t-37601" target="_blank">TEDx</a> talk he gave in New York City. To him, it is an example that “we have the power to give form to the future that we want to live in.”
+
+The project is in line with the city of Copenhagen’s goal of becoming carbon-neutral by 2025.  Parameters for carbon neutrality are laid out by the <a href="https://www.europarl.europa.eu/news/en/headlines/society/20190926STO62270/what-is-carbon-neutrality-and-how-can-it-be-achieved-by-2050" target="_blank">European Parliament</a>, which explains it as “having a balance between emitting carbon and absorbing carbon from the atmosphere in carbon sinks.” A carbon sink is a system that acts as storage for carbon by absorbing more carbon than it creates; examples of this are soil, forests and oceans. Copenhagen’s carbon-neutrality goal is part of a larger climate policy put into place by the European Union, which aims to become carbon neutral by 2050.
+
+Copenhill perfectly sums up what architecture can – and will – do. Its completion signifies the beginning of a new age of architecture, where buildings move beyond simple skeletons for activities and transform into meaningful structures that work with the environment, rather than against it.
+
+Cover Photo: <a href="https://www.trendhunter.com/trends/copenhill" target="_blank">(Trend Hunter)</a>
+
+
+<hr>
+<img src="{{ site.baseurl }}/images/writingTeam/Reagan_Smith.jpeg" width="170" style="float: left; margin-right: 30px; margin-bottom: 20px;"/>
+<div style="margin-bottom: 5%;">
+<span style="font-size: 30px; font-weight: 900;">Reagan Smith</span>
+<br>Reagan is a junior from Sage Hill School. She is passionate about all things related to science, especially biology and medicine. She also loves being able to use her talents and knowledge to help others and make a difference in the world.
+</div>
