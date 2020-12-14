@@ -3105,6 +3105,9 @@ header .navbar-default .navbar-nav li a {
 /*# sourceMappingURL=maps/style.css.map */
 
 /* gradient buttons */
+.speaker-videos .row {
+  margin-bottom: 2em !important;
+} 
 
 .videoWrapper {
     position: relative;
