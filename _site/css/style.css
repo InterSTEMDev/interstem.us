@@ -31,7 +31,8 @@ body {
   line-height: 1.5;
 font-family: 'Muli Light', sans-serif;
   -webkit-font-smoothing: antialiased;
-  background: var(--color-bg)
+  background: var(--color-bg);
+  overflow-x: hidden;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -182,7 +183,7 @@ input[type="email"]:focus, input[type="password"]:focus, input[type="text"]:focu
     display: none;
   }
   .hamilton {
-    padding-left: 3.5%; 
+    padding-left: 3.5%;
   }
 }
 @media (max-width: 990px) {
@@ -3107,7 +3108,7 @@ header .navbar-default .navbar-nav li a {
 /* gradient buttons */
 .speaker-videos .row {
   margin-bottom: 2em !important;
-} 
+}
 
 .videoWrapper {
     position: relative;
