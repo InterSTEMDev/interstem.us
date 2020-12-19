@@ -15,6 +15,12 @@ p {
   margin-bottom: 1em;
   font-family: 'Giga Sans Light' !important
 }
+
+.footer p {
+  margin: 0 0 10px;
+  line-height: 25px !important;
+}
+
 i {
   font-family: 'Giga Sans Light'
 }
