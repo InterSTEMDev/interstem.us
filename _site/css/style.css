@@ -3105,38 +3105,6 @@ header .navbar-default .navbar-nav li a {
 
 /*# sourceMappingURL=maps/style.css.map */
 
-/* gradient buttons */
-.speaker-videos .row {
-  margin-bottom: 2em !important;
-}
-
-.videoWrapper {
-    position: relative;
-    padding-bottom: 56.25%; /* 16:9 ratio */
-    padding-top: 25px;
-    height: 0;
-}
-.videoWrapper iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 90%;
-}
-.speaker-description {
-
-}
-.speakerPadding {
-  padding-right: 50px;
-}
-.speakerSection {
-  height: 600px;
-}
-
-.speaker-description-right {
-      margin-left: 50px;
-}
-
 @media (max-width: 990px) {
   .speaker-description {
     margin-top: -60px;
