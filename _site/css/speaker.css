@@ -7,7 +7,7 @@
     padding-bottom: 56.25%; /* 16:9 ratio */
     padding-top: 25px;
 		height: 0;
-		border-bottom: 5px solid var(--primary-color);
+		/* border-bottom: 5px solid var(--primary-color); */
 }
 .videoWrapper iframe {
     position: absolute;
@@ -68,9 +68,9 @@
 
 
 /* Style the tab content */
-.tabcontent {  
+.tabcontent {
   border: 0;
-	width: 100%; 
+	width: 100%;
 }
 
 .desc-card {
