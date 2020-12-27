@@ -34,7 +34,7 @@
 
 /* Style the tab */
 .tab {
-  height: 53vw;
+  height: 55vw;
 }
 
 /* Style the buttons that are used to open the tab content */
@@ -75,7 +75,7 @@
 
 .desc-card {
   padding: 30px;
-  margin: 10px auto;
+  margin: 10px 20px;
   background: var(--lighter-color);
   border-radius: 10px;
   box-shadow:var(--box-shadow);
