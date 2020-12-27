@@ -26,10 +26,11 @@ In 1929, Hubble was able to study the rate at which galaxies travel by observing
 
 <br>
 <img src="{{ site.baseurl }}/images/blogs/2020/december/darkEnergyTwo.png" width="60%" style="display: block; margin: 0 auto"/>  
-<center><i><a href="" target="_blank">(Cornell)</a>
+<center><i><a href="http://hosting.astro.cornell.edu/academics/courses/astro201/hubbles_law.htm" target="_blank">(Cornell)</a>
 </i></center>
 <br>
 <b>An Expanding Universe</b>
+<br>
 A similar pattern to the repulse between galaxies is shown in atoms or molecules filling a vacuum. The law that governs this principle is known as entropy and it causes particles to fill in a space until the system is homogeneous.
 
 It can then be deduced that galaxies are moving away from each other to fill some sort of empty space. The fact that galaxies are moving away from one another must mean there is a background force acting as some repulsive form of gravity that causes space itself to expand.
