@@ -1,6 +1,3 @@
----
-layout: none
----
 <!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
@@ -18,29 +15,91 @@ layout: none
   <!-- Mobile Specific Meta-->
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- Favicon -->
-  <link rel="shortcut icon" type="image/x-icon" href="{{ site.baseurl }}/img/favicon.png" />
+  <link rel="shortcut icon" type="image/x-icon" href="/img/favicon.png" />
   <!-- bootstrap.min css -->
-  <link rel="stylesheet" href="{{ site.baseurl }}/plugins/bootstrap/bootstrap.min.css">
+  <link rel="stylesheet" href="/plugins/bootstrap/bootstrap.min.css">
   <!-- Ionic Icon Css -->
-  <link rel="stylesheet" href="{{ site.baseurl }}/plugins/Ionicons/css/ionicons.min.css">
+  <link rel="stylesheet" href="/plugins/Ionicons/css/ionicons.min.css">
   <!-- animate.css -->
-  <link rel="stylesheet" href="{{ site.baseurl }}/plugins/animate-css/animate.css">
+  <link rel="stylesheet" href="/plugins/animate-css/animate.css">
   <!-- Magnify Popup -->
-  <link rel="stylesheet" href="{{ site.baseurl }}/plugins/magnific-popup/magnific-popup.css">
+  <link rel="stylesheet" href="/plugins/magnific-popup/magnific-popup.css">
   <!-- Owl Carousel CSS -->
-  <link rel="stylesheet" href="{{ site.baseurl }}/plugins/slick/slick.css">
+  <link rel="stylesheet" href="/plugins/slick/slick.css">
 
-  <link rel="stylesheet" href="{{ site.baseurl }}/css/navigate.css">
+  <link rel="stylesheet" href="/css/navigate.css">
   <!-- Main Stylesheet -->
-  <link rel="stylesheet" href="{{ site.baseurl }}/css/style.css">
-  <link rel="stylesheet" href="{{ site.baseurl }}/css/speaker.css">
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="/css/speaker.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
-  <link rel="stylesheet" href="{{ site.baseurl }}/css/blogs.css">
+  <link rel="stylesheet" href="/css/blogs.css">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
 </head>
 
 <body id="body" style="background-color: white;">
-  {% include header.html %}
+  <!doctype html>
+<html>
+<head>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-C4NP4XRMJF"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-C4NP4XRMJF');
+</script>
+<header class="navigation">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<!-- header Nav Start -->
+				<nav class="navbar" style="margin-bottom: 6px;">
+					<div class="container-fluid">
+						<!-- Brand and toggle get grouped for better mobile display -->
+						<div class="navbar-header">
+							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							</button>
+							<a class="navbar-brand" href="/">
+								<img src="/images/logoTwo.png" alt="Logo" width="180">
+							</a>
+						</div>
+						<!-- Collect the nav links, forms, and other content for toggling -->
+						<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+							<ul class="nav navbar-nav navbar-right">
+								<li class="dropdown">
+									<a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true">About <span class="ion-ios-arrow-down"></span></a>
+									<ul class="dropdown-menu">
+										<li><a href="/executive">Executive Board</a></li>
+										<li><a href="/chapters">Chapters</a></li>
+									</ul>
+								</li>
+                <li class="dropdown">
+									<a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true">Media <span class="ion-ios-arrow-down"></span></a>
+									<ul class="dropdown-menu">
+										<li><a href="/media/speaker">Speaker Series</a></li>
+										<li><a href="/media/talks">InterSTEM Talks</a></li>
+									</ul>
+								</li>
+                <li><a href="/blog">Blog</a></li>
+                  <li><a href="/research">Research</a></li>
+								<li><a href="/tutoring">Tutoring</a></li>
+								<li><a href="/apply" class="gradient-btn">Apply</a></li>
+							</ul>
+							</div><!-- /.navbar-collapse -->
+							</div><!-- /.container-fluid -->
+						</nav>
+					</div>
+				</div>
+			</div>
+			</header><!-- header close -->
+</head>
+</html>
+
   <section class="page-title">
     <div class="container">
       <div class="row">
@@ -63,26 +122,56 @@ layout: none
           <button class="tablinks" onclick="openForm(event, 'lecture-3', 'desc-3')" id="defaultOpen" style="border-radius: 12px;">Prof. Matthew O. Jackson (Economics)</button>
           <button class="tablinks" onclick="openForm(event, 'lecture-2', 'desc-2')" style="border-radius: 12px;">Dr. Francis Bonahon (Math)</button>
           <button class="tablinks" onclick="openForm(event, 'lecture-1', 'desc-1')" style="border-radius: 12px;">Dr. Heiko Hoffman (Robotics)</button>
-          <button class="tablinks" onclick="openForm(event, 'lecture-1', 'desc-1')" style="border-radius: 12px;">Dr. Heiko Hoffman (Robotics)</button>
         </div>
       </div>
-      <div class="col-lg-10 col-sm-12">
+      <div class="col-lg-7 col-sm-12">
         <div id="lecture-3" class="tabcontent">
           <div class="videoWrapper">
             <iframe width="1120" height="560" src="https://www.youtube.com/embed/-6YsL5tBRkY" frameborder="0" allowfullscreen></iframe>
-          </div>          
-        </div>
-        <div id="desc-3" class="tabcontent">
-          <div class="desc-card">
-            <div class="block">
-              <p>Matthew Jackson is the William D. Eberle Professor of Economics at Stanford University. In this lecture, Jackson presents a survey of the literature on the economic consequences of the structure of social networks and discusses both the theoretical and empirical findings concerning the “macro” and “micro” characteristics of social-interaction networks in determining learning, diffusion, decisions, and resulting behaviors. Jackson also discusses the challenges of accounting for the endogeneity of networks in assessing the relationship between the patterns of interactions and behaviors. </p>
-            </div>
           </div>
-        </div>        
+
+
+              <!-- <div class="blog-grid" id="centeredBlog"> -->
+                <div class="card" style="cursor: pointer;" onclick=window.location.href="/2020/12/11/the-reality-of-robotics";>
+                  <div class="image-data"  src="/images/blogs///">
+                    <img class="background-image" src="/images/blogs/2020/december/roboticsCover.png">
+                    <div class="publication-details">
+
+                       <b><a href="#" class="author">&nbsp <i class="fas fa-user"></i> Simone Rothaupt</a>
+                       <span class="date">&nbsp <i class="fas fa-calendar-alt"></i> 11 Dec 2020</span>
+                       <span class="time">&nbsp <i class="fas fa-clock"></i>4 min</span></b>
+                    </div>
+                  </div>
+                  <div class="post-data">
+                    <div class="title">The reality of robotics</div>
+                    <p class="description">
+                     <b style="font-family: sans-serif;">Simone Rothaupt</b> - Robotics has undergone massive advances in recent decades, but what does the future hold for this growing industry?
+                    </p>
+
+                  </div>
+                  </div>
+                  <br>
+
+
+        </div>
         <div id="lecture-2" class="tabcontent">
           <div class="videoWrapper">
             <iframe width="1120" height="560" src="https://www.youtube.com/embed/JU77dSZyY_g" frameborder="0" allowfullscreen></iframe>
-          </div>          
+          </div>
+        </div>
+        <div id="lecture-1" class="tabcontent">
+          <div class="videoWrapper">
+            <iframe width="1120" height="560" src="https://www.youtube.com/embed/o6wG99eIzMU" frameborder="0" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-sm-12">
+        <div id="desc-3" class="tabcontent">
+          <div class="desc-card">
+          <div class="block">
+            <p>Matthew Jackson is the William D. Eberle Professor of Economics at Stanford University. In this lecture, Jackson presents a survey of the literature on the economic consequences of the structure of social networks and discusses both the theoretical and empirical findings concerning the “macro” and “micro” characteristics of social-interaction networks in determining learning, diffusion, decisions, and resulting behaviors. Jackson also discusses the challenges of accounting for the endogeneity of networks in assessing the relationship between the patterns of interactions and behaviors. </p>
+          </div>
+          </div>
         </div>
         <div id="desc-2" class="tabcontent">
           <div class="desc-card">
@@ -91,47 +180,21 @@ layout: none
             </div>
           </div>
         </div>
-        <div id="lecture-1" class="tabcontent">
-          <div class="videoWrapper">
-            <iframe width="1120" height="560" src="https://www.youtube.com/embed/o6wG99eIzMU" frameborder="0" allowfullscreen></iframe>
-          </div>          
-        </div>
         <div id="desc-1" class="tabcontent">
           <div class="desc-card">
             <div class="block">
-              <p>Dr. Heiko Hoffmann is a senior researcher at HRL Laboratories, investigating cutting-edge technology in artificial intelligence and robotics. In this lecture, Hoffmann gives a comprehensive overview of the current state of robotics, the science behind training robots, and the future of the robotics industry, focusing on movement and detection. Hoffman also discusses the background necessary to pursue a career in AI or robotics and the challenges of entering the field. <u><a href="{{ site.baseurl }}/2020/12/10/the-reality-of-robotics">See related blog post.</a></u></p>
+              <p>Dr. Heiko Hoffmann is a senior researcher at HRL Laboratories, investigating cutting-edge technology in artificial intelligence and robotics. In this lecture, Hoffmann gives a comprehensive overview of the current state of robotics, the science behind training robots, and the future of the robotics industry, focusing on movement and detection. Hoffman also discusses the background necessary to pursue a career in AI or robotics and the challenges of entering the field.</p>
             </div>
           </div>
         </div>
-      </div>
-    </div>
+        </div>
+        </div>
+
+
   </section>
+  <script src="/js/apply.js"></script>
 
-  <script src="{{ site.baseurl }}/js/apply.js"></script>
-
-   {% if paginator.total_pages > 1 %}
-   <div class="text-center">
-      <ul class="post-pagination">
-         {% if paginator.previous_page %}
-         <li class="next"><a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">Prev</a></li>
-         {% endif %}
-         {% for page in (1..paginator.total_pages) %}
-         {% if page == paginator.page %}
-         <li class="active"><a>{{ page }}</a></li>
-         {% elsif page == 1 %}
-         <li><a href="/blog">{{ page }}</a></li>
-         {% else %}
-         <li><a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a></li>
-         {% endif %}
-         {% endfor %}
-         {% if paginator.next_page %}
-         <li class="next"><a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next</a></li>
-         {% else %}
-         <span>Next &raquo;</span>
-         {% endif %}
-      </ul>
-   </div>
-   {% endif %}
+   
 
 
    <!-- footer Start -->
@@ -165,15 +228,15 @@ layout: none
 
 
     <!-- Main jQuery -->
-    <script src="{{ site.baseurl }}/plugins/jQuery/jquery.min.js"></script>
+    <script src="/plugins/jQuery/jquery.min.js"></script>
     <!-- Bootstrap 3.1 -->
-    <script src="{{ site.baseurl }}/plugins/bootstrap/bootstrap.min.js"></script>
+    <script src="/plugins/bootstrap/bootstrap.min.js"></script>
     <!-- slick Carousel -->
-    <script src="{{ site.baseurl }}/plugins/slick/slick.min.js"></script>
-    <script src="{{ site.baseurl }}/plugins/magnific-popup/jquery.magnific-popup.min.js"></script>
+    <script src="/plugins/slick/slick.min.js"></script>
+    <script src="/plugins/magnific-popup/jquery.magnific-popup.min.js"></script>
     <!-- filter -->
-    <script src="{{ site.baseurl }}/plugins/shuffle/shuffle.min.js"></script>
-    <script src="{{ site.baseurl }}/plugins/SyoTimer/jquery.syotimer.min.js"></script>
+    <script src="/plugins/shuffle/shuffle.min.js"></script>
+    <script src="/plugins/SyoTimer/jquery.syotimer.min.js"></script>
 
     <!-- Form Validator -->
     <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery.form/3.32/jquery.form.js"></script>
@@ -181,9 +244,9 @@ layout: none
 
     <!-- Google Map -->
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU&libraries=places"></script>
-    <script src="{{ site.baseurl }}/plugins/google-map/map.js"></script>
+    <script src="/plugins/google-map/map.js"></script>
 
-    <script src="{{ site.baseurl }}/js/script.js"></script>
+    <script src="/js/script.js"></script>
 
     </body>
 
