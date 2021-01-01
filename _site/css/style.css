@@ -321,9 +321,24 @@ input[type="email"]:focus, input[type="password"]:focus, input[type="text"]:focu
     text-align: center;
   }
   .img-bio-two {
-    height: 350px;
+    height: 150px !important;
+    width: 150px !important; 
     text-align: center;
+    margin-top: 200px; 
   }
+  #minResearch {
+    text-align: center !important;
+    margin-left: -5px !important; 
+  }
+}
+
+
+.researchLeaderDesc {
+ margin-top: -30px;
+}
+
+#minResearch {
+  margin-left: 30px;
 }
 
 .img-bio {
@@ -349,6 +364,7 @@ input[type="email"]:focus, input[type="password"]:focus, input[type="text"]:focu
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
+  text-align: center;
 }
 
 
