@@ -1,5 +1,5 @@
-function openForm(evt, formName) {
-	var tabcontent, tablinks;
+function openForm(evt, formName, formNameTwo) {
+	var tabcontent, tablinks, tabcontentTwo;
 
 
 	tabcontent = document.getElementsByClassName("tabcontent");
@@ -16,6 +16,7 @@ function openForm(evt, formName) {
 		tablinks[i].className = tablinks[i].className.replace(" active", "");
 	}
 	document.getElementById(formName).style.display = "block";
+	document.getElementById(formNameTwo).style.display = "block";
 	evt.currentTarget.className += " active";
 }
 
