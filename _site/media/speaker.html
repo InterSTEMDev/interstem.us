@@ -76,6 +76,7 @@
                         <ul class="dropdown-menu">
                           <li><a href="/executive">Executive Board</a></li>
                           <li><a href="/chapters">Chapters</a></li>
+                            <li><a href="/writers">Writers</a></li>
                         </ul>
                       </li>
                       <li class="dropdown">
@@ -119,17 +120,35 @@
       <div class="container-fluid" style="border: 0;";>
          <div class="col-lg-2 col-sm-12 video-list">
             <div class="tab">
+                  <button class="tablinks" onclick="openForm(event, 'lecture-4', 'desc-4')" style="border-radius: 12px;">AMA</button>
                <button class="tablinks" onclick="openForm(event, 'lecture-3', 'desc-3')" id="defaultOpen" style="border-radius: 12px;">Prof. Matthew O. Jackson (Economics)</button>
                <button class="tablinks" onclick="openForm(event, 'lecture-2', 'desc-2')" style="border-radius: 12px;">Dr. Francis Bonahon (Math)</button>
                <button class="tablinks" onclick="openForm(event, 'lecture-1', 'desc-1')" style="border-radius: 12px;">Dr. Heiko Hoffman (Robotics)</button>
+
             </div>
          </div>
          <div class="col-lg-7 col-sm-12">
+           <div id="lecture-4" class="tabcontent">
+              <div class="videoWrapper">
+                 <iframe width="1120" height="560" src="https://www.youtube.com/embed/apCJXJzPU4A" frameborder="0" allowfullscreen></iframe>
+              </div>
+           </div>
             <div id="lecture-3" class="tabcontent">
                <div class="videoWrapper">
                   <iframe width="1120" height="560" src="https://www.youtube.com/embed/-6YsL5tBRkY" frameborder="0" allowfullscreen></iframe>
                </div>
                <!-- <div class="blog-grid" id="centeredBlog"> -->
+               <br>
+            </div>
+            <div id="lecture-2" class="tabcontent">
+               <div class="videoWrapper">
+                  <iframe width="1120" height="560" src="https://www.youtube.com/embed/JU77dSZyY_g" frameborder="0" allowfullscreen></iframe>
+               </div>
+            </div>
+            <div id="lecture-1" class="tabcontent">
+               <div class="videoWrapper">
+                  <iframe width="1120" height="560" src="https://www.youtube.com/embed/o6wG99eIzMU" frameborder="0" allowfullscreen></iframe>
+               </div>
                <div class="card" style="cursor: pointer;" onclick=window.location.href="/2020/12/11/the-reality-of-robotics";>
                   <div class="image-data"  src="/images/blogs///">
                      <img class="background-image" src="/images/blogs/2020/december/roboticsCover.png">
@@ -146,20 +165,16 @@
                      </p>
                   </div>
                </div>
-               <br>
-            </div>
-            <div id="lecture-2" class="tabcontent">
-               <div class="videoWrapper">
-                  <iframe width="1120" height="560" src="https://www.youtube.com/embed/JU77dSZyY_g" frameborder="0" allowfullscreen></iframe>
-               </div>
-            </div>
-            <div id="lecture-1" class="tabcontent">
-               <div class="videoWrapper">
-                  <iframe width="1120" height="560" src="https://www.youtube.com/embed/o6wG99eIzMU" frameborder="0" allowfullscreen></iframe>
-               </div>
             </div>
          </div>
          <div class="col-lg-3 col-sm-12">
+           <div id="desc-4" class="tabcontent">
+              <div class="desc-card">
+                 <div class="block">
+                    <p></p>
+                 </div>
+              </div>
+           </div>
             <div id="desc-3" class="tabcontent">
                <div class="desc-card">
                   <div class="block">
@@ -184,8 +199,8 @@
          </div>
       </div>
    </section>
-   
-    <script src="/js/speaker.js"></script>   
+
+    <script src="/js/speaker.js"></script>
 
     <!-- footer Start -->
     <footer class="footer" style="background-color: black; margin-top: -40px;">

@@ -63,8 +63,8 @@ Cover Photo: (Melissa Moseley / New Line Productions)
 
 
 <hr>
-<img src="{{ site.baseurl }}/images/writingTeam/noProfile.jpg" width="170" style="float: left; margin-right: 30px; margin-bottom: 20px;"/>
+<img src="{{ site.baseurl }}/images/writingTeam/Rheigina_Quijote.jpg" width="170" style="float: left; margin-right: 30px; margin-bottom: 20px;"/>
 <div style="margin-bottom: 5%;">
 <span style="font-size: 30px; font-weight: 900;">Rheigina Quijote</span>
-<br>
+<br>Rheigina is a junior at Bridgeland High School from Houston, Texas. She loves to do focused writing around STEM to expand her interests but also others like her who are still finding their passions in the field. Rheigina also loves spending time with her family by watching movies, trying new foods with her friends, and reading an excessive amount of YA novels when she has the free time.
 </div>

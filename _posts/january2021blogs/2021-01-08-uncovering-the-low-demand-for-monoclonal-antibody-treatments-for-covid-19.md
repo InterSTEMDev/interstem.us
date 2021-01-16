@@ -17,7 +17,6 @@ Ashley Lee. 01/08/2021
 (Dr_Microbe / iStock / Getty Images Plus)
 </i></center>
 <br>
-Uncovering the low demand for monoclonal antibody treatments for COVID-19
 With the vaccination process beginning a few weeks ago, the approval and use of monoclonal antibodies for treating COVID-19 is still new to many. Many people were not fully aware of the development of these drugs until President Donald Trump received an experimental antibody cocktail earlier in October.
 
 An antibody is a protein that is used by the immune system to recognize and neutralize antigens, any substances the body identifies as foreign. And monoclonal antibodies are created in labs by cloning a white blood cell.
