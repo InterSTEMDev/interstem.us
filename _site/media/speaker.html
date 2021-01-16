@@ -76,7 +76,6 @@
                         <ul class="dropdown-menu">
                           <li><a href="/executive">Executive Board</a></li>
                           <li><a href="/chapters">Chapters</a></li>
-                            <li><a href="/writers">Writers</a></li>
                         </ul>
                       </li>
                       <li class="dropdown">
@@ -120,25 +119,40 @@
       <div class="container-fluid" style="border: 0;";>
          <div class="col-lg-2 col-sm-12 video-list">
             <div class="tab">
-                  <button class="tablinks" onclick="openForm(event, 'lecture-4', 'desc-4')" style="border-radius: 12px;">AMA</button>
+              <button class="tablinks" onclick="openForm(event, 'lecture-4', 'desc-4')" id="defaultOpen" style="border-radius: 12px;">College AMA 1</button>
                <button class="tablinks" onclick="openForm(event, 'lecture-3', 'desc-3')" id="defaultOpen" style="border-radius: 12px;">Prof. Matthew O. Jackson (Economics)</button>
                <button class="tablinks" onclick="openForm(event, 'lecture-2', 'desc-2')" style="border-radius: 12px;">Dr. Francis Bonahon (Math)</button>
                <button class="tablinks" onclick="openForm(event, 'lecture-1', 'desc-1')" style="border-radius: 12px;">Dr. Heiko Hoffman (Robotics)</button>
-
             </div>
          </div>
          <div class="col-lg-7 col-sm-12">
-           <div id="lecture-4" class="tabcontent">
+            <div id="lecture-4" class="tabcontent">
               <div class="videoWrapper">
                  <iframe width="1120" height="560" src="https://www.youtube.com/embed/apCJXJzPU4A" frameborder="0" allowfullscreen></iframe>
               </div>
-           </div>
+            </div>
             <div id="lecture-3" class="tabcontent">
-               <div class="videoWrapper">
-                  <iframe width="1120" height="560" src="https://www.youtube.com/embed/-6YsL5tBRkY" frameborder="0" allowfullscreen></iframe>
-               </div>
-               <!-- <div class="blog-grid" id="centeredBlog"> -->
-               <br>
+              <div class="videoWrapper">
+                <iframe width="1120" height="560" src="https://www.youtube.com/embed/-6YsL5tBRkY" frameborder="0" allowfullscreen></iframe>
+              </div>
+              <!-- <div class="blog-grid" id="centeredBlog"> -->
+              <div class="card" style="cursor: pointer;" onclick=window.location.href="/2020/12/11/the-reality-of-robotics";>
+                <div class="image-data"  src="/images/blogs///">
+                    <img class="background-image" src="/images/blogs/2020/december/roboticsCover.png">
+                    <div class="publication-details">
+                      <b><a href="#" class="author">&nbsp <i class="fas fa-user"></i> Simone Rothaupt</a>
+                      <span class="date">&nbsp <i class="fas fa-calendar-alt"></i> 11 Dec 2020</span>
+                      <span class="time">&nbsp <i class="fas fa-clock"></i>4 min</span></b>
+                    </div>
+                </div>
+                <div class="post-data">
+                    <div class="title">The reality of robotics</div>
+                    <p class="description">
+                      <b style="font-family: sans-serif;">Simone Rothaupt</b> - Robotics has undergone massive advances in recent decades, but what does the future hold for this growing industry?
+                    </p>
+                </div>
+              </div>
+              <br>
             </div>
             <div id="lecture-2" class="tabcontent">
                <div class="videoWrapper">
@@ -149,32 +163,16 @@
                <div class="videoWrapper">
                   <iframe width="1120" height="560" src="https://www.youtube.com/embed/o6wG99eIzMU" frameborder="0" allowfullscreen></iframe>
                </div>
-               <div class="card" style="cursor: pointer;" onclick=window.location.href="/2020/12/11/the-reality-of-robotics";>
-                  <div class="image-data"  src="/images/blogs///">
-                     <img class="background-image" src="/images/blogs/2020/december/roboticsCover.png">
-                     <div class="publication-details">
-                        <b><a href="#" class="author">&nbsp <i class="fas fa-user"></i> Simone Rothaupt</a>
-                        <span class="date">&nbsp <i class="fas fa-calendar-alt"></i> 11 Dec 2020</span>
-                        <span class="time">&nbsp <i class="fas fa-clock"></i>4 min</span></b>
-                     </div>
-                  </div>
-                  <div class="post-data">
-                     <div class="title">The reality of robotics</div>
-                     <p class="description">
-                        <b style="font-family: sans-serif;">Simone Rothaupt</b> - Robotics has undergone massive advances in recent decades, but what does the future hold for this growing industry?
-                     </p>
-                  </div>
-               </div>
             </div>
          </div>
          <div class="col-lg-3 col-sm-12">
-           <div id="desc-4" class="tabcontent">
-              <div class="desc-card">
-                 <div class="block">
-                    <p></p>
-                 </div>
-              </div>
-           </div>
+          <div id="desc-4" class="tabcontent">
+            <div class="desc-card">
+               <div class="block">
+                  <p>Our first college AMA features students from Cal Poly SLO, UCLA, Harvard, and Johns Hopkins. Listen to their advice on the college application process, and get your questions about college life in general answered. </p>
+               </div>
+            </div>
+         </div>
             <div id="desc-3" class="tabcontent">
                <div class="desc-card">
                   <div class="block">
