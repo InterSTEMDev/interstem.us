@@ -27,7 +27,7 @@ On the other hand, we have psychic tears. These are the kind caused by a surge o
 
 <br>
 <img src="{{ site.baseurl }}/images/blogs/2021/january/cryTwo.png" width="70%" style="display: block; margin: 0 auto"/>  
-<center><i>This diagram of the lacrimal apparatus depicts the pathway of tear production. <a href="https://www.landaeyecare.com/tearing/" target="_blank">(Landa & Landa)></a>
+<center><i>This diagram of the lacrimal apparatus depicts the pathway of tear production. <a href="https://www.landaeyecare.com/tearing/" target="_blank">(Landa & Landa)</a>
 </i></center>
 <br>
 The noteworthy part of this process is the uncontrollability of its origin. Most people cry when they lose control over their emotions, when their bodies take over and react for them. This can often be because they encounter something that is out of their realm of control in the first place, and all they can do is succumb to an emotional response. But that begs the question, why crying as an emotional response? What will crying attain for us that no other bodily function can?
