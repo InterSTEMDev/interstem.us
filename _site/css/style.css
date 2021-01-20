@@ -1174,8 +1174,8 @@ header .navbar-default .navbar-nav li a {
 	/* box-shadow: 0 4px 2px 0 rgb(201, 201, 201); */
 	border-radius: 10px;
   max-height: 150px;
-  width: 150px;
-  background-color: rgb(255, 255, 255, 0.8);
+  width: auto;
+  /* background-color: rgb(255, 255, 255, 0.8); */
 }
 
 
