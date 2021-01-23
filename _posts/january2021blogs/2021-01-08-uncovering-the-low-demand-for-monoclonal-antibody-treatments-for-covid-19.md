@@ -4,7 +4,7 @@ title:  "Uncovering the low demand for monoclonal antibody treatments for COVID-
 date:   2021-01-08 00:00:00
 author: "Ashley Lee"
 image: ../../2021/january/monoclonalCover.png
-description: Two monoclonal antibody treatments from different companies were authorized by the U.S. FDA in November. Surprisingly, there is a low demand for this treatment across the entire nation. Administering these drugs has been a challenge for many hospitals, one contributing factor being the conflicting opinions of health professionals and officials of the Operation Warp Speed.
+description: Two monoclonal antibody treatments from different companies were authorized by the U.S. FDA in November. Despite nationally low demand, administering these drugs has been a challenge for many hospitals, one contributing factor being the conflicting opinions of health professionals and officials of the Operation Warp Speed.
 time: 5 min
 ---
 <h2 style="font-family: Ergonomique Bold">Uncovering the low demand for monoclonal antibody treatments for COVID-19</h2>

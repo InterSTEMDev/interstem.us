@@ -1,13 +1,13 @@
 ---
 layout: post
-title:  "COVID-19: A detailed vaccine timeline"
+title:  "The half-baked adolescent brain"
 date:   2021-01-22 00:00:00
 author: "Joan Joe"
 image: ../../2021/january/adolescentBrainCover.png
-description: For a long time, doctors, parents and teachers have had preconceived concepts of why adolescents behave so carelessly and emotionally. It was once thought that teenagers were impulsive and troublesome because raging hormones led them to despise authority. But brain imaging developments, which gathered momentum in the 2000s, tell a much more complex story. The teenage brain, it turns out, is nowhere near completely baked.
+description: It was once thought that teenagers were impulsive and troublesome because raging hormones led them to despise authority, but brain imaging developments, which gathered momentum in the 2000s, tell a much more complex story. The teenage brain, it turns out, is nowhere near completely baked.
 time: 5 min
 ---
-<h2 style="font-family: Ergonomique Bold">COVID-19: A detailed vaccine timeline</h2>
+<h2 style="font-family: Ergonomique Bold">The half-baked adolescent brain</h2>
 Joan Joe. 01/22/2021
 <hr>
 

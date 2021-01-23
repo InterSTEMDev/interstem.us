@@ -156,7 +156,11 @@ a {
     width: 100%;
 }
 
-
+@media screen and (max-width: 1200px) { 
+  .description-author {
+    display: none;
+  }
+}
 
 @media screen and (min-width: 1200px) {
 
@@ -174,6 +178,7 @@ a {
     position: relative;
     font-family:  'Giga Sans Light';
   }
+
   /*
   .description::before {
     content: '';

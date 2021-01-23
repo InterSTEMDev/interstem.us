@@ -4,7 +4,7 @@ title:  "COVID-19: A detailed vaccine timeline"
 date:   2021-01-22 00:00:00
 author: "Mehri Sadri"
 image: ../../2021/january/detailedVaccineCover.jpeg
-description:
+description: With 21st-century science innovation and unlimited funding, many expected a quick solution to the problems that have pierced the lives of millions. However, science cannot be rushed, as safety and surrounding logistics still linger during the initial inoculation process of the mRNA COVID-19 vaccine.
 time: 5 min
 ---
 <h2 style="font-family: Ergonomique Bold">COVID-19: A detailed vaccine timeline</h2>
