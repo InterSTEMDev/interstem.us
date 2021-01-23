@@ -4,10 +4,10 @@ title:  "Ancient stardust discovered in meteorite"
 date:   2021-01-15 00:00:00
 author: "Tania Firouzabady"
 image: ../../2021/january/stardustCover.jpeg
-description: In September 1969, a meteorite fell near the town of Murchison in Victoria, Australia. Scientists have recently discovered that this meteorite contains the oldest material on Earth -- seven-billion-year-old stardust.
+description: "In September 1969, a meteorite fell near the town of Murchison in Victoria, Australia. Scientists have recently discovered that this meteorite contains the oldest material on Earth: seven-billion-year-old stardust."
 time: 5 min
 ---
-<h2 style="font-family: Ergonomique Bold">The causes, symptoms and treatment for social anxiety</h2>
+<h2 style="font-family: Ergonomique Bold">Ancient stardust discovered in meteorite</h2>
 Tania Firouzabady. 01/15/2021
 <hr>
 
