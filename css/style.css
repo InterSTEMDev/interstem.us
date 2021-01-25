@@ -122,14 +122,6 @@ input[type="email"]:focus, input[type="password"]:focus, input[type="text"]:focu
   background-color: #f7f2f2;
 }
 
-.research-desc {
-  background-color:#f2f7f3;
-  padding: 0 30px;
-  margin-top: 2em;
-  border-radius: 10px;
-}
-
-
 #programCard {
     padding-top: 10px;
 }
@@ -150,18 +142,10 @@ input[type="email"]:focus, input[type="password"]:focus, input[type="text"]:focu
   margin-top: 10px;
 }
 
-
-
-.firstOrder {
-  order: 1;
-}
-.secondOrder {
-  order: 2;
-}
 .paddingLeft {
   padding-left: 30px;
 }
-.customGrid {
+.research-names-bottom {
    margin-top: 2.5%;
 }
 .researchPic {
@@ -175,10 +159,6 @@ input[type="email"]:focus, input[type="password"]:focus, input[type="text"]:focu
 .marginLeftTwo {
   margin-left: 20px;
 }
-.changeOrder {
-
-}
-
 
 .hamilton {
   padding-left: 30px;
@@ -367,6 +347,52 @@ input[type="email"]:focus, input[type="password"]:focus, input[type="text"]:focu
   text-align: center;
 }
 
+.img-bio-research {
+  /*height: auto;
+  max-width: 175px;*/
+  display: inline-block;
+  width: 210px;
+  height: 210px;
+  border-radius: 50%;
+
+  background-repeat: no-repeat !important;
+  background-position: center center !important;
+  background-size: cover !important;
+}
+
+.research-name {
+  padding-bottom: 20px;
+}
+
+.research-desc {
+  background-color:#f2f7f3;
+  padding: 0 30px;
+  margin-top: 2em;
+  margin-right: 2em;
+  border-radius: 10px;
+}
+
+.research-bios {
+  max-width: inherit;
+  padding-top: 5%;
+}
+
+@media only screen and (max-width: 991px) {
+  .research-bios {
+    margin-top: 30px;
+  }
+  .research-desc {
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .img-bio-research {
+    width: 150px;
+    height: 150px;
+  }
+}
 
 .exec-card {
   padding: 5rem 5rem;
