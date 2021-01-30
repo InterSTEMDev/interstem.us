@@ -1,13 +1,13 @@
 ---
 layout: post
-title:  "The Great Filter"
+title:  "Starlink’s journey to 1,000 more"
 date:   2021-01-29 00:00:03
 author: "Mehri Sadri"
 image: ../../2021/january/starlinksCover.jpeg
 description: Starlink, a relatively new innovation to space technology, is a satellite constellation with an end goal to provide accessible internet connection to individuals across the world. Though the number of launched parts recently reached 1,000, this is only the beginning for SpaceX, which has goals to provide thousands of more within the next few years.
 time: 3 min
 ---
-<h2 style="font-family: Ergonomique Bold">The Great Filter</h2>
+<h2 style="font-family: Ergonomique Bold">Starlink’s journey to 1,000 more</h2>
 Mehri Sadri. 01/29/2021
 <hr>
 
