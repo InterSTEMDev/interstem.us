@@ -49,7 +49,7 @@ At this point, a person would feel the sensation and respond emotionally to the 
 
 However, by this time, the individual would have most likely already reacted involuntarily through a reflex response that occurs within the spinal cord. They would have shifted their hand away from the heat source mere milliseconds before the brain actually became aware of the pain sensation.
 
-What is Congenital insensitivity to pain (CIP)?
+<b>What is Congenital insensitivity to pain (CIP)?</b>
 
 Congenital insensitivity to pain is an umbrella term used to describe hereditary sensory and autonomic neuropathies (HSANs), which are rare autosomal recessive disorders characterized by the absence of pain sensation.
 

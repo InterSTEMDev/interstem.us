@@ -4,7 +4,7 @@ title:  "Overview of personality psychology"
 date:   2021-01-29 00:00:00
 author: "Omar Dajani"
 image: ../../2021/january/psychologyCover.jpeg
-description: It was once thought that teenagers were impulsive and troublesome because raging hormones led them to despise authority, but brain imaging developments, which gathered momentum in the 2000s, tell a much more complex story. The teenage brain, it turns out, is nowhere near completely baked.
+description: Personality psychology is an ever evolving branch of psychology. It also happens to be one of the most popular due to people’s interest in learning more about their own personality as well as that of other people. But most people go into this subject unaware of its complexity. 
 time: 5 min
 ---
 <h2 style="font-family: Ergonomique Bold">Overview of personality psychology</h2>
