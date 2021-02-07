@@ -1,0 +1,159 @@
+current directory: C:/Users/davma/Desktop/Websites/newSTEM/vendor/bundle/ruby/2.7.0/gems/ffi-1.14.2/ext/ffi_c
+C:/Ruby27-x64/bin/ruby.exe -I C:/Ruby27-x64/lib/ruby/2.7.0 -r ./siteconf20210206-21008-1k5qoym.rb extconf.rb
+checking for ffi.h... no
+checking for ffi.h in /usr/local/include,/usr/include/ffi,/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/ffi,/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/ffi... no
+checking for whether -Wl,--exclude-libs,ALL is accepted as LDFLAGS... yes
+creating extconf.h
+creating Makefile
+
+current directory: C:/Users/davma/Desktop/Websites/newSTEM/vendor/bundle/ruby/2.7.0/gems/ffi-1.14.2/ext/ffi_c
+make "DESTDIR=" clean
+
+current directory: C:/Users/davma/Desktop/Websites/newSTEM/vendor/bundle/ruby/2.7.0/gems/ffi-1.14.2/ext/ffi_c
+make "DESTDIR="
+generating ffi_c-x64-mingw32.def
+Configuring libffi
+readelf: Error: Not an ELF file - it has the wrong magic bytes at the start
+make -C "/c/Users/davma/Desktop/Websites/newSTEM/vendor/bundle/ruby/2.7.0/gems/ffi-1.14.2/ext/ffi_c/libffi-x64-mingw32"
+make[1]: Entering directory '/c/Users/davma/Desktop/Websites/newSTEM/vendor/bundle/ruby/2.7.0/gems/ffi-1.14.2/ext/ffi_c/libffi-x64-mingw32'
+make  all-recursive
+make[2]: Entering directory '/c/Users/davma/Desktop/Websites/newSTEM/vendor/bundle/ruby/2.7.0/gems/ffi-1.14.2/ext/ffi_c/libffi-x64-mingw32'
+Making all in include
+make[3]: Entering directory '/c/Users/davma/Desktop/Websites/newSTEM/vendor/bundle/ruby/2.7.0/gems/ffi-1.14.2/ext/ffi_c/libffi-x64-mingw32/include'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/c/Users/davma/Desktop/Websites/newSTEM/vendor/bundle/ruby/2.7.0/gems/ffi-1.14.2/ext/ffi_c/libffi-x64-mingw32/include'
+Making all in testsuite
+make[3]: Entering directory '/c/Users/davma/Desktop/Websites/newSTEM/vendor/bundle/ruby/2.7.0/gems/ffi-1.14.2/ext/ffi_c/libffi-x64-mingw32/testsuite'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/c/Users/davma/Desktop/Websites/newSTEM/vendor/bundle/ruby/2.7.0/gems/ffi-1.14.2/ext/ffi_c/libffi-x64-mingw32/testsuite'
+Making all in man
+make[3]: Entering directory '/c/Users/davma/Desktop/Websites/newSTEM/vendor/bundle/ruby/2.7.0/gems/ffi-1.14.2/ext/ffi_c/libffi-x64-mingw32/man'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/c/Users/davma/Desktop/Websites/newSTEM/vendor/bundle/ruby/2.7.0/gems/ffi-1.14.2/ext/ffi_c/libffi-x64-mingw32/man'
+make[3]: Entering directory '/c/Users/davma/Desktop/Websites/newSTEM/vendor/bundle/ruby/2.7.0/gems/ffi-1.14.2/ext/ffi_c/libffi-x64-mingw32'
+/bin/sh ./libtool  --tag=CC   --mode=compile x86_64-w64-mingw32-gcc -DHAVE_CONFIG_H -I. -I/c/Users/davma/Desktop/Websites/newSTEM/vendor/bundle/ruby/2.7.0/gems/ffi-1.14.2/ext/ffi_c/libffi  -I. -I/c/Users/davma/Desktop/Websites/newSTEM/vendor/bundle/ruby/2.7.0/gems/ffi-1.14.2/ext/ffi_c/libffi/include -Iinclude -I/c/Users/davma/Desktop/Websites/newSTEM/vendor/bundle/ruby/2.7.0/gems/ffi-1.14.2/ext/ffi_c/libffi/src   -Wall -fexceptions -c -o src/prep_cif.lo /c/Users/davma/Desktop/Websites/newSTEM/vendor/bundle/ruby/2.7.0/gems/ffi-1.14.2/ext/ffi_c/libffi/src/prep_cif.c
+libtool: compile:  x86_64-w64-mingw32-gcc -DHAVE_CONFIG_H -I. -I/c/Users/davma/Desktop/Websites/newSTEM/vendor/bundle/ruby/2.7.0/gems/ffi-1.14.2/ext/ffi_c/libffi -I. -I/c/Users/davma/Desktop/Websites/newSTEM/vendor/bundle/ruby/2.7.0/gems/ffi-1.14.2/ext/ffi_c/libffi/include -Iinclude -I/c/Users/davma/Desktop/Websites/newSTEM/vendor/bundle/ruby/2.7.0/gems/ffi-1.14.2/ext/ffi_c/libffi/src -Wall -fexceptions -c /c/Users/davma/Desktop/Websites/newSTEM/vendor/bundle/ruby/2.7.0/gems/ffi-1.14.2/ext/ffi_c/libffi/src/prep_cif.c  -DDLL_EXPORT -DPIC -o src/.libs/prep_cif.o
+/bin/sh ./libtool  --tag=CC   --mode=compile x86_64-w64-mingw32-gcc -DHAVE_CONFIG_H -I. -I/c/Users/davma/Desktop/Websites/newSTEM/vendor/bundle/ruby/2.7.0/gems/ffi-1.14.2/ext/ffi_c/libffi  -I. -I/c/Users/davma/Desktop/Websites/newSTEM/vendor/bundle/ruby/2.7.0/gems/ffi-1.14.2/ext/ffi_c/libffi/include -Iinclude -I/c/Users/davma/Desktop/Websites/newSTEM/vendor/bundle/ruby/2.7.0/gems/ffi-1.14.2/ext/ffi_c/libffi/src   -Wall -fexceptions -c -o src/types.lo /c/Users/davma/Desktop/Websites/newSTEM/vendor/bundle/ruby/2.7.0/gems/ffi-1.14.2/ext/ffi_c/libffi/src/types.c
+libtool: compile:  x86_64-w64-mingw32-gcc -DHAVE_CONFIG_H -I. -I/c/Users/davma/Desktop/Websites/newSTEM/vendor/bundle/ruby/2.7.0/gems/ffi-1.14.2/ext/ffi_c/libffi -I. -I/c/Users/davma/Desktop/Websites/newSTEM/vendor/bundle/ruby/2.7.0/gems/ffi-1.14.2/ext/ffi_c/libffi/include -Iinclude -I/c/Users/davma/Desktop/Websites/newSTEM/vendor/bundle/ruby/2.7.0/gems/ffi-1.14.2/ext/ffi_c/libffi/src -Wall -fexceptions -c /c/Users/davma/Desktop/Websites/newSTEM/vendor/bundle/ruby/2.7.0/gems/ffi-1.14.2/ext/ffi_c/libffi/src/types.c  -DDLL_EXPORT -DPIC -o src/.libs/types.o
+/bin/sh ./libtool  --tag=CC   --mode=compile x86_64-w64-mingw32-gcc -DHAVE_CONFIG_H -I. -I/c/Users/davma/Desktop/Websites/newSTEM/vendor/bundle/ruby/2.7.0/gems/ffi-1.14.2/ext/ffi_c/libffi  -I. -I/c/Users/davma/Desktop/Websites/newSTEM/vendor/bundle/ruby/2.7.0/gems/ffi-1.14.2/ext/ffi_c/libffi/include -Iinclude -I/c/Users/davma/Desktop/Websites/newSTEM/vendor/bundle/ruby/2.7.0/gems/ffi-1.14.2/ext/ffi_c/libffi/src   -Wall -fexceptions -c -o src/raw_api.lo /c/Users/davma/Desktop/Websites/newSTEM/vendor/bundle/ruby/2.7.0/gems/ffi-1.14.2/ext/ffi_c/libffi/src/raw_api.c
+libtool: compile:  x86_64-w64-mingw32-gcc -DHAVE_CONFIG_H -I. -I/c/Users/davma/Desktop/Websites/newSTEM/vendor/bundle/ruby/2.7.0/gems/ffi-1.14.2/ext/ffi_c/libffi -I. -I/c/Users/davma/Desktop/Websites/newSTEM/vendor/bundle/ruby/2.7.0/gems/ffi-1.14.2/ext/ffi_c/libffi/include -Iinclude -I/c/Users/davma/Desktop/Websites/newSTEM/vendor/bundle/ruby/2.7.0/gems/ffi-1.14.2/ext/ffi_c/libffi/src -Wall -fexceptions -c /c/Users/davma/Desktop/Websites/newSTEM/vendor/bundle/ruby/2.7.0/gems/ffi-1.14.2/ext/ffi_c/libffi/src/raw_api.c  -DDLL_EXPORT -DPIC -o src/.libs/raw_api.o
+/bin/sh ./libtool  --tag=CC   --mode=compile x86_64-w64-mingw32-gcc -DHAVE_CONFIG_H -I. -I/c/Users/davma/Desktop/Websites/newSTEM/vendor/bundle/ruby/2.7.0/gems/ffi-1.14.2/ext/ffi_c/libffi  -I. -I/c/Users/davma/Desktop/Websites/newSTEM/vendor/bundle/ruby/2.7.0/gems/ffi-1.14.2/ext/ffi_c/libffi/include -Iinclude -I/c/Users/davma/Desktop/Websites/newSTEM/vendor/bundle/ruby/2.7.0/gems/ffi-1.14.2/ext/ffi_c/libffi/src   -Wall -fexceptions -c -o src/java_raw_api.lo /c/Users/davma/Desktop/Websites/newSTEM/vendor/bundle/ruby/2.7.0/gems/ffi-1.14.2/ext/ffi_c/libffi/src/java_raw_api.c
+libtool: compile:  x86_64-w64-mingw32-gcc -DHAVE_CONFIG_H -I. -I/c/Users/davma/Desktop/Websites/newSTEM/vendor/bundle/ruby/2.7.0/gems/ffi-1.14.2/ext/ffi_c/libffi -I. -I/c/Users/davma/Desktop/Websites/newSTEM/vendor/bundle/ruby/2.7.0/gems/ffi-1.14.2/ext/ffi_c/libffi/include -Iinclude -I/c/Users/davma/Desktop/Websites/newSTEM/vendor/bundle/ruby/2.7.0/gems/ffi-1.14.2/ext/ffi_c/libffi/src -Wall -fexceptions -c /c/Users/davma/Desktop/Websites/newSTEM/vendor/bundle/ruby/2.7.0/gems/ffi-1.14.2/ext/ffi_c/libffi/src/java_raw_api.c  -DDLL_EXPORT -DPIC -o src/.libs/java_raw_api.o
+C:/Users/davma/Desktop/Websites/newSTEM/vendor/bundle/ruby/2.7.0/gems/ffi-1.14.2/ext/ffi_c/libffi/src/java_raw_api.c: In function 'ffi_java_raw_call':
+C:/Users/davma/Desktop/Websites/newSTEM/vendor/bundle/ruby/2.7.0/gems/ffi-1.14.2/ext/ffi_c/libffi/src/java_raw_api.c:317:3: warning: 'ffi_java_raw_to_ptrarray' is deprecated [-Wdeprecated-declarations]
+  317 |   ffi_java_raw_to_ptrarray (cif, raw, avalue);
+      |   ^~~~~~~~~~~~~~~~~~~~~~~~
+C:/Users/davma/Desktop/Websites/newSTEM/vendor/bundle/ruby/2.7.0/gems/ffi-1.14.2/ext/ffi_c/libffi/src/java_raw_api.c:76:1: note: declared here
+   76 | ffi_java_raw_to_ptrarray (ffi_cif *cif, ffi_java_raw *raw, void **args)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~
+C:/Users/davma/Desktop/Websites/newSTEM/vendor/bundle/ruby/2.7.0/gems/ffi-1.14.2/ext/ffi_c/libffi/src/java_raw_api.c: In function 'ffi_java_translate_args':
+C:/Users/davma/Desktop/Websites/newSTEM/vendor/bundle/ruby/2.7.0/gems/ffi-1.14.2/ext/ffi_c/libffi/src/java_raw_api.c:328:3: warning: 'ffi_java_raw_size' is deprecated [-Wdeprecated-declarations]
+  328 |   ffi_java_raw *raw = (ffi_java_raw*)alloca (ffi_java_raw_size (cif));
+      |   ^~~~~~~~~~~~
+C:/Users/davma/Desktop/Websites/newSTEM/vendor/bundle/ruby/2.7.0/gems/ffi-1.14.2/ext/ffi_c/libffi/src/java_raw_api.c:45:1: note: declared here
+   45 | ffi_java_raw_size (ffi_cif *cif)
+      | ^~~~~~~~~~~~~~~~~
+C:/Users/davma/Desktop/Websites/newSTEM/vendor/bundle/ruby/2.7.0/gems/ffi-1.14.2/ext/ffi_c/libffi/src/java_raw_api.c:331:3: warning: 'ffi_java_ptrarray_to_raw' is deprecated [-Wdeprecated-declarations]
+  331 |   ffi_java_ptrarray_to_raw (cif, avalue, raw);
+      |   ^~~~~~~~~~~~~~~~~~~~~~~~
+C:/Users/davma/Desktop/Websites/newSTEM/vendor/bundle/ruby/2.7.0/gems/ffi-1.14.2/ext/ffi_c/libffi/src/java_raw_api.c:157:1: note: declared here
+  157 | ffi_java_ptrarray_to_raw (ffi_cif *cif, void **args, ffi_java_raw *raw)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~
+C:/Users/davma/Desktop/Websites/newSTEM/vendor/bundle/ruby/2.7.0/gems/ffi-1.14.2/ext/ffi_c/libffi/src/java_raw_api.c: In function 'ffi_prep_java_raw_closure':
+C:/Users/davma/Desktop/Websites/newSTEM/vendor/bundle/ruby/2.7.0/gems/ffi-1.14.2/ext/ffi_c/libffi/src/java_raw_api.c:369:3: warning: 'ffi_prep_java_raw_closure_loc' is deprecated [-Wdeprecated-declarations]
+  369 |   return ffi_prep_java_raw_closure_loc (cl, cif, fun, user_data, cl);
+      |   ^~~~~~
+C:/Users/davma/Desktop/Websites/newSTEM/vendor/bundle/ruby/2.7.0/gems/ffi-1.14.2/ext/ffi_c/libffi/src/java_raw_api.c:337:1: note: declared here
+  337 | ffi_prep_java_raw_closure_loc (ffi_java_raw_closure* cl,
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/bin/sh ./libtool  --tag=CC   --mode=compile x86_64-w64-mingw32-gcc -DHAVE_CONFIG_H -I. -I/c/Users/davma/Desktop/Websites/newSTEM/vendor/bundle/ruby/2.7.0/gems/ffi-1.14.2/ext/ffi_c/libffi  -I. -I/c/Users/davma/Desktop/Websites/newSTEM/vendor/bundle/ruby/2.7.0/gems/ffi-1.14.2/ext/ffi_c/libffi/include -Iinclude -I/c/Users/davma/Desktop/Websites/newSTEM/vendor/bundle/ruby/2.7.0/gems/ffi-1.14.2/ext/ffi_c/libffi/src   -Wall -fexceptions -c -o src/closures.lo /c/Users/davma/Desktop/Websites/newSTEM/vendor/bundle/ruby/2.7.0/gems/ffi-1.14.2/ext/ffi_c/libffi/src/closures.c
+libtool: compile:  x86_64-w64-mingw32-gcc -DHAVE_CONFIG_H -I. -I/c/Users/davma/Desktop/Websites/newSTEM/vendor/bundle/ruby/2.7.0/gems/ffi-1.14.2/ext/ffi_c/libffi -I. -I/c/Users/davma/Desktop/Websites/newSTEM/vendor/bundle/ruby/2.7.0/gems/ffi-1.14.2/ext/ffi_c/libffi/include -Iinclude -I/c/Users/davma/Desktop/Websites/newSTEM/vendor/bundle/ruby/2.7.0/gems/ffi-1.14.2/ext/ffi_c/libffi/src -Wall -fexceptions -c /c/Users/davma/Desktop/Websites/newSTEM/vendor/bundle/ruby/2.7.0/gems/ffi-1.14.2/ext/ffi_c/libffi/src/closures.c  -DDLL_EXPORT -DPIC -o src/.libs/closures.o
+/bin/sh ./libtool  --tag=CC   --mode=compile x86_64-w64-mingw32-gcc -DHAVE_CONFIG_H -I. -I/c/Users/davma/Desktop/Websites/newSTEM/vendor/bundle/ruby/2.7.0/gems/ffi-1.14.2/ext/ffi_c/libffi  -I. -I/c/Users/davma/Desktop/Websites/newSTEM/vendor/bundle/ruby/2.7.0/gems/ffi-1.14.2/ext/ffi_c/libffi/include -Iinclude -I/c/Users/davma/Desktop/Websites/newSTEM/vendor/bundle/ruby/2.7.0/gems/ffi-1.14.2/ext/ffi_c/libffi/src   -Wall -fexceptions -c -o src/x86/ffiw64.lo /c/Users/davma/Desktop/Websites/newSTEM/vendor/bundle/ruby/2.7.0/gems/ffi-1.14.2/ext/ffi_c/libffi/src/x86/ffiw64.c
+libtool: compile:  x86_64-w64-mingw32-gcc -DHAVE_CONFIG_H -I. -I/c/Users/davma/Desktop/Websites/newSTEM/vendor/bundle/ruby/2.7.0/gems/ffi-1.14.2/ext/ffi_c/libffi -I. -I/c/Users/davma/Desktop/Websites/newSTEM/vendor/bundle/ruby/2.7.0/gems/ffi-1.14.2/ext/ffi_c/libffi/include -Iinclude -I/c/Users/davma/Desktop/Websites/newSTEM/vendor/bundle/ruby/2.7.0/gems/ffi-1.14.2/ext/ffi_c/libffi/src -Wall -fexceptions -c /c/Users/davma/Desktop/Websites/newSTEM/vendor/bundle/ruby/2.7.0/gems/ffi-1.14.2/ext/ffi_c/libffi/src/x86/ffiw64.c  -DDLL_EXPORT -DPIC -o src/x86/.libs/ffiw64.o
+/bin/sh ./libtool  --tag=CC   --mode=compile x86_64-w64-mingw32-gcc -DHAVE_CONFIG_H -I. -I/c/Users/davma/Desktop/Websites/newSTEM/vendor/bundle/ruby/2.7.0/gems/ffi-1.14.2/ext/ffi_c/libffi  -I. -I/c/Users/davma/Desktop/Websites/newSTEM/vendor/bundle/ruby/2.7.0/gems/ffi-1.14.2/ext/ffi_c/libffi/include -Iinclude -I/c/Users/davma/Desktop/Websites/newSTEM/vendor/bundle/ruby/2.7.0/gems/ffi-1.14.2/ext/ffi_c/libffi/src  -I. -I/c/Users/davma/Desktop/Websites/newSTEM/vendor/bundle/ruby/2.7.0/gems/ffi-1.14.2/ext/ffi_c/libffi/include -Iinclude -I/c/Users/davma/Desktop/Websites/newSTEM/vendor/bundle/ruby/2.7.0/gems/ffi-1.14.2/ext/ffi_c/libffi/src  -c -o src/x86/win64.lo /c/Users/davma/Desktop/Websites/newSTEM/vendor/bundle/ruby/2.7.0/gems/ffi-1.14.2/ext/ffi_c/libffi/src/x86/win64.S
+libtool: compile:  x86_64-w64-mingw32-gcc -DHAVE_CONFIG_H -I. -I/c/Users/davma/Desktop/Websites/newSTEM/vendor/bundle/ruby/2.7.0/gems/ffi-1.14.2/ext/ffi_c/libffi -I. -I/c/Users/davma/Desktop/Websites/newSTEM/vendor/bundle/ruby/2.7.0/gems/ffi-1.14.2/ext/ffi_c/libffi/include -Iinclude -I/c/Users/davma/Desktop/Websites/newSTEM/vendor/bundle/ruby/2.7.0/gems/ffi-1.14.2/ext/ffi_c/libffi/src -I. -I/c/Users/davma/Desktop/Websites/newSTEM/vendor/bundle/ruby/2.7.0/gems/ffi-1.14.2/ext/ffi_c/libffi/include -Iinclude -I/c/Users/davma/Desktop/Websites/newSTEM/vendor/bundle/ruby/2.7.0/gems/ffi-1.14.2/ext/ffi_c/libffi/src -c /c/Users/davma/Desktop/Websites/newSTEM/vendor/bundle/ruby/2.7.0/gems/ffi-1.14.2/ext/ffi_c/libffi/src/x86/win64.S  -DDLL_EXPORT -DPIC -o src/x86/.libs/win64.o
+x86_64-w64-mingw32-gcc -DHAVE_CONFIG_H -I. -I/c/Users/davma/Desktop/Websites/newSTEM/vendor/bundle/ruby/2.7.0/gems/ffi-1.14.2/ext/ffi_c/libffi  -I. -I/c/Users/davma/Desktop/Websites/newSTEM/vendor/bundle/ruby/2.7.0/gems/ffi-1.14.2/ext/ffi_c/libffi/include -Iinclude -I/c/Users/davma/Desktop/Websites/newSTEM/vendor/bundle/ruby/2.7.0/gems/ffi-1.14.2/ext/ffi_c/libffi/src   -Wall -fexceptions -DX86_WIN64 -DGENERATE_LIBFFI_MAP \
+ -E -x assembler-with-cpp -o libffi.map /c/Users/davma/Desktop/Websites/newSTEM/vendor/bundle/ruby/2.7.0/gems/ffi-1.14.2/ext/ffi_c/libffi/libffi.map.in
+/bin/sh ./libtool  --tag=CC   --mode=link x86_64-w64-mingw32-gcc  -Wall -fexceptions   -o libffi_convenience.la  src/prep_cif.lo src/types.lo src/raw_api.lo src/java_raw_api.lo src/closures.lo   src/x86/ffiw64.lo src/x86/win64.lo 
+libtool: link: rm -fr  .libs/libffi_convenience.a(D)
+libtool: link: ar cru .libs/libffi_convenience.a src/.libs/prep_cif.o src/.libs/types.o src/.libs/raw_api.o src/.libs/java_raw_api.o src/.libs/closures.o src/x86/.libs/ffiw64.o src/x86/.libs/win64.o 
+libtool: link: ranlib .libs/libffi_convenience.a
+libtool: link: ( cd ".libs" && rm -f "libffi_convenience.la" && cp -pR "../libffi_convenience.la" "libffi_convenience.la" )
+/bin/sh ./libtool  --tag=CC   --mode=link x86_64-w64-mingw32-gcc  -Wall -fexceptions -no-undefined -version-info `grep -v '^#' /c/Users/davma/Desktop/Websites/newSTEM/vendor/bundle/ruby/2.7.0/gems/ffi-1.14.2/ext/ffi_c/libffi/libtool-version` -Wl,--version-script,libffi.map  -no-undefined -bindir "/mingw64/bin"  -o libffi.la -rpath /mingw64/lib/../lib src/prep_cif.lo src/types.lo src/raw_api.lo src/java_raw_api.lo src/closures.lo  src/x86/ffiw64.lo src/x86/win64.lo 
+libtool: link: x86_64-w64-mingw32-gcc -shared  src/.libs/prep_cif.o src/.libs/types.o src/.libs/raw_api.o src/.libs/java_raw_api.o src/.libs/closures.o src/x86/.libs/ffiw64.o src/x86/.libs/win64.o    -Wl,--version-script -Wl,libffi.map   -o .libs/libffi-8.dll -Wl,--enable-auto-image-base -Xlinker --out-implib -Xlinker .libs/libffi.dll.a
+libtool: link: ( cd ".libs" && rm -f "libffi.la" && cp -pR "../libffi.la" "libffi.la" )
+make[3]: Leaving directory '/c/Users/davma/Desktop/Websites/newSTEM/vendor/bundle/ruby/2.7.0/gems/ffi-1.14.2/ext/ffi_c/libffi-x64-mingw32'
+make[2]: Leaving directory '/c/Users/davma/Desktop/Websites/newSTEM/vendor/bundle/ruby/2.7.0/gems/ffi-1.14.2/ext/ffi_c/libffi-x64-mingw32'
+make[1]: Leaving directory '/c/Users/davma/Desktop/Websites/newSTEM/vendor/bundle/ruby/2.7.0/gems/ffi-1.14.2/ext/ffi_c/libffi-x64-mingw32'
+compiling AbstractMemory.c
+compiling ArrayType.c
+compiling Buffer.c
+compiling Call.c
+compiling ClosurePool.c
+compiling DynamicLibrary.c
+compiling Function.c
+compiling FunctionInfo.c
+compiling LastError.c
+compiling LongDouble.c
+compiling MappedType.c
+compiling MemoryPointer.c
+compiling MethodHandle.c
+compiling Platform.c
+compiling Pointer.c
+compiling Struct.c
+compiling StructByValue.c
+compiling StructLayout.c
+compiling Thread.c
+compiling Type.c
+compiling Types.c
+compiling Variadic.c
+compiling ffi.c
+linking shared-object ffi_c.so
+
+current directory: C:/Users/davma/Desktop/Websites/newSTEM/vendor/bundle/ruby/2.7.0/gems/ffi-1.14.2/ext/ffi_c
+make "DESTDIR=" install
+make -C "/c/Users/davma/Desktop/Websites/newSTEM/vendor/bundle/ruby/2.7.0/gems/ffi-1.14.2/ext/ffi_c/libffi-x64-mingw32"
+make[1]: Entering directory '/c/Users/davma/Desktop/Websites/newSTEM/vendor/bundle/ruby/2.7.0/gems/ffi-1.14.2/ext/ffi_c/libffi-x64-mingw32'
+make  all-recursive
+make[2]: Entering directory '/c/Users/davma/Desktop/Websites/newSTEM/vendor/bundle/ruby/2.7.0/gems/ffi-1.14.2/ext/ffi_c/libffi-x64-mingw32'
+Making all in include
+make[3]: Entering directory '/c/Users/davma/Desktop/Websites/newSTEM/vendor/bundle/ruby/2.7.0/gems/ffi-1.14.2/ext/ffi_c/libffi-x64-mingw32/include'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/c/Users/davma/Desktop/Websites/newSTEM/vendor/bundle/ruby/2.7.0/gems/ffi-1.14.2/ext/ffi_c/libffi-x64-mingw32/include'
+Making all in testsuite
+make[3]: Entering directory '/c/Users/davma/Desktop/Websites/newSTEM/vendor/bundle/ruby/2.7.0/gems/ffi-1.14.2/ext/ffi_c/libffi-x64-mingw32/testsuite'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/c/Users/davma/Desktop/Websites/newSTEM/vendor/bundle/ruby/2.7.0/gems/ffi-1.14.2/ext/ffi_c/libffi-x64-mingw32/testsuite'
+Making all in man
+make[3]: Entering directory '/c/Users/davma/Desktop/Websites/newSTEM/vendor/bundle/ruby/2.7.0/gems/ffi-1.14.2/ext/ffi_c/libffi-x64-mingw32/man'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/c/Users/davma/Desktop/Websites/newSTEM/vendor/bundle/ruby/2.7.0/gems/ffi-1.14.2/ext/ffi_c/libffi-x64-mingw32/man'
+make[3]: Entering directory '/c/Users/davma/Desktop/Websites/newSTEM/vendor/bundle/ruby/2.7.0/gems/ffi-1.14.2/ext/ffi_c/libffi-x64-mingw32'
+make[3]: Leaving directory '/c/Users/davma/Desktop/Websites/newSTEM/vendor/bundle/ruby/2.7.0/gems/ffi-1.14.2/ext/ffi_c/libffi-x64-mingw32'
+make[2]: Leaving directory '/c/Users/davma/Desktop/Websites/newSTEM/vendor/bundle/ruby/2.7.0/gems/ffi-1.14.2/ext/ffi_c/libffi-x64-mingw32'
+make[1]: Leaving directory '/c/Users/davma/Desktop/Websites/newSTEM/vendor/bundle/ruby/2.7.0/gems/ffi-1.14.2/ext/ffi_c/libffi-x64-mingw32'
+compiling AbstractMemory.c
+compiling ArrayType.c
+compiling Buffer.c
+compiling Call.c
+compiling ClosurePool.c
+compiling DynamicLibrary.c
+compiling Function.c
+compiling FunctionInfo.c
+compiling LastError.c
+compiling LongDouble.c
+compiling MappedType.c
+compiling MemoryPointer.c
+compiling MethodHandle.c
+compiling Platform.c
+compiling Pointer.c
+compiling Struct.c
+compiling StructByValue.c
+compiling StructLayout.c
+compiling Thread.c
+compiling Type.c
+compiling Types.c
+compiling Variadic.c
+compiling ffi.c
+linking shared-object ffi_c.so
+/usr/bin/install -c -m 0755 ffi_c.so ./.gem.20210206-21008-cxpe5v
