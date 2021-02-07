@@ -3276,7 +3276,7 @@ header .navbar-default .navbar-nav li a {
   text-transform: uppercase;
   font-weight: 600;
   font-family: 'Ergonomique Bold';
-  border-radius: 200px;
+  border-radius: 15px;
 }
 
 .gradient-btn__outlined {
@@ -3287,7 +3287,7 @@ header .navbar-default .navbar-nav li a {
   text-transform: uppercase;
   font-weight: 600;
   font-family: 'Ergonomique Bold';
-  border-radius: 200px;
+  border-radius: 15px;
 }
 
 .gradient-btn-filled, .gradient-btn__outlined {
@@ -3302,6 +3302,10 @@ header .navbar-default .navbar-nav li a {
   font-size: 50px;
   font-family: 'Ergonomique Bold';
   text-align: center;
+}
+
+.tutor-subject {
+  padding: 0 15px;
 }
 
 /* faq */
