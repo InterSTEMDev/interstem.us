@@ -47,7 +47,7 @@ The star of this mission will be NASA’s most advanced rover yet, named <a href
 
 The future of humanity’s relationship with Mars will likely depend on what Perseverance finds. Every past Mars rover has made discoveries that have completely changed our understanding of the planet, and as the first rover to take into account the possibility of past life on Mars, Perseverance has its work cut out for it. Hopefully, whatever it finds will shed further light on the many mysteries of the Red Planet.
 
-
+Cover Photo: <a href="https://www.360cities.net/image/curiosity-rover-martian-solar-day-2#35.47,-7.67,110.0" target="_blank">(360 Cities)</a>
 
 <hr>
 <img src="{{ site.baseurl }}/images/writingTeam/noProfile.jpg" width="170" style="float: left; margin-right: 30px; margin-bottom: 20px;"/>
