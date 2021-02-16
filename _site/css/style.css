@@ -361,6 +361,53 @@ input[type="email"]:focus, input[type="password"]:focus, input[type="text"]:focu
   background-size: cover !important;
 }
 
+.research-card-container {
+  background-color: transparent;
+  width: auto;
+  height: 270px;
+  perspective: 1000px;
+  padding-bottom: 10px;
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); */
+}
+
+.research-card {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.5s;
+  transition-delay: 0.1s;
+  transform-style: preserve-3d;  
+}
+
+.research-card-container:hover .research-card {
+  transform: rotateY(180deg);
+}
+
+.research-card-container:hover .research-name i {
+  color: var(--primary-color);
+}
+
+.research-card-front, .research-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden; 
+}
+
+.research-card-back {
+  transform: rotateY(180deg);
+  background-color: var(--lighter-color);
+  padding: 25px 10px;
+  border-radius: 10px;
+}
+
+.research-card-back p {
+  font-size: 14px !important;
+  line-height: 18px !important;
+}
+
 .research-name {
   padding-bottom: 20px;
 }
@@ -396,6 +443,12 @@ input[type="email"]:focus, input[type="password"]:focus, input[type="text"]:focu
   .research-group h2 {
     margin-left: 0 !important;
   }
+  .research-card-back p {
+    font-size: 14px !important;
+  }
+  .research-card-container {
+    height: 220px;
+  }
 }
 
 @media only screen and (max-width: 1200px) {
@@ -403,12 +456,18 @@ input[type="email"]:focus, input[type="password"]:focus, input[type="text"]:focu
     width: 180px;
     height: 180px;
   }
+  .research-card-back p {
+    font-size: 11px !important;
+  }
 }
 
 @media only screen and (max-width: 500px) {
   .img-bio-research {
     width: 150px;
     height: 150px;
+  }
+  .research-card-back p {
+    font-size: 10px !important;
   }
 }
 
@@ -881,15 +940,16 @@ font-family: 'Muli Light', sans-serif;
   margin-right: 5px;
 }
 
-.tabCommon .nav-tabs li.active a {
-  background-color: #655E7A;
-  border: 1px solid #655E7A;
-  color: #ffffff;
-}
-
 .tabCommon .nav-tabs a {
   border-radius: 0;
   background: #f9f9f9;
+  color: black !important;
+}
+
+.tabCommon .nav-tabs li.active a {
+  background-color: #655E7A;
+  border: 1px solid #655E7A;
+  color: #ffffff !important;
 }
 
 .tabCommon .nav-tabs a:hover {
@@ -998,7 +1058,6 @@ font-family: 'Muli Light', sans-serif;
   width: 100%;
   height: 100%;
   background: #655e7a;
-  opacity: 0.8;
 }
 
 .slider:before, .overly:before {
