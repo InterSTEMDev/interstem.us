@@ -302,13 +302,13 @@ input[type="email"]:focus, input[type="password"]:focus, input[type="text"]:focu
   }
   .img-bio-two {
     height: 150px !important;
-    width: 150px !important; 
+    width: 150px !important;
     text-align: center;
-    margin-top: 200px; 
+    margin-top: 200px;
   }
   #minResearch {
     text-align: center !important;
-    margin-left: -5px !important; 
+    margin-left: -5px !important;
   }
 }
 
@@ -377,7 +377,7 @@ input[type="email"]:focus, input[type="password"]:focus, input[type="text"]:focu
   text-align: center;
   transition: transform 0.5s;
   transition-delay: 0.1s;
-  transform-style: preserve-3d;  
+  transform-style: preserve-3d;
 }
 
 .research-card-container:hover .research-card {
@@ -393,7 +393,7 @@ input[type="email"]:focus, input[type="password"]:focus, input[type="text"]:focu
   width: 100%;
   height: 100%;
   -webkit-backface-visibility: hidden;
-  backface-visibility: hidden; 
+  backface-visibility: hidden;
 }
 
 .research-card-back {
@@ -738,7 +738,7 @@ font-family: 'Muli Light', sans-serif;
 }
 
 .page-title .block {
-  text-align: center;  
+  text-align: center;
 }
 
 .page-title .block h1 {
