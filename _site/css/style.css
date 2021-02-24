@@ -1081,6 +1081,10 @@ font-family: 'Muli Light', sans-serif;
   background: white;
 }
 
+#chapters-title:before {
+  background: white;
+}
+
 .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
   background: #655E7A !important;
 }
@@ -3378,7 +3382,7 @@ header .navbar-default .navbar-nav li a {
 }
 details {
   position: relative;
-  padding: 1rem 3rem 1rem 3rem;
+  padding: 1rem 3rem;
   background: var(--lighter-color);
   margin: 2rem;
   border-radius: 10px;
@@ -3422,6 +3426,10 @@ details {
 
 .faq details[open] > summary {
   color: var(--primary-color);
+}
+
+.faq details[open] {
+  padding: 1rem 3rem 2rem;
 }
 
 .faq details[open] > summary ~ * {
