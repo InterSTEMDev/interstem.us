@@ -1,13 +1,13 @@
 ---
 layout: post
-title:  "All about phobias"
+title:  "DIY snowflake crystals"
 date:   2021-02-26 00:00:00
 author: "Mehri Sadri"
 image: ../../2021/february/snowflakeCover.jpg
 description: As winter quickly comes to an end, one must find all the chilly crafts available. Continue reading to access a simple crystal tutorial that uses a few simple ingredients found at home.
 time: 5 min
 ---
-<h2 style="font-family: Ergonomique Bold">All about phobias</h2>
+<h2 style="font-family: Ergonomique Bold">DIY snowflake crystals</h2>
 Mehri Sadri. 02/26/2021
 <hr>
 
