@@ -19,7 +19,7 @@ Joan Joe. 03/19/2021
 <br>
 Imagine being a journalist juggling several articles, conducting multiple interviews, learning intensely and more, just to have your life turned completely upside down in a matter of months.
 
-Susannah Cahalan, a 24-year-old reporter for the New York Post, knows what it's like to be in that situation. She started to experience numbness, paranoia, light sensitivity and abnormal behavior in 2009. Seizures, hallucinations, increasingly erratic actions and even catatonia started to plague her. Her symptoms alarmed her relatives and perplexed several doctors.
+<a href="https://www.nytimes.com/2012/12/23/books/review/brain-on-fire-by-susannah-cahalan.html" target="_blank">Susannah Cahalan</a>, a 24-year-old reporter for the New York Post, knows what it's like to be in that situation. She started to experience numbness, paranoia, light sensitivity and abnormal behavior in 2009. Seizures, hallucinations, increasingly erratic actions and even catatonia started to plague her. Her symptoms alarmed her relatives and perplexed several doctors.
 
 "An interesting case" is something you don't want to be to your doctor. Cahalan had the misfortune of becoming a one-of-a-kind and perplexing case: she was gravely ill and rapidly deteriorating, but her MRIs, brain scans and blood tests were all fine. She took $1 million worth of blood tests and brain scans that were inconclusive.
 
@@ -27,9 +27,9 @@ Grandiosity, hysteria, fits of irrational anger, nonsensical utterances and flat
 
 Cahalan was seen by Dr. Souhel Najjar, a Syrian-American neurologist, after a month in the hospital. He asked her to draw a clock on a piece of paper. She drew the circles and the numbers one to 12 all on the right-hand side of the clock, but the left-hand side was blank. It revealed that she had left-side spatial neglect and that the right side of her brain, which controls her left field of vision, was inflamed.
 
-Najjar simply told her parents that her brain was on fire. This observation led to her getting diagnosed with anti-NMDA receptor encephalitis, a very rare autoimmune disease that is almost undocumented in the medical literature. Dr. Josep Dalmau and colleagues at the University of Pennsylvania first discovered anti-NMDA receptor encephalitis in 2007.
+Najjar simply told her parents that her brain was on fire. This observation led to her getting diagnosed with <a href="https://en.wikipedia.org/wiki/Anti-NMDA_receptor_encephalitis#:~:text=Anti%2DNMDA%20receptor%20encephalitis%20is,%2C%20headache%2C%20and%20feeling%20tired." target="_blank">anti-NMDA receptor encephalitis</a>, a very rare autoimmune disease that is almost undocumented in the medical literature. Dr. Josep Dalmau and colleagues at the University of Pennsylvania first discovered anti-NMDA receptor encephalitis in 2007.
 
-The disorder was portrayed in the 2016 Netflix film Brain on Fire in which Susannah Cahalan was played by Chloe Grace Moretz. This film was based on Susannah’s book called “Brain on Fire: My Month of Madness” after chronicling her experience in a 2009 New York Post report.
+The disorder was portrayed in the 2016 Netflix film <a href="https://www.youtube.com/watch?v=VZn6G0M9wNs" target="_blank">Brain on Fire</a> in which Susannah Cahalan was played by Chloe Grace Moretz. This film was based on Susannah’s book called “<a href="https://en.wikipedia.org/wiki/Brain_on_Fire" target="_blank">Brain on Fire: My Month of Madness</a>” after chronicling her experience in a 2009 New York Post report.
 
 <br>
 <img src="{{ site.baseurl }}/images/blogs/2021/march/brainOnFireTwo.png" width="60%" style="display: block; margin: 0 auto"/>  
