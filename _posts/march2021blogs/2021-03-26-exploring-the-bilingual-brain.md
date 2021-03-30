@@ -2,7 +2,7 @@
 layout: post
 title:  "Exploring the bilingual brain"
 date:   2021-03-19 00:00:03
-author: "Sydney Hollingsworth"
+author: "Nafisa Ishra"
 image: ../../2021/march/brainCover.png
 description: The differences between a bilingual brain and a monolingual brain are vast and range from their structure to their ability to perform specific functions, giving the bilingual brain several advantages.
 time: 5 min
