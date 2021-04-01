@@ -1,0 +1,218 @@
+I"MD<p>&lt;!DOCTYPE html&gt;</p>
+<html class="no-js"> <!--<![endif]-->
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="description" content="Aviato E-Commerce Template" />
+  <meta name="author" content="Themefisher.com" />
+  <title>InterSTEM</title>
+  <!-- Mobile Specific Meta-->
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!-- Favicon -->
+  <link rel="shortcut icon" type="image/png" href="/images/logo.png" />
+  <!-- bootstrap.min css -->
+  <link rel="stylesheet" href="/plugins/bootstrap/bootstrap.min.css" />
+  <!-- Ionic Icon Css -->
+  <link rel="stylesheet" href="/plugins/Ionicons/css/ionicons.min.css" />
+  <!-- animate.css -->
+  <link rel="stylesheet" href="/plugins/animate-css/animate.css" />
+  <!-- Magnify Popup -->
+  <link rel="stylesheet" href="/plugins/magnific-popup/magnific-popup.css" />
+  <!-- Owl Carousel CSS -->
+  <link rel="stylesheet" href="/plugins/slick/slick.css" />
+
+  <link rel="stylesheet" href="/css/navigate.css" />
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="/css/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
+  <link rel="stylesheet" href="/css/blogs.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&amp;display=swap" rel="stylesheet" />
+</head>
+<script>
+  p {
+    font-family: 'Giga Sans Light' !important
+  }
+
+</script>
+<body id="body" style="background-color: white;">
+&lt;!doctype html&gt;
+<html>
+<head>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-C4NP4XRMJF"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-C4NP4XRMJF');
+</script>
+<header class="navigation">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<!-- header Nav Start -->
+				<nav class="navbar" style="margin-bottom: 6px;">
+					<div class="container-fluid">
+						<!-- Brand and toggle get grouped for better mobile display -->
+						<div class="navbar-header">
+							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							</button>
+							<a class="navbar-brand" href="/">
+								<img src="/images/logoTwo.png" alt="Logo" width="180" />
+							</a>
+						</div>
+						<!-- Collect the nav links, forms, and other content for toggling -->
+						<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+							<ul class="nav navbar-nav navbar-right">
+								<li class="dropdown">
+									<a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true">About <span class="ion-ios-arrow-down"></span></a>
+									<ul class="dropdown-menu">
+										<li><a href="/executive">Executive Board</a></li>
+										<li><a href="/chapters">Chapters</a></li>
+                    <li><a href="/team">Our Team</a></li>
+									</ul>
+								</li>
+                <li class="dropdown">
+									<a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true">Media <span class="ion-ios-arrow-down"></span></a>
+									<ul class="dropdown-menu">
+										<li><a href="/media/speaker">Speaker Series</a></li>
+										<li><a href="/media/talks">InterSTEM Talks</a></li>
+									</ul>
+								</li>
+                <li class="dropdown">
+									<a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true">Events <span class="ion-ios-arrow-down"></span></a>
+									<ul class="dropdown-menu">
+										<li><a href="/events/writingContest">Writing Contest</a></li>
+                    <li><a href="/events/writingWorkshop">Writing Workshop</a></li>
+                      <li><a href="https://interstembowl.ml" target="_blank">InterSTEM Bowl</a></li>
+									</ul>
+								</li>
+                 <!-- <li><a href="/news">News</a></li> -->
+                <li><a href="/blog">Blog</a></li>
+                  <li><a href="/research">Research</a></li>
+								<li><a href="/tutoring">Tutoring</a></li>
+								<li><a href="/apply" class="gradient-btn">Apply</a></li>
+							</ul>
+							</div><!-- /.navbar-collapse -->
+							</div><!-- /.container-fluid -->
+						</nav>
+					</div>
+				</div>
+			</div>
+			</header><!-- header close -->
+</head>
+</html>
+
+<br />
+<section>
+	<div class="container">
+		<h2 style="font-size: 40px; font-family: Ergonomique Bold">The potential of neural interfaces</h2>
+    <p style="font-size: 17px; font-family: 'Giga Sans Light' !important ">Rachel Ding. 02/13/2021</p>
+	</div>
+</section>
+
+<section>
+  <div class="container" style="font-size: 17px">
+    <hr />
+    <p style="font-size: 17px; font-family: 'Giga Sans Light' !important">
+    I wake up to an alarm clock in my brain and I hear the weather for the day in my head. I tell the car to warm itself up while I get dressed. Without touching my phone, I text all my colleagues that I'm on my way to work. I flip through the day’s headlines as my car navigates through traffic . Walking to my office, I ask the thermostat to adjust to the temperature I like, and recite what meetings I have to attend. When the day is done, I tell my oven to start heating up the dinner I put there in the morning as I head home.
+    <br /><br />This is only part of the life of a person who has a neural implant.
+    <br /><br />Our brains have around 86 billion neurons, microscopic cells that send and receive information. Researchers are now using electrodes to enhance and stimulate the activity of neurons. These electrodes (up to 3000 in one person) can sense the impulses sent between neurons, record the information, and stimulate different areas of the brain to respond. The stimulation is either given directly by electrodes implanted in the brain, or noninvasively through electrodes placed on the scalp. Neural interfaces can activate or inhibit the brain directly with electricity, and can even enable the wearer to control devices with their mind: the electrodes understand the mental commands through analyzing action potentials and use Bluetooth to transfer the command into action. Ray Kurzweil, an inventor and futurist, predicts that within the next 20–30 years, neural interfaces may be developed to be safe, secure, and high-performance. But some are even more optimistic despite many technological issues to overcome. On a recent podcast with Joe Rogan, Elon Musk said that his company, Neuralink, could be ready to put an implant into a human within the next year.
+    <br /><br />The benefits of neural interfaces are abundant. Yet if it remains a luxury product, this technology runs the risk of increasing inequality. Neither fear nor inaction are proper. The best way to preserve the advances secured by neural interfaces without furthering social tension is through government intervention. In short, the government must subsidize neural interfaces so that their benefits are available to everyone.
+    <br /><br />Neural interfaces have the potential to significantly improve human existence by helping people live longer, work better, and lead safer lives. Soon, age will truly be just a number. In June of 2020, a team of researchers from the U.A.E, Japan and China reported that “Brain computer interface technology could be one potential tool for restoring learning and improving memory, attention, and consciousness for cognitively impaired elderly patients.” This would not only boost quality and enjoyment of life, but it would furthermore preserve human dignity as one ages. According to the American Association of Retired Persons, more than half of all workers who are fifty and older become unemployed or are forced to leave involuntarily. Neural interfaces can help tackle the complex factors that contribute to this tragic statistic. By mitigating the impacts of aging on mental capacity, they will reduce societal stereotypes surrounding the potential of the aging and allow anyone regardless of their age to access their full ability to work.
+    <br /><br />AI-enabled interfaces offer yet an entirely other set of new opportunities. For example, Facebook is actively working on a 100-words-per-minute brain-typing interface that can replace manual typing. No more furiously scribbling sentences during class, writing hasty notes on napkins, or worrying about forgetting a friend’s important request. For those with motor difficulties, like those suffering from arthritis, this can dramatically improve their ability to communicate. Moreover, AI-enabled neural interfaces can tear down the impenetrable barrier of a coma: they could translate brain activity and might be able to communicate the patient’s thoughts. This technological interplay can even decrease the number of car crashes. Bitbrain, a brain technology company, contends that it is possible to identify the intention of a driver between 0.4 seconds and 1 second before the driver actually steps on the brake. A neural interface using AI could eliminate the lag time between intention and action and make the car brake immediately. For a car traveling at 100km/h, this saves 27 meters of braking distance, the difference between life and death in frontal collisions in the US. In 2019, 36,096 Americans died in motor vehicle crashes, according to the National Highway Traffic Safety Administration. With neural interfaces, thousands more would make it home at the end of the day. Thousands fewer tears would be shed.
+    <br /><br />Left to the mercy of the market however, some of these benefits may never be realized. Many of those who need neural interfaces to restore their mental or neurological health would find them prohibitively expensive. For example, according to a study from American Journal of Epidemiology, low socioeconomic status is generally associated with high psychiatric morbidity and disability. Even more, neural interfaces may be another driver of inequality. We are already in an era where wealth and inequality are devastating the country. A study by the U.S Government Accountability Office titled “Income and Wealth Disparities Continue through Old Age '' explains that the wealth of the top quintile (20 percent) of American households grew disproportionately compared to that of other quintiles from 1989 to 2016. The GAO concludes that the difference in wealth allows the rich to lead longer lives, while cutting short the lives of those who struggle financially. But even in this society, hard work and favorable circumstances can permit social mobility. What happens if, because of neural interfaces, those with means will cement superiority in every human endeavor?
+    <br /><br />Such an outcome is quite likely. A technology so intricate is bound to be expensive, at least at the beginning. Even if one can afford to purchase it, the cost in time and money of the implantation surgery is likely to be too high for all but a few Americans. Neural interfaces will likely be implemented after the age of 21 because the brain has not finished developing for most people until they reach that age. This may actually be the period where neural interfaces could decisively shape one’s life. According to the Federal Reserve Bank of New York, the job experience and skills gained in one’s twenties have the power of determining one's lifetime earning potential. Neural interfaces would give the wearer a decisive advantage at the start of a career, paving the path to a comfortable (and likely longer) life. Those who could not afford an implant at an early age would find it next to impossible to compete for the jobs and professions that drive social mobility. Thus, in many important ways, the rest of your life could be determined simply by what family you’re born into.
+    <br /><br />Banning neural interfaces may seem like the simplest solution to avoid all of this, but such a measure would cause society to lose all of the opportunities they could bring. In addition to all of the benefits mentioned above, the human-computer partnership that neural interfaces represent would have the capacity to outperform even the most sophisticated technology. Saad Abdali, an engineer at Palantir, a company working on artificial intelligence, gives a simple example: while the best robot can beat a human at chess, a human combined with merely an average robot can beat the best AI at chess. The proper policy response is subsidies. Subsidies would encourage development and help startups and small businesses contribute to the field. More importantly, they can help lower the cost barrier to accessing this technology, allowing neural interfaces to go to as many Americans that need and want them.
+    <br /><br />While there are risks with this technology, they can easily be minimized through government intervention. There is no reason for fear or inaction. Subsidizing neural interfaces will ensure a healthier, safer, and more productive society. Those with mental illnesses or disabilities can live a full life. As we age, we do not need to fear memory loss, work discrimination, and diseases that attack our brain. An entirely new world of human creativity and achievement is within our grasp.
+    <br /><br />
+    </p>
+
+<div id="disqus_thread"></div>
+<script>
+
+/**
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+/*
+var disqus_config = function () {
+this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+*/
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://interstem.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+&lt;/container&gt;
+&lt;/section&gt;
+<br /><br /><br />
+<!-- footer Start -->
+<footer class="footer" style="background-color: black; margin-top: -40px;">
+	<div class="container">
+			<div class="col-md-12">
+				<div class="footer-manu">
+					<ul>
+            <li><a href="https://discord.com/invite/Y9KSFVZ" target="_blank" class="sm-link" style="font-size: 25px;"><i class="fab fa-discord"></i></a>
+            <li><a href="https://www.instagram.com/inter.stem/" target="_blank" class="sm-link" style="font-size: 25px;"><i class="fab fa-instagram"></i></a>
+            <li><a href="https://www.linkedin.com/company/interstem-nonprofit/" target="_blank" class="sm-link" style="font-size: 25px;"><i class="fab fa-linkedin"></i></a>
+            <li><a href="https://github.com/InterSTEMDev" target="_blank" class="sm-link" style="font-size: 25px;"><i class="fab fa-github"></i></a>
+            <li><a href="https://open.spotify.com/show/2gIXhZA2OjXT3HVchKFudm" target="_blank" class="sm-link" style="font-size: 25px;"><i class="fab fa-spotify"></i></a>
+            <li><a href="https://www.youtube.com/channel/UCEe2XiVONWjo0W3exJQz0bg" target="_blank" class="sm-link" style="font-size: 25px;"><i class="fab fa-youtube"></i></a>
+          &lt;/ul&gt;
+				&lt;/div&gt;
+        <!--
+        <p class="copyright" style="font-size: 18px;"><b>interstemplatform@gmail.com</b><a>
+  <br><p class="copyright" style="font-size: 18px;"><b>interstemtutoring@gmail.com</b><a>
+  <br><p class="copyright" style="font-size: 18px;"><b>interstemwriting@gmail.com</b><a>
+    <br><p class="copyright" style="font-size: 18px;"><b>interstemresearch@gmail.com</b><a><br><br>
+          <p class="copyright" style="font-size: 18px;"><b>Developed by InterSTEM Tech Team<b></p>
+				<br>
+        -->
+			&lt;/div&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/footer&gt;
+
+
+
+
+    <!--
+    Essential Scripts
+    =====================================-->
+
+
+    <!-- Main jQuery -->
+    <script src="/plugins/jQuery/jquery.min.js"></script>
+    <!-- Bootstrap 3.1 -->
+    <script src="/plugins/bootstrap/bootstrap.min.js"></script>
+    <!-- slick Carousel -->
+    <script src="/plugins/slick/slick.min.js"></script>
+    <script src="/plugins/magnific-popup/jquery.magnific-popup.min.js"></script>
+    <!-- filter -->
+    <script src="/plugins/shuffle/shuffle.min.js"></script>
+    <script src="/plugins/SyoTimer/jquery.syotimer.min.js"></script>
+
+    <!-- Form Validator -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery.form/3.32/jquery.form.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.11.1/jquery.validate.min.js"></script>
+
+    <!-- Google Map -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU&amp;libraries=places"></script>
+    <script src="/plugins/google-map/map.js"></script>
+
+    <script src="/js/script.js"></script>
+
+    &lt;/body&gt;
+
+    &lt;/html&gt;
+</li></li></li></li></li></li></ul></div></div></div></footer></div></section></body></html>
+:ET
