@@ -1,0 +1,57 @@
+I"~<h2 style="font-family: Ergonomique Bold">CRISPR-Cas9: The award-winning genetic scissors
+</h2>
+<p>Nadwa Atwi. 04/09/2021</p>
+<hr />
+
+<p><img src="/images/blogs/2021/april/geneticOne.png" width="60%" style="display: block; margin: 0 auto" /></p>
+<center><i>Emmanuelle Charpentier (left) and Jennifer Doudna (right) win the 2020 Nobel Prize in Chemistry for CRISPR gene-editing. <a href="https://scroll.in/article/975260/what-is-crispr-explaining-the-gene-editing-technology-that-won-the-2020-chemistry-nobel-prize" target="_blank">(Scroll)</a>
+</i></center>
+<p><br />
+Researcher Emmanuelle Charpentier and biochemist Jennifer Doudna were initially studying the immune system of a Streptococcus bacterium in hopes of developing a new antibiotic, according to <a href="https://www.nobelprize.org/prizes/chemistry/2020/popular-information/#:~:text=Emmanuelle%20Charpentier%20and%20Jennifer%20Doudna,microorganisms%20with%20extremely%20high%20precision." target="_blank">The Nobel Prize</a>. But akin to other remarkable discoveries, this one didn’t exactly go as planned. Instead, the pair discovered a molecular tool called CRISPR which can be used to make defined cuts in genetic material, presenting an endless array of possibilities for the future of gene-editing.</p>
+
+<p>Clustered regularly interspaced short palindromic repeats, also known as CRISPR, are DNA sequences that are naturally found in bacteria. These repeats are actually a collection of mug shots captured by CRISPR associated proteins (Cas). The mug shots are DNA pieces that Cas cut from invaders that attack the bacteria. The snipped DNA fragment is then stored between the palindromic CRISPR sequences to maintain a genetic memory for halting future infections from the same invader.</p>
+
+<p>Until recently, “CRISPR-Cas9” —often called CRISPR for short— has only been known as genetic information that some bacteria use as part of their defense mechanism against viruses. Now, as a gene-editing tool, CRISPR-Cas9 has reformed biomedical research and may soon enable medical breakthroughs in a way few biological innovations have before.</p>
+
+<p><br />
+<img src="/images/blogs/2021/april/geneticTwo.png" width="40%" style="display: block; margin: 0 auto" /></p>
+<center><i>The diagram shows the mechanism of action of CRISPR. <a href="https://www.yourgenome.org/facts/what-is-crispr-cas9" target="_blank">(YourGenome)</a></i></center>
+
+<p><br />
+Editing genes with CRISPR-Cas9 occurs by cutting DNA at a particular site and then letting the natural DNA repair processes take over.</p>
+
+<p>CRISPR relies on just two components: the molecular scissors (Cas9) and the guide RNA (gRNA), which works as a GPS, guiding Cas9 to the appropriate site. According to <a href="https://www.synthego.com/guide/how-to-use-crispr/sgrna#:~:text=In%20this%20document%2C%20we%20have,into%20a%20single%20RNA%20molecule." target="_blank">Synthego</a>, gRNA itself consists of two parts. These include the CRISPR RNA (crRNA), which is a sequence complementary to the target DNA, and a tracrRNA, which serves as a binding scaffold for the Cas protein. The crRNA part of the gRNA is the customizable one and can be modified into virtually any sequence, which allows specificity in every CRISPR experiment.</p>
+
+<p>The guide RNA shepherds Cas9 to the precise spot on DNA where a cut has been called for by pairing up with the region of the DNA it has targeted. Cas9 then locks onto the double-stranded DNA and unzips it, allowing it to snip the DNA at the requested spot. This results in a break in both strands of the DNA molecule.</p>
+
+<p>The cell, sensing a problem, repairs the break. Cells usually repair a break in their DNA by gluing the loose ends back together using DNA ligase. This repair mechanism is not an orderly process, as it typically involves the loss or addition of some nucleotides at the cut site. That often results in a mistake that disables a gene, which may not sound convenient— but sometimes it is. This is why:</p>
+
+<p>Scientists cut DNA with CRISPR-Cas9 to induce changes, also known as mutations. They can understand what a protein’s actual role is by comparing cells with the mutation to ones without the mutation. A new mutation may also help them understand genetic diseases. Additionally, CRISPR-Cas9 can be useful in human cells by disabling certain genes, like ones that play a role in inherited diseases.</p>
+
+<p>According to the RNA biologist <a href="" target="_blank">Gene Yeo, Cas9 was originally equivalent to a Swiss army knife that has only one function: cutting. But securing proteins to those jaded blades has turned them into a multifunctional tool. CRISPR-Cas9 can now be used in new ways, such as changing a single nitrogenous base or adding a fluorescent protein to tag a spot in the DNA that scientists want to track.</a></p>
+
+<p>Applications</p>
+
+<p>CRISPR’s potential applications include correcting genetic defects, treating and preventing the spread of diseases and improving crops. Many common diseases, including heart conditions, Alzheimer’s and diabetes, are partly caused by genes; people who inherit the mutated variants of certain genes are more susceptible to the disease. For many of these conditions, the genetic component is complicated because more than one gene is involved. So for now, scientists are looking to treat diseases that are the result of a single mutated gene that is easy to target.</p>
+
+<p>Some blood disorders, like sickle-cell anemia, fit the bill.</p>
+
+<p>Sickle-cell anemia is an inherited red blood cell disorder in which the round red blood cells become deformed and resemble sickles or crescent moons. This deformation makes the cells prone to sticking in blood vessels and blocking blood flow to the surrounding tissues. Sickle-cell anemia is the result of a mutation in the hemoglobin gene.</p>
+
+<p><br />
+<img src="/images/blogs/2021/april/geneticThree.png" width="60%" style="display: block; margin: 0 auto" /></p>
+<center><i>The diagram shows the difference between normal red blood cells and the mutated ones.<a href="https://www.aboutkidshealth.ca/article?contentid=652&amp;language=english" target="_blank">(About Kids Health)</a></i></center>
+<p><br />
+About two years ago, a woman called Victoria Gray became the first person to receive an experimental CRISPR treatment for sickle-cell anemia. Her doctors collected blood-producing stem cells from her bone marrow and edited the gene involved in hemoglobin formation found in the DNA they carry. Then they transfused them back. Gray has not needed the regular blood transfusions or hospitalizations her condition previously demanded.</p>
+
+<p>According to Your Genome, CRISPR-Cas9 currently stands out as the fastest, cheapest and most reliable gene-editing tool. It is important to mention, though, that it is still unlikely for CRISPR-Cas9 to be used routinely in humans anytime soon. Using this tool along with other gene-editing technologies in somatic cells is well-accepted. In contrast, changes made in germ line cells will be passed on from one generation to another, which has significant ethical implications. The most prominent one is the inability to obtain informed consent, as patients affected by gene edits to germ line cells are embryos and future generations. That aside, CRISPR has shown very promising results in the medical field, and it’s clear that this tool holds great potential for curing diseases we’ve at some point labeled “untreatable.” So for now, we’re just going to have to wait and see what the future holds for such a versatile —and controversial— tool.</p>
+
+<p>Cover Photo: <a href="https://www.drugtargetreview.com/news/74139/nobel-prize-in-chemistry-awarded-to-scientists-who-discovered-crispr-cas9/" target="_blank">(Drug Target Review)</a></p>
+<hr />
+
+<p><img src="/images/writingTeam/noProfile.jpg" width="170" style="float: left; margin-right: 30px; margin-bottom: 20px;" /></p>
+<div style="margin-bottom: 5%;">
+<span style="font-size: 30px; font-weight: 900;">Nadwa Atwi</span>
+<br />
+</div>
+:ET
