@@ -47,6 +47,6 @@ Cover Photo: <a href="https://coingeek.com/bitcoin-sv-rallies-as-world-record-63
 <hr>
 <img src="{{ site.baseurl }}/images/writingTeam/noProfile.jpg" width="170" style="float: left; margin-right: 30px; margin-bottom: 20px;"/>
 <div style="margin-bottom: 5%;">
-<span style="font-size: 30px; font-weight: 900;">Nadwa Atwi</span>
+<span style="font-size: 30px; font-weight: 900;">Rachel Huang</span>
 <br>
 </div>

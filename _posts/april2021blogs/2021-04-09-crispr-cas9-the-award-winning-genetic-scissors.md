@@ -22,6 +22,7 @@ Clustered regularly interspaced short palindromic repeats, also known as CRISPR,
 
 Until recently, “CRISPR-Cas9” —often called CRISPR for short— has only been known as genetic information that some bacteria use as part of their defense mechanism against viruses. Now, as a gene-editing tool, CRISPR-Cas9 has reformed biomedical research and may soon enable medical breakthroughs in a way few biological innovations have before.
 
+<b>How it works</b>
 <br>
 <img src="{{ site.baseurl }}/images/blogs/2021/april/geneticTwo.png" width="40%" style="display: block; margin: 0 auto"/>
 <center><i>The diagram shows the mechanism of action of CRISPR. <a href="https://www.yourgenome.org/facts/what-is-crispr-cas9" target="_blank">(YourGenome)</a></i></center>
@@ -39,7 +40,7 @@ Scientists cut DNA with CRISPR-Cas9 to induce changes, also known as mutations. 
 
 According to the RNA biologist <a href="https://www.sciencenewsforstudents.org/article/explainer-how-crispr-works" target="_blank">Gene Yeo</a>, Cas9 was originally equivalent to a Swiss army knife that has only one function: cutting. But securing proteins to those jaded blades has turned them into a multifunctional tool. CRISPR-Cas9 can now be used in new ways, such as changing a single nitrogenous base or adding a fluorescent protein to tag a spot in the DNA that scientists want to track.
 
-Applications
+<b>Applications</b>
 
 CRISPR’s potential applications include correcting genetic defects, treating and preventing the spread of diseases and improving crops. Many common diseases, including heart conditions, Alzheimer’s and diabetes, are partly caused by genes; people who inherit the mutated variants of certain genes are more susceptible to the disease. For many of these conditions, the genetic component is complicated because more than one gene is involved. So for now, scientists are looking to treat diseases that are the result of a single mutated gene that is easy to target.
 
