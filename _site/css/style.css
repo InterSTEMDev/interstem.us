@@ -3,6 +3,7 @@
   --color-bg: #edf2f7;
   --gradient-color: linear-gradient(90deg, rgba(180,224,200,0.7679446778711485) 0%, rgba(136,184,158,0.6587009803921569) 51%, rgba(88,159,124,0.6026785714285714) 100%);
   --lighter-color: rgba(88, 159, 124, 0.06);
+  --yellow: rgba(248,225,88,0.2);
   --box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
   0 10px 10px -5px rgba(0, 0, 0, 0.04);
 }
