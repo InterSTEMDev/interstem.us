@@ -8,7 +8,7 @@ description: Typing has taken over handwriting in many aspects of our lives, fro
 
 time: 5 min
 ---
-<h2 style="font-family: Ergonomique Bold">The science behind note-taking: Preferences between handwriting and typing notesh</h2>
+<h2 style="font-family: Ergonomique Bold">The science behind note-taking: Preferences between handwriting and typing notes</h2>
 Nadwa Atwi. 04/23/2021
 <hr>
 Taking notes is one of the most important parts of the learning process. Students often spend a lot of time considering how to take notes, only to end up choosing a technique unfit for the material they’re tackling. So here we’ll be covering the pros and cons of each and discussing the right font-color combination for ideal note-taking.
