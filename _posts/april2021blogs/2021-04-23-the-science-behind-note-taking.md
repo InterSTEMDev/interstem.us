@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "The science behind note-taking: Preferences between handwriting and typing notes"
+title:  "Handwriting vs. typing notes, and does font color matter?"
 date:   2021-04-23 00:00:03
 author: "Nadwa Atwi"
 image: ../../2021/april/notetakingCover.png
@@ -8,7 +8,7 @@ description: Typing has taken over handwriting in many aspects of our lives, fro
 
 time: 5 min
 ---
-<h2 style="font-family: Ergonomique Bold">The science behind note-taking: Preferences between handwriting and typing notes</h2>
+<h2 style="font-family: Ergonomique Bold">Handwriting vs. typing notes, and does font color matter?</h2>
 Nadwa Atwi. 04/23/2021
 <hr>
 Taking notes is one of the most important parts of the learning process. Students often spend a lot of time considering how to take notes, only to end up choosing a technique unfit for the material they’re tackling. So here we’ll be covering the pros and cons of each and discussing the right font-color combination for ideal note-taking.
@@ -48,7 +48,7 @@ Another point worth mentioning is the type of notes the student is taking. For e
 <br><br>
 <b>Font color</b>
 
-Something that applies to both handwritten and typed notes is the font color. Color is a form of visible light, essentially a portion of the electromagnetic spectrum. Each color has its own wavelength that can affect neurological pathways in the brain, creating a biochemical response. Consequently, using the right color, along with the right selection and arrangement, can have a significant impact on feelings, concentration and behavior when learning. According to <a href="https://effectiviology.com/handwriting-vs-typing-how-to-take-notes/" target="_blank">Shift Learning</a>, although it isn’t definite science, each color can elicit its own unique biological response.
+Something that applies to both handwritten and typed notes is the font color. Color is a form of visible light, essentially a portion of the electromagnetic spectrum. Each color has its own wavelength that can affect neurological pathways in the brain, creating a biochemical response. Consequently, using the right color, along with the right selection and arrangement, can have a significant impact on feelings, concentration and behavior when learning. According to <a href="https://www.shiftelearning.com/blog/how-do-colors-influence-learning" target="_blank">Shift Learning</a>, although it isn’t definite science, each color can elicit its own unique biological response.
 
 Green promotes tranquility and calm and improves concentration, as it’s a low-frequency color. In a study led by <a href="https://www.smh.com.au/technology/seeing-green-boosts-your-concentration-research-shows-20150525-gh8udh.html" target="_blank">Dr. Kate Lee</a>, 150 university students were given a tedious task, which involved pressing a key as a series of numbers repeatedly flashed on a computer screen. They were asked not to press the key when the number three popped up on the screen. The students were given a short break halfway through the task to look at a city rooftop scene. Half of the students looked at a green roof whereas the other half viewed a bare concrete roof. After the break, students who looked at the greener scenery made considerably fewer errors and showed better concentration than those who viewed the concrete roof.
 
