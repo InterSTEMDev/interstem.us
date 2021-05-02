@@ -7,7 +7,7 @@ image: ../../2021/april/innovationCover.png
 description:  Apple, Huawei and Samsung are the top mobile brands in the world. Each of these companies’ newest smartphones feature a unique 5-nm processor chip, 5G network compatibility, and similar implementations of artificial intelligence and machine learning. Variations between the models can be found as they deviate when it comes to camera quality, level of AI analysis, and in the case of Huawei, a seamless hinge that gives its smartphone the ability to expand.
 time: 5 min
 ---
-<h2 style="font-family: Ergonomique Bold">The bee loss epidemic in the shadows</h2>
+<h2 style="font-family: Ergonomique Bold">The latest innovations of Apple, Huawei and Samsung</h2>
 Rachel Huang. 04/30/2021
 <hr>
 <img src="{{ site.baseurl }}/images/blogs/2021/april/innovationOne.png" width="60%" style="display: block; margin: 0 auto"/>  
