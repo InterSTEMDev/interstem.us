@@ -19,3 +19,5 @@ lightBoxClose = function() {
   document.querySelector(".popup").classList.remove("fadeInUp");
   document.querySelector(".popup").classList.add("fadeOutDown");
 }
+
+setInterval(function () {document.getElementById("btnforslide2").click();}, 8000);

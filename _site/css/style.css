@@ -31,7 +31,7 @@ timeline {
 */
 @media (min-width: 1280px) {
   .specialblock {
-    display: none; 
+    display: none;
   }
 }
 
@@ -51,7 +51,8 @@ timeline {
    width: 900px;
    max-width: 100%;
    text-align: center;
-
+   margin-top: -40px;
+   transition: 0.2s;
 }
 #slider input[type=radio] {
    display: none;
@@ -104,6 +105,7 @@ timeline {
 }
 #slides .slide_2 {
     background: rgba(0,0,0,0);
+    margin-top: -60px;
 }
 #slides .slide_3 {
    background: rgba(0,0,0,0);
@@ -141,6 +143,7 @@ timeline {
    float:right;
    margin: 0 0 0 0;
    display: block;
+   margin-top: 40px;
 
 }
 #slide2:checked ~ #controls label:nth-last-child(4),
@@ -150,6 +153,7 @@ timeline {
    float:left;
     margin: 0 0 0 0;
    display: block;
+    margin-top: 40px;
 }
 
 #bullets {
