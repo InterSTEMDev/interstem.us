@@ -1,4 +1,53 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-05-15T23:46:36-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">InterSTEM</title><entry><title type="html">Discrimination in STEM fields: Current racial and ethnic issues in the STEM work industry</title><link href="http://localhost:4000/2021/05/14/discrimination-in-stem-fields.html" rel="alternate" type="text/html" title="Discrimination in STEM fields: Current racial and ethnic issues in the STEM work industry" /><published>2021-05-14T17:00:01-07:00</published><updated>2021-05-14T17:00:01-07:00</updated><id>http://localhost:4000/2021/05/14/discrimination-in-stem-fields</id><content type="html" xml:base="http://localhost:4000/2021/05/14/discrimination-in-stem-fields.html">&lt;h2 style=&quot;font-family: Ergonomique Bold&quot;&gt;Discrimination in STEM fields: Current racial and ethnic issues in the STEM work industry&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-05-25T22:50:26-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">InterSTEM</title><entry><title type="html">The discovery of exoplanets</title><link href="http://localhost:4000/2021/05/24/the-discovery-of-exoplanets.html" rel="alternate" type="text/html" title="The discovery of exoplanets" /><published>2021-05-24T17:00:01-07:00</published><updated>2021-05-24T17:00:01-07:00</updated><id>http://localhost:4000/2021/05/24/the-discovery-of-exoplanets</id><content type="html" xml:base="http://localhost:4000/2021/05/24/the-discovery-of-exoplanets.html">&lt;h2 style=&quot;font-family: Ergonomique Bold&quot;&gt;The discovery of exoplanets&lt;/h2&gt;
+&lt;p&gt;Tania Firouzabady. 05/25/2021&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/blogs/2021/may/exoplanetsOne.jpg&quot; width=&quot;70%&quot; style=&quot;display: block; margin: 0 auto&quot; /&gt;&lt;/p&gt;
+&lt;center&gt;&lt;i&gt;
+Above is an illustration of an exoplanet.
+&lt;a href=&quot;https://exoplanets.nasa.gov/news/1418/nasa-to-host-news-conference-on-discovery-beyond-our-solar-system/&quot; target=&quot;_blank&quot;&gt;(NASA)&lt;/a&gt;
+&lt;/i&gt;&lt;/center&gt;
+
+&lt;p&gt;&lt;br /&gt;
+On Jan. 9, 1992, scientists discovered the first exoplanet, or rather, two exoplanets orbiting the pulsar PSR 1257+12. The finding paved the path for the discovery of over 4,000 new exoplanets in the next few decades.&lt;/p&gt;
+
+&lt;p&gt;Exoplanets are planets that orbit stars outside the solar system. While the majority orbit other stars, some are free-floating, or rogue, planets. Measuring their size and mass allows astronomers to determine their compositions, which range from solid rock to gas. These properties are remarkably similar to those of regular planets.&lt;/p&gt;
+
+&lt;p&gt;The elements that make up exoplanets are also much like those that comprise planets in our solar system, though current technology is not yet advanced enough to directly determine the specific compositions. Instead, scientists rely on the elemental abundance in nearby stars. Specifically, they use a method called stellar spectroscopy, where they observe the interactions between light and the elements contained within a star’s upper layers.&lt;/p&gt;
+
+&lt;p&gt;After the initial discovery of exoplanets by radio astronomers Aleksander Wolszczan and Dale Frail, NASA has used the Kepler Space Telescope and various techniques to discover thousands more. One such method is the wobble, or radial velocity, method, which, according to NASA, “measures changes in a star’s ‘radial velocity.’ The wavelengths of starlight are alternatively squeezed and stretched as a star moves slightly closer, then slightly farther away.” This method was used to discover an exoplanet about half the size of Jupiter in 1995. The gas giant moved in a very fast four-day orbit around its parent star. This irregular wobbling movement was detected by telescopes on Earth, prompting the development of the wobble method.&lt;/p&gt;
+
+&lt;p&gt;While the process of exoplanet hunting may have been slow at first, the Kepler telescope made it much faster. &lt;a href=&quot;https://exoplanets.nasa.gov/discovery/how-we-find-and-characterize/&quot; target=&quot;_blank&quot;&gt;NASA&lt;/a&gt; describes how “Kepler settled into an Earth-trailing orbit, then fixed its gaze on a small patch of sky… Within that small patch were 150,000 stars.” This discovery was vital for the development of the transit method, which allows astronomers to determine a planet’s orbital size and the star’s mass.&lt;/p&gt;
+
+&lt;p&gt;Currently, there are four classifications for exoplanets: Gas giant, super-Earth, Neptunian and Terrestrial. Gas giants are large planets primarily composed of gas, much like the name suggests. Super-Earths are mainly composed of rock but are much larger than Earth. Neptunian exoplanets are about the size of the planet Neptune and are also mostly composed of gas. Lastly, Terrestrial exoplanets are rocky planets similar to Earth, Mars, Mercury and Venus.&lt;/p&gt;
+
+&lt;p&gt;One of the most promising features of exoplanets is that some may contain water or ice. As water is a key aspect of life, its presence could support the ability for life to exist on exoplanets. To better understand this, it’s important to discuss the concept of habitability, the quality of supporting life. In order to be habitable, a planet must have specific features, including temperature, chemical makeup, radiation level, oxygen and water (or an equivalent life-supporting substance).&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;img src=&quot;/images/blogs/2021/may/exoplanetsTwo.jpg&quot; width=&quot;70%&quot; style=&quot;display: block; margin: 0 auto&quot; /&gt;&lt;/p&gt;
+&lt;center&gt;&lt;i&gt;
+In the image above, there are planets outside and within the habitable zone based on their distance from the star.
+&lt;a href=&quot;https://www.businessinsider.com/nasa-tess-telescope-finds-nearby-super-earth-sub-neptunes-2019-7&quot; target=&quot;_blank&quot;&gt;(Business Insider)&lt;/a&gt;  
+&lt;/i&gt;&lt;/center&gt;
+
+&lt;p&gt;&lt;br /&gt;
+The search for habitable planets is an important one, and recent developments are helping scientists move a step closer. According to &lt;a href=&quot;https://www.americanscientist.org/article/big-data-on-exoplanet-composition&quot; target=&quot;_blank&quot;&gt;American Scientist&lt;/a&gt;, astrophysicist Natalie Hinkel built “a publicly available database, called the Hypatia Catalog, to help researchers explore this deeper aspect of habitability.” Hinkel and her colleagues have recently modeled the TRAPPIST-1 system. Within the system, three of the planets are located in what is called a “habitable zone”, or region around a star that is the right temperature to allow liquid water to exist. Hinkel explains, “as the Hypatia Catalogue grows, it should become an increasingly valuable scientific resource.”&lt;/p&gt;
+
+&lt;p&gt;One recent exoplanet development includes the discovery of a potentially habitable planet resembling Earth. This was announced on April 15, 2020, by NASA and the SETI Institute. Called Kepler-1649c, the planet is 300 light-years away from Earth and almost the same size. Not only does it orbit in the habitable zone of its star, but its temperatures are hypothesized to be very similar to Earth’s, further supporting its potential to support life.&lt;/p&gt;
+
+&lt;p&gt;Another crucial development was announced on the same day: Proxima Centauri b, an even larger exoplanet, was spotted orbiting a star nearest to the sun. As stated by &lt;a href=&quot;https://earthsky.org/space/exoplanets-kepler-1649c-proxima-centauri-c-nasa-seti-institute-sphere-vlt/&quot; target=&quot;_blank&quot;&gt;EarthSky&lt;/a&gt;, “What’s puzzling is that the possible planet appears significantly brighter than it should. If the brightness was entirely from the light reflected off the planet itself, then the planet would be about five times larger than Jupiter. But its estimated mass is more similar to Neptune’s.” This unexpected finding has led scientists to postulate that Proxima Centauri b has a ring system, which would greatly increase its size but have a negligible effect on its mass.&lt;/p&gt;
+
+&lt;p&gt;Both Kepler-1649c and Proxima Centauri b are evidence that there is still much to discover in the universe, and exoplanets may be a key piece to the puzzle. While a lot of progress has been made with regards to exoplanet discovery, there are still infinitely many questions left unanswered. Perhaps scientists will even discover an exoplanet harboring life.&lt;/p&gt;
+
+&lt;p&gt;Cover Photo: &lt;a href=&quot;https://exoplanets.nasa.gov/&quot; target=&quot;_blank&quot;&gt;(NASA)&lt;/a&gt;
+&lt;br /&gt;&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/writingTeam/noProfile.jpg&quot; width=&quot;170&quot; style=&quot;float: left; margin-right: 30px; margin-bottom: 20px;&quot; /&gt;&lt;/p&gt;
+&lt;div style=&quot;margin-bottom: 5%;&quot;&gt;
+&lt;span style=&quot;font-size: 30px; font-weight: 900;&quot;&gt;Tania Firouzabady&lt;/span&gt;
+&lt;br /&gt;
+&lt;/div&gt;</content><author><name>Tania Firouzabady </name></author><summary type="html">The discovery of exoplanets Tania Firouzabady. 05/25/2021 Above is an illustration of an exoplanet. (NASA)</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/2021/may/exoplanetsCover.jpg" /><media:content medium="image" url="http://localhost:4000/2021/may/exoplanetsCover.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Discrimination in STEM fields: Current racial and ethnic issues in the STEM work industry</title><link href="http://localhost:4000/2021/05/14/discrimination-in-stem-fields.html" rel="alternate" type="text/html" title="Discrimination in STEM fields: Current racial and ethnic issues in the STEM work industry" /><published>2021-05-14T17:00:01-07:00</published><updated>2021-05-14T17:00:01-07:00</updated><id>http://localhost:4000/2021/05/14/discrimination-in-stem-fields</id><content type="html" xml:base="http://localhost:4000/2021/05/14/discrimination-in-stem-fields.html">&lt;h2 style=&quot;font-family: Ergonomique Bold&quot;&gt;Discrimination in STEM fields: Current racial and ethnic issues in the STEM work industry&lt;/h2&gt;
 &lt;p&gt;Caleb Izaguirre. 05/15/2021&lt;/p&gt;
 &lt;hr /&gt;
 
@@ -28,6 +77,25 @@
 
 &lt;p&gt;Black and Hispanic workers remain widely underrepresented while representation varies for women according to new reports, efforts to promote equity and equality still have a long way to go.&lt;/p&gt;
 
+&lt;p&gt;&lt;br /&gt;
+&lt;img src=&quot;/images/blogs/2021/may/discriminationOne.png&quot; width=&quot;70%&quot; style=&quot;display: block; margin: 0 auto&quot; /&gt;&lt;/p&gt;
+&lt;center&gt;&lt;i&gt;
+&lt;a href=&quot;https://www.insidehighered.com/news/2019/06/07/new-study-finds-discrimination-against-women-and-racial-minorities-hiring-sciences&quot; target=&quot;_blank&quot;&gt;(Inside Higher Ed)&lt;/a&gt;
+&lt;/i&gt;&lt;/center&gt;
+
+&lt;p&gt;&lt;br /&gt;
+According to &lt;a href=&quot;https://www.pewresearch.org/social-trends/2018/01/09/blacks-in-stem-jobs-are-especially-concerned-about-diversity-and-discrimination-in-the-workplace/&quot; target=&quot;_blank&quot;&gt;Pew Research&lt;/a&gt;, the typical woman’s salary from 2017 to 2019 in STEM was about 75% of a man’s salary. That gap narrowed from 70% in 2016, but it was still wider than the pay gap in the overall workforce with women earning 80% of male salary.&lt;/p&gt;
+
+&lt;p&gt;Racial and ethnic disparities in STEM salaries have also widened in recent years. Black STEM professionals typically earned, at most, 80% of white workers’ earnings from 2017 to 2019 — down from 82% in 2016. And average pay for Hispanic professionals in STEM was 83% of white earnings — down from 85% in that very year. Meanwhile, Asian professionals rose by 2%.&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;Looking Ahead&lt;b&gt;&lt;/b&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;The Pew findings are not surprising, but understanding why the numbers are where they are is even more important.&lt;/p&gt;
+
+&lt;p&gt;The barriers to entering STEM are very different for each group, but many underprivileged groups have to work through the adversity of the gamut of limited education and lack of STEM role models in local communities.&lt;/p&gt;
+
+&lt;p&gt;Early-career, student-led nonprofit movements like InterSTEM are not backing down and are instead empowering young students. These actions are aimed to help underprivileged children achieve their potential and will help create a more diverse and accepting workforce of the future.&lt;/p&gt;
+
 &lt;p&gt;Cover Photo: &lt;a href=&quot;https://www.newscientist.com/article/mg25033331-400-discrimination-is-still-a-problem-in-stem/&quot; target=&quot;_blank&quot;&gt;(New Scientist)&lt;/a&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
@@ -41,7 +109,7 @@
 &lt;hr /&gt;
 
 &lt;p&gt;&lt;img src=&quot;/images/blogs/2021/may/atmosphericOne.png&quot; width=&quot;70%&quot; style=&quot;display: block; margin: 0 auto&quot; /&gt;&lt;/p&gt;
-&lt;center&gt;&lt;i&gt;
+&lt;center&gt;&lt;i&gt;The image above shows the surface of Mars.
 &lt;a href=&quot;https://mars.nasa.gov/resources/25870/perseverances-hazard-cameras-view-ingenuitys-fourth-flight/&quot; target=&quot;_blank&quot;&gt;(NASA)&lt;/a&gt;
 &lt;/i&gt;&lt;/center&gt;
 
@@ -58,7 +126,7 @@ For as long as humans have studied astronomy, Mars has been defined by its reddi
 
 &lt;p&gt;&lt;br /&gt;
 &lt;img src=&quot;/images/blogs/2021/may/atmosphericTwo.png&quot; width=&quot;70%&quot; style=&quot;display: block; margin: 0 auto&quot; /&gt;&lt;/p&gt;
-&lt;center&gt;&lt;i&gt;
+&lt;center&gt;&lt;i&gt;A CGI interpretation of an ancient ocean on Mars, billions of years ago.
 &lt;a href=&quot;https://www.nasa.gov/press/2015/march/nasa-research-suggests-mars-once-had-more-water-than-earth-s-arctic-ocean/&quot; target=&quot;_blank&quot;&gt;(NASA)&lt;/a&gt;
 &lt;/i&gt;&lt;/center&gt;
 
@@ -395,35 +463,4 @@ The brain craves pleasure. Going on a vacation, jumping out of a plane or even t
 &lt;div style=&quot;margin-bottom: 5%;&quot;&gt;
 &lt;span style=&quot;font-size: 30px; font-weight: 900;&quot;&gt;Arul Loomba&lt;/span&gt;
 &lt;br /&gt;Arul is currently a sophomore at Rancho Cucamonga High School in California. He has a deep passion for biomedicine and is looking to pursue regenerative medicine in the future. Currently, he is trying to research articles and data collected by many professors to formulate his theories and ideas! Arul is also a fan of cooking, playing tennis, and writing.
-&lt;/div&gt;</content><author><name>Arul Loomba</name></author><summary type="html">Dopamine: The molecule that drives addiction Arul Loomba . 04/23/2021 Dopamine is a neurotransmitter that is released into the brain’s reward system (right) and is released into cells (left) initiating a response. Often, an increase in the release of dopamine creates a feeling of pleasure. (Getty Images / Verywell Health) The brain craves pleasure. Going on a vacation, jumping out of a plane or even taking a bite of ice cream stimulates the action of billions of neurons - the cells in our brains that send signals throughout our body to do everything from helping us walk to reading a book. There is one chemical that does consistent and important signaling using the brain’s neurons, especially when it comes to sending information about pleasure: the neurotransmitter dopamine.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/2021/april/dopamineCover.png" /><media:content medium="image" url="http://localhost:4000/2021/april/dopamineCover.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Social media and its effects on mental health</title><link href="http://localhost:4000/2021/04/22/social-media-and-its-effects-on-mental-health.html" rel="alternate" type="text/html" title="Social media and its effects on mental health" /><published>2021-04-22T17:00:00-07:00</published><updated>2021-04-22T17:00:00-07:00</updated><id>http://localhost:4000/2021/04/22/social-media-and-its-effects-on-mental-health</id><content type="html" xml:base="http://localhost:4000/2021/04/22/social-media-and-its-effects-on-mental-health.html">&lt;h2 style=&quot;font-family: Ergonomique Bold&quot;&gt;Social media and its effects on mental health&lt;/h2&gt;
-&lt;p&gt;Rheigina Quijote. 04/23/2021&lt;/p&gt;
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/blogs/2021/april/socialMediaOne.png&quot; width=&quot;60%&quot; style=&quot;display: block; margin: 0 auto&quot; /&gt;&lt;/p&gt;
-&lt;center&gt;&lt;i&gt;In this age of social networking, there are many platforms that lead to the decline of mental health for adolescents and adults.
-&lt;a href=&quot;https://www.statista.com/chart/19262/impact-of-social-media-on-mental-health/&quot; target=&quot;_blank&quot;&gt;(Statista)&lt;/a&gt;
-&lt;/i&gt;&lt;/center&gt;
-&lt;p&gt;&lt;br /&gt;
-In today’s world, social media plays an active role in the mental health of an individual. Throughout our lives, humans seek interaction with others since being social can foster positivity in a person. But during this era of technology and growing digital interaction, social media has made its way into everyone’s daily lives. Social media brings exposure to all users, as a craving for attention is now an active figure in the lives of many. What is regarded as a source of entertainment and a form of efficient communication for humans is also the source of increasing mental illness.&lt;/p&gt;
-
-&lt;p&gt;A research article by &lt;a href=&quot;https://www.researchgate.net/profile/Shabir-Bhat/publication/323018957_Effects_of_Social_Media_on_Mental_Health_A_Review/links/5a7c9e97aca272341aeb7472/Effects-of-Social-Media-on-Mental-Health-A-Review.pdf&quot; target=&quot;_blank&quot;&gt;the International journal of Indian Psychology&lt;/a&gt; states that similarly to the human body, which seeks nutrition, the human mind seeks to be nurtured by thoughts. As social media life separates a person from others in the real world, it affects their mental health and social interaction. The journal found that the younger generation is more susceptible at an embryonic stage of their life. This indicates that because the youth is more easily swayed and most active on social media, they are at a larger risk of serious mental health effects. By being easily influenced by social media, they’re exposed to situations of bullying and comparing themselves with others online. Online activity has become an essential part of daily life, and while it does contain its benefits like an increase in communication, it can strongly impact the well-being of its users.&lt;/p&gt;
-
-&lt;p&gt;Social media is known to cause an increase in anxiety and depression as stated by the International Journal of Indian Psychology. About 45% of British adults have felt restlessness because of a lack of accessing social media sites. The same was found with adolescents. Adolescents are unable to decipher the difference between a notification they receive and one someone else does, a condition known as phantom vibration syndrome. There is a positive correlation between social media and mental health: the longer you spend on social media the more likely you are at risk of depression.&lt;/p&gt;
-
-&lt;p&gt;Another look at the topic at hand is the current global situation of COVID-19. Because of the virus outbreak, people are forced to live in isolated circumstances, which leads to a rise in technological use. &lt;a href=&quot;https://www.google.com/url?q=https://journals.plos.org/plosone/article?id%3D10.1371/journal.pone.0231924&amp;amp;sa=D&amp;amp;source=editors&amp;amp;ust=1619248925761000&amp;amp;usg=AOvVaw0-TYccMD_hzv4rzkOYRw4S&quot; target=&quot;_blank&quot;&gt;Plos One&lt;/a&gt; brings an insight into mental health problems and their association with social media exposure during COVID-19. By conducting their experiment and surveying the results, it is shown that because of  COVID-19, a rise in misinformation through social media has been an underlying effect of increasing mental illness.&lt;/p&gt;
-
-&lt;p&gt;In their investigation, they examined 4,872 Chinese citizens under 18 through online surveys. It was found that about 48% were depressed, 22% had anxiety and 19% had a combination of the two. Shown from the data, it’s believed social media exposure was associated with high anxiety within individuals, and the increase of social media exposure, in general, was due to the COVID outbreak. From this extended use of social media, it was concluded that misinformation that was fueled by social media was an indirect cause of anxiety.&lt;/p&gt;
-
-&lt;p&gt;The study had the participants report any experience of positivity in the last two weeks and those that scored less than 13 on their 6-point scale represented depression. Similarly, their study over anxiety had initially the same rating scale where they reported signs of anxiousness during the last two weeks. Those with scores greater than one were assumed to have an anxiety disorder. They determined social media uses by how often the respondents had seen news or information regarding COVID-19 on social media. In the results, the increase of social media exposure corresponded to increased odds of depression as was with anxiety and the combination.&lt;/p&gt;
-
-&lt;p&gt;To conclude, the two main reasons to describe the association of social media exposure and mental health is the misinformation in social media, not only the COVID outbreak but in this generation overall. This is likely because of the lack of privacy and expectancy of attention of users that the increase of self unimportance or anxiousness. As a way to prevent such problems and help those who have felt as such, both research articles and studies encourage seeking professional counseling and user age restrictions. In hopes of enlightening others on the harms that social media may cause to one’s health and for your benefit and growth, monitor and limit your time around the screen.&lt;/p&gt;
-
-&lt;p&gt;Cover Photo: (The Digital Age)&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/writingTeam/noProfile.jpg&quot; width=&quot;170&quot; style=&quot;float: left; margin-right: 30px; margin-bottom: 20px;&quot; /&gt;&lt;/p&gt;
-&lt;div style=&quot;margin-bottom: 5%;&quot;&gt;
-&lt;span style=&quot;font-size: 30px; font-weight: 900;&quot;&gt;Rheigina Quijote&lt;/span&gt;
-&lt;br /&gt;
-&lt;/div&gt;</content><author><name>Rheigina Quijote</name></author><summary type="html">Social media and its effects on mental health Rheigina Quijote. 04/23/2021 In this age of social networking, there are many platforms that lead to the decline of mental health for adolescents and adults. (Statista) In today’s world, social media plays an active role in the mental health of an individual. Throughout our lives, humans seek interaction with others since being social can foster positivity in a person. But during this era of technology and growing digital interaction, social media has made its way into everyone’s daily lives. Social media brings exposure to all users, as a craving for attention is now an active figure in the lives of many. What is regarded as a source of entertainment and a form of efficient communication for humans is also the source of increasing mental illness.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/2021/april/socialMediaCover.png" /><media:content medium="image" url="http://localhost:4000/2021/april/socialMediaCover.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+&lt;/div&gt;</content><author><name>Arul Loomba</name></author><summary type="html">Dopamine: The molecule that drives addiction Arul Loomba . 04/23/2021 Dopamine is a neurotransmitter that is released into the brain’s reward system (right) and is released into cells (left) initiating a response. Often, an increase in the release of dopamine creates a feeling of pleasure. (Getty Images / Verywell Health) The brain craves pleasure. Going on a vacation, jumping out of a plane or even taking a bite of ice cream stimulates the action of billions of neurons - the cells in our brains that send signals throughout our body to do everything from helping us walk to reading a book. There is one chemical that does consistent and important signaling using the brain’s neurons, especially when it comes to sending information about pleasure: the neurotransmitter dopamine.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/2021/april/dopamineCover.png" /><media:content medium="image" url="http://localhost:4000/2021/april/dopamineCover.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>

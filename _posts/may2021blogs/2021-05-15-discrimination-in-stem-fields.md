@@ -36,6 +36,27 @@ In this forecast, STEM employees look similar to other job positions. Blacks and
 
 Black and Hispanic workers remain widely underrepresented while representation varies for women according to new reports, efforts to promote equity and equality still have a long way to go.
 
+<br>
+<img src="{{ site.baseurl }}/images/blogs/2021/may/discriminationOne.png" width="70%" style="display: block; margin: 0 auto"/>  
+<center><i>
+<a href="https://www.insidehighered.com/news/2019/06/07/new-study-finds-discrimination-against-women-and-racial-minorities-hiring-sciences" target="_blank">(Inside Higher Ed)</a>
+</i></center>
+
+<br>
+According to <a href="https://www.pewresearch.org/social-trends/2018/01/09/blacks-in-stem-jobs-are-especially-concerned-about-diversity-and-discrimination-in-the-workplace/" target="_blank">Pew Research</a>, the typical woman’s salary from 2017 to 2019 in STEM was about 75% of a man’s salary. That gap narrowed from 70% in 2016, but it was still wider than the pay gap in the overall workforce with women earning 80% of male salary.
+
+Racial and ethnic disparities in STEM salaries have also widened in recent years. Black STEM professionals typically earned, at most, 80% of white workers’ earnings from 2017 to 2019 — down from 82% in 2016. And average pay for Hispanic professionals in STEM was 83% of white earnings — down from 85% in that very year. Meanwhile, Asian professionals rose by 2%.
+
+<b>Looking Ahead<b>
+
+The Pew findings are not surprising, but understanding why the numbers are where they are is even more important.
+
+The barriers to entering STEM are very different for each group, but many underprivileged groups have to work through the adversity of the gamut of limited education and lack of STEM role models in local communities.
+
+Early-career, student-led nonprofit movements like InterSTEM are not backing down and are instead empowering young students. These actions are aimed to help underprivileged children achieve their potential and will help create a more diverse and accepting workforce of the future.
+
+
+
 Cover Photo: <a href="https://www.newscientist.com/article/mg25033331-400-discrimination-is-still-a-problem-in-stem/" target="_blank">(New Scientist)</a>
 
 <hr>
