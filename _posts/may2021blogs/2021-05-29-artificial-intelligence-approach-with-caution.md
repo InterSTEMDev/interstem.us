@@ -34,7 +34,7 @@ Ipsos noted that part of this reluctance is linked to the identity of classic ca
 
 A full introduction of fully autonomous vehicles onto American roadways will trigger a litany of legal questions. Dean Kamen, an American engineer best known for his invention of the Segway, once said “Every once in a while, a new technology, an old problem and a big idea turn into an innovation.” Applying Kamen’s argument to this legal conundrum leaves us with two legal arguments: the old problem here is human error in driving causing casualties and the innovative solution is using artificial intelligence to reduce casualties in driving. However, our innovative solution begs the question of how this freshly emerging technology, with little legal precedent to compare to, will be regulated.
 
-Cover Photo: <a href="" target="_blank">(iStock)</a>
+Cover Photo: <a href="https://www.istockphoto.com/search/2/image?phrase=autonomous+car" target="_blank">(iStock)</a>
 
 <hr>
 <img src="{{ site.baseurl }}/images/writingTeam/noProfile.jpg" width="170" style="float: left; margin-right: 30px; margin-bottom: 20px;"/>
