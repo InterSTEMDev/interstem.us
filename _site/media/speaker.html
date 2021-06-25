@@ -85,17 +85,29 @@
                           <li><a href="/media/talks">APCSA Series</a></li>
                         </ul>
                       </li>
+
+                      <!--
                       <li class="dropdown">
                         <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true">Events <span class="ion-ios-arrow-down"></span></a>
                         <ul class="dropdown-menu">
                           <li><a href="/events/writingContest">Writing Contest</a></li>
                           <li><a href="/events/writingWorkshop">Writing Workshop</a></li>
-                          <li><a href="https://interstembowl.ml" target="_blank">InterSTEM Bowl</a></li>
+                          <li><a href="https://interstembowl.ml" target="_blank">InterSTEM Bowl</a></li> -
+                          <li><a href="/codingbootcamp">Coding Bootcamp</a></li>
+                        </ul>
+                      </li> -->
+
+                      <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true">News <span class="ion-ios-arrow-down"></span></a>
+                        <ul class="dropdown-menu">
+                          <li><a href="/news">News</a></li>
+                          <li><a href="/events/writingContest">Writing Contest</a></li>
                           <li><a href="/codingbootcamp">Coding Bootcamp</a></li>
                         </ul>
                       </li>
-                      <li><a href="/news">News</a></li>
+
                       <li><a href="/blog">Blog</a></li>
+                      <li><a href="/interlings">Interlings</a></li>
                       <li class="dropdown">
                         <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true">Research <span class="ion-ios-arrow-down"></span></a>
                         <ul class="dropdown-menu">
@@ -135,13 +147,25 @@
       <div class="container-fluid" style="border: 0;";>
          <div class="col-lg-2 col-sm-12 video-list">
             <div class="tab">
-              <button class="tablinks" onclick="openForm(event, 'lecture-4', 'desc-4')" id="defaultOpen" style="border-radius: 12px;">College AMA 1</button>
-               <button class="tablinks" onclick="openForm(event, 'lecture-3', 'desc-3')" id="defaultOpen" style="border-radius: 12px;">Prof. Matthew O. Jackson (Economics)</button>
+              <button class="tablinks" onclick="openForm(event, 'lecture-6', 'desc-6')" id="defaultOpen" style="border-radius: 12px;">Professor Couture (Economics)</button>
+              <button class="tablinks" onclick="openForm(event, 'lecture-5', 'desc-5')" id="defaultOpen" style="border-radius: 12px;">Professor Baghdasaria (Marine Biome)</button>
+              <button class="tablinks" onclick="openForm(event, 'lecture-4', 'desc-4')" style="border-radius: 12px;">College AMA 1</button>
+               <button class="tablinks" onclick="openForm(event, 'lecture-3', 'desc-3')"  style="border-radius: 12px;">Prof. Matthew O. Jackson (Economics)</button>
                <button class="tablinks" onclick="openForm(event, 'lecture-2', 'desc-2')" style="border-radius: 12px;">Dr. Francis Bonahon (Math)</button>
                <button class="tablinks" onclick="openForm(event, 'lecture-1', 'desc-1')" style="border-radius: 12px;">Dr. Heiko Hoffman (Robotics)</button>
             </div>
          </div>
          <div class="col-lg-7 col-sm-12">
+           <div id="lecture-6" class="tabcontent">
+             <div class="videoWrapper">
+                <iframe width="1120" height="560" src="https://www.youtube.com/embed/XeHtk0hHI9M" frameborder="0" allowfullscreen></iframe>
+             </div>
+           </div>
+           <div id="lecture-5" class="tabcontent">
+             <div class="videoWrapper">
+                <iframe width="1120" height="560" src="https://www.youtube.com/embed/QRMuWvKdx9o" frameborder="0" allowfullscreen></iframe>
+             </div>
+           </div>
             <div id="lecture-4" class="tabcontent">
               <div class="videoWrapper">
                  <iframe width="1120" height="560" src="https://www.youtube.com/embed/apCJXJzPU4A" frameborder="0" allowfullscreen></iframe>
@@ -189,6 +213,20 @@
             </div>
          </div>
          <div class="col-lg-3 col-sm-12">
+           <div id="desc-6" class="tabcontent">
+             <div class="desc-card">
+                <div class="block">
+                   <p>Victor Couture is an Assistant Professor at the Vancouver School of Economics of the University of British Columbia. In this lecture, Couture discusses the methodology and results of his research pertaining to global urban transportation. Based on his calculations on uncongested speed, average speed, and GDP per capita for dozens of cities, Couture reveals the role of congestion and national wealth in speed variation across urban areas. Couture also reviews the political and scientific implications of the urban transportation database he developed.</p>
+                </div>
+             </div>
+          </div>
+           <div id="desc-5" class="tabcontent">
+             <div class="desc-card">
+                <div class="block">
+                   <p>Garen Baghdasarian completed his Ph.D. in biology at UCLA, and is now a professor of marine biology at Santa Monica College. He previously held a number of positions including Chair of the SMC Life Sciences Department, SMC Director of the Center for Environmental and Urban Studies, and co-Chair of the SMC Global Citizenship Study Abroad committee. He is a member of City of Santa Monica Environmental Task Force, and has won various teaching and research awards, including the Avaya Inc. & Anxier Inc. Life Sciences Chair of Excellence. His past research includes work on predator/pray interactions, and the effect of plastic micro-pollutants in the ocean. More recently, his research has focused on the effects of global warming and ocean acidification on coral reefs.</p>
+                </div>
+             </div>
+          </div>
           <div id="desc-4" class="tabcontent">
             <div class="desc-card">
                <div class="block">
