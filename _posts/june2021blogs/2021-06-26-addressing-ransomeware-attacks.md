@@ -1,0 +1,44 @@
+---
+layout: post
+title:  "Addressing ransomware attacks"
+date:   2021-06-26 00:00:01
+author: "Simone Rothaupt"
+image: ../../2021/june/ransomwareCover.png
+description: Ransomware attacks are occurring nearly every day and wreaking havoc upon society, so how can we address this growing issue?
+time: 5 min
+---
+<h2 style="font-family: Ergonomique Bold">Addressing ransomware attacks</h2>
+Simone Rothaupt. 06/26/2021
+<hr>
+
+<img src="{{ site.baseurl }}/images/blogs/2021/june/ransomwareOne.png" width="70%" style="display: block; margin: 0 auto"/>  
+<center><i>In early May 2021, Colonial Pipeline Co. experienced a ransomware attack that caused a gas shortage throughout the East Coast.
+<a href="https://www.bloomberg.com/news/articles/2021-05-10/colonial-pipeline-reopens-section-of-pipeline-on-limited-basis" target="_blank">(Luke Sharrett / Bloomberg)</a>
+</i></center>
+<br>
+On May 7. 2021, Joseph Blount, the CEO of Colonial Pipeline Co., authorized a payment of $4.4 million dollars to DarkSide, a cyber hacking group from Eastern Europe. Earlier that day, a worker had noticed a ransomware warning stating that DarkSide had shut down the company's fuel lines and was now demanding payment to reopen them. While Colonial Pipeline Co. worked to resume operations, <a href="https://www.bbc.com/news/business-57050690" target="_blank">BBC</a> reported that the 2.5 million-barrel-a-day pipeline, which supplied 45% of the East Coast’s diesel, petrol and jet fuel, was shut down for nearly a week.
+
+Though often unseen by the public, a variety of private and public enterprises have been attacked by ‘cybergangs’ that extort large sums from their victims in exchange for reopening the company’s digital infrastructure. According to leading cybercrime research group <a href="https://www.herjavecgroup.com/wp-content/uploads/2018/12/CV-HG-2019-Official-Annual-Cybercrime-Report.pdf" target="_blank">Cybersecurity Ventures</a>, an attack occurs nearly every 11 seconds. Former Deputy Attorney General <a href="" target="_blank">Rod J. Rosenstein</a> further reports that global ransom payments are approaching “$1 billion annually.” Some more prominent ransomware victims include <a href="https://www.forbes.com/sites/leemathews/2021/05/25/bose-hit-by-ransomware-refuses-to-pay-ransom/?sh=66f5efea139a" target="_blank">Bose</a> and <a href="https://www.sandiegouniontribune.com/news/health/story/2021-05-24/scripps-enters-fourth-week-of-ransomware-pain" target="_blank">Scripps Mercy Hospital of San Diego</a>.
+
+One common trait shared among these hacking groups is that they often base themselves on former or current Communist countries. A recent exposé by <a href="www.newyorker.com/magazine/2021/04/26/the-incredible-rise-of-north-koreas-hacking-army" target="_blank">The New Yorker</a> revealed that the global attacks wrought by the Reconnaissance General Bureau, a cyberhacking team, were supported by the North Korean government. One prominent attack by the RGB includes the failed global ransomware scheme, Wannacry 2.0, in 2017.
+
+While the first recorded ransomware attacks were quite simple in nature, the continuous evolution of computer technology has enabled increasingly complex attacks. For instance, CNN writer <a href="https://www.cnn.com/2021/05/16/tech/ransomware-joseph-popp/index.html" target="_blank">Samantha Kelly</a> reports the first major ransomware attack involved sending floppy disks to victims. Once inserted in the computer, an error message would freeze the device and request victims to send “$189 in an envelope to a PO Box in Panama.” Over time, however, ransomware attacks became more complex and thus, more difficult to prevent. For instance, the aforementioned RGB once attempted to attack Redbanc, a network that connects all ATMs in Chile, by faking a job offer to an employee.
+
+<a href="https://security.berkeley.edu/faq/ransomware/" target="_blank">UC Berkeley</a> reports that the typical method that ransomware enters a computer is through links in phishing emails and drive-by downloading. Phishing emails are messages designed to trick victims into releasing private information. Typically, these emails imitate those sent by official institutions, such as banks and government organizations. Phishing emails are often sent by a botnet, which is a network of hijacked zombie computers controlled by cybercriminals. Drive-by downloading occurs when a victim visits an infected website and unknowingly downloads malware. As explained by <a href="https://lifehacker.com/a-beginners-guide-to-encryption-what-it-is-and-how-to-1508196946" target="_blank">Whitson Gordon</a>, the malware then encrypts files, essentially encoding the information stored on a device that cannot be decoded without a key. If the victim pays the ransom (typically demanded in the form of bitcoin), the key is provided to the victim to regain access to their computer’s data. In the previously mentioned situation with the RGB and Redbanc, the ransomware initially entered the ATM network by asking the target to “download and run a program that generated a PDF of a résumé.”
+
+As ransomware attacks become more and more common, one growing concern is about their potential societal impacts. While attacks such as the one on Bose may only affect the company, others may have nationwide and global repercussions. For example, according to the <a href="https://www.wsj.com/articles/u-s-gas-prices-hit-3-a-gallon-as-shortage-sets-in-amid-colonial-pipeline-shutdown-11620832180" target="_blank">Wall Street Journal</a>, the Colonial Pipeline attack caused gasoline prices to jump to a six-year high, with the national gas price average increasing to over $3 per gallon. Without a doubt, the victims of ransomware attacks represent not only the targeted company but the entire world.
+
+Following the recent Colonial Pipeline attack, the US government has issued various responses to improve national cybersecurity. Specifically, on May 12, <a href="https://www.whitehouse.gov/briefing-room/statements-releases/2021/05/11/fact-sheet-the-biden-harris-administration-has-launched-an-all-of-government-effort-to-address-colonial-pipeline-incident/" target="_blank">President Biden</a> signed an executive order which seeks to “modernize and implement stronger cybersecurity standards in the Federal government” and “establish a Cybersecurity Safety Review Board.” Moreover, the Department of Homeland Security aims to require pipeline companies to report ransomware attacks to federal authorities. New cybersecurity legislation, such as the <a href="https://www.meritalk.com/articles/senate-bill-pushes-for-federal-cybersecurity-employee-rotation-system/" target="_blank">Federal Rotational Cyber Workforce Program Act</a>, is also expected to be enacted in the near future. The Federal Rotational Cyber Workforce Program in particular aims to improve government cybersecurity by allowing cyber-related employees to work across multiple agencies. By doing so, central, integrated cybersecurity would be created that can address attacks rapidly.
+
+Though these efforts attempt to stem the tide of ransomware attacks, <a href="https://www.chicagotribune.com/business/ct-biz-cb-ransomware-cyberattacks-computer-security-20210429-yewql3wcszas5g2xc7uf4gdbm4-story.html" target="_blank">Philip Reiner</a>, the CEO of the nonprofit Institute for Security and Technology, explains there is no simple solution to ransomware. Even so, the Department of Justice’s task force for ransomware believes that stricter regulation of cryptocurrency and allowing private companies to block online criminal activity, including botnets, can reduce these attacks. Through these government initiatives, ransomware attacks can hopefully be mitigated.
+
+
+
+Cover Photo: (Tiny Buddha)
+
+<hr>
+<img src="{{ site.baseurl }}/images/writingTeam/noProfile.jpg" width="170" style="float: left; margin-right: 30px; margin-bottom: 20px;"/>
+<div style="margin-bottom: 5%;">
+<span style="font-size: 30px; font-weight: 900;">Simone Rothaupt</span>
+<br>
+</div>
