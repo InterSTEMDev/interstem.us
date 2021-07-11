@@ -1,4 +1,162 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-07-03T23:59:41-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">InterSTEM</title><entry><title type="html">How technology has helped preserve music during the pandemic</title><link href="http://localhost:4000/2021/07/02/how-technology-has-helped-preserve-music.html" rel="alternate" type="text/html" title="How technology has helped preserve music during the pandemic" /><published>2021-07-02T17:00:01-07:00</published><updated>2021-07-02T17:00:01-07:00</updated><id>http://localhost:4000/2021/07/02/how-technology-has-helped-preserve-music</id><content type="html" xml:base="http://localhost:4000/2021/07/02/how-technology-has-helped-preserve-music.html">&lt;h2 style=&quot;font-family: Ergonomique Bold&quot;&gt;How technology has helped preserve music during the pandemic&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-07-10T22:07:23-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">InterSTEM</title><entry><title type="html">How Spotify knows exactly what you want to listen to</title><link href="http://localhost:4000/2021/07/09/how-spotify-knows-exactly-what-you-want-to-listen-to.html" rel="alternate" type="text/html" title="How Spotify knows exactly what you want to listen to" /><published>2021-07-09T17:00:03-07:00</published><updated>2021-07-09T17:00:03-07:00</updated><id>http://localhost:4000/2021/07/09/how-spotify-knows-exactly-what-you-want-to-listen-to</id><content type="html" xml:base="http://localhost:4000/2021/07/09/how-spotify-knows-exactly-what-you-want-to-listen-to.html">&lt;h2 style=&quot;font-family: Ergonomique Bold&quot;&gt;How Spotify knows exactly what you want to listen to&lt;/h2&gt;
+&lt;p&gt;Rachel Huang. 07/10/2021&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;Spotify. As the biggest music streaming platform in the world, Spotify has two main advantages over its competitors: its large and diverse reserves of music consisting of over 70 million songs and its ability to figure out exactly what you want to listen to. Utilizing a search engine that combines multiple machine learning and data analysis models, Spotify collects data from your playlists and then finds similar songs to recommend to you. The personalization of Spotify can be broken down into two main parts: its data infrastructure and personalization algorithm.&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;Data Infrastructure&lt;/b&gt;
+&lt;br /&gt;Open-source Apache software platforms Kafka, Storm, Crunch, and Cassandra make up the foundation of Spotify. These software systems seamlessly work together to collect and analyze data in real-time and then store it in user profiles as personalized suggestions according to the user’s preference. To make up Spotify’s personalization tech stack (in computing, a stack is a data structure used for storage), a sequence composed of these software systems is run: Kafka collects data, Storm and Hadoop Distributed File System (HDFS) process the data in real-time, Crunch further processes the data, and everything is stored in Cassandra.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/blogs/2021/july/spotifyOne.png&quot; width=&quot;70%&quot; style=&quot;display: block; margin: 0 auto&quot; /&gt;&lt;/p&gt;
+&lt;center&gt;&lt;i&gt;A diagram of data flow in Spotify &lt;a href=&quot;https://engineering.atspotify.com/2015/01/09/personalization-at-spotify-using-cassandra/#:~:text=We%20help%20our%20users%20discover,and%20distastes%20in%20different%20contexts.&quot; target=&quot;_blank&quot;&gt;(Spotify)&lt;/a&gt;.&lt;/i&gt;&lt;/center&gt;
+
+&lt;p&gt;The Cassandra database, Spotify’s storage unit, consists of over 100 Cassandra clusters, each containing a nested storage system within itself. The sequential layering of the &lt;a href=&quot;https://data-flair.training/blogs/cassandra-cluster/#:~:text=The%20cluster%20is%20a%20collection,storage%20unit%20in%20a%20database.&quot; target=&quot;_blank&quot;&gt;shells&lt;/a&gt; can be represented as follows: cluster → nodes → keyspace → column families→ rows → column. The nodes are made up of computers that share data with each other, and each subsequent shell is a more specific classification of the data in the shell before it. User profile attributes and metadata about playlists and artists are stored in Cassandra clusters.&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;How the Personalization Algorithm Works&lt;/b&gt;
+&lt;br /&gt;A popular feature of Spotify is the Discover Weekly playlist, a mixtape of 30 new songs that is updated every Monday. This playlist is the best example of Spotify’s personalization algorithm as its songs are directly determined by Spotify’s discovery engine, a mesh of the three data analysis models Collaborative Filtering, Natural Language Processing (NLP), and Audio Analysis. The Collaborative Filtering models rely on data that is stored in immense matrices containing millions of rows and columns, each row representing a user and each column representing a song. After running a matrix factorization formula (with Python libraries) on the user-song matrix, two vectors are produced. The first vector represents a user’s taste in music, and the second vector represents a song’s characteristics. These two vectors are unique to each user, and Spotify recommends songs by comparing your vector to other users’ vectors to find new songs that are similar to the music you are already listening to.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/blogs/2021/july/spotifyTwo.png&quot; width=&quot;70%&quot; style=&quot;display: block; margin: 0 auto&quot; /&gt;&lt;/p&gt;
+&lt;center&gt;&lt;i&gt;From left to right: a section of the user--song matrix, a user vector, a song factor &lt;a href=&quot;https://medium.com/s/story/spotifys-discover-weekly-how-machine-learning-finds-your-new-music-19a41ab76efe&quot; target=&quot;_blank&quot;&gt;(Medium)&lt;/a&gt;.&lt;/i&gt;&lt;/center&gt;
+
+&lt;p&gt;&lt;br /&gt;
+While the Collaborative Filtering models analyze data that is solely from Spotify, the NLP models analyze text on the internet about the songs in Spotify’s database, whether it be news articles about popular artists or tweets about new music. The NLP models use &lt;a href=&quot;https://cloud.google.com/natural-language/docs/analyzing-sentiment&quot; target=&quot;_blank&quot;&gt;sentiment analysis APIs&lt;/a&gt; to create vectors from this collected text that can then be compared to determine if two pieces of music are culturally similar to one another. Finally, audio models analyze the raw audio tracks themselves, an “equalizing” measure built into Spotify’s recommendation models that provide new artists with the same chances of being placed into a user’s Discover Weekly playlist compared to popular artists since audio analysis doesn’t discriminate against song popularity. The audio models use convolutional neural networks to analyze the soundtracks of songs by inputting data as time-frequency representations of audio frames. The frames are then concatenated to form a spectrogram and passed through the convolutional layers of the model, ultimately computing the representative statistics of the song, like the time signature, key, and tempo.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/blogs/2021/july/spotifyThree.png&quot; width=&quot;70%&quot; style=&quot;display: block; margin: 0 auto&quot; /&gt;&lt;/p&gt;
+&lt;center&gt;&lt;i&gt;A diagram of the audio model; rectangles represent the convolutional layers &lt;a href=&quot;https://medium.com/s/story/spotifys-discover-weekly-how-machine-learning-finds-your-new-music-19a41ab76efe&quot; target=&quot;_blank&quot;&gt;(Medium)&lt;/a&gt;.&lt;/i&gt;&lt;/center&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Where the Discover Weekly Playlist is a representative slice of Spotify’s personalization ability, Spotify’s Home Screen is the whole “personalized experience” pie. The &lt;a href=&quot;https://engineering.atspotify.com/2020/01/16/for-your-ears-only-personalizing-spotify-home-with-machine-learning/&quot; target=&quot;_blank&quot;&gt;Home Screen&lt;/a&gt; is organized like a bookcase with each shelf (or each horizontal section) displaying your favorite books (the square images that represent playlists, podcasts, artists, albums, etc., more formally known as cards). Each user’s bookcase is different as it is based on their most recent activity, favorite playlists, new releases, and custom mixtapes such as the Discover Weekly Playlist. The cards in each shelf are constantly updated with the help of machine learning. In this case, machine learning can be divided into two sections, exploitation and exploration. Exploitation displays the cards based on your previous activity, whether it be the playlist you last listened to or the artist you started following recently. On the other hand, the exploration aspect is based on initiating user engagement by displaying suggested content, seeing how users respond, and then modifying the suggested content according to user interaction.&lt;/p&gt;
+
+&lt;p&gt;As younger generations can attest, the &lt;a href=&quot;https://magazine.weverse.io/article/view?lang=en&amp;amp;colca=6&amp;amp;num=133&quot; target=&quot;_blank&quot;&gt;music industry&lt;/a&gt; is now centered on  digitally streaming music. For example, the International Federation of the Phonographic Industry’s reports show that music streaming made up 62% of the 2020 global music industry, raking in a grand total of $13.4 billion for artists and labels worldwide. &lt;a href=&quot;https://newsroom.spotify.com/company-info/&quot; target=&quot;_blank&quot;&gt;Spotify&lt;/a&gt; is at the forefront of this streaming movement with a user community of 356 million people that continues to grow every day. Spotify is necessary for singers to flourish, because their music has the possibility of being recommended to anybody and everybody, thanks to Spotify’s song analysis algorithms. 30% of plays on Spotify are credited to personalized recommendations, which serves as evidence of how Spotify is truly at the intersection of the roads of personalization and technology.&lt;/p&gt;
+
+&lt;p&gt;With Spotify continuing to push the boundaries of what music streaming can be, the only limit to the music industry is our imagination.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;
+Cover Photo: &lt;a href=&quot;https://www.pinterest.com/pin/497366352578717874/&quot; target=&quot;_blank&quot;&gt;(Pinterest)&lt;/a&gt;&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/writingTeam/noProfile.jpg&quot; width=&quot;170&quot; style=&quot;float: left; margin-right: 30px; margin-bottom: 20px;&quot; /&gt;&lt;/p&gt;
+&lt;div style=&quot;margin-bottom: 5%;&quot;&gt;
+&lt;span style=&quot;font-size: 30px; font-weight: 900;&quot;&gt;Rachel Huang&lt;/span&gt;
+&lt;br /&gt;
+&lt;/div&gt;</content><author><name>Rachel Huang</name></author><summary type="html">How Spotify knows exactly what you want to listen to Rachel Huang. 07/10/2021</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/2021/july/spotifyCover.png" /><media:content medium="image" url="http://localhost:4000/2021/july/spotifyCover.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Will the Earth ever run out of resources?</title><link href="http://localhost:4000/2021/07/09/will-the-earth-ever-run-out-of-resources.html" rel="alternate" type="text/html" title="Will the Earth ever run out of resources?" /><published>2021-07-09T17:00:03-07:00</published><updated>2021-07-09T17:00:03-07:00</updated><id>http://localhost:4000/2021/07/09/will-the-earth-ever-run-out-of-resources</id><content type="html" xml:base="http://localhost:4000/2021/07/09/will-the-earth-ever-run-out-of-resources.html">&lt;h2 style=&quot;font-family: Ergonomique Bold&quot;&gt;Will the Earth ever run out of resources?&lt;/h2&gt;
+&lt;p&gt;Sydney Hollingsworth. 07/10/2021&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/blogs/2021/july/resourcesOne.jpg&quot; width=&quot;70%&quot; style=&quot;display: block; margin: 0 auto&quot; /&gt;&lt;/p&gt;
+&lt;center&gt;&lt;i&gt;Coal mines in Columbia (Scott Wallace/World Bank) &lt;/i&gt;&lt;/center&gt;
+
+&lt;p&gt;You have probably heard doomsday warnings such as “climate change will be irreversible by 2030” or “fossil fuels will run out by 2060” to the point that the end of humanity seems inevitable and quickly approaching. But is it true? There is a common theme for these predictions - depletion of natural resources, that humanity’s overconsumption will be its downfall - but what’s actually going on? How can an entire planet run out of resources so quickly?&lt;/p&gt;
+
+&lt;p&gt;We know that there is only a &lt;a href=&quot;https://www.rd.com/list/what-would-happen-if-worlds-natural-resources-ran-out/&quot; target=&quot;_blank&quot;&gt;finite amount&lt;/a&gt; of soil, fossil fuels, water, heavy metals, and minerals on Earth, so we must run out eventually, right? And it is true that as a species, we are using these finite resources very quickly; between 1950 and 2000, humans have consumed more natural resources than over the course of all of previous human history, and scientists have been warning against overconsumption since the 1970s.&lt;/p&gt;
+
+&lt;p&gt;Scientists’ predictions for what the future will bring have consistently changed, despite having known about overconsumption for years. A &lt;a href=&quot;https://www.theguardian.com/uk/2002/jul/07/research.waste&quot; target=&quot;_blank&quot;&gt;2002 report from the World Wildlife Fund&lt;/a&gt; claimed we would have to colonize at least 2 Earth-sized planets by 2050 to make up for the rate at which we use up natural resources. Now, in 2021, this prediction is less popular because we know that it is neither realistically possible nor necessary.&lt;/p&gt;
+
+&lt;p&gt;Although the numbers seem to be against us, we’re still alive, and the fuel, soil, and minerals that we use everyday never seem to run out. The Club of Rome’s &lt;a href=&quot;https://wattsupwiththat.com/2019/05/15/why-resources-arent-natural-and-will-never-run-out/&quot; target=&quot;_blank&quot;&gt;Limits to Growth&lt;/a&gt; manifesto, written in 1972, predicted that we would have already run out of heavy metals such as gold, copper, mercury, silver, and zinc by now, but we haven’t. In fact, they’re quite common and used on a daily basis. So what does this mean? Were the scientists wrong? Not quite…&lt;/p&gt;
+
+&lt;p&gt;To “run out” of something really means there will be none left for us to use, not necessarily none left in the entire world. But why does that matter? Well, Earth is much bigger than you might think, and there are plenty of natural resources on it we could use, but reaching them is another story. There are smaller, less dense pockets of ores and minerals deep beneath the Earth’s surface, but reaching them would be too expensive and only considered when we have already depleted all the other, more easily accessible deposits and have no easier options.&lt;/p&gt;
+
+&lt;p&gt;To say we will run out of resources fails to account for new technology. Resource availability is not determined by the finite amount of the resource, but by our ability to obtain it. Historically, technology needs to advance to extract a greater amount of resources, and we don’t have any reason to assume this won’t keep happening.&lt;/p&gt;
+
+&lt;p&gt;How can we be sure that technology will advance at an effective rate? Well, in many ways, it &lt;a href=&quot;https://www.discovermagazine.com/planet-earth/the-world-is-running-out-of-elements-and-researchers-are-looking-in-unlikely&quot; target=&quot;_blank&quot;&gt;already is&lt;/a&gt;. Ore mines have expanded to the arctic in recent years and plans for deep sea mining operations and asteroid mining are underway for the more distant future. Heavy metals can be recycled from electronic waste, and elements such as nitrogen are extracted from the atmosphere to produce fertilizer.&lt;/p&gt;
+
+&lt;p&gt;So will we ever really run out of resources? In short: no, or at least not anytime soon. The earth is far from actually “running out” of the resources we depend on. As time passes they will just become more and more expensive as their extraction becomes less convenient, eventually being replaced by cheaper, reusable options when the cost becomes too ridiculous for continued use.&lt;/p&gt;
+
+&lt;p&gt;However, this outlook does not take into consideration the full picture of what is going on in the world. It is important to point out that for the general public to make the switch to renewable resources, the &lt;a href=&quot;https://welcome.arcadia.com/energy-101/energy-sources/will-we-ever-actually-run-out-of-fossil-fuels&quot; target=&quot;_blank&quot;&gt;cost of non-renewable resources&lt;/a&gt; must rise enough to outweigh the cost of renewable ones.&lt;/p&gt;
+
+&lt;p&gt;We can see this happening today: renewable energy sources such as solar or wind already exist, but they are not used nearly as much as fossil fuels, because the cost of extracting fossil fuels is cheap compared to green energy. As fossil fuels become more difficult and costly to obtain, oil prices will rise and consumers will turn to renewable energy, making it widespread and more affordable.&lt;/p&gt;
+
+&lt;p&gt;But from the perspective of those living in poverty, their world will run out of resources long before this point. While 1st world countries can still afford the rising oil prices and do not yet feel the need to transition to green energy, 3rd world countries will be unable to afford either.&lt;/p&gt;
+
+&lt;p&gt;Additionally, our current rate of consumption may not cause the Earth to deplete its resources anytime soon, but it does have drastic consequences on the environment. &lt;a href=&quot;https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7341033/&quot; target=&quot;_blank&quot;&gt;Global warming is a much larger issue&lt;/a&gt; than depletion of natural resources, and if we don’t do something, it will likely bring &lt;a href=&quot;https://www.sciencealert.com/un-warns-of-biological-annihilation-up-to-a-million-animal-could-soon-be-extinct&quot; target=&quot;_blank&quot;&gt;our downfall&lt;/a&gt; long before we run out of natural resources.&lt;/p&gt;
+
+&lt;p&gt;My goal is not to downplay the costs of human exploitation of the environment, but to create a more accurate, less self-centered view of what is happening. We are certainly not destroying the Earth; our home planet has been through much worse and will carry on long after we’re gone, although how it appears on the surface may be quite different. Whether or not we will be included in its future depends on what we do next.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;
+Cover Photo: &lt;a href=&quot;https://www.foeeurope.org/sites/default/files/publications/foee_overconsumption_0909.pdf&quot; target=&quot;_blank&quot;&gt;(Friends of the Earth Europe)&lt;/a&gt;&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/writingTeam/noProfile.jpg&quot; width=&quot;170&quot; style=&quot;float: left; margin-right: 30px; margin-bottom: 20px;&quot; /&gt;&lt;/p&gt;
+&lt;div style=&quot;margin-bottom: 5%;&quot;&gt;
+&lt;span style=&quot;font-size: 30px; font-weight: 900;&quot;&gt;Sydney Hollingsworth&lt;/span&gt;
+&lt;br /&gt;
+&lt;/div&gt;</content><author><name>Sydney Hollingsworth</name></author><summary type="html">Will the Earth ever run out of resources? Sydney Hollingsworth. 07/10/2021</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/2021/july/resourcesCover.jpg" /><media:content medium="image" url="http://localhost:4000/2021/july/resourcesCover.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Antibiotic resistance and the human microbiome</title><link href="http://localhost:4000/2021/07/09/antibiotic-resistance-and-the-human-microbiome.html" rel="alternate" type="text/html" title="Antibiotic resistance and the human microbiome" /><published>2021-07-09T17:00:02-07:00</published><updated>2021-07-09T17:00:02-07:00</updated><id>http://localhost:4000/2021/07/09/antibiotic-resistance-and-the-human-microbiome</id><content type="html" xml:base="http://localhost:4000/2021/07/09/antibiotic-resistance-and-the-human-microbiome.html">&lt;h2 style=&quot;font-family: Ergonomique Bold&quot;&gt;Bias in Facial Recognition Technology&lt;/h2&gt;
+&lt;p&gt;Tania Firouzbady. 07/10/2021&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/blogs/2021/july/antibioticOne.jpg&quot; width=&quot;70%&quot; style=&quot;display: block; margin: 0 auto&quot; /&gt;&lt;/p&gt;
+&lt;center&gt;&lt;i&gt;Image of bacteria at molecular level. &lt;a href=&quot;https://news.usc.edu/135660/how-bacteria-adapt-to-hostile-environments/&quot; target=&quot;_blank&quot;&gt;(USCNews)&lt;/a&gt;  &lt;/i&gt;&lt;/center&gt;
+
+&lt;p&gt;&lt;br /&gt;
+Antibiotic resistance has become a pivotal topic for biomedical research in recent years. Its ability to hinder advancements in drug development makes it one of the biggest threats to public health. Each year, approximately 2.8 million people in the United States develop an infection due to antibiotic resistance.&lt;/p&gt;
+
+&lt;p&gt;In simple terms, antibiotics are chemicals that inhibit the growth of microorganisms such as bacteria and fungi. They accomplish this by either directly killing the microorganism or by stopping its reproduction long enough for the host’s immune system to kick in. To better understand the various components of the immune system, it’s important to first discuss the human microbiome.&lt;/p&gt;
+
+&lt;p&gt;The human microbiome refers to the sum of all the microorganisms, or microbes, living in the human body. These microbes include eukaryotes, bacteria, archaea, and viruses. Research indicates that there are about ten times as many microbial cells as there are human cells. While it may seem surprising that microbes are such an important part of the body–after all, antibiotics are meant to target them–it is important to note that not all microbes are the same; some are harmful while others are beneficial.&lt;/p&gt;
+
+&lt;p&gt;The microbiome is closely linked to the immune system. According to the journal &lt;a href=&quot;https://www.nature.com/articles/s41422-020-0332-7&quot; target=&quot;_blank&quot;&gt;Cell Research&lt;/a&gt;, “The microbiome plays critical roles in the training and development of major components of the host’s innate and adaptive immune system, while the immune system orchestrates the maintenance of key features of host-microbe symbiosis.” In other words,  the microbiome and immune system have a mutually beneficial relationship because they rely on each other to operate.&lt;/p&gt;
+
+&lt;p&gt;The immune system is responsible for getting rid of pathogens, or disease-causing microbes. White blood cells are one of the most important parts of the immune system. Certain types of white blood cells, namely B and T lymphocytes, are memory cells, meaning they remember a pathogen after its first invasion and produce antibodies, proteins that protect against pathogens, much more quickly in subsequent infections. These cells are part of the acquired immune system, which changes throughout an organism’s life.&lt;/p&gt;
+
+&lt;p&gt;Different from the adaptive immune system,  the acquired immune system is inherited at birth and remains unchanged over time. During a pathogenic infection, the innate immune system sends phagocytes, a type of cell that can engulf bacteria and particles, to attack the invading cells. Through these mechanisms, both the innate and acquired immune systems work together to ward off pathogens.&lt;/p&gt;
+
+&lt;p&gt;Antibiotics often work in conjunction with the immune system to prevent the spread of pathogens. One well-known antibiotic is penicillin, which is used to treat staphylococci and streptococci bacterial infections. The former is a skin infection that typically results from an open wound or surgery, while the latter is a mouth/throat infection. Penicillin works by damaging bacterial cell walls.&lt;/p&gt;
+
+&lt;p&gt;A vital aspect of such antibiotic development is ensuring that they don’t harm people. Since humans lack cell walls, they are unaffected by penicillin treatment. According to &lt;a href=&quot;https://www.news-medical.net/health/Penicillin-Mechanism.aspx&quot; target=&quot;_blank&quot;&gt;News Medical&lt;/a&gt;, “Penicillin kills bacteria through binding of the beta-lactam ring to DD-transpeptidase, inhibiting its cross-linking activity and preventing new cell wall formation.” To put it simply, by binding to an enzyme (DD-transpeptidase), penicillin forms a highly stable intermediate that prevents the enzyme from functioning, which ultimately inhibits cell wall formation.&lt;/p&gt;
+
+&lt;p&gt;Antibiotic resistance is caused by genetic mutations in bacteria, which are more prone to mutations due to their rapid rate of reproduction. When bacteria reproduce in the vicinity of antibiotics, already present mutations that allow them to be resistant are passed onto future generations, eventually leading to the evolution of a resistant strain. Hence, the antibiotic becomes ineffective, and a stronger one is needed. Over time, as this cycle continues and  antibiotics become stronger, their production will become impractical. Even more worrisome is the fact that “bacterial strains can become resistant to more than one antibiotic, leading to the creation of ‘superbugs’ that are extremely difficult to treat.”&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;img src=&quot;/images/blogs/2021/july/antibioticTwo.jpg&quot; width=&quot;70%&quot; style=&quot;display: block; margin: 0 auto&quot; /&gt;&lt;/p&gt;
+&lt;center&gt;&lt;i&gt;Diagram of how bacteria develop antibiotic resistance.
+&lt;a href=&quot;https://www.infextioustherapeutic.com/programs&quot; target=&quot;_blank&quot;&gt;(Infextious Therapeutic)&lt;/a&gt;&lt;/i&gt;&lt;/center&gt;
+
+&lt;p&gt;Bacteria achieve resistance to antibiotics through various mechanisms. Penicillin resistance, for example, was the direct result of bacterial production of beta-lactamase, an enzyme that harms the beta-lactam ring. Without it, penicillin is no longer capable of damaging bacterial cells.&lt;/p&gt;
+
+&lt;p&gt;As time goes on, antibiotic resistance and the creation of superbugs has become more widespread. Fortunately, awareness of the issue has also increased and scientists are developing new methods to combat antibiotic resistance. One such method is focusing attention on natural antibiotics rather than artificial ones.&lt;/p&gt;
+
+&lt;p&gt;Scientists from the Institute for Stem Cell Science and Regenerative Medicine have been doing just this. As outlined by &lt;a href=&quot;https://phys.org/news/2019-12-scientists-method-combat-antibiotic-resistant-bacteria.html&quot; target=&quot;_blank&quot;&gt;phys.org&lt;/a&gt;, “the team probed the cellular mechanisms that regulate the release of antimicrobial peptides (AMPs), which are natural antibiotics produced by skin cells to fight off bacteria.” What makes AMPs unique is that they attack bacteria in ways that make resistance to them very difficult. By understanding the mechanisms used by AMPs, researchers may be able to develop antibiotics that replicate them. Moreover, the research has already led to a groundbreaking discovery: skin cells utilize a signaling pathway that regulates how AMPs are released, meaning that by altering these pathways, scientists can allow the AMPs to be released without being exposed to the bacteria at all. This could potentially help groups of people that are in greater danger of infection, including those with a weak immune system.&lt;/p&gt;
+
+&lt;p&gt;Cover Photo: &lt;a href=&quot;https://theconversation.com/antibiotic-resistance-new-discovery-could-change-the-future-of-treatment-131262&quot; target=&quot;_blank&quot;&gt;(The Conversation)&lt;/a&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Cover Photo: &lt;a href=&quot;https://spectrum.ieee.org/tech-talk/computing/software/do-you-have-the-right-complexion-for-facial-recognition&quot; target=&quot;_blank&quot;&gt;(IEEE Spectrum)&lt;/a&gt;&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/writingTeam/noProfile.jpg&quot; width=&quot;170&quot; style=&quot;float: left; margin-right: 30px; margin-bottom: 20px;&quot; /&gt;&lt;/p&gt;
+&lt;div style=&quot;margin-bottom: 5%;&quot;&gt;
+&lt;span style=&quot;font-size: 30px; font-weight: 900;&quot;&gt;Tania Firouzbady&lt;/span&gt;
+&lt;br /&gt;
+&lt;/div&gt;</content><author><name>Tania Firouzbady</name></author><summary type="html">Bias in Facial Recognition Technology Tania Firouzbady. 07/10/2021</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/2021/july/antibioticCover.jpg" /><media:content medium="image" url="http://localhost:4000/2021/july/antibioticCover.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Bias in Facial Recognition Technology</title><link href="http://localhost:4000/2021/07/09/Bias-in-facial-recognition-technology.html" rel="alternate" type="text/html" title="Bias in Facial Recognition Technology" /><published>2021-07-09T17:00:01-07:00</published><updated>2021-07-09T17:00:01-07:00</updated><id>http://localhost:4000/2021/07/09/Bias-in-facial-recognition-technology</id><content type="html" xml:base="http://localhost:4000/2021/07/09/Bias-in-facial-recognition-technology.html">&lt;h2 style=&quot;font-family: Ergonomique Bold&quot;&gt;Bias in Facial Recognition Technology&lt;/h2&gt;
+&lt;p&gt;Neha Bhardwaj. 07/10/2021&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/blogs/2021/july/biasOne.png&quot; width=&quot;70%&quot; style=&quot;display: block; margin: 0 auto&quot; /&gt;&lt;/p&gt;
+&lt;center&gt;&lt;i&gt;Facial recognition technology works by recognizing and matching up key points on a person’s face, as shown in the picture. However, people of color in particular face much higher error rates with this software. &lt;a href=&quot;https://www.aclu.org/news/privacy-technology/how-is-face-recognition-surveillance-technology-racist/&quot; target=&quot;_blank&quot;&gt;(ACLU)&lt;/a&gt; &lt;/i&gt;&lt;/center&gt;
+
+&lt;p&gt;&lt;br /&gt;
+For years, bias in policing and law enforcement has been a fiercely debated issue. Last year, the death of George Floyd provoked immense outcry, resulting in resurgences of the Black Lives Matter movement and calls for radical reformation of the criminal justice system. However, while there has been extensive discussion of the implicit biases and discriminatory actions of human police officers, few recognize the other segment of law enforcement in desperate need of reform: facial recognition technology.&lt;/p&gt;
+
+&lt;p&gt;Most of us interact with facial recognition on a daily basis in relatively benign ways, such as unlocking our phones or tagging our friends in a post on social media. However, on a broader scale, this software is used in everything from &lt;a href=&quot;https://www.facefirst.com/blog/amazing-uses-for-face-recognition-facial-recognition-use-cases/&quot; target=&quot;_blank&quot;&gt;recognizing known criminals to diagnosing certain diseases.&lt;/a&gt; As the use of AI technology has expanded, so too have concerns about the potential biases in the software.&lt;/p&gt;
+
+&lt;p&gt;According to &lt;a href=&quot;https://sitn.hms.harvard.edu/flash/2020/racial-discrimination-in-face-recognition-technology/&quot; target=&quot;_blank&quot;&gt;Harvard University’s Science in the News&lt;/a&gt;, while facial recognition boasts an impressive accuracy rate for certain groups, the technology is plagued by a far higher rate of errors among young, Black, and female subjects. In 2018, the &lt;a href=&quot;http://proceedings.mlr.press/v81/buolamwini18a/buolamwini18a.pdf&quot; target=&quot;_blank&quot;&gt;“Gender Shades” project&lt;/a&gt; offered strong experimental proof of this bias. The algorithms tested in the experiment showed up to 34% higher error rates for darker-skinned female subjects than for lighter-skinned males, putting a global spotlight on the implications of using facial recognition technology. A year later, a federal study further showed egregious disparities on the basis of race, gender, and age. For instance, “Asian and African American people were up to 100 times more likely to be misidentified than white men,” according to &lt;a href=&quot;https://www.washingtonpost.com/technology/2019/12/19/federal-study-confirms-racial-bias-many-facial-recognition-systems-casts-doubt-their-expanding-use/&quot; target=&quot;_blank&quot;&gt;the Washington Post&lt;/a&gt;. Other minority groups, women, the elderly, and children were all subject to drastically higher rates of inaccuracy than middle-aged Caucasian men.&lt;/p&gt;
+
+&lt;p&gt;The implications of these biases are staggering. As pointed out by Jay Stanley of &lt;a href=&quot;https://www.aclu.org/news/privacy-technology/how-is-face-recognition-surveillance-technology-racist/&quot; target=&quot;_blank&quot;&gt;the American Civil Liberties Union&lt;/a&gt;, “One false match can lead to missed flights, lengthy interrogations, tense police encounters, false arrests, or worse.” In the realm of law enforcement in particular, not only is the technology itself biased, but there are several compounding factors that further disadvantage Black and Brown people. Many jurisdictions in the U.S. use mugshot databases to train facial recognition algorithms, subjecting the technology to prejudice of years past. As the American Civil Liberties Union explains, “Since Black people are more likely to be arrested than white people for minor crimes… their faces and personal data are more likely to be in mugshot databases. Therefore, the use of face recognition technology tied into mugshot databases exacerbates racism in the criminal legal system that already disproportionately polices and criminalizes Black people.”&lt;/p&gt;
+
+&lt;p&gt;Moreover, there is a higher proportion of surveillance cameras installed in predominantly Black and Brown neighborhoods, further influencing the accuracy of facial recognition algorithms that process surveillance footage. Ultimately, these realities boil down to an undeniable truth: facial recognition is contributing to inequality in everything from suspect identification to alibi corroboration.&lt;/p&gt;
+
+&lt;p&gt;This naturally begs the question: how can the world of facial recognition be improved? The primary solution is &lt;a href=&quot;https://sitn.hms.harvard.edu/flash/2020/racial-discrimination-in-face-recognition-technology/&quot; target=&quot;_blank&quot;&gt;improving training datasets&lt;/a&gt;. When facial recognition algorithms are created, they are “trained” on large databases of various people’s faces. However, these datasets are often lacking in diversity. The underrepresentation of Black, Brown, female, and young subjects in these datasets makes it harder for the algorithms to differentiate between darker-skinned female subjects. As a result, many are calling for algorithms to be trained on more representative and comprehensive datasets. Other solutions include establishing standards of image quality for people of all skin colors, regular auditing, and new legislation to regulate how mass surveillance is conducted and how law enforcement officers use the technology.&lt;/p&gt;
+
+&lt;p&gt;Facial recognition software is undeniably a powerful tool with great potential. The inherent bias in the technology is certainly not a reason to scrap it altogether. Rather, the facial recognition landscape must be transformed into a tool for equality and justice.&lt;/p&gt;
+
+&lt;p&gt;Cover Photo: &lt;a href=&quot;https://spectrum.ieee.org/tech-talk/computing/software/do-you-have-the-right-complexion-for-facial-recognition&quot; target=&quot;_blank&quot;&gt;(IEEE Spectrum)&lt;/a&gt;&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/writingTeam/noProfile.jpg&quot; width=&quot;170&quot; style=&quot;float: left; margin-right: 30px; margin-bottom: 20px;&quot; /&gt;&lt;/p&gt;
+&lt;div style=&quot;margin-bottom: 5%;&quot;&gt;
+&lt;span style=&quot;font-size: 30px; font-weight: 900;&quot;&gt;Neha Bhardwaj&lt;/span&gt;
+&lt;br /&gt;
+&lt;/div&gt;</content><author><name>Neha Bhardwaj</name></author><summary type="html">Bias in Facial Recognition Technology Neha Bhardwaj. 07/10/2021</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/2021/july/biasCover.png" /><media:content medium="image" url="http://localhost:4000/2021/july/biasCover.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">How technology has helped preserve music during the pandemic</title><link href="http://localhost:4000/2021/07/02/how-technology-has-helped-preserve-music.html" rel="alternate" type="text/html" title="How technology has helped preserve music during the pandemic" /><published>2021-07-02T17:00:01-07:00</published><updated>2021-07-02T17:00:01-07:00</updated><id>http://localhost:4000/2021/07/02/how-technology-has-helped-preserve-music</id><content type="html" xml:base="http://localhost:4000/2021/07/02/how-technology-has-helped-preserve-music.html">&lt;h2 style=&quot;font-family: Ergonomique Bold&quot;&gt;How technology has helped preserve music during the pandemic&lt;/h2&gt;
 &lt;p&gt;Catherine Todd. 07/03/2021&lt;/p&gt;
 &lt;hr /&gt;
 
@@ -203,201 +361,4 @@ Tesla, Waymo and Zoox have all become household names in the market of driverles
 &lt;div style=&quot;margin-bottom: 5%;&quot;&gt;
 &lt;span style=&quot;font-size: 30px; font-weight: 900;&quot;&gt;Yana Karapetyan&lt;/span&gt;
 &lt;br /&gt;
-&lt;/div&gt;</content><author><name>Yana Karapetyan</name></author><summary type="html">Artificial intelligence: Approach with caution Yana Karapetyan. 05/29/2021 This image depicts a futuristic autonomous vehicle. (iStock)</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/2021/may/artificialCover.png" /><media:content medium="image" url="http://localhost:4000/2021/may/artificialCover.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Does infinity exist?</title><link href="http://localhost:4000/2021/05/28/does-infinity-exist.html" rel="alternate" type="text/html" title="Does infinity exist?" /><published>2021-05-28T17:00:01-07:00</published><updated>2021-05-28T17:00:01-07:00</updated><id>http://localhost:4000/2021/05/28/does-infinity-exist</id><content type="html" xml:base="http://localhost:4000/2021/05/28/does-infinity-exist.html">&lt;h2 style=&quot;font-family: Ergonomique Bold&quot;&gt;Does infinity exist?&lt;/h2&gt;
-&lt;p&gt;Dhruvi Shukla. 05/29/2021&lt;/p&gt;
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/blogs/2021/may/infinityOne.png&quot; width=&quot;70%&quot; style=&quot;display: block; margin: 0 auto&quot; /&gt;&lt;/p&gt;
-&lt;center&gt;&lt;i&gt;
-Georg Cantor created many theorems relating to the mathematical infinity.  (OpenMind BBVA)
-&lt;/i&gt;&lt;/center&gt;
-
-&lt;p&gt;&lt;br /&gt;
-Infinity. A value without limit. This concept created the law of continuity and allowed people to understand black holes, land rovers to mars, create new mathematical theorems and study the moon. Each discovery mentioned above comes from a different field in STEM. This is because there are three different types of infinities - the mathematical, the physical and the metaphysical. It is because of this that answering this question becomes more complicated. In this article, we’ll take an in-depth look into the mathematical infinities and see whether they exist or not.&lt;/p&gt;
-
-&lt;p&gt;During the late 19th century, the question of mathematical infinity arose in mathematician Georg Cantor’s mind, and he began investigating this idea. Through his extensive research, he discovered that there are many kinds of infinities in math, some larger than others. If all infinities were to be separated into groups, they would be &lt;a href=&quot;https://www.youtube.com/watch?v=elvOZm0d4H0&quot; target=&quot;_blank&quot;&gt;countable infinities and uncountable infinities&lt;/a&gt;. He started by writing a sequence of numbers; let’s say, for example, that the even numbers are in one-to-one correspondence with another sequence within the real number system. By doing this, he found that the countable infinities are actually smaller than the uncountable infinities (also known as the continuum). This finding led to the &lt;a href=&quot;https://www.britannica.com/science/continuum-hypothesis&quot; target=&quot;_blank&quot;&gt;continuum theory&lt;/a&gt;, which mathematicians are unable to &lt;a href=&quot;https://www.ias.edu/ideas/2011/kennedy-continuum-hypothesis&quot; target=&quot;_blank&quot;&gt;disprove or solve&lt;/a&gt; even now. You may be asking how there could be infinities smaller than other infinities? So, to understand this, let’s take some whole numbers and even numbers in one-to-one correspondence; in other words, we are pairing up one whole number with an even. It should look something like this.&lt;/p&gt;
-
-&lt;p&gt;1→2
-2→4
-3→6
-4→8
-5→10&lt;/p&gt;
-
-&lt;p&gt;For simplicity’s sake, we will use numbers in chronological order. Cantor states that if we were to continue doing this infinitely, every whole number being paired up with an even number. This is strange to think about since there should be half as many even numbers as the whole, but when we are counting both numbers up to infinity, that stops being the case. Cantor continued using this method to research infinities and found various countable infinities until he started using irrational numbers. Even if he paired irrational numbers with another sequence of real numbers, he would still not be able to include every irrational number. In the exercise (above), it is safe to assume that if we went until infinity, we would be able to have all whole numbers paired with all even numbers. But this is not the case for irrational numbers. Repeating the exercise with irrational numbers will look something like this (remember this doesn’t need to be in chronological order):&lt;/p&gt;
-
-&lt;p&gt;1→3.14159265…
-2→0.70710678…
-3→1.41421356…
-4→2.44989743…
-5→2.13417805…&lt;/p&gt;
-
-&lt;p&gt;Now let’s imagine that we continue the pattern until infinity; we have all the whole and irrational values possible. Cantor states that there will still be irrational numbers which we will not find in our infinite list. To find this number for our list, circle all the numbers in your list in diagonals like so:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/blogs/2021/may/infinityTwo.png&quot; width=&quot;20%&quot; style=&quot;display: block; margin: 0 auto&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Now write all these numbers down as a new irrational number like so:
-0.10487…
-Now, add one to all these numbers like this:
-0.21598…
-If we had an infinite list and used the method explained above for all the numbers in the list, we would have created a number that could not be found in the infinite list since one number from every number was changed. We see here what Cantor saw before concluding that there are infinities that are larger and smaller than one another; however, both infinities are still just ∞, and if we are to differentiate them, new axioms or equations that express the difference in these infinities must be created. It was Cantor’s theorem of the set theory, the continuum and the countable infinities that separated mathematical and physical infinities.&lt;/p&gt;
-
-&lt;p&gt;When news of these infinities came to Galileo Galileo and Kurt Gödel, they began playing around with Cantor’s Theorem themselves. Galileo later founded &lt;a href=&quot;https://decodedscience.org/the-paradox-of-the-infinite-series-of-square-numbers-by-galileo/&quot; target=&quot;_blank&quot;&gt;Galileo’s Paradox&lt;/a&gt; and Gödel later created &lt;a href=&quot;https://www.youtube.com/watch?v=la6BK5X2LI8&quot; target=&quot;_blank&quot;&gt;Gödel’s incompleteness theorem&lt;/a&gt;. Galileo believed that having a less, greater or equal value only applies to number sets that are finite and not infinite. So using his paradox, we would state that “whether there are more irrational numbers than whole numbers, both infinite sets are neither greater, equal or less than each other”. However, Cantor believed this paradox was flawed and &lt;a href=&quot;https://www.britannica.com/science/Cantors-theorem&quot; target=&quot;_blank&quot;&gt;constructed a framework&lt;/a&gt; in which it is possible to compare countable infinities with one another and uncountable infinities with one another.&lt;/p&gt;
-
-&lt;p&gt;Infinities do exist, but in the mathematical system, there is not just one type of infinity but more than one with different sizes. However, it is important to remember that mathematical infinities are completely different from physical and metaphysical infinities.&lt;/p&gt;
-
-&lt;p&gt;Cover Photo: (OpenMind BBVA)&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/writingTeam/noProfile.jpg&quot; width=&quot;170&quot; style=&quot;float: left; margin-right: 30px; margin-bottom: 20px;&quot; /&gt;&lt;/p&gt;
-&lt;div style=&quot;margin-bottom: 5%;&quot;&gt;
-&lt;span style=&quot;font-size: 30px; font-weight: 900;&quot;&gt;Dhruvi Shukla&lt;/span&gt;
-&lt;br /&gt;
-&lt;/div&gt;</content><author><name>Dhruvi Shukla</name></author><summary type="html">Does infinity exist? Dhruvi Shukla. 05/29/2021 Georg Cantor created many theorems relating to the mathematical infinity. (OpenMind BBVA)</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/2021/may/infinityCover.png" /><media:content medium="image" url="http://localhost:4000/2021/may/infinityCover.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">The discovery of exoplanets</title><link href="http://localhost:4000/2021/05/24/the-discovery-of-exoplanets.html" rel="alternate" type="text/html" title="The discovery of exoplanets" /><published>2021-05-24T17:00:01-07:00</published><updated>2021-05-24T17:00:01-07:00</updated><id>http://localhost:4000/2021/05/24/the-discovery-of-exoplanets</id><content type="html" xml:base="http://localhost:4000/2021/05/24/the-discovery-of-exoplanets.html">&lt;h2 style=&quot;font-family: Ergonomique Bold&quot;&gt;The discovery of exoplanets&lt;/h2&gt;
-&lt;p&gt;Tania Firouzabady. 05/25/2021&lt;/p&gt;
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/blogs/2021/may/exoplanetsOne.jpg&quot; width=&quot;70%&quot; style=&quot;display: block; margin: 0 auto&quot; /&gt;&lt;/p&gt;
-&lt;center&gt;&lt;i&gt;
-Above is an illustration of an exoplanet.
-&lt;a href=&quot;https://exoplanets.nasa.gov/news/1418/nasa-to-host-news-conference-on-discovery-beyond-our-solar-system/&quot; target=&quot;_blank&quot;&gt;(NASA)&lt;/a&gt;
-&lt;/i&gt;&lt;/center&gt;
-
-&lt;p&gt;&lt;br /&gt;
-On Jan. 9, 1992, scientists discovered the first exoplanet, or rather, two exoplanets orbiting the pulsar PSR 1257+12. The finding paved the path for the discovery of over 4,000 new exoplanets in the next few decades.&lt;/p&gt;
-
-&lt;p&gt;Exoplanets are planets that orbit stars outside the solar system. While the majority orbit other stars, some are free-floating, or rogue, planets. Measuring their size and mass allows astronomers to determine their compositions, which range from solid rock to gas. These properties are remarkably similar to those of regular planets.&lt;/p&gt;
-
-&lt;p&gt;The elements that make up exoplanets are also much like those that comprise planets in our solar system, though current technology is not yet advanced enough to directly determine the specific compositions. Instead, scientists rely on the elemental abundance in nearby stars. Specifically, they use a method called stellar spectroscopy, where they observe the interactions between light and the elements contained within a star’s upper layers.&lt;/p&gt;
-
-&lt;p&gt;After the initial discovery of exoplanets by radio astronomers Aleksander Wolszczan and Dale Frail, NASA has used the Kepler Space Telescope and various techniques to discover thousands more. One such method is the wobble, or radial velocity, method, which, according to NASA, “measures changes in a star’s ‘radial velocity.’ The wavelengths of starlight are alternatively squeezed and stretched as a star moves slightly closer, then slightly farther away.” This method was used to discover an exoplanet about half the size of Jupiter in 1995. The gas giant moved in a very fast four-day orbit around its parent star. This irregular wobbling movement was detected by telescopes on Earth, prompting the development of the wobble method.&lt;/p&gt;
-
-&lt;p&gt;While the process of exoplanet hunting may have been slow at first, the Kepler telescope made it much faster. &lt;a href=&quot;https://exoplanets.nasa.gov/discovery/how-we-find-and-characterize/&quot; target=&quot;_blank&quot;&gt;NASA&lt;/a&gt; describes how “Kepler settled into an Earth-trailing orbit, then fixed its gaze on a small patch of sky… Within that small patch were 150,000 stars.” This discovery was vital for the development of the transit method, which allows astronomers to determine a planet’s orbital size and the star’s mass.&lt;/p&gt;
-
-&lt;p&gt;Currently, there are four classifications for exoplanets: Gas giant, super-Earth, Neptunian and Terrestrial. Gas giants are large planets primarily composed of gas, much like the name suggests. Super-Earths are mainly composed of rock but are much larger than Earth. Neptunian exoplanets are about the size of the planet Neptune and are also mostly composed of gas. Lastly, Terrestrial exoplanets are rocky planets similar to Earth, Mars, Mercury and Venus.&lt;/p&gt;
-
-&lt;p&gt;One of the most promising features of exoplanets is that some may contain water or ice. As water is a key aspect of life, its presence could support the ability for life to exist on exoplanets. To better understand this, it’s important to discuss the concept of habitability, the quality of supporting life. In order to be habitable, a planet must have specific features, including temperature, chemical makeup, radiation level, oxygen and water (or an equivalent life-supporting substance).&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;
-&lt;img src=&quot;/images/blogs/2021/may/exoplanetsTwo.jpg&quot; width=&quot;70%&quot; style=&quot;display: block; margin: 0 auto&quot; /&gt;&lt;/p&gt;
-&lt;center&gt;&lt;i&gt;
-In the image above, there are planets outside and within the habitable zone based on their distance from the star.
-&lt;a href=&quot;https://www.businessinsider.com/nasa-tess-telescope-finds-nearby-super-earth-sub-neptunes-2019-7&quot; target=&quot;_blank&quot;&gt;(Business Insider)&lt;/a&gt;  
-&lt;/i&gt;&lt;/center&gt;
-
-&lt;p&gt;&lt;br /&gt;
-The search for habitable planets is an important one, and recent developments are helping scientists move a step closer. According to &lt;a href=&quot;https://www.americanscientist.org/article/big-data-on-exoplanet-composition&quot; target=&quot;_blank&quot;&gt;American Scientist&lt;/a&gt;, astrophysicist Natalie Hinkel built “a publicly available database, called the Hypatia Catalog, to help researchers explore this deeper aspect of habitability.” Hinkel and her colleagues have recently modeled the TRAPPIST-1 system. Within the system, three of the planets are located in what is called a “habitable zone”, or region around a star that is the right temperature to allow liquid water to exist. Hinkel explains, “as the Hypatia Catalogue grows, it should become an increasingly valuable scientific resource.”&lt;/p&gt;
-
-&lt;p&gt;One recent exoplanet development includes the discovery of a potentially habitable planet resembling Earth. This was announced on April 15, 2020, by NASA and the SETI Institute. Called Kepler-1649c, the planet is 300 light-years away from Earth and almost the same size. Not only does it orbit in the habitable zone of its star, but its temperatures are hypothesized to be very similar to Earth’s, further supporting its potential to support life.&lt;/p&gt;
-
-&lt;p&gt;Another crucial development was announced on the same day: Proxima Centauri b, an even larger exoplanet, was spotted orbiting a star nearest to the sun. As stated by &lt;a href=&quot;https://earthsky.org/space/exoplanets-kepler-1649c-proxima-centauri-c-nasa-seti-institute-sphere-vlt/&quot; target=&quot;_blank&quot;&gt;EarthSky&lt;/a&gt;, “What’s puzzling is that the possible planet appears significantly brighter than it should. If the brightness was entirely from the light reflected off the planet itself, then the planet would be about five times larger than Jupiter. But its estimated mass is more similar to Neptune’s.” This unexpected finding has led scientists to postulate that Proxima Centauri b has a ring system, which would greatly increase its size but have a negligible effect on its mass.&lt;/p&gt;
-
-&lt;p&gt;Both Kepler-1649c and Proxima Centauri b are evidence that there is still much to discover in the universe, and exoplanets may be a key piece to the puzzle. While a lot of progress has been made with regards to exoplanet discovery, there are still infinitely many questions left unanswered. Perhaps scientists will even discover an exoplanet harboring life.&lt;/p&gt;
-
-&lt;p&gt;Cover Photo: &lt;a href=&quot;https://exoplanets.nasa.gov/&quot; target=&quot;_blank&quot;&gt;(NASA)&lt;/a&gt;
-&lt;br /&gt;&lt;/p&gt;
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/writingTeam/noProfile.jpg&quot; width=&quot;170&quot; style=&quot;float: left; margin-right: 30px; margin-bottom: 20px;&quot; /&gt;&lt;/p&gt;
-&lt;div style=&quot;margin-bottom: 5%;&quot;&gt;
-&lt;span style=&quot;font-size: 30px; font-weight: 900;&quot;&gt;Tania Firouzabady&lt;/span&gt;
-&lt;br /&gt;
-&lt;/div&gt;</content><author><name>Tania Firouzabady </name></author><summary type="html">The discovery of exoplanets Tania Firouzabady. 05/25/2021 Above is an illustration of an exoplanet. (NASA)</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/2021/may/exoplanetsCover.jpg" /><media:content medium="image" url="http://localhost:4000/2021/may/exoplanetsCover.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Discrimination in STEM fields: Current racial and ethnic issues in the STEM work industry</title><link href="http://localhost:4000/2021/05/14/discrimination-in-stem-fields.html" rel="alternate" type="text/html" title="Discrimination in STEM fields: Current racial and ethnic issues in the STEM work industry" /><published>2021-05-14T17:00:01-07:00</published><updated>2021-05-14T17:00:01-07:00</updated><id>http://localhost:4000/2021/05/14/discrimination-in-stem-fields</id><content type="html" xml:base="http://localhost:4000/2021/05/14/discrimination-in-stem-fields.html">&lt;h2 style=&quot;font-family: Ergonomique Bold&quot;&gt;Discrimination in STEM fields: Current racial and ethnic issues in the STEM work industry&lt;/h2&gt;
-&lt;p&gt;Caleb Izaguirre. 05/15/2021&lt;/p&gt;
-&lt;hr /&gt;
-
-&lt;p&gt;Race and gender disparities remain a significant challenge in STEM industries and the future of the American workforce. Among STEM workers, African Americans are centerpoint for concerns that there is too little attention paid to increasing racial and ethnic diversity; their high experience with issues with diversity in the workforce is constantly met with failure.&lt;/p&gt;
-
-&lt;p&gt;In this regard, blacks working in STEM jobs share a lot in common with Asian Americans, and to a lesser extent with Hispanic residents who are all less likely than whites in such jobs to believe that members of their own communities can achieve promotions and awards.&lt;/p&gt;
-
-&lt;p&gt;Most blacks in these positions believe major underlying factors prevent involvement in STEM fields such as limited access to high-quality education, recruitment discrimination and a lack of encouragement to pursue these careers from an early age.&lt;/p&gt;
-
-&lt;p&gt;&lt;b&gt;Most Americans see racial and ethnic diversity in the workplace as important&lt;/b&gt;&lt;/p&gt;
-
-&lt;p&gt;Americans not only place a level of importance on diversity in the workplace, but these views extend to race and ethnicity as well. Eight-in-ten Americans say it is important to have diversity in all workplaces, recognizing that it is &lt;a href=&quot;https://www.pewresearch.org/social-trends/2018/01/09/blacks-in-stem-jobs-are-especially-concerned-about-diversity-and-discrimination-in-the-workplace/&quot; target=&quot;_blank&quot;&gt;“extremely” or “very important.”&lt;/a&gt; In comparison, less than 10% find racial and ethnic diversity to be “not too” or “not at all important.”&lt;/p&gt;
-
-&lt;p&gt;When asked which are valid reasons for increasing racial and ethnic diversity in the workplace, 45% of adults say it provides unique perspectives that contribute to overall business goals, while the same number says it gives many the equal opportunity to succeed. A smaller share believes that it creates a larger American workforce which in turn helps the national economy.&lt;/p&gt;
-
-&lt;p&gt;Large public support for racial and ethnic diversity in the workplace is relevant with recent polls which emphasize traditional value reform. For example, a 2017 Pew Research Center report found that most Americans believe an increasing number of different worker racial groups, ethnic groups and nationalities in the U.S. makes the nation a safer and better place to live in.&lt;/p&gt;
-
-&lt;p&gt;&lt;b&gt;African Americans in the STEM workforce stress workplace diversity&lt;/b&gt;&lt;/p&gt;
-
-&lt;p&gt;The majority of white, black, Hispanic and Asian STEM employees see racial and ethnic diversity in the workplace as somewhat critical, but there are wide differences in their areas of importance.&lt;/p&gt;
-
-&lt;p&gt;Blacks are more likely to say racial and &lt;a href=&quot;https://www.blackenterprise.com/64-of-blacks-say-racism-and-discrimination-are-issues-at-their-workplace/&quot; target=&quot;_blank&quot;&gt;ethnic diversity in the workplace is extremely or very important&lt;/a&gt; than their white co-workers. Sentiments on this particular topic among Hispanic and Asian employees typically sway the unique culture of a company. This has come under heavy scrutiny by the public.&lt;/p&gt;
-
-&lt;p&gt;In this forecast, STEM employees look similar to other job positions. Blacks and Hispanics in non-STEM careers similarly believe that they are more likely than whites in such jobs to believe that these ideals are very important in their careers.&lt;/p&gt;
-
-&lt;p&gt;&lt;b&gt;Racial, ethnic and gender pay gaps are still large&lt;/b&gt;&lt;/p&gt;
-
-&lt;p&gt;Black and Hispanic workers remain widely underrepresented while representation varies for women according to new reports, efforts to promote equity and equality still have a long way to go.&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;
-&lt;img src=&quot;/images/blogs/2021/may/discriminationOne.png&quot; width=&quot;70%&quot; style=&quot;display: block; margin: 0 auto&quot; /&gt;&lt;/p&gt;
-&lt;center&gt;&lt;i&gt;
-&lt;a href=&quot;https://www.insidehighered.com/news/2019/06/07/new-study-finds-discrimination-against-women-and-racial-minorities-hiring-sciences&quot; target=&quot;_blank&quot;&gt;(Inside Higher Ed)&lt;/a&gt;
-&lt;/i&gt;&lt;/center&gt;
-
-&lt;p&gt;&lt;br /&gt;
-According to &lt;a href=&quot;https://www.pewresearch.org/social-trends/2018/01/09/blacks-in-stem-jobs-are-especially-concerned-about-diversity-and-discrimination-in-the-workplace/&quot; target=&quot;_blank&quot;&gt;Pew Research&lt;/a&gt;, the typical woman’s salary from 2017 to 2019 in STEM was about 75% of a man’s salary. That gap narrowed from 70% in 2016, but it was still wider than the pay gap in the overall workforce with women earning 80% of male salary.&lt;/p&gt;
-
-&lt;p&gt;Racial and ethnic disparities in STEM salaries have also widened in recent years. Black STEM professionals typically earned, at most, 80% of white workers’ earnings from 2017 to 2019 — down from 82% in 2016. And average pay for Hispanic professionals in STEM was 83% of white earnings — down from 85% in that very year. Meanwhile, Asian professionals rose by 2%.&lt;/p&gt;
-
-&lt;p&gt;&lt;b&gt;Looking Ahead&lt;b&gt;&lt;/b&gt;&lt;/b&gt;&lt;/p&gt;
-
-&lt;p&gt;The Pew findings are not surprising, but understanding why the numbers are where they are is even more important.&lt;/p&gt;
-
-&lt;p&gt;The barriers to entering STEM are very different for each group, but many underprivileged groups have to work through the adversity of the gamut of limited education and lack of STEM role models in local communities.&lt;/p&gt;
-
-&lt;p&gt;Early-career, student-led nonprofit movements like InterSTEM are not backing down and are instead empowering young students. These actions are aimed to help underprivileged children achieve their potential and will help create a more diverse and accepting workforce of the future.&lt;/p&gt;
-
-&lt;p&gt;Cover Photo: &lt;a href=&quot;https://www.newscientist.com/article/mg25033331-400-discrimination-is-still-a-problem-in-stem/&quot; target=&quot;_blank&quot;&gt;(New Scientist)&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/writingTeam/noProfile.jpg&quot; width=&quot;170&quot; style=&quot;float: left; margin-right: 30px; margin-bottom: 20px;&quot; /&gt;&lt;/p&gt;
-&lt;div style=&quot;margin-bottom: 5%;&quot;&gt;
-&lt;span style=&quot;font-size: 30px; font-weight: 900;&quot;&gt;Caleb Izaguirre&lt;/span&gt;
-&lt;br /&gt;
-&lt;/div&gt;</content><author><name>Caleb Izaguirre</name></author><summary type="html">Discrimination in STEM fields: Current racial and ethnic issues in the STEM work industry Caleb Izaguirre. 05/15/2021 Race and gender disparities remain a significant challenge in STEM industries and the future of the American workforce. Among STEM workers, African Americans are centerpoint for concerns that there is too little attention paid to increasing racial and ethnic diversity; their high experience with issues with diversity in the workforce is constantly met with failure.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/2021/may/discriminationCover.png" /><media:content medium="image" url="http://localhost:4000/2021/may/discriminationCover.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Atmospheric escape: Why Earth will eventually resemble Mars</title><link href="http://localhost:4000/2021/05/14/atmospheric-escape.html" rel="alternate" type="text/html" title="Atmospheric escape: Why Earth will eventually resemble Mars" /><published>2021-05-14T17:00:00-07:00</published><updated>2021-05-14T17:00:00-07:00</updated><id>http://localhost:4000/2021/05/14/atmospheric-escape</id><content type="html" xml:base="http://localhost:4000/2021/05/14/atmospheric-escape.html">&lt;h2 style=&quot;font-family: Ergonomique Bold&quot;&gt;Atmospheric escape: Why Earth will eventually resemble Mars&lt;/h2&gt;
-&lt;p&gt;Julia Nwokedi. 05/15/2021&lt;/p&gt;
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/blogs/2021/may/atmosphericOne.png&quot; width=&quot;70%&quot; style=&quot;display: block; margin: 0 auto&quot; /&gt;&lt;/p&gt;
-&lt;center&gt;&lt;i&gt;The image above shows the surface of Mars.
-&lt;a href=&quot;https://mars.nasa.gov/resources/25870/perseverances-hazard-cameras-view-ingenuitys-fourth-flight/&quot; target=&quot;_blank&quot;&gt;(NASA)&lt;/a&gt;
-&lt;/i&gt;&lt;/center&gt;
-
-&lt;p&gt;&lt;br /&gt;
-For as long as humans have studied astronomy, Mars has been defined by its reddish-orange hue. However, recent scientific discovery has noted that Mars closely resembled Earth billions of years ago, with lakes, rivers, seas, oceans and perhaps even life. And due to gradual processes that are taking place right now, Earth will closely resemble Mars in the distant future.&lt;/p&gt;
-
-&lt;p&gt;The hue on Mars is a product of natural chemical processes. Mars is a terrestrial planet, composed of silicate rocks and metals. All metals are susceptible to a chemical process known as &lt;a href=&quot;https://chem.libretexts.org/Ancillary_Materials/Exemplars_and_Case_Studies/Exemplars/Physics_and_Astronomy/Astronomy%3A_The_Earth_and_Corrosion&quot; target=&quot;_blank&quot;&gt;corrosion&lt;/a&gt;, which happens through oxidation. In chemistry, oxidation is the loss of electrons during a chemical reaction, and reduction is the complementary gain of electrons. When metals are oxidized, they corrode and become a reddish-orange hue. For example, iron is oxidized by water and oxygen, creating rust:&lt;/p&gt;
-
-&lt;p&gt;4Fe + 3O2 + 6H2O → 4Fe(OH)3&lt;/p&gt;
-
-&lt;p&gt;All metals are electropositive and are disposed to losing electrons in a chemical reaction. Therefore, corrosion puts metals in their most natural and chemically stable state, and all metals—including stainless steel or silver—are susceptible to a type of corrosion at some point. This also means that terrestrial planets, composed of metal, are susceptible to corrosion.&lt;/p&gt;
-
-&lt;p&gt;On a much larger scale, atmospheric escape plays a major role in Mars’ hue. Atmospheric escape is a natural planetary process in which atmospheric gases are lost to outer space. The driving factor of atmospheric escape is heat; as gases are heated, they expand. Atmospheres are bound only by gravity, and at 5,778 K (9,941°F), the Sun provides more than enough heat to lift an atmosphere away from its planet. Through deep analysis of the Martian surface, planetary scientists have come to a consensus that &lt;a href=&quot;https://astrobiology.nasa.gov/news/water-on-mars-the-story-so-far/&quot; target=&quot;_blank&quot;&gt;Mars used to be full of water&lt;/a&gt;, which explains how it dried out and corroded. At high enough temperatures, water can break down into hydrogen and oxygen. Hydrogen has the lowest atomic weight of all elements and can therefore easily escape into the atmosphere and then into space. Oxygen, almost 16 times heavier, expands into space at a much slower rate. Therefore, while hydrogen was escaping from Mars, oxygen remained on the surface for a bit and oxidized the surface of Mars. The data correspond—the &lt;a href=&quot;https://www.universetoday.com/14702/what-is-mars-made-of/&quot; target=&quot;_blank&quot;&gt;Martian crust&lt;/a&gt;, corroded from oxidization, is composed of iron, magnesium, aluminum, calcium and potassium, along with oxygen and silicon.&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;
-&lt;img src=&quot;/images/blogs/2021/may/atmosphericTwo.png&quot; width=&quot;70%&quot; style=&quot;display: block; margin: 0 auto&quot; /&gt;&lt;/p&gt;
-&lt;center&gt;&lt;i&gt;A CGI interpretation of an ancient ocean on Mars, billions of years ago.
-&lt;a href=&quot;https://www.nasa.gov/press/2015/march/nasa-research-suggests-mars-once-had-more-water-than-earth-s-arctic-ocean/&quot; target=&quot;_blank&quot;&gt;(NASA)&lt;/a&gt;
-&lt;/i&gt;&lt;/center&gt;
-
-&lt;p&gt;Despite also being a terrestrial planet with an abundance of water, Earth has not corroded. Two major factors that explain this are gravity and magnetism. The gravity of an object is determined by its mass, and the magnetism is determined by its electric currents. &lt;a href=&quot;https://www.nasa.gov/press-release/goddard/2020/mars-electric-currents/&quot; target=&quot;_blank&quot;&gt;Mars lacks a global magnetic field&lt;/a&gt;, and due to its mass, only has 38% of Earth’s gravitational pull, so it can’t grip onto its atmosphere quite as effectively as Earth can. Still, Earth’s atmosphere is constantly being pulled away from its surface. In a few billion years, however, external factors will create the ideal environment for Earth’s corrosion.&lt;/p&gt;
-
-&lt;p&gt;Each star, including our Sun, is powered through nuclear fusion of hydrogen and helium gas in its core. Nuclear fusion releases substantial amounts of energy, which causes a star to expand, but due to expanding, it loses density, cools down and compresses, causing it to release more energy again. These complementary and spontaneous reactions help stars remain in equilibrium, with a persistent size and shape, until they eventually &lt;a href=&quot;https://imagine.gsfc.nasa.gov/educators/lifecycles/LC_main3.html&quot; target=&quot;_blank&quot;&gt;run out of hydrogen and die&lt;/a&gt;. However, stars are not in an equilibrium of heat. According to the &lt;a href=&quot;https://usm.maine.edu/planet/sun-getting-hotter-if-so-why-will-earth-eventually-become-too-hot-life#:~:text=Astronomers%20estimate%20that%20the%20Sun's,too%20hot%20to%20support%20life.&quot; target=&quot;_blank&quot;&gt;University of Southern Maine&lt;/a&gt;, “As the Sun ages, it slowly grows hotter due to the accumulation of residual energy emitted by these core reactions.” When the Sun’s heat becomes more intense, the rate of atmospheric escape will increase, and atmospheric escape on Earth will finally be rapid enough to create another dry, corroded planet. The intense heat, absence of water and thin atmosphere will cause life on Earth to come to a halt. Fortunately, this process will only occur in a few billion years.&lt;/p&gt;
-
-&lt;p&gt;Although the impacts of atmospheric escape will only be seen on Earth in the distant future, atmospheric escape itself is actively occurring. It is actively occurring on Mars, on exoplanets, but most relevantly, on planet Earth. Wherever there’s a planet in a solar system, there’s atmospheric escape, and that includes Earth with all its uniqueness and vitality. Outer space is not distant from Earth, but rather it encompasses Earth, and so do its laws. Earth, a planet set apart by its unique ability to contain life, will eventually become another dry, lifeless, corroded planet. And Mars, a dry, lifeless, corroded planet, possibly contained ancient life. Once the Sun becomes a gas giant, Earth will become engulfed. So, while Earth is extraordinary, it isn’t quite extraordinary enough to resist the forces of outer space.&lt;/p&gt;
-
-&lt;p&gt;Cover Photo: &lt;a href=&quot;https://mars.nasa.gov/all-about-mars/facts/&quot; target=&quot;_blank&quot;&gt;(NASA)&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/writingTeam/noProfile.jpg&quot; width=&quot;170&quot; style=&quot;float: left; margin-right: 30px; margin-bottom: 20px;&quot; /&gt;&lt;/p&gt;
-&lt;div style=&quot;margin-bottom: 5%;&quot;&gt;
-&lt;span style=&quot;font-size: 30px; font-weight: 900;&quot;&gt;Julia Nwokedi&lt;/span&gt;
-&lt;br /&gt;
-&lt;/div&gt;</content><author><name>Julia Nwokedi</name></author><summary type="html">Atmospheric escape: Why Earth will eventually resemble Mars Julia Nwokedi. 05/15/2021</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/2021/may/atmosphericCover.png" /><media:content medium="image" url="http://localhost:4000/2021/may/atmosphericCover.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+&lt;/div&gt;</content><author><name>Yana Karapetyan</name></author><summary type="html">Artificial intelligence: Approach with caution Yana Karapetyan. 05/29/2021 This image depicts a futuristic autonomous vehicle. (iStock)</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/2021/may/artificialCover.png" /><media:content medium="image" url="http://localhost:4000/2021/may/artificialCover.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
