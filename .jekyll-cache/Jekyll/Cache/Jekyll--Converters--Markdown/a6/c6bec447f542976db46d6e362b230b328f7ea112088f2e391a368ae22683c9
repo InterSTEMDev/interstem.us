@@ -1,18 +1,9 @@
----
-layout: post
-title:  "Will the Earth ever run out of resources?"
-date:   2021-07-10 00:00:03
-author: "Sydney Hollingsworth"
-image: ../../2021/july/resourcesCover.jpg
-description: The Earth is a huge place, with much we have yet to discover, but as a species we are consuming natural resources at an alarming rate and many have predicted the destruction of our planet entirely. Is it possible for us to use up all of the Earth’s natural resources? What could the consequences of this be?
-time: 5 min
----
-<h2 style="font-family: Ergonomique Bold">Will the Earth ever run out of resources?</h2>
-Sydney Hollingsworth. 07/10/2021
-<hr>
+I"�<h2 style="font-family: Ergonomique Bold">Will the Earth ever run out of resources?</h2>
+<p>Sydney Hollingsworth. 07/10/2021</p>
+<hr />
 
-<img src="{{ site.baseurl }}/images/blogs/2021/july/resourcesOne.jpg" width="70%" style="display: block; margin: 0 auto"/>  
-<center><i>Coal mines in Columbia <a href="https://www.globalcitizen.org/en/content/6-natural-resources-exploited-on-earth/?template=next" target="_blank">(Scott Wallace/World Bank)</a> </i></center>
+<p><img src="/images/blogs/2021/july/resourcesOne.jpg" width="70%" style="display: block; margin: 0 auto" /></p>
+<center><i>Coal mines in Columbia <a href="" target="_blank">(Scott Wallace/World Bank) &lt;/i&gt;&lt;/center&gt;
 
 You have probably heard doomsday warnings such as “climate change will be irreversible by 2030” or “fossil fuels will run out by 2060” to the point that the end of humanity seems inevitable and quickly approaching. But is it true? There is a common theme for these predictions - depletion of natural resources, that humanity’s overconsumption will be its downfall - but what’s actually going on? How can an entire planet run out of resources so quickly?
 
@@ -40,11 +31,13 @@ Additionally, our current rate of consumption may not cause the Earth to deplete
 
 My goal is not to downplay the costs of human exploitation of the environment, but to create a more accurate, less self-centered view of what is happening. We are certainly not destroying the Earth; our home planet has been through much worse and will carry on long after we’re gone, although how it appears on the surface may be quite different. Whether or not we will be included in its future depends on what we do next.
 
-<br>
+<br />
 Cover Photo: <a href="https://www.foeeurope.org/sites/default/files/publications/foee_overconsumption_0909.pdf" target="_blank">(Friends of the Earth Europe)</a>
-<hr>
-<img src="{{ site.baseurl }}/images/writingTeam/noProfile.jpg" width="170" style="float: left; margin-right: 30px; margin-bottom: 20px;"/>
+<hr />
+<img src="/images/writingTeam/noProfile.jpg" width="170" style="float: left; margin-right: 30px; margin-bottom: 20px;" />
 <div style="margin-bottom: 5%;">
 <span style="font-size: 30px; font-weight: 900;">Sydney Hollingsworth</span>
-<br>
+<br />
 </div>
+</a></i></center>
+:ET

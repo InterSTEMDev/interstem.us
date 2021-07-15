@@ -46,8 +46,6 @@ Scientists from the Institute for Stem Cell Science and Regenerative Medicine ha
 
 Cover Photo: <a href="https://theconversation.com/antibiotic-resistance-new-discovery-could-change-the-future-of-treatment-131262" target="_blank">(The Conversation)</a>
 <br>
-
-Cover Photo: <a href="https://spectrum.ieee.org/tech-talk/computing/software/do-you-have-the-right-complexion-for-facial-recognition" target="_blank">(IEEE Spectrum)</a>
 <hr>
 <img src="{{ site.baseurl }}/images/writingTeam/noProfile.jpg" width="170" style="float: left; margin-right: 30px; margin-bottom: 20px;"/>
 <div style="margin-bottom: 5%;">
