@@ -7,7 +7,7 @@ image: ../../2021/august/garbageOne.png
 description: Have you ever wondered, dear reader, where all the garbage that flows in the rivers of the world goes? Eventually, the river meets the sea and so does the garbage. This write-up aims to sensitize the masses about the dire problem of plastic pollution in the ocean with a  focus on The Great Pacific Garbage Patch(GPGP).
 time: 5 min
 ---
-<h2 style="font-family: Ergonomique Bold">How technology has helped preserve music during the pandemic</h2>
+<h2 style="font-family: Ergonomique Bold">Garbage ‘patches’: A buoyant Dumpster-fire</h2>
 Amber Abbas. 07/03/2021
 <hr>
 
