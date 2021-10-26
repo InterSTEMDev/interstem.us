@@ -23,7 +23,7 @@ Similarly, geothermal energy also utilizes steam to create energy. The steam for
 
 <br/>
 <img src="{{ site.baseurl }}/images/blogs/2021/august/renewableOne.png" width="50%" style="display: block; margin: 0 auto"/>  
-<center><i>Geothermal activity in Iceland showing fumaroles and mud pools <a href="" target="_blank">(Adobe Stock)</a>
+<center><i>Geothermal activity in Iceland showing fumaroles and mud pools <a href="https://stock.adobe.com/ca/images/steaming-cone-in-hverir-geothermal-area-with-boiling-mudpools-and-steaming-fumaroles-in-iceland/292868253?prev_url=detail&asset_id=292868253" target="_blank">(Adobe Stock)</a>
 </i></center>
 
 <br>
