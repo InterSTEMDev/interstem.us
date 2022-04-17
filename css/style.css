@@ -3707,6 +3707,15 @@ header .navbar-default .navbar-nav li a {
   border-radius: 15px;
   background: var(--primary-color);
 }
+
+.gradient-btn1 {
+  text-align: center;
+  color: white !important;
+  font-weight: bold;
+  border: 0.5px solid black;
+  border-radius: 15px;
+  background: var(--primary-color);
+}
 .talks-btn {
   color: white;
   background: var(--primary-color);
