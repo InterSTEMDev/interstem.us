@@ -1,4 +1,53 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-04-19T23:16:45-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">InterSTEM</title><entry><title type="html">What is bubble tea and how is it made?</title><link href="http://localhost:4000/2021/10/01/what-is-bubble-tea-and-how-is-it-made.html" rel="alternate" type="text/html" title="What is bubble tea and how is it made?" /><published>2021-10-01T17:00:02-07:00</published><updated>2021-10-01T17:00:02-07:00</updated><id>http://localhost:4000/2021/10/01/what-is-bubble-tea-and-how-is-it-made</id><content type="html" xml:base="http://localhost:4000/2021/10/01/what-is-bubble-tea-and-how-is-it-made.html"><![CDATA[<h2 style="font-family: Ergonomique Bold">What is bubble tea and how is it made?</h2>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-04-23T08:28:49-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">InterSTEM</title><entry><title type="html">The basic concepts of quantum computers</title><link href="http://localhost:4000/2022/04/21/basics-of_quantum-computing.html" rel="alternate" type="text/html" title="The basic concepts of quantum computers" /><published>2022-04-21T17:00:02-07:00</published><updated>2022-04-21T17:00:02-07:00</updated><id>http://localhost:4000/2022/04/21/basics-of_quantum-computing</id><content type="html" xml:base="http://localhost:4000/2022/04/21/basics-of_quantum-computing.html"><![CDATA[<h2 style="font-family: Ergonomique Bold">The basic concepts of quantum computers</h2>
+<p>Emma Ylagan. 04/22/2022</p>
+<hr />
+
+<p>When most people hear the term “quantum computing” they probably think of complex theories, with futuristic-looking computers. Although it is inherently a higher-end subject, utilizing concepts of advanced calculus and physics, the core ideas can be broken down into simple, easy-to-visualize components.</p>
+
+<p>A Look at a Quantum Computer
+Although the core ideas of quantum computing can be explained quite simply, quantum computers themselves are quite complex. When hearing the term “quantum computer”, if you thought of something futuristic, you aren’t wrong, but it probably looks a little different than you would expect. This is a quantum computer.</p>
+
+<p><img src="/images/blogs/2022/april/quantum_computing.png" width="60%" style="display: block; margin: 0 auto" /></p>
+<center><i>IBM’S Quantum Computer
+<a href="https://www.forbes.com/sites/ibm/2020/01/16/the-quantum-computing-era-is-here-why-it-mattersand-how-it-may-change-our-world/?sh=3f5b4cea5c2b" target="_blank">(Forbes)</a>
+</i></center>
+<p><br />
+It’s suspended in this chamber-like contraption for several reasons, including temperature regulation and noise reduction, and the computer itself looks quite complex with lots of parts, but again, this can all be broken  down into the fundamental ideas behind quantum computing. But first, the focus lies on what this device is, and how it compares to the Dells and Macs we typically use.</p>
+
+<p>Classical vs Quantum
+First off, we call these more traditional computers “classical computers’’. Classical computers utilize bits to store data and information; everything you see and do on a computer can be broken down into 0s and 1s. Quantum computers, on the other hand, use quantum bits, not classical bits. A common abbreviation for this term is “qubit”. A qubit is essentially able to store more information than a classical bit ever could. But how? That brings us to our first quantum concept: superposition.</p>
+
+<p>Superposition
+Superposition is the phenomenon where something is considered to be two things at once. This mind-bending concept can be simplified using a famous analogy called Schrodinger’s cat. The analogy goes like this: You put a cat in a bag with some poison that could be released at any moment. Assuming you can’t receive any tells of the cat’s well-being from looking at the bag itself, at any moment in time, the cat can be considered both dead and alive. That is, until you actually open the bag.</p>
+
+<p>This is the exact concept used in qubits. Qubits are found in a state of superposition, as was the cat, in which it can be considered both a 0 and 1. Of course, this is only until it is measured, in which it collapses into either-or.</p>
+
+<p><img src="/images/blogs/2022/april/superposition.png" width="60%" style="display: block; margin: 0 auto" /></p>
+<center><i>Visual representation of a qubit 
+<a href="https://medium.com/@kareldumon/the-computational-power-of-quantum-computers-an-intuitive-guide-9f788d1492b6" target="_blank">(Medium)</a>
+</i></center>
+<p><br /></p>
+
+<p>This is what gives qubits the upper hand when compared to classical bits. Consider a computer with 4 bits, each one being definitively 0 or 1. There are 16 different combinations you can make with them. That means you would need 64 bits (16 combinations x 4 bits per combination) to cover all of the possible combinations. However, when we look at qubits and take into account the fact that they are both 0 and 1 simultaneously, you only need four qubits to “cover” all combinations. This creates a high level of efficiency, especially when dealing with large amounts of data.</p>
+
+<p>Entanglement
+The next concept of focus is quantum entanglement. When two qubits become “entangled”, they are considered permanently linked. This means that no matter how far apart they are, they will always mirror each other’s state (either 0 or 1). Measuring one will always yield information in knowing the state of the other, and vice versa.</p>
+
+<p>Thinking about this visually, if you have a qubit right in front of you with its entangled partner halfway across the universe, and you measured the one in front of you, collapsing its state of superposition, its partner would also collapse, and you’d know this information instantaneously. Within a quantum computer, this means that you can take measurements of many qubits at the same time, dramatically increasing its computing power.</p>
+
+<p>Applications
+There are many different applications to the concepts of quantum computing, as well as quantum computers themselves. For example, when we look at the neuroscience and psychology field, there are many challenges posed by the lack of computer data storage when doing something like mapping out the human brain. A quantum computer, given its high levels of efficiency and power, could help with this data storage issue.</p>
+
+<p>Something to keep in mind, however, is that quantum computers aren’t the definitive future of the computer itself. As opposed to some initial thought, quantum computers aren’t always better than classical computers. They are, without a doubt, extremely helpful in specific situations that involve heavy calculations or require an immense amount of data, but <a href="https://www.scientificamerican.com/article/will-quantum-computing-ever-live-up-to-its-hype/" target="_blank">generalizing that they are always “better” would be inaccurate</a>. Some tasks simply work better on classical computers, so the “hype” around the quantum computer is more about being able to have this new tool that we can use, an option when the need for it arises.</p>
+
+<p>Cover Photo: <a href="https://www.wilsoncenter.org/sites/default/files/styles/embed_text_block/public/media/uploads/images/shutterstock_1571766802.jpg" target="_blank">(Wilson Center)</a></p>
+<hr />
+
+<p><img src="/images/writingTeam/noProfile.jpg" width="170" style="float: left; margin-right: 30px; margin-bottom: 20px;" /></p>
+<div style="margin-bottom: 5%;">
+<span style="font-size: 30px; font-weight: 900;">Emma Ylagan</span>
+<br />
+</div>]]></content><author><name>Emma Ylagan</name></author><summary type="html"><![CDATA[This article breaks down the fundamental ideas behind quantum computing, including what a qubit is, superposition, and quantum entanglement.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/2022/april/quantum_computer.png" /><media:content medium="image" url="http://localhost:4000/2022/april/quantum_computer.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">What is bubble tea and how is it made?</title><link href="http://localhost:4000/2021/10/01/what-is-bubble-tea-and-how-is-it-made.html" rel="alternate" type="text/html" title="What is bubble tea and how is it made?" /><published>2021-10-01T17:00:02-07:00</published><updated>2021-10-01T17:00:02-07:00</updated><id>http://localhost:4000/2021/10/01/what-is-bubble-tea-and-how-is-it-made</id><content type="html" xml:base="http://localhost:4000/2021/10/01/what-is-bubble-tea-and-how-is-it-made.html"><![CDATA[<h2 style="font-family: Ergonomique Bold">What is bubble tea and how is it made?</h2>
 <p>Catherine Todd. 08/28/2021</p>
 <hr />
 
@@ -260,48 +309,7 @@ Cover Photo: <a href="https://www.nationalgeographic.com/science/article/scienti
 <div style="margin-bottom: 5%;">
 <span style="font-size: 30px; font-weight: 900;">Daniel Wang</span>
 <br />Daniel Wang is an incoming junior at Westlake High School. He is interested in many aspects of STEM, especially math.
-</div>]]></content><author><name>Daniel Wang</name></author><summary type="html"><![CDATA[Dr. Garen Baghdasarian gave a presentation as part of the InterSTEM Speaker Series on coral reefs. His presentation answered many questions and created many important questions: with global threats such as climate change, what is the future of coral reefs? Why should humans care?]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/2021/july/coralCover.png" /><media:content medium="image" url="http://localhost:4000/2021/july/coralCover.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Will the Earth ever run out of resources?</title><link href="http://localhost:4000/2021/07/09/will-the-earth-ever-run-out-of-resources.html" rel="alternate" type="text/html" title="Will the Earth ever run out of resources?" /><published>2021-07-09T17:00:03-07:00</published><updated>2021-07-09T17:00:03-07:00</updated><id>http://localhost:4000/2021/07/09/will-the-earth-ever-run-out-of-resources</id><content type="html" xml:base="http://localhost:4000/2021/07/09/will-the-earth-ever-run-out-of-resources.html"><![CDATA[<h2 style="font-family: Ergonomique Bold">Will the Earth ever run out of resources?</h2>
-<p>Sydney Hollingsworth. 07/10/2021</p>
-<hr />
-
-<p><img src="/images/blogs/2021/july/resourcesOne.jpg" width="70%" style="display: block; margin: 0 auto" /></p>
-<center><i>Coal mines in Columbia <a href="https://www.globalcitizen.org/en/content/6-natural-resources-exploited-on-earth/?template=next" target="_blank">(Scott Wallace/World Bank)</a> </i></center>
-
-<p>You have probably heard doomsday warnings such as “climate change will be irreversible by 2030” or “fossil fuels will run out by 2060” to the point that the end of humanity seems inevitable and quickly approaching. But is it true? There is a common theme for these predictions - depletion of natural resources, that humanity’s overconsumption will be its downfall - but what’s actually going on? How can an entire planet run out of resources so quickly?</p>
-
-<p>We know that there is only a <a href="https://www.rd.com/list/what-would-happen-if-worlds-natural-resources-ran-out/" target="_blank">finite amount</a> of soil, fossil fuels, water, heavy metals, and minerals on Earth, so we must run out eventually, right? And it is true that as a species, we are using these finite resources very quickly; between 1950 and 2000, humans have consumed more natural resources than over the course of all of previous human history, and scientists have been warning against overconsumption since the 1970s.</p>
-
-<p>Scientists’ predictions for what the future will bring have consistently changed, despite having known about overconsumption for years. A <a href="https://www.theguardian.com/uk/2002/jul/07/research.waste" target="_blank">2002 report from the World Wildlife Fund</a> claimed we would have to colonize at least 2 Earth-sized planets by 2050 to make up for the rate at which we use up natural resources. Now, in 2021, this prediction is less popular because we know that it is neither realistically possible nor necessary.</p>
-
-<p>Although the numbers seem to be against us, we’re still alive, and the fuel, soil, and minerals that we use everyday never seem to run out. The Club of Rome’s <a href="https://wattsupwiththat.com/2019/05/15/why-resources-arent-natural-and-will-never-run-out/" target="_blank">Limits to Growth</a> manifesto, written in 1972, predicted that we would have already run out of heavy metals such as gold, copper, mercury, silver, and zinc by now, but we haven’t. In fact, they’re quite common and used on a daily basis. So what does this mean? Were the scientists wrong? Not quite…</p>
-
-<p>To “run out” of something really means there will be none left for us to use, not necessarily none left in the entire world. But why does that matter? Well, Earth is much bigger than you might think, and there are plenty of natural resources on it we could use, but reaching them is another story. There are smaller, less dense pockets of ores and minerals deep beneath the Earth’s surface, but reaching them would be too expensive and only considered when we have already depleted all the other, more easily accessible deposits and have no easier options.</p>
-
-<p>To say we will run out of resources fails to account for new technology. Resource availability is not determined by the finite amount of the resource, but by our ability to obtain it. Historically, technology needs to advance to extract a greater amount of resources, and we don’t have any reason to assume this won’t keep happening.</p>
-
-<p>How can we be sure that technology will advance at an effective rate? Well, in many ways, it <a href="https://www.discovermagazine.com/planet-earth/the-world-is-running-out-of-elements-and-researchers-are-looking-in-unlikely" target="_blank">already is</a>. Ore mines have expanded to the arctic in recent years and plans for deep sea mining operations and asteroid mining are underway for the more distant future. Heavy metals can be recycled from electronic waste, and elements such as nitrogen are extracted from the atmosphere to produce fertilizer.</p>
-
-<p>So will we ever really run out of resources? In short: no, or at least not anytime soon. The earth is far from actually “running out” of the resources we depend on. As time passes they will just become more and more expensive as their extraction becomes less convenient, eventually being replaced by cheaper, reusable options when the cost becomes too ridiculous for continued use.</p>
-
-<p>However, this outlook does not take into consideration the full picture of what is going on in the world. It is important to point out that for the general public to make the switch to renewable resources, the <a href="https://welcome.arcadia.com/energy-101/energy-sources/will-we-ever-actually-run-out-of-fossil-fuels" target="_blank">cost of non-renewable resources</a> must rise enough to outweigh the cost of renewable ones.</p>
-
-<p>We can see this happening today: renewable energy sources such as solar or wind already exist, but they are not used nearly as much as fossil fuels, because the cost of extracting fossil fuels is cheap compared to green energy. As fossil fuels become more difficult and costly to obtain, oil prices will rise and consumers will turn to renewable energy, making it widespread and more affordable.</p>
-
-<p>But from the perspective of those living in poverty, their world will run out of resources long before this point. While 1st world countries can still afford the rising oil prices and do not yet feel the need to transition to green energy, 3rd world countries will be unable to afford either.</p>
-
-<p>Additionally, our current rate of consumption may not cause the Earth to deplete its resources anytime soon, but it does have drastic consequences on the environment. <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7341033/" target="_blank">Global warming is a much larger issue</a> than depletion of natural resources, and if we don’t do something, it will likely bring <a href="https://www.sciencealert.com/un-warns-of-biological-annihilation-up-to-a-million-animal-could-soon-be-extinct" target="_blank">our downfall</a> long before we run out of natural resources.</p>
-
-<p>My goal is not to downplay the costs of human exploitation of the environment, but to create a more accurate, less self-centered view of what is happening. We are certainly not destroying the Earth; our home planet has been through much worse and will carry on long after we’re gone, although how it appears on the surface may be quite different. Whether or not we will be included in its future depends on what we do next.</p>
-
-<p><br />
-Cover Photo: <a href="https://www.foeeurope.org/sites/default/files/publications/foee_overconsumption_0909.pdf" target="_blank">(Friends of the Earth Europe)</a></p>
-<hr />
-
-<p><img src="/images/writingTeam/noProfile.jpg" width="170" style="float: left; margin-right: 30px; margin-bottom: 20px;" /></p>
-<div style="margin-bottom: 5%;">
-<span style="font-size: 30px; font-weight: 900;">Sydney Hollingsworth</span>
-<br />
-</div>]]></content><author><name>Sydney Hollingsworth</name></author><summary type="html"><![CDATA[The Earth is a huge place, with much we have yet to discover, but as a species we are consuming natural resources at an alarming rate and many have predicted the destruction of our planet entirely. Is it possible for us to use up all of the Earth’s natural resources? What could the consequences of this be?]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/2021/july/resourcesCover.jpg" /><media:content medium="image" url="http://localhost:4000/2021/july/resourcesCover.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">How Spotify knows exactly what you want to listen to</title><link href="http://localhost:4000/2021/07/09/how-spotify-knows-exactly-what-you-want-to-listen-to.html" rel="alternate" type="text/html" title="How Spotify knows exactly what you want to listen to" /><published>2021-07-09T17:00:03-07:00</published><updated>2021-07-09T17:00:03-07:00</updated><id>http://localhost:4000/2021/07/09/how-spotify-knows-exactly-what-you-want-to-listen-to</id><content type="html" xml:base="http://localhost:4000/2021/07/09/how-spotify-knows-exactly-what-you-want-to-listen-to.html"><![CDATA[<h2 style="font-family: Ergonomique Bold">How Spotify knows exactly what you want to listen to</h2>
+</div>]]></content><author><name>Daniel Wang</name></author><summary type="html"><![CDATA[Dr. Garen Baghdasarian gave a presentation as part of the InterSTEM Speaker Series on coral reefs. His presentation answered many questions and created many important questions: with global threats such as climate change, what is the future of coral reefs? Why should humans care?]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/2021/july/coralCover.png" /><media:content medium="image" url="http://localhost:4000/2021/july/coralCover.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">How Spotify knows exactly what you want to listen to</title><link href="http://localhost:4000/2021/07/09/how-spotify-knows-exactly-what-you-want-to-listen-to.html" rel="alternate" type="text/html" title="How Spotify knows exactly what you want to listen to" /><published>2021-07-09T17:00:03-07:00</published><updated>2021-07-09T17:00:03-07:00</updated><id>http://localhost:4000/2021/07/09/how-spotify-knows-exactly-what-you-want-to-listen-to</id><content type="html" xml:base="http://localhost:4000/2021/07/09/how-spotify-knows-exactly-what-you-want-to-listen-to.html"><![CDATA[<h2 style="font-family: Ergonomique Bold">How Spotify knows exactly what you want to listen to</h2>
 <p>Rachel Huang. 07/10/2021</p>
 <hr />
 
