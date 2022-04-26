@@ -1,3 +1,8 @@
+---
+layout: default
+.....
+permalink: contact-form-process.php
+---
 <?php
 if (isset($_POST['Email'])) {
 
