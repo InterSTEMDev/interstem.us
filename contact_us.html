@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <title> Responsive Contact Us Form  | InterSTEM </title>
+    <link rel="stylesheet" href="css/contact_us.css">
+
+    <!-- Fontawesome CDN Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   <!-- Global site tag (gtag.js) - Google Analytics -->
+   <script async src="https://www.googletagmanager.com/gtag/js?id=G-C4NP4XRMJF"></script>
+   <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-C4NP4XRMJF');
+   </script>
+   </head>
+<body>
+  <div class="container">
+    <div class="content">
+      <div class="left-side">
+        <div class="address details">
+          <!-- <i class="fas fa-map-marker-alt"></i> -->
+          <div class="topic" style="font-weight: bold">Contact Us | InterSTEM</div>
+        </div>
+        <div class="phone details">
+          <!-- <i class="fas fa-phone-alt"></i> -->
+          <div class="topic">Join us</div>
+          <p>Message us for the Discord link to join InterSTEM! And be sure to follow us on Instagram @inter.stem</p>
+        </div>
+        <div class="email details">
+          <i class="fas fa-envelope"></i>
+          <div class="topic">Email</div>
+          <div class="text-one">stevenCao05@gmail.com</div>
+        </div>
+      </div>
+      <div class="right-side">
+        <div class="topic-text">Send us a message!</div>
+        <p>If you have any questions, you can send us message from here. It's our pleasure to help you! :)</p>
+        <form method="post" action="/php/contact-form-process.php">
+         <div class="input-box">
+            <label for="Name" >Enter your name</label>
+            <div class="fcf-input-group">
+                <input type="text" id="Name" name="Name" required>
+            </div>
+        </div>
+
+        <div class="input-box">
+            <label for="Email" >Enter your email</label>
+            <div class="fcf-input-group">
+                <input type="email" id="Email" name="Email" required>
+            </div>
+        </div>
+
+        <div class="input-box message-box">
+            <label for="Message">Enter your message</label>
+            <div class="fcf-input-group">
+                <textarea id="Message" name="Message"rows="6" maxlength="3000" required></textarea>
+            </div>
+        </div>
+
+        <div class="button">
+         <input type="submit" class="button" value="Send Form" name="submit">
+      </div>
+
+
+            <!-- <div class="input-box">
+               <input type="text" placeholder="Enter your name"required>
+            </div>
+            <div class="input-box">
+               <input type="text" placeholder="Enter your email"required>
+            </div>
+            <div class="input-box message-box">
+               <textarea placeholder="Enter your message" required></textarea>
+            </div>
+            <div class="button"> -->
+               <!-- <input type="button" value="Send Now" > -->
+               <!-- <button type="submit" class="button">Send Now</button>
+            </div> -->
+      </form>
+    </div>
+    </div>
+  </div>
+
+</body>
+</html>
+
+   
