@@ -1,8 +1,9 @@
+This will be <?php echo("parsed"); ?> correctly.
 <?php
 if (isset($_POST['Email'])) {
 
     // EDIT THE 2 LINES BELOW AS REQUIRED
-    $email_to = "stevenCao05@gmail.com";
+    $email_to = "interstemplatform@gmail.com";
     $email_subject = "New Contact Form Submissions";
 
     function problem($error)
