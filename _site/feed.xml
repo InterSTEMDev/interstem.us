@@ -1,6 +1,59 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-05-20T21:04:21-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">InterSTEM</title><entry><title type="html">Social Skills and Mental Health</title><link href="http://localhost:4000/2022/05/15/social-skills-and-mental-health.html" rel="alternate" type="text/html" title="Social Skills and Mental Health" /><published>2022-05-15T17:00:02-07:00</published><updated>2022-05-15T17:00:02-07:00</updated><id>http://localhost:4000/2022/05/15/social-skills-and-mental-health</id><content type="html" xml:base="http://localhost:4000/2022/05/15/social-skills-and-mental-health.html"><![CDATA[<h2 style="font-family: Ergonomique Bold">Social Skills and Mental Health</h2>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-05-22T11:40:04-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">InterSTEM</title><entry><title type="html">Zombies exist… careful, you might have one inside of you!</title><link href="http://localhost:4000/2022/05/21/zombie-exist.html" rel="alternate" type="text/html" title="Zombies exist… careful, you might have one inside of you!" /><published>2022-05-21T17:00:02-07:00</published><updated>2022-05-21T17:00:02-07:00</updated><id>http://localhost:4000/2022/05/21/zombie-exist</id><content type="html" xml:base="http://localhost:4000/2022/05/21/zombie-exist.html"><![CDATA[<h2 style="font-family: Ergonomique Bold">Zombies exist… careful, you might have one inside of you!</h2>
+<p>Vova Prylepa. 05/22/2022</p>
+<hr />
+
+<p><img src="/images/blogs/2022/may/virus_list.png" width="60%" style="display: block; margin: 0 auto" /></p>
+<center> Some of the most common and dangerous types of viruses.<i>
+<a href="https://www.istockphoto.com/illustrations/hepatitis-b" target="_blank">(iStockphoto)</a>
+</i></center>
+<p><br /></p>
+
+<p>Viruses, half-dead half-living molecular parasites, have terrorized humans for over millennia. Let’s delve deep into the biology of our biological foe, the main causes of the danger it represents, and how to fight it.</p>
+
+<p>Viruses are much smaller than cells and are simple containers of genetic material. They invade the cells in our bodies to procreate and mess up the processes responsible for the healthily functioning of the cell. The cells in question are destroyed in the process. They can’t create copies of themselves without being inside of a cell. In fact, on their own, they aren’t able to engage in processes we associate with life, which qualifies them as zombies. However, they do contain the necessary instructions without being able to translate them into useful biochemical components, a function for which they rely on their host cells. Once produced, these components become part of the virion (the virus particle) that will carry these instructions from cell to cell. Interestingly enough, most viruses contain only a few genes, the minimum being two to three.</p>
+
+<p>Viruses mutate and evolve in order to survive better against the organisms’ attempts to suppress it (for instance, antibiotics that work on bacteria do not work on viruses). As the viral genome is being read to create new copies, the wrong base, and thus the wrong nucleotide is occasionally inserted in the gene, similar to a typo on a computer. Even though such typos happen seldom on an individual gene, because of the frequency of the replication of the virus, they accumulate with time and aid the virus with completely new dangerous properties.</p>
+
+<p>For instance, HIV becomes very genetically diverse during infection because it can make the cells read and create copies of itself several times a day in an individual for years. It means that these typos build up and add mutations to the virus, <a href="https://www.livescience.com/56598-deadliest-viruses-on-earth.html" target="_blank">allowing damage to a wider range of bodily functions</a> than previously available, and making it harder to kill due to the number of copies. That’s why HIV is resistant to specific drugs; the genome of the virus differs with every hour from the one that was replicated before. Therefore, treating HIV with a single drug won’t affect the virus because its genes mutate very quickly and the drug won’t be adapted to stop the cells from replicating a specific HIV gene with a particular number of typos.</p>
+
+<p><br /><span style="font-weight: 900">Why do only some of the millions of viruses cause illness?</span></p>
+
+<p>Over long periods of evolution, a virus can either die out, kill its host (sometimes an entire species), or it can <a href="https://www.livescience.com/56598-deadliest-viruses-on-earth.html" target="_blank">co-evolve so it can no longer cause the damage</a> to kill the host, but can still replicate inside of it. It’ll cause a mild sickness, but the host will recover so the virus can survive.</p>
+
+<p>But when the virus finds itself in a new species, it might be very dangerous for that host because the host hasn’t adapted to the disease to be able to negate its dangerous effects. That’s why a virus that doesn’t do much to animals can harm humans (such as HIV or COVID-19) and a virus that does not do much to humans can harm animals.</p>
+
+<p>Some viruses are dormant in our bodies. They live within us but don’t cause any harm because they are suppressed by our immune system. They can be awoken if the immune system is damaged though, and some of them can cause serious harm, such as CMV. A person with HIV has a very weak immune system, which means it can’t suppress CMV anymore and the cytomegalovirus can destroy the retina, completely blinding its host.</p>
+
+<p><br /><span style="font-weight: 900">Are there harmless viruses that just live in us?</span></p>
+
+<p>Some viruses are stable outside of cells, like the coronavirus (which can be transmitted through droplets of saliva) or polio (transmitted through contaminated water), while others, like HIV, have low environmental stability and can only be transmitted through sex or blood transfusion.</p>
+
+<p><br /><span style="font-weight: 900">Methods of prevention/ treatment</span></p>
+
+<p>We can prevent viruses with vaccines and treat them with <a href="https://www.mayoclinic.org/diseases-conditions/infectious-diseases/in-depth/germs/art-20045289" target="_blank">antiviral drugs</a>. A vaccine is usually a component of the virus or a weakened version of the virus in some cases. It induces a response from the body to make antibodies. It is done so when the organism is confronted to an actual virus again, this time in its full strength, the antibodies will remember how to kill it off before it has a chance to cause disease. The vaccine is thus similar to a practice exercise for the antibodies.</p>
+
+<p>An antiviral is a small molecule component of viral RNA or DNA. It is then modified to have the ability to disrupt the replication of the virus in question. Although the virus will not leave the body, antivirals can help treat viral infections such as influenza or Ebola.</p>
+
+<p><br /><span style="font-weight: 900">Conclusion </span></p>
+
+<p>Viruses can be fragile or strong, varying in lethality per virus based on the species. Copying errors during DNA transfer can give viruses the potential to cause more harm since their genetic makeup may change before a vaccine with a weakened version of the virus is made. Some well-known and dangerous viruses include HIV, polio, the common cold, and COVID-19, and while these can be very harmful, anti-viral treatment or vaccination can serve as a remedy against its effects.</p>
+
+<p>Cover Photo: <a href="https://www.nhlbi.nih.gov/sites/default/files/styles/16x9_crop/public/2021-12/iStock-1268214384.jpg?h=99d60463&amp;itok=AbrAPV9D" target="_blank">(NHLBI)</a></p>
+<hr />
+
+<p><img src="/images/writingTeam/noProfile.jpg" width="170" style="float: left; margin-right: 30px; margin-bottom: 20px;" /></p>
+<div style="margin-bottom: 5%;">
+<span style="font-size: 30px; font-weight: 900;">Vova Prylepa</span>
+<br />
+</div>]]></content><author><name>Vova Prylepa</name></author><summary type="html"><![CDATA[Learn about why viruses are so dangerous for us, as well as about the key characteristics of the most dangerous viruses out there and different types of treatment.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/2022/may/virus.png" /><media:content medium="image" url="http://localhost:4000/2022/may/virus.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Social Skills and Mental Health</title><link href="http://localhost:4000/2022/05/15/social-skills-and-mental-health-Copy.html" rel="alternate" type="text/html" title="Social Skills and Mental Health" /><published>2022-05-15T17:00:02-07:00</published><updated>2022-05-15T17:00:02-07:00</updated><id>http://localhost:4000/2022/05/15/social-skills-and-mental-health%20-%20Copy</id><content type="html" xml:base="http://localhost:4000/2022/05/15/social-skills-and-mental-health-Copy.html"><![CDATA[<h2 style="font-family: Ergonomique Bold">Social Skills and Mental Health</h2>
 <p>Peter Bui. 05/15/2022</p>
 <hr />
+
+<p><img src="/images/blogs/2022/may/social_skills.png" width="60%" style="display: block; margin: 0 auto" /></p>
+<center><i>
+<a href="https://www.emotivebrand.com/wp-content/uploads/2019/08/Business-Imperative-Socializing-Strategy.jpg" target="_blank">(Emotive Brand)</a>
+</i></center>
+<p><br /></p>
 
 <p>In modern society, it’s of utmost importance to have a positive attitude and good mental health. Depression and anxiety are very real, affecting millions of people worldwide everyday. A possible contributor to poor mental health is not being able to talk to people or lack of  social skills. In relation, a possible solution for maintaining a good mental health is by developing social skills.</p>
 
@@ -23,20 +76,14 @@ Indirectly, social skills have an impact on health through stress and loneliness
 
 <p>In conclusion, social skills and mental health have a correlation in the sense that poor social skills can be related with poor mental health. It’s important to learn to socialize and make friends for your mental health.</p>
 
-<p><img src="/images/blogs/2022/may/people.png" width="60%" style="display: block; margin: 0 auto" /></p>
-<center><i>
-<a href="https://www.cmuse.org/" target="_blank">(CMUSE)</a>
-</i></center>
-<p><br /></p>
-
-<p>Cover Photo: <a href="https://www.emotivebrand.com/wp-content/uploads/2019/08/Business-Imperative-Socializing-Strategy.jpg" target="_blank">(Emotive Brand)</a></p>
+<p>Cover Photo: <a href="https://www.cmuse.org/" target="_blank">(cmuse)</a></p>
 <hr />
 
 <p><img src="/images/writingTeam/noProfile.jpg" width="170" style="float: left; margin-right: 30px; margin-bottom: 20px;" /></p>
 <div style="margin-bottom: 5%;">
 <span style="font-size: 30px; font-weight: 900;">Peter Bui</span>
 <br />
-</div>]]></content><author><name>Peter Bui</name></author><summary type="html"><![CDATA[In this day and age, it’s important to maintain good mental health. Are social skills a primary factor in achieving good mental health?]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/2022/may/social_skills.png" /><media:content medium="image" url="http://localhost:4000/2022/may/social_skills.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">The basic concepts of quantum computers</title><link href="http://localhost:4000/2022/04/21/basics-of_quantum-computing.html" rel="alternate" type="text/html" title="The basic concepts of quantum computers" /><published>2022-04-21T17:00:02-07:00</published><updated>2022-04-21T17:00:02-07:00</updated><id>http://localhost:4000/2022/04/21/basics-of_quantum-computing</id><content type="html" xml:base="http://localhost:4000/2022/04/21/basics-of_quantum-computing.html"><![CDATA[<h2 style="font-family: Ergonomique Bold">The Basic Concepts of Quantum Computers</h2>
+</div>]]></content><author><name>Peter Bui</name></author><summary type="html"><![CDATA[In this day and age, it’s important to maintain good mental health. Are social skills a primary factor in achieving good mental health?]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/2022/may/people.png" /><media:content medium="image" url="http://localhost:4000/2022/may/people.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">The basic concepts of quantum computers</title><link href="http://localhost:4000/2022/04/21/basics-of_quantum-computing.html" rel="alternate" type="text/html" title="The basic concepts of quantum computers" /><published>2022-04-21T17:00:02-07:00</published><updated>2022-04-21T17:00:02-07:00</updated><id>http://localhost:4000/2022/04/21/basics-of_quantum-computing</id><content type="html" xml:base="http://localhost:4000/2022/04/21/basics-of_quantum-computing.html"><![CDATA[<h2 style="font-family: Ergonomique Bold">The Basic Concepts of Quantum Computers</h2>
 <p>Emma Ylagan. 04/22/2022</p>
 <hr />
 
@@ -320,36 +367,4 @@ The trash already in the ocean is here to stay for the foreseeable future. We ca
 <div style="margin-bottom: 5%;">
 <span style="font-size: 30px; font-weight: 900;">Amber Abbas</span>
 <br />
-</div>]]></content><author><name>Amber Abbas</name></author><summary type="html"><![CDATA[Have you ever wondered, dear reader, where all the garbage that flows in the rivers of the world goes? Eventually, the river meets the sea and so does the garbage. This write-up aims to sensitize the masses about the dire problem of plastic pollution in the ocean with a focus on The Great Pacific Garbage Patch(GPGP).]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/2021/august/garbageOne.png" /><media:content medium="image" url="http://localhost:4000/2021/august/garbageOne.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">The Future of Coral Reefs</title><link href="http://localhost:4000/2021/07/16/coral-reefs.html" rel="alternate" type="text/html" title="The Future of Coral Reefs" /><published>2021-07-16T17:00:01-07:00</published><updated>2021-07-16T17:00:01-07:00</updated><id>http://localhost:4000/2021/07/16/coral-reefs</id><content type="html" xml:base="http://localhost:4000/2021/07/16/coral-reefs.html"><![CDATA[<h2 style="font-family: Ergonomique Bold">The Future of Coral Reefs</h2>
-<p>Daniel Wang. 07/17/2021</p>
-<hr />
-
-<p><img src="/images/blogs/2021/july/coralOne.png" width="70%" style="display: block; margin: 0 auto" /></p>
-<center><i>Coral bleaching is the phenomenon in which coral reefs turn white while algae living inside the coral perish. <a href="https://www.nbcnews.com/science/environment/great-barrier-reef-hit-third-major-bleaching-event-five-years-n1166676" target="_blank">(NBC News)</a> </i></center>
-
-<p>Each year, billions of tourists are drawn to the beauty of tropical shores and flock to places such as the Caribbean for vacation. In this age of information, a simple internet search of coral reefs will result in mesmerizing images of sparkling water filled with patches of multiple shades of green. While most may only associate the words “coral reef” with these images, coral reefs aren’t just natural sights, but they are more importantly, ecosystems that humans depend on. At the InterSTEM Speaker Series presentation, Dr. Garen Baghdasarian, a professor of marine biology at Santa Monica College, explained humanity’s dependence on coral reefs as well as the threats to their survival.</p>
-
-<p>In his presentation, Dr. Baghdasarian first established that coral reefs are indeed organisms. According to <a href="https://www.livescience.com/40276-coral-reefs.html" target="_blank">LiveScience</a>, coral reefs are structures formed from the skeletons of hermatypic coral, a marine invertebrate. Corals have exoskeletons that provide natural protection from underwater threats. In addition, Dr. Baghdasarian mentioned that coral reefs are the building blocks of clear, shallow water ecosystems as they are an energy source that many aquatic organisms depend on for survival. The coral’s  role of being the backbone of aquatic ecosystems is dependent on the symbiotic relationship between the coral and algae. All corals host dinoflagellates, single algae with a flagella that allows the algae to move. The relationship formed between the dinoflagellates and algae allow for the survival of coral in nutrient-sparse areas. The coral will obtain up a large portion of its caloric energy from photosynthetic products made by algae. The algae, on the other hand, will receive micro-nutrients like nitrogen from the corals, as well as an ideal environment for photosynthesis. If this relationship fails, the coral will perish, destabilizing its ecosystem.</p>
-
-<p>In addition to aquatic ecosystems, many human industries also depend on the sustainability of coral reefs. For example, Dr. Baghdasarian also claims that the tourism brought by coral reefs bring several benefits to a nation’s economy. The reef hosts over 25 million aquatic species, providing food for one billion people. The reefs also act as a carbon sink, mitigating many impacts of rising carbon dioxide levels in the atmosphere. Clearly, many aspects of human life depend on services provided by coral reefs.</p>
-
-<p>Unfortunately, climate change is posing a threat to the well-being of coral reefs. Dr. Baghdasarian mentioned that over 90 percent of climate change happens in the oceans, directly impacting the health of coral reefs. This leads to the phenomenon of coral “bleaching,” where coral reefs will turn white while algae living inside the corals die. In fact, the <a href="https://oceanservice.noaa.gov/ocean/corals/" target="_blank">National Ocean Service</a> explains that small changes in ocean temperature, such as a 2 degree Celsius increase, can ultimately lead the corals to expel the algae living in them and turn white. As Dr. Baghdasarian’s research shows, while the bleaching of a coral does not mean that the coral is dead—some can even recover in 4 weeks in ideal conditions—numerous questions still revolve around the process of coral bleaching.</p>
-
-<p>Dr. Baghdasarian hopes to answer the question of what will happen to the coral reefs in the future. He and his team began this research by comparing records of coral reefs 50-100 years ago to the coral reefs today. Their observations matched with the general consensus that rising water temperatures led to this catastrophe; as water temperature increased, more algae perished, eventually leading to greater amounts of coral bleaching. Additionally, the increase in water temperature has also seemed to erode tissue of the coral itself.</p>
-
-<p>One surprising discovery was that in many locations with similar water temperature and pH levels, some corals would be bleached, while others would be completely fine. To find out the reasoning behind this phenomenon, Dr. Baghdasarian compared the different types of symbiotic algae with the hypothesis that some algae may have heat-resistant genes. However, after testing this theory out through his experiments, he concluded that the type of algae was not the factor of coral bleaching as his experimental data showed no correlation between the type of algae present in the coral and the degree of bleaching that the coral experienced. Therefore, Dr. Baghdasarian concluded that traits in the coral reefs themselves determine how severely they bleach.</p>
-
-<p>In the future, Dr. Baghdasarian will conduct experiments to determine what specific characteristics in corals allow them to thrive in harsh conditions. He believes that in order to protect the coral species, humans must engineer a new species of supercoral that can thrive under more extreme heat conditions.</p>
-
-<p>His final message was that people should never lose hope. No matter how genetically fit human-made coral may be, all work will be done in vain if climate change, the root cause of mass coral bleaching, worsens. Humanity and natural ecosystems are interconnected; while one may not have experienced coral reefs much outside of seeing them in beautiful travel advertisements, the luxuries and benefits one takes from these beautiful organisms depends on their sustainability in the ocean.</p>
-
-<p><br />
-Cover Photo: <a href="https://www.nationalgeographic.com/science/article/scientists-work-to-save-coral-reefs-climate-change-marine-parks" target="_blank">(National Geographic)</a></p>
-
-<hr />
-
-<p><img src="/images/writingTeam/noProfile.jpg" width="170" style="float: left; margin-right: 30px; margin-bottom: 20px;" /></p>
-<div style="margin-bottom: 5%;">
-<span style="font-size: 30px; font-weight: 900;">Daniel Wang</span>
-<br />Daniel Wang is an incoming junior at Westlake High School. He is interested in many aspects of STEM, especially math.
-</div>]]></content><author><name>Daniel Wang</name></author><summary type="html"><![CDATA[Dr. Garen Baghdasarian gave a presentation as part of the InterSTEM Speaker Series on coral reefs. His presentation answered many questions and created many important questions: with global threats such as climate change, what is the future of coral reefs? Why should humans care?]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/2021/july/coralCover.png" /><media:content medium="image" url="http://localhost:4000/2021/july/coralCover.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+</div>]]></content><author><name>Amber Abbas</name></author><summary type="html"><![CDATA[Have you ever wondered, dear reader, where all the garbage that flows in the rivers of the world goes? Eventually, the river meets the sea and so does the garbage. This write-up aims to sensitize the masses about the dire problem of plastic pollution in the ocean with a focus on The Great Pacific Garbage Patch(GPGP).]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/2021/august/garbageOne.png" /><media:content medium="image" url="http://localhost:4000/2021/august/garbageOne.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>

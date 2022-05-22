@@ -3,7 +3,7 @@ layout: post
 title:  "Social Skills and Mental Health"
 date:   2022-05-16 00:00:02
 author: "Peter Bui"
-image: ../../2022/may/social_skills.png
+image: ../../2022/may/people.png
 description: In this day and age, it’s important to maintain good mental health. Are social skills a primary factor in achieving good mental health? 
 time: 5 min
 ---
@@ -11,6 +11,11 @@ time: 5 min
 Peter Bui. 05/15/2022
 <hr>
 
+<img src="{{ site.baseurl }}/images/blogs/2022/may/social_skills.png" width="60%" style="display: block; margin: 0 auto"/>  
+<center><i>
+<a href="https://www.emotivebrand.com/wp-content/uploads/2019/08/Business-Imperative-Socializing-Strategy.jpg" target="_blank">(Emotive Brand)</a>
+</i></center>
+<br>
 
 In modern society, it’s of utmost importance to have a positive attitude and good mental health. Depression and anxiety are very real, affecting millions of people worldwide everyday. A possible contributor to poor mental health is not being able to talk to people or lack of  social skills. In relation, a possible solution for maintaining a good mental health is by developing social skills.
 
@@ -34,14 +39,8 @@ There are many different approaches to improving social skills, but mainly, it i
 
 In conclusion, social skills and mental health have a correlation in the sense that poor social skills can be related with poor mental health. It’s important to learn to socialize and make friends for your mental health.
 
-<img src="{{ site.baseurl }}/images/blogs/2022/may/people.png" width="60%" style="display: block; margin: 0 auto"/>  
-<center><i>
-<a href="https://www.cmuse.org/" target="_blank">(CMUSE)</a>
-</i></center>
-<br>
 
-
-Cover Photo: <a href="https://www.emotivebrand.com/wp-content/uploads/2019/08/Business-Imperative-Socializing-Strategy.jpg" target="_blank">(Emotive Brand)</a>
+Cover Photo: <a href="https://www.cmuse.org/" target="_blank">(cmuse)</a>
 <hr>
 <img src="{{ site.baseurl }}/images/writingTeam/noProfile.jpg" width="170" style="float: left; margin-right: 30px; margin-bottom: 20px;"/>
 <div style="margin-bottom: 5%;">
