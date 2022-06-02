@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "The basic concepts of quantum computers"
-date:   2022-04-22 00:00:02
+date:   2022-04-22 17:00:02
 author: "Emma Ylagan"
 image: ../../2022/april/quantum_computer.png
 description:  This article breaks down the fundamental ideas behind quantum computing, including what a qubit is, superposition, and quantum entanglement.

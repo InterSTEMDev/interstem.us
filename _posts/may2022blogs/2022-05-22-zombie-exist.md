@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Zombies exist… careful, you might have one inside of you! "
-date:   2022-05-22 00:00:02
+date:   2022-05-22 17:00:02
 author: "Vova Prylepa"
 image: ../../2022/may/virus.png
 description: Learn about why viruses are so dangerous for us, as well as about the key characteristics of the most dangerous viruses out there and different types of treatment.

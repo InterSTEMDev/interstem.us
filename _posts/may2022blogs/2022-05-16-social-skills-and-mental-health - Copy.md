@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Social Skills and Mental Health"
-date:   2022-05-16 00:00:02
+date:   2022-05-15 17:00:02
 author: "Peter Bui"
 image: ../../2022/may/people.png
 description: In this day and age, it’s important to maintain good mental health. Are social skills a primary factor in achieving good mental health? 
