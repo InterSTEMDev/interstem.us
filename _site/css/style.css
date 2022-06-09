@@ -6,7 +6,7 @@
   --yellow: rgba(248,225,88,0.2);
   --box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
   0 10px 10px -5px rgba(0, 0, 0, 0.04);
-}
+} 
 @font-face {
   font-family:"Ergonomique Bold";
   src: url("../../fonts/one.ttf") format("truetype");
