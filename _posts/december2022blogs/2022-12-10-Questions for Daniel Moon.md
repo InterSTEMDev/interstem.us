@@ -1,15 +1,18 @@
 ---
 layout: post
-title:  "Questions for Daniel Moon"
+title:  "How Daniel Got Into Columbia University"
 date:   2022-12-10 17:00:02
-author: "Jessica Chung"
-image: ../../2022/june/liquid_magnetic_telescopes.png
+author: "Rita Lai"
+image: ../../2022/december/danielMoon.jpeg
 description: As an incoming freshman at Columbia University majoring in biochemistry, Daniel Moon has already lived through the grueling experience of highschool and college admissions. He hopes that he can provide insight for anyone currently going through the application process.
 time: 5 min
 ---
-<h2 style="font-family: Ergonomique Bold">Questions for Daniel Moon</h2>
-Jessica Chung. 12/10/2022
+<h2 style="font-family: Ergonomique Bold">How Daniel Got Into Columbia University</h2>
+Rita Lai. 12/10/2022
 <hr>
+
+As a freshman at Columbia University majoring in biochemistry, Daniel Moon has already lived through the grueling experience of highschool and college admissions. He hopes that he can provide insight for anyone currently going through the application process.
+
 
 <br><span style="font-weight: 900">How did you make a college list? How many colleges did you apply to? </span>
 
@@ -27,7 +30,7 @@ Don’t over-edit your essays to the point that it isn’t your voice speaking i
 <br><span style="font-weight: 900">
 What is the most important part of the college application? </span>
 
-You. I cannot stress this enough, in a culture where admissions to the top schools are revered as they are, there is a tendency to create applications that have focus on the achievements. It isn’t wrong to show off those accomplishments in your application, but in the midst of it all your personality and character should still shine through the most. Your activities, essays, and all other parts of your application should provide admissions officers with a person, not a walking pile of accolades.
+Presenting yourself genuinely. I cannot stress this enough, in a culture where admissions to the top schools are revered as they are, there is a tendency to create applications that have focus on the achievements. It isn’t wrong to show off those accomplishments in your application, but in the midst of it all your personality and character should still shine through the most. Your activities, essays, and all other parts of your application should provide admissions officers with a person, not a walking pile of accolades.
 
 <br><span style="font-weight: 900">
 How should students approach tackling so many applications/essays? </span>
@@ -42,17 +45,17 @@ Not at all confident! Admissions can be so arbitrary sometimes and the truth of 
 <br><span style="font-weight: 900">
 What extracurriculars did you focus on? How should high school students choose their extracurriculars?</span>
 
-Your application should represent you, so when selecting activities you should do what YOU want to do. Highschool should be an exploratory period where you look into what you want to do and try new things. If you try your best in the activities you care most about, and strive to prepare for the future career you want, your application will build itself. Make sure you’re having fun with what you do too! I put Tetris down as my 9th CommonApp activity because I just loved playing the game so much throughout highschool. 
+As mentioned before, your application should represent you, so when selecting activities you should do what YOU want to do. Highschool should be an exploratory period where you look into what you want to do and try new things. If you try your best in the activities you care most about, and strive to prepare for the future career you want, your application will build itself. Make sure you’re having fun with what you do too! I put Tetris down as my 9th CommonApp activity because I just loved playing the game so much throughout highschool. 
 
 <br><span style="font-weight: 900">
 What should students do during summer? What did you do during your summers?</span>
 
-Make sure you’re spending your summer break ACTUALLY taking a break. Of course it doesn’t hurt to take one course or learn new things during the summer, but don’t bend over backwards to build your application over the summer. I didn’t really do anything the summer after freshman year other than taking a vacation, my sophomore year summer was a special case because of the pandemic so I had ample time to both rest and also study ahead a little bit in math which allowed me to test up into a higher level math class my senior year. The summer of junior year I spent working a job for the most part while also being indecisive about colleges. To be completely honest, most of the work I’ve done has taken place over the course of the school year. 
+Make sure you’re spending your summer break ACTUALLY taking a break. Of course it doesn’t hurt to take one course or learn new things during the summer, but don’t bend over backwards to build your application over the summer. I didn’t really do anything the summer after freshman year other than taking a vacation, my sophomore year summer was a special case because of the pandemic so I had ample time to both rest and also study ahead a little bit in math which allowed me to test up into a higher level math class my senior year. The summer of junior year I spent working a job for the most part while also being indecisive about colleges. To be completely honest, most of the work I’ve done has taken place over the course of the school year. That's not to say that you can’t attend prestigious summer experiences or work hard over the summer, just make sure you’re not forcing yourself to do things just for college.
 
 <br><span style="font-weight: 900">
 Why did you choose your major? </span>
 
-I personally wish to pursue a career in research. I am not entirely sure which direction that research will take but I do know that it will be deeply involved in cell biology and as such I chose to study biochemistry. I find biochemical processes fascinating and that is single handedly the reason why I chose to pursue the major.
+I personally wish to pursue a career in research. I am not entirely sure which direction that research will take but I do know that it will be deeply involved in cell biology and as such I chose to study biochemistry. I find biochemical processes fascinating and that is the reason why I chose to pursue the major.
 
 <br><span style="font-weight: 900">
 How can students practice better time management?</span>
@@ -72,7 +75,7 @@ My unweighted GPA was a 4.0 and my weighted GPA was a 4.7. My ACT score was a 36
 <br><span style="font-weight: 900">
 How did you think these impacted the strength of your application?</span>
 
-Well they were both extremely impactful and not at all impactful. It is true that many colleges value a high test score and high GPA. I’m no expert on this, so please take this with a grain of salt. However, past a certain point they have little impact. There is really not that much of a difference between a 34 and a 36 or a 1520 and a 1600. If you took one test and ended up with a similarly high score, there’s no need to keep retaking for a perfect score because it won’t impact your application. 
+Well they were both extremely impactful and not at all impactful. It is true that many colleges value a high test score and high GPA. However, past a certain point they have little impact. There is really not that much of a difference between a 34 and a 36 or a 1520 and a 1600. If you took one test and ended up with a similarly high score, there’s no need to keep retaking for a perfect score because it won’t impact your application to a significant extent if you already have a top score.
 
 <br><span style="font-weight: 900">
 What can students do to maintain a high GPA and score well on exams?</span>
@@ -102,15 +105,14 @@ Nope, I was far too indecisive to do that.
 <br><span style="font-weight: 900">
 Did you have a specific approach when deciding who to ask for letters of recommendation? Such as one humanities and one STEM teacher?</span>
 
-As trivial as this is, just pick the teachers that know you best. There’s usually a humanities and STEM requirement for the 2 letters of recommendation that most schools usually ask for, but outside of that restriction just ask the teachers that you’ve worked with the most. These teachers should know you beyond you as a student in their classroom: they should know who you are as a person. 
+As trivial as this is, just pick the teachers that know you best. There’s usually a humanities and STEM requirement for the 2 letters of recommendation that most schools usually ask for, but outside of that restriction just ask the teachers that you’ve worked with the most. These teachers should know you beyond you as a student in their classroom: they should know who you are as a person, how you work in leadership positions, etc.
 
 
 
 
-Cover Photo: <a href="https://www.nbcnews.com/id/wbna19337520" target="_blank">(NBC News)</a>
 <hr>
 <img src="{{ site.baseurl }}/images/writingTeam/noProfile.jpg" width="170" style="float: left; margin-right: 30px; margin-bottom: 20px;"/>
 <div style="margin-bottom: 5%;">
-<span style="font-size: 30px; font-weight: 900;">Jessica Chung</span>
+<span style="font-size: 30px; font-weight: 900;">Rita Lai</span>
 <br>
 </div>
